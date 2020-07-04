@@ -15,4 +15,4 @@ SWEBOK and/or SWECOM.
 * Mahmoudreza	Entezami	  -     mahmoudreza.entezami@gmail.com - 40058782
 * Sareh	Farid	          -      sarehfarid@gmail.com -
 * Rafael	Ferreira	     -       rafaelbisferreira@gmail.com - 40042321
-* Yash Chandreshkumar	Golwala -	golwalayash@gmail.com - 
+* Yash Chandreshkumar	Golwala -	golwalayash@gmail.com - 40085663

@@ -10,7 +10,7 @@ SWEBOK and/or SWECOM.
 
 * Pooja	Dhir	   -              poojadhir1996@gmail.com - 
 * Neha Sarang	Dighe	   -       neha.dighe18@gmail.com - 40105168
-* Harsh	Divecha	       -       harshdivecha@outlook.com -
+* Harsh	Divecha	       -       harshdivecha@outlook.com - 40084737
 * Sai Charan	Duduka	   -       charan140494@gmail.com - 40103928
 * Mahmoudreza	Entezami	  -     mahmoudreza.entezami@gmail.com - 40058782
 * Sareh	Farid	          -      sarehfarid@gmail.com - 27845782

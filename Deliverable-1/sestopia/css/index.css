@@ -1,0 +1,51 @@
+ /* Remove the navbar's default margin-bottom and rounded borders */
+
+ .navbar {
+   margin-bottom: 0;
+   border-radius: 0;
+ }
+
+ .skill-icon {
+   max-width: 30%;
+   padding-bottom: 20px;
+ }
+
+ form.search-form {
+   margin: auto;
+   max-width: 400px
+ }
+
+ form.search-form input[type=text] {
+   padding: 10px;
+   font-size: 17px;
+   border: 1px solid grey;
+   float: left;
+   width: 80%;
+   background: #f1f1f1;
+ }
+
+ form.search-form button {
+   float: left;
+   width: 20%;
+   padding: 10px;
+   background: #000000;
+   color: white;
+   font-size: 17px;
+   border: 1px solid grey;
+   border-left: none;
+   cursor: pointer;
+ }
+
+ form.search-form button:hover {
+   background: #0b7dda;
+ }
+
+ form.search-form::after {
+   content: "";
+   clear: both;
+   display: table;
+ }
+
+ .row a {
+   color: #333;
+ }

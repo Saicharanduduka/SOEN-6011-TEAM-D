@@ -1,88 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Sestopia</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
- <link rel="stylesheet" type="text/css" href="index.css">
+  <meta name="description" content="" /> <!-- TODO -->
+  <meta name="keywords" content="" /> <!-- TODO -->
+  <link rel="icon" type="image/png" href="icons/favicon.png" />
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" type="text/css" href="css/index.css">
 </head>
+
 <body>
 
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-        <a class="navbar-brand" href="#"><B>Sestopia</B></a>
-    </div>
-   
+  <nav class="navbar navbar-inverse navbar-dark bg-dark">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <a href="#" class="navbar-brand" title="Home Page"><strong>Sestopia</strong></a>
+      </div>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><B> About Us</B></a></li>
+        <li><a href="#" class="text-light" title="About Us"><strong>About Us</strong></a></li>
       </ul>
     </div>
-  </div>
-</nav>
+  </nav>
 
-<div class="jumbotron">
-  <div class="container text-center"><br>
-<p>A repository of skills.</p>
-<form class="example" action="/action_page.php" style="margin:auto;max-width:400px">
-  <input type="text" placeholder="Search.." name="search">
-  <button type="submit"><i class="fa fa-search"></i></button>
-</form>
-    <br>
-<br>
-<br>
-<br>
+  <header class="jumbotron text-center">
+    <h1 class="text-capitalize pb-5">A Repository Of Skills</h1>
+    <form class="search-form">
+      <input type="text" placeholder="Search..." name="search">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+  </header>
 
-  </div>
-</div>
-  
-<div class="container-fluid bg-3 text-center">    
-  <br>
-  <div class="row">
-    <div class="col-sm-3">
-        <a href="">  <center> <img src="\icons\research.png" class="img-responsive" style="width:30%" ><br></center>
- <p><b>User research and personas</b></p></a>
+  <main class="container-fluid text-center">
+    <div class="row justify-content-center pt-5 pb-5">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-4">
+        <a href="">
+          <img src="icons/research.png" class="img-fluid skill-icon" alt="skill icon">
+          <p class="text-capitalize"><strong>User research and personas</strong></p>
+        </a>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-4">
+        <a href="">
+          <img src="icons/file.png" class="img-fluid skill-icon" alt="skill icon">
+          <p class="text-capitalize"><strong>Software Quality Management</strong></p>
+        </a>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-4">
+        <a href="">
+          <img src="icons/code.png" class="img-fluid skill-icon" alt="skill icon">
+          <p class="text-capitalize"><strong>Refactoring</strong></p>
+        </a>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-4">
+        <a href="">
+          <img src="icons/engineering.png" class="img-fluid skill-icon" alt="skill icon">
+          <p class="text-capitalize"><strong>Software Product and Process Measurement</strong></p>
+        </a>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-4">
+        <a href="">
+          <img src="icons/test.png" class="img-fluid skill-icon" alt="skill icon">
+          <p class="text-capitalize"><strong>Automated Unit Testing, Test Driven Development</strong></p>
+        </a>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-4">
+        <a href="">
+          <img src="icons/text.png" class="img-fluid skill-icon" alt="skill icon">
+          <p class="text-capitalize"><strong>System definition document</strong></p>
+        </a>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-4">
+        <a href="">
+          <img src="icons/influencer.png" class="img-fluid skill-icon" alt="skill icon">
+          <p class="text-capitalize"><strong>Ability to Influence People</strong></p>
+        </a>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-4">
+        <a href="">
+          <img src="icons/problem.png" class="img-fluid skill-icon" alt="skill icon">
+          <p class="text-capitalize"><strong>Problem Analysis</strong></p>
+        </a>
+      </div>
     </div>
-    <div class="col-sm-3"> 
-        <a href="">  <center> <img src="\icons\file.png" class="img-responsive" style="width:30%" ><br></center>
- <p><b>Software Quality Management</b></p></a>
-    </div>
-    <div class="col-sm-3"> 
-       <a href="">   <center>  <img src="\icons\code.png" class="img-responsive" style="width:30%" ><br></center>
-<p><b>Refactoring</b></p></a>
-    </div>
-    <div class="col-sm-3">
-          <a href="">  <center><img src="\icons\engineering.png" class="img-responsive" style="width:30%" ><br></center>
-<p><b>Software Product and Process Measurement</b></p></a>
-    </div>
-  </div>
-</div><br>
+  </main>
 
-<div class="container-fluid bg-3 text-center">    
-  <div class="row">
-    <div class="col-sm-3">
-       <a href=""> <center>   <img src="\icons\test.png" class="img-responsive" style="width:30%" ><br></center>
- <p><b>Automated Unit Testing, Test Driven Development</b></p></a>
+  <footer>
+    <div class="container-fluid">
+      <div class="row bg-dark pt-3 mt-2 justify-content-center" id="footer">
+        <div class="col-10 text-center">
+          <p class="text-muted">Copyright &#169; 2020 All rights reserved.</p>
+        </div>
+      </div>
     </div>
-    <div class="col-sm-3"> 
-         <a href="">   <center><img src="\icons\text.png" class="img-responsive" style="width:30%" ><br></center>
-<p><b>System definition document</b></p></a>
-    </div>
-    <div class="col-sm-3"> 
-      <a href="">    <center> <img src="\icons\influencer.png" class="img-responsive" style="width:30%" ><br></center>
- <p><b>Ability to Influence People</b></p></a>
-    </div>
-    <div class="col-sm-3">
-        <a href="">    <center><img src="\icons\problem.png" class="img-responsive" style="width:30%" ><br></center>
-<p><b>Problem Analysis</b></p></a>
-    </div>
-  </div>
-</div><br><br>
+  </footer>
 
+  <!-- JavaScript -->
+  <!-- jQuery JS -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <!-- Bootstrap JS -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p-3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
 
 </body>
+
 </html>

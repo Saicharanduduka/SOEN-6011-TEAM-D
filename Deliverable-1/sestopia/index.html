@@ -22,10 +22,10 @@
   <nav class="navbar navbar-inverse navbar-dark bg-dark">
     <div class="container-fluid">
       <div class="navbar-header">
-        <a href="#" class="navbar-brand" title="Home Page"><strong>Sestopia</strong></a>
+        <a href="index.html" class="navbar-brand" title="Home Page"><strong>Sestopia</strong></a>
       </div>
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#" class="text-light" title="About Us"><strong>About Us</strong></a></li>
+        <li><a href="index.html?page=About Us" class="text-light" title="About Us"><strong>About Us</strong></a></li>
       </ul>
     </div>
   </nav>
@@ -33,61 +33,14 @@
   <header class="jumbotron text-center">
     <h1 class="text-capitalize pb-5">A Repository Of Skills</h1>
     <form class="search-form">
-      <input type="text" placeholder="Search..." name="search">
-      <button type="submit"><i class="fa fa-search"></i></button>
+      <input type="text" placeholder="Search..." name="search" id="search-query">
+      <button type="submit" id="search-button"><i class="fa fa-search"></i></button>
     </form>
   </header>
 
-  <main class="container-fluid text-center">
-    <div class="row justify-content-center pt-5 pb-5">
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-4">
-        <a href="">
-          <img src="icons/research.png" class="img-fluid skill-icon" alt="skill icon">
-          <p class="text-capitalize"><strong>User research and personas</strong></p>
-        </a>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-4">
-        <a href="">
-          <img src="icons/file.png" class="img-fluid skill-icon" alt="skill icon">
-          <p class="text-capitalize"><strong>Software Quality Management</strong></p>
-        </a>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-4">
-        <a href="">
-          <img src="icons/code.png" class="img-fluid skill-icon" alt="skill icon">
-          <p class="text-capitalize"><strong>Refactoring</strong></p>
-        </a>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-4">
-        <a href="">
-          <img src="icons/engineering.png" class="img-fluid skill-icon" alt="skill icon">
-          <p class="text-capitalize"><strong>Software Product and Process Measurement</strong></p>
-        </a>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-4">
-        <a href="">
-          <img src="icons/test.png" class="img-fluid skill-icon" alt="skill icon">
-          <p class="text-capitalize"><strong>Automated Unit Testing, Test Driven Development</strong></p>
-        </a>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-4">
-        <a href="">
-          <img src="icons/text.png" class="img-fluid skill-icon" alt="skill icon">
-          <p class="text-capitalize"><strong>System definition document</strong></p>
-        </a>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-4">
-        <a href="">
-          <img src="icons/influencer.png" class="img-fluid skill-icon" alt="skill icon">
-          <p class="text-capitalize"><strong>Ability to Influence People</strong></p>
-        </a>
-      </div>
-      <div class="col-12 col-sm-6 col-md-4 col-lg-3 p-4">
-        <a href="">
-          <img src="icons/problem.png" class="img-fluid skill-icon" alt="skill icon">
-          <p class="text-capitalize"><strong>Problem Analysis</strong></p>
-        </a>
-      </div>
+  <main class="container-fluid">
+    <div class="row justify-content-center pt-5 pb-5" id="main">
+      <!-- The Main Content For Each Page Will Be Populated Here By JS -->
     </div>
   </main>
 
@@ -113,7 +66,9 @@
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
     integrity="sha384-JjSmVgyd0p-3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
     crossorigin="anonymous"></script>
-
+  <!-- Custom JS -->
+  <script src="js/data.js"></script>
+  <script src="js/main.js"></script>
 </body>
 
 </html>

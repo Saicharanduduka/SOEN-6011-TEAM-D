@@ -83,7 +83,9 @@ const content = [
 	title: `Software Maintenance`,
 	description: `<hr border-top: 3px solid #bbb;></hr><br>Lorem4 ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum dictum condimentum. Donec aliquam libero eu malesuada aliquam. Aliquam erat volutpat. Proin eu velit ut augue rutrum vestibulum. `,
 	text: `
-<div class="sm">
+	
+	<hr style="solid 5px #bbb"></hr>
+	<div class="sm">
 		<h2  class="sm"> Name of Skill </h2>
 		Reengineering
 		<hr class="smSolid" ></hr>
@@ -124,14 +126,14 @@ const content = [
 
 
 	<div class="sm">
-		<h2  class="sm"> Work Related to Skill (Related Activities and Artifacts) </h2>
+		<h2  class="sm"> Work Related to Skill </h2>
 		Refactor, Reverse eng, code restructuring, forward eng,redocumentation
 		<hr class="smSolid" ></hr>
 	</div>
 
 
 	<div class="sm">
-		<h2  class="sm"> Real-World Example/Scenario of Skill (Text, Graphic, Audio, Video) </h2>
+		<h2  class="sm"> Real-World Example </h2>
 		taking a legacy sofware and adapting to mordern systems.
 		<hr class="smSolid" ></hr>
 	</div>
@@ -144,19 +146,47 @@ const content = [
 
 
 	<div class="sm">
-		<h2  class="sm"> Tools Supporting the Skill </h2>
-		<ul class="sm">
-			<li>Lighthouse</li>
-			<li>Dependency analyzer</li>
-			<li>Disassembler</li>
-			<li>PE and HEX editors</li>
-		</ul>
+		<h2  class="sm" > Tools Supporting the Skill </h2>
+
+		<div class="row" style="padding-top:70px">
+			
+			<div class="column">
+				<div class="card">
+					<h4>Lighthouse</h4>
+					<p>Description</p>
+				</div>
+			</div>
+
+			<div class="column">
+				<div class="card">
+					<h4>Dependency analyzer</h4>
+					<p>Description</p>
+				</div>
+			</div>
+
+			<div class="column">
+				<div class="card">
+					<h4>Disassembler</h4>
+					<p>Description</p>
+				</div>
+			</div>
+
+
+			<div class="column">
+				<div class="card">
+					<h4>PE and HEX editors</h4>
+					<p>Description</p>
+				</div>
+			</div>
+
+		</div>
+
 		<hr class="smSolid" ></hr>
 	</div>
 
 
 	<div class="sm">
-		<h2  class="sm"> Skill Self-Assessment (My Skill Score (1 – 10) and Reasons for Self-Assigned Score) </h2>
+		<h2  class="sm"> Skill Self-Assessment </h2>
 		5
 		<hr class="smSolid" ></hr>
 	</div>

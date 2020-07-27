@@ -8,7 +8,7 @@ SWEBOK and/or SWECOM.
 
 # TEAM-D 
 
-* Pooja	Dhi	   -              poojadhir1996@gmail.com - 40104545
+* Pooja	Dhir	   -              poojadhir1996@gmail.com - 40104545
 * Neha Sarang	Dighe	   -       neha.dighe18@gmail.com - 40105168
 * Harsh	Divecha	       -       harshdivecha@outlook.com - 40084737
 * Sai Charan	Duduka	   -       charan140494@gmail.com - 40103928

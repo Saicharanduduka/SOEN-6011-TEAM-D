@@ -603,9 +603,163 @@ const content = [{
 		</div>	
 		`,
     },
+		 
     {
-        title: `Computing Foundations`,
-        description: `Lorem5 ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum dictum condimentum. Donec aliquam libero eu malesuada aliquam. Aliquam erat volutpat. Proin eu velit ut augue rutrum vestibulum. `,
-        text: `<p>Lorem1 ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum dictum condimentum. Donec aliquam libero eu malesuada aliquam. Aliquam erat volutpat. Proin eu velit ut augue rutrum vestibulum. Maecenas sit amet nisl arcu. Aenean sagittis tempor felis, at facilisis nulla mattis vel. Duis sed magna cursus, pharetra enim a, vehicula sem. Phasellus velit ex, porttitor quis tempor in, congue sed felis. Aliquam accumsan tellus ac lectus porta dictum. Duis imperdiet, purus id ultricies ullamcorper, quam nibh dictum felis, sit amet volutpat enim arcu et lacus. In eget massa feugiat metus laoreet varius. Praesent finibus eget nunc ut finibus. Praesent vitae tincidunt orci. Pellentesque vulputate nisl sed nunc tempor blandit.</p><p><a href="./index.html">Return Home</a></p>`,
-    },
+		title: `Computing Foundations`,
+		description: `Problem Analysis: This skill is useful for breaking-down a given identified problem into sub-problem and 
+					creating multiple possible solution paths.`,
+		text: `
+	
+	<hr style="solid 5px #bbb"></hr>
+	<div class="sm">
+		<h2  class="ps"> Name of Skill </h2>
+		Problem Analysis
+		<hr class="smSolid" ></hr>
+	</div>
+
+
+	<div class="sm">
+		<h2  class="ps"> Classification of Skill </h2>
+		Analytical (Problem-Solving)
+		<hr class="smSolid" ></hr>
+	</div>
+
+
+	<div class="sm">
+		<h2  class="sm"> Prerequisites for Skill </h2>
+		<ul style="list-style-type:square;">
+		<li>Convergent Thinking</li>
+		<li>Divergent Thinking</li>
+		<li>Algorithms</li>
+		<li>Decision-Making</li>
+		<li>Data-Structures</li>
+		<li>Knowledge of the Problem Domain</li>
+		</ul>
+		<hr class="smSolid" ></hr>
+	</div>
+
+
+	<div class="sm">
+		<h2  class="sm"> Related Software Engineering Area(s)  </h2>
+		<ul style="list-style-type:square;">
+		<li>Software Design</li>
+		<li>Software Construction</li>
+		<li>Software Management</li>
+		</ul>
+		<hr class="smSolid" ></hr>
+	</div>
+
+
+	<div class="sm">
+		<h2  class="sm"> Rationale for Skill </h2>
+		<p>The rationale for choosing Problem Analysis skill is to be develop the ability to generate more than one possible solution
+		for an identified problem. Being the combination of Soft-skill, Hard-skill and Cognitive skill, it is quite much
+		difficult to generate multiple solution paths. Software Engineers tend to make decision based on their past experience
+		for most of the time and it might be possible to use or define a new path for that problem. This might become a must skill
+		for any software engineer in near future and it is very important to develop this skill in order to gain problem-solving skill.
+		This skill helps in taking more informed decisions for solving a problem.</p>
+		<hr class="smSolid" ></hr>
+	</div>
+
+
+	<div class="sm"><h2  class="sm"> Roles for Skill </h2>
+	<ul style="list-style-type:square;">
+	<li>Software Developer</li>
+	<li>Software Designer</li>
+	<li>Software Project Manager</li>
+	<li>Software Tester</li>
+	<li>Algorithm Developer</li>
+	</ul>
+		<hr class="smSolid" ></hr>
+	</div>
+
+
+	<div class="sm">
+		<h2  class="sm"> Work Related to Skill </h2>
+		<ul style="list-style-type:square;">
+		<li>Critical Thinking and breaking down a problem into more smaller sub-problems</li>
+		<li>Requirement for having involvement of other group members</li>
+		<li>Creating a new customized data structure or Algorithm</li>
+		<li>Requirement Validation</li>
+		<li>Collecting information for the similar kind problem that might have occured in the past</li>
+		</ul>
+		<hr class="smSolid" ></hr>
+	</div>
+
+
+	<div class="sm">
+		<h2  class="sm"> Real-World Example </h2>
+		<p>Company developing any new innovative software solutions after the complete analysis over a problem domain.</p>
+		<hr class="smSolid" ></hr>
+	</div>
+
+
+	<div class="sm">
+		<h2  class="sm"> Role of Academia or Industry in Cultivating the Skill </h2>
+		<p>Academia is working rigorously to incorporate subjects/ assignments to make students understand the importance
+		of probelm analysis in order to solve any given problem.</p>
+		<br>
+		<p>E.g. Given a common problem or assignment to a class of students for solving it individually and then if 
+		peer reviewing is allowed, students might get to learn new possible solutions path one could have. 
+		This might help them in developing problem analysis skill to think more creatively over a given problem 
+		and might be able to create multiple solution path for any problem.</p>
+		<hr class="smSolid" ></hr>
+	</div>
+
+
+	<div class="sm">
+		<h2  class="sm" > Tools Supporting the Skill </h2>
+
+		<div class="row" style="padding-top:30px">
+			
+			<div class="column">
+				<div class="card">
+					<h4>Problem Tree Analysis</h4>
+					<p>Description</p>
+				</div>
+			</div>
+
+			<div class="column">
+				<div class="card">
+					<h4>Mind Maps</h4>
+					<p>Description</p>
+				</div>
+			</div>
+
+			<div class="column">
+				<div class="card">
+					<h4>Six Thinking Hats</h4>
+					<p>Description</p>
+				</div>
+			</div>
+
+
+			<div class="column">
+				<div class="card">
+					<h4>Rational Decision-Making Model</h4>
+					<p>Description</p>
+				</div>
+			</div>
+
+		</div>
+
+		<hr class="smSolid" ></hr>
+	</div>
+
+
+	<div class="sm">
+		<h2  class="sm"> Skill Self-Assessment </h2>
+		<p>6, I have a good knowledge about the above mentioned pre-requisites and tools and also have used few of them 
+		for finding user-centric sociteal problems. I want to apply the same tools and knowledge for generating mutilple solution paths
+		in the software enviornment. 
+		<hr class="smSolid" ></hr>
+	</div>
+
+
+	<div class="sm">
+		<h2  class="sm"> References </h2>
+		<hr class="smSolid" ></hr>
+	</div>	
+`
+	},
 ];

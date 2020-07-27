@@ -517,7 +517,121 @@ const content = [{
     {
         title: `Software Testing`,
         description: `Lorem5 ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum dictum condimentum. Donec aliquam libero eu malesuada aliquam. Aliquam erat volutpat. Proin eu velit ut augue rutrum vestibulum. `,
-        text: `<p>Lorem1 ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum dictum condimentum. Donec aliquam libero eu malesuada aliquam. Aliquam erat volutpat. Proin eu velit ut augue rutrum vestibulum. Maecenas sit amet nisl arcu. Aenean sagittis tempor felis, at facilisis nulla mattis vel. Duis sed magna cursus, pharetra enim a, vehicula sem. Phasellus velit ex, porttitor quis tempor in, congue sed felis. Aliquam accumsan tellus ac lectus porta dictum. Duis imperdiet, purus id ultricies ullamcorper, quam nibh dictum felis, sit amet volutpat enim arcu et lacus. In eget massa feugiat metus laoreet varius. Praesent finibus eget nunc ut finibus. Praesent vitae tincidunt orci. Pellentesque vulputate nisl sed nunc tempor blandit.</p><p><a href="./index.html">Return Home</a></p>`,
+        text: `<p>Lorem1 ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum dictum condimentum. Donec aliquam libero eu malesuada aliquam. Aliquam erat volutpat. Proin eu velit ut augue rutrum vestibulum. Maecenas sit amet nisl arcu. Aenean sagittis tempor felis, at facilisis nulla mattis vel. Duis sed magna cursus, pharetra enim a, vehicula sem. Phasellus velit ex, porttitor quis tempor in, congue sed felis. Aliquam accumsan tellus ac lectus porta dictum. Duis imperdiet, purus id ultricies ullamcorper, quam nibh dictum felis, sit amet volutpat enim arcu et lacus. In eget massa feugiat metus laoreet varius. Praesent finibus eget nunc ut finibus. Praesent vitae tincidunt orci. Pellentesque vulputate nisl sed nunc tempor blandit.</p>
+    	
+    	<div class="sm">
+		<h2  class="sm"> Name of Skill </h2>
+		Writing Unit Testing
+		<hr class="smSolid" ></hr>
+		</div>
+
+
+		<div class="sm">
+			<h2  class="sm"> Classification of Skill </h2>
+			Lorem1 ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum dictum condimentum. Donec aliquam libero eu malesuada aliquam. Aliquam erat volutpat. Proin eu velit ut augue rutrum vestibulum. Maecenas sit amet nisl arcu.
+			<hr class="smSolid" ></hr>
+		</div>
+
+
+		<div class="sm">
+			<h2  class="sm"> Prerequisites for Skill </h2>
+			Lorem1 ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum dictum condimentum. Donec aliquam libero eu malesuada aliquam. Aliquam erat volutpat. Proin eu velit ut augue rutrum vestibulum. Maecenas sit amet nisl arcu.  
+			<hr class="smSolid" ></hr>
+		</div>
+
+
+		<div class="sm">
+			<h2  class="sm"> Related Software Engineering Area(s)  </h2>
+			Lorem1 ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum dictum condimentum. Donec aliquam libero eu malesuada aliquam. Aliquam erat volutpat. Proin eu velit ut augue rutrum vestibulum. Maecenas sit amet nisl arcu.
+			<hr class="smSolid" ></hr>
+		</div>
+
+
+		<div class="sm">
+			<h2  class="sm"> Rationale for Skill </h2>
+			<hr class="smSolid" ></hr>
+		</div>
+
+
+		<div class="sm"><h2  class="sm"> Roles for Skill </h2>
+		Lorem1 ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum dictum condimentum. Donec aliquam libero eu malesuada aliquam. Aliquam erat volutpat. Proin eu velit ut augue rutrum vestibulum. Maecenas sit amet nisl arcu.
+			<hr class="smSolid" ></hr>
+		</div>
+
+
+		<div class="sm">
+			<h2  class="sm"> Work Related to Skill </h2>
+			Lorem1 ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum dictum condimentum. Donec aliquam libero eu malesuada aliquam. Aliquam erat volutpat. Proin eu velit ut augue rutrum vestibulum. Maecenas sit amet nisl arcu.
+			<hr class="smSolid" ></hr>
+		</div>
+
+
+		<div class="sm">
+			<h2  class="sm"> Real-World Example </h2>
+			Lorem1 ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum dictum condimentum. Donec aliquam libero eu malesuada aliquam. Aliquam erat volutpat. Proin eu velit ut augue rutrum vestibulum. Maecenas sit amet nisl arcu.
+			<hr class="smSolid" ></hr>
+		</div>
+
+
+		<div class="sm">
+			<h2  class="sm"> Role of Academia or Industry in Cultivating the Skill </h2>
+			<hr class="smSolid" ></hr>
+		</div>
+
+
+		<div class="sm">
+				<h2  class="sm" > Tools Supporting the Skill </h2>
+
+			<div class="row" style="padding-top:70px">
+			
+				<div class="column">
+					<div class="card">
+						<h4>TOOL1</h4>
+						<p>Description</p>
+					</div>
+				</div>
+
+				<div class="column">
+					<div class="card">
+						<h4>TOOL2</h4>
+						<p>Description</p>
+					</div>
+				</div>
+
+				<div class="column">
+					<div class="card">
+						<h4>TOOL3</h4>
+						<p>Description</p>
+					</div>
+				</div>
+
+
+				<div class="column">
+					<div class="card">
+						<h4>TOOL4</h4>
+						<p>Description</p>
+					</div>
+				</div>
+
+			</div>
+
+			<hr class="smSolid" ></hr>
+		</div>
+
+
+		<div class="sm">
+			<h2  class="sm"> Skill Self-Assessment </h2>
+			Lorem1 ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum dictum condimentum. Donec aliquam libero eu malesuada aliquam. Aliquam erat volutpat. Proin eu velit ut augue rutrum vestibulum. Maecenas sit amet nisl arcu.
+			<hr class="smSolid" ></hr>
+		</div>
+
+
+		<div class="sm">
+			<h2  class="sm"> References </h2>
+			<hr class="smSolid" ></hr>
+		</div>	
+
+		<p><a href="./index.html">Return Home</a></p>`
     },
     {
         title: `Software Requirements`,

@@ -5,15 +5,9 @@
    border-radius: 0;
  }
 
-
  main {
    min-height: 550px;
-   scroll-behavior: smooth;
  }
- body{
-   scroll-behavior: "smooth";
-}
-
 
  .skill-icon {
    max-width: 30%;

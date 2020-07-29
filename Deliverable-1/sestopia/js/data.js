@@ -70,99 +70,150 @@ const content = [{
     },
     {
         title: `Software Design`,
-        description: `Lorem2 ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum dictum condimentum. Donec aliquam libero eu malesuada aliquam. Aliquam erat volutpat. Proin eu velit ut augue rutrum vestibulum. `,
+        description: `User Research is the study of users which include their needs and what they want. User researchers find crucial information that will lead them to design good UI. `,
         text: `<hr style="solid 5px #bbb"></hr>
 	<div class="sm">
-		<h2  class="sm"> Name of Skill </h2>
-		User research and personas
+		<h2  class="sm"> User Research and Personas </h2>
+		<div class="author"><I> -by Pooja Dhir</I></div><br>
+		<img class="imgWrap" src="icons/urandp.png">
+		User Research is the study of users which include their needs and what they want. User researchers find crucial information that will lead them to design good UI.<br>
+		Personas are fictional characters that are created using user research which might use your product, service, site, etc. It helps the designer to understand the user's needs, experiences, behaviors, and goals.
+		
 		<hr class="smSolid" ></hr>
 	</div>
 
 
 	<div class="sm">
 		<h2  class="sm"> Classification of Skill </h2>
-		Lorem1 ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum dictum condimentum. Donec aliquam libero eu malesuada aliquam. Aliquam erat volutpat. Proin eu velit ut augue rutrum vestibulum. Maecenas sit amet nisl arcu.
+		User research can be classified into two categories:<br><br>
+<b>A) Quantitative research</b><br>
+In quantitative techniques, for example, surveys, investigation, and formal trials, the researcher tries to quantify parts of users and user behavior in a manner that can be measured and used for factual examination. Best practice for quantitative strategies is to gather target estimations that are unbiased by the researcher’s theories, presence, and personality. Getting an example of users who can represent the entire user population in a factually important manner regularly requires many research participants. Quantitative Research utilizes quantifiable information to detail realities and reveals designs in research. Quantitative data collection techniques are considerably more organized than Qualitative data collection methods.<br><br>
+<b>B) Qualitative research</b><br>
+Qualitative techniques, for example, interviews, case studies, observation, group discussion, open-ended questionnaires, and (somewhat) ease of use tests are frequently more exploratory and look to get a more inside and out comprehension of the individual users’ or user group’s experiences, motivations, and regular daily existences. In qualitative methods, the researcher acknowledges that he/she is somewhat a co-maker of research results, so the outcomes are not totally objective and reproducible. The results of qualitative research are normally not communicated numerically, yet rather as topics or classifications that have happened during the research. It is used to increase an understanding of fundamental reasons, opinions, and motivations. It gives bits of knowledge into the issue or assists with creating thoughts or theories for potential quantitative research. Qualitative Research is additionally used to reveal patterns in thought and opinions, and dive deeper into the issue. It gives detailed information including knowledge about behavior, attitude, and aptitude of the user.<br>
+
 		<hr class="smSolid" ></hr>
 	</div>
 
 
 	<div class="sm">
 		<h2  class="sm"> Prerequisites for Skill </h2>
-		Lorem1 ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum dictum condimentum. Donec aliquam libero eu malesuada aliquam. Aliquam erat volutpat. Proin eu velit ut augue rutrum vestibulum. Maecenas sit amet nisl arcu.  
+		<ul>
+		<li>Experience conducting user research</li>
+		<li>Experience with qualitative and user-centered design methodologies</li>
+		<li>Working knowledge of quantitative, behavioral analysis and statistics</li>
+		<li>Surveys and formal experiments</li>
+		<li>Critical-thinking and problem-solving skills</li>
+		</ul> 
 		<hr class="smSolid" ></hr>
 	</div>
 
 
 	<div class="sm">
 		<h2  class="sm"> Related Software Engineering Area(s)  </h2>
-		Lorem1 ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum dictum condimentum. Donec aliquam libero eu malesuada aliquam. Aliquam erat volutpat. Proin eu velit ut augue rutrum vestibulum. Maecenas sit amet nisl arcu.
+		<ul>
+		<li>Software Requirements</li>
+		<li>Software Quality</li>
+		<li>Software Engineering Professional Practice</li>
+		</ul> 
 		<hr class="smSolid" ></hr>
 	</div>
 
 
 	<div class="sm">
 		<h2  class="sm"> Rationale for Skill </h2>
+		<div class="box">"Empathy is at the heart of design. Without the understanding of what others see, feel, and experience, design is a pointless task."<br>
+		<i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Tim Brown, CEO of the innovation and design firm IDEO</i></div>
+		<b>1. To Create Designs That are Truly Relevant</b><br><br>
+User research is the best way to accomplish an understanding of the individuals who are going to utilize your design. If you get what user wants, you can make design that are relevant to them. But in case you don't have an clear idea of your users understanding, you have no way of knowing whether your design will be relevant. A design that isn't applicable to its target users will never be a success.<br><br>
+
+<b>2. To Create Designs That are Easy and Pleasurable to Use</b><br>
+<div class="box">"If the user is having a problem, it’s our problem.”<br>
+<i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Steve Jobs, co-founder of Apple Computers</i></div><br>
+Products should have a significant level of usability and user tests can be a major assistance in accomplishing that. People expect that products should be easy to learn and easy to use. They hope to get them and get things done with them while just considering what they would like to accomplish, not having to think about the products themselves. If your user experience is not good, than there is a possibility that people will move on with another product. Except the fact that you are working in a field with no competitors, a significant level of usability is essential in making any product a commercial success. Also, people will cherish you for making an extraordinary user experience. Regardless of whether you are designing products for a highly specialized work environment where the users have no other options, products with a significant level of usability will make work forms quicker, more secure and more efficient.<br><br>
+<b>3. To Understand the Return on Investment of Your UX Design</b></br><br>
+In spite of the fact that the significance of good design has widely recognized, UX designers and researchers still fight for resources to enable them to accomplish their work. Executives and stakeholder fails sometime to see the value in putting resources in user research and UX design. If resources become scant, UX is likewise regularly one of the first areas to experience cuts; the explanation is that results are not as promptly felt as when you save on development or similar areas. In software development we can see the bugs immediately but in UX we don't experience the consequences until the product reaches the users. In spite of the fact that we can argue for the value of great UX, it is substantially more viable if we can show it. This is the place studies to show the return on investment (ROI) on UX efforts are extremely valuable. If you can show that the progressions you made in the design created more sales, brought about a bigger number of customers, or made work forms progressively effective, you have a lot more stronger case for putting resources in UX. User studies to quantify the impact of your design are mostly quantitative and can take various forms. <br>
+
+
+
 		<hr class="smSolid" ></hr>
 	</div>
 
 
 	<div class="sm"><h2  class="sm"> Roles for Skill </h2>
-	Lorem1 ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum dictum condimentum. Donec aliquam libero eu malesuada aliquam. Aliquam erat volutpat. Proin eu velit ut augue rutrum vestibulum. Maecenas sit amet nisl arcu.
+	<ul>
+		<li><b>UX Researcher</b> – Study the requirements of target user and create personas</li>
+		<li><b>Information Architect</b> – They ensure a positive user experience by making the information accessible, logical and well organized.</li>
+		<li><b>Usability analyst</b> – They focus on a very specific aspect of user experience :Usability</li>
+		<li><b>UX writer</b> – They are the interaction between user experience design, copywriting and branding.</li>
+		<li><b>UX Designer</b> – They conduct user research, design, write ux copy, validate/test with user and sell/present the design solution to the business.</li>
+		</ul> 
 		<hr class="smSolid" ></hr>
 	</div>
 
 
 	<div class="sm">
 		<h2  class="sm"> Work Related to Skill </h2>
-		Lorem1 ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum dictum condimentum. Donec aliquam libero eu malesuada aliquam. Aliquam erat volutpat. Proin eu velit ut augue rutrum vestibulum. Maecenas sit amet nisl arcu.
+		<ul>
+		<li>Brainstorming</li>
+		<li>Usability testing</li>
+		<li>Field studies</li>
+		<li>Analytical Evaluation</li>
+		</ul> 
 		<hr class="smSolid" ></hr>
 	</div>
 
 
 	<div class="sm">
 		<h2  class="sm"> Real-World Example </h2>
-		Lorem1 ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum dictum condimentum. Donec aliquam libero eu malesuada aliquam. Aliquam erat volutpat. Proin eu velit ut augue rutrum vestibulum. Maecenas sit amet nisl arcu.
+		<center><img class="real" src="icons/UserResearchExample.png">
+		<figcaption>Usability Lab</figcaption></center>
+		This is the real world scenario where the user is being monitored. It involves recording the performance of the user doing typical tasks. This research is in a controlled environment setting. The person sitting inside with the user is evaluating user satisfaction using questionnaires and interviews. Goals and questions focus on how well she understands the product and perform a task. This testing is done with the goal that we can comprehend what changes are expected to cause things to go in the correct way.
 		<hr class="smSolid" ></hr>
 	</div>
 
 
 	<div class="sm">
 		<h2  class="sm"> Role of Academia or Industry in Cultivating the Skill </h2>
+		<b>Academia </b><br>
+What we understand in Academic courses is that user research is all about recording videos, audios, gathering information from users about their needs. Most popular surveys, interviews, questionnaires, observation, studying documentation, etc are enough to be a UX Researcher. But in the real-world it is more than that. One should know the Design Principles, Usability principles, Mental Model, Personas, etc which includes the requirement and how to make a good design.<br>
+<b>Industry</b><br>
+While in industry researcher builds information about their users to serve the user network they work, but their approach is heavily influenced by the company’s business plan. The business benefit is determined by conveying value to the user, for instance, research to design a better customer experience will contribute to uplift in usage, patronage, and profit. Benefit, competition, and innovation shape the approach of the Industry UX Researcher.<br>
+
 		<hr class="smSolid" ></hr>
 	</div>
 
 
 	<div class="sm">
 		<h2  class="sm" > Tools Supporting the Skill </h2>
-
+		There are many tools which support the skill. But here are some best tools which help to make UX researchers jobs easy. <br>
 		<div class="row" style="padding-top:70px">
 			
 			<div class="column">
 				<div class="card">
-					<h4>TOOL1</h4>
-					<p>Description</p>
+					<h4>Bugsee</h4>
+					<p>Bugsee is a mobile analytics solution that focuses mostly on bug/crash reporting. It provides mobile professionals with tools like crashed session recordings, console logs, and network traffic analysis, all of which permit you and your team to track bug/crashes more efficiently and save time and resources.</p>
 				</div>
 			</div>
 
 			<div class="column">
 				<div class="card">
-					<h4>TOOL2</h4>
-					<p>Description</p>
+					<h4>Appsee</h4>
+					<p>Appsee is the pioneer of Qualitative Analytics. It is one of the main stages to present this approach and use it to give versatile experts better devices to understand their users and optimize their user experience & performance to perfection. Unlike Bugsee, Appsee isn't just centered around bug/crash reporting yet in addition gives a wide range of solutions to assist you to monitor and optimize different aspects of your app.</p>
 				</div>
 			</div>
 
 			<div class="column">
 				<div class="card">
-					<h4>TOOL3</h4>
-					<p>Description</p>
+					<h4>Lookback.io</h4>
+					<p>Lookback.io is a versatile user-research platform, permitting UI/UX designers and mobile professionals to perform remote user research, communicate with users in real-time, perform individual test research on user’s end with pre-defined goals and set up a face to face application tests.Lookback.io also provides its users a strong dashboard where they can monitor their movement and replay tests at any given time.</p>
 				</div>
 			</div>
 
 
 			<div class="column">
 				<div class="card">
-					<h4>TOOL4</h4>
-					<p>Description</p>
+					<h4>Smaply</h4>
+					<p>Smaply helps you to create personas. You can create a clear persona for your user which holds the information of the user. They are easy to duplicate and edit, and you can quickly switch between multiple personas and export them as PDF.</p>
 				</div>
 			</div>
 
@@ -174,13 +225,22 @@ const content = [{
 
 	<div class="sm">
 		<h2  class="sm"> Skill Self-Assessment </h2>
-		Lorem1 ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum dictum condimentum. Donec aliquam libero eu malesuada aliquam. Aliquam erat volutpat. Proin eu velit ut augue rutrum vestibulum. Maecenas sit amet nisl arcu.
+		<b>8</b><br>
+User research and persona is one of the important skill to start any project. If you don’t know what your user wants you to end with making an unsuccessful product. I have taken the subject “Human-Computer Interface Design” where I discovered how good design plays a role in successful products. Therefore, this subject has given me the opportunity to learn in-depth and enhance my knowledge in this area. But, this skill is a part of UI development. In order to self assess my score to 10 I would want to gain proficiency with all skills that come in UI development, which will give a kick start to my career.
+
 		<hr class="smSolid" ></hr>
 	</div>
 
 
 	<div class="sm">
 		<h2  class="sm"> References </h2>
+		<ul>
+		<li><a href="https://www.interaction-design.org/literature/topics/personas">https://www.interaction-design.org/literature/topics/personas</a></li>
+		<li><a href="https://www.interaction-design.org/literature/article/best-practices-for-qualitative-user-research">https://www.interaction-design.org/literature/article/best-practices-for-qualitative-user-research</a></li>
+		<li><a href="https://www.springboard.com/blog/becoming-a-ux-researcher/#:~:text=Experience%20conducting%20user%20research,thinking%20and%20problem%2Dsolving%20skills">https://www.springboard.com/blog/becoming-a-ux-researcher/#:~:text=Experience%20conducting%20user%20research,thinking%20and%20problem%2Dsolving%20skills</a></li>
+		<li><a href="https://www.invisionapp.com/inside-design/5-ux-specialties/">https://www.invisionapp.com/inside-design/5-ux-specialties/</a></li>
+		<li><a href="https://usabilitygeek.com/best-ux-tools-user-research-user-testing-2018/">https://usabilitygeek.com/best-ux-tools-user-research-user-testing-2018/</a></li>
+		<li><a href="https://medium.com/@kate.r.storey/industry-ux-researcher-vs-academic-hci-researcher-d13a7283fbf0">https://medium.com/@kate.r.storey/industry-ux-researcher-vs-academic-hci-researcher-d13a7283fbf0</a></li>
 		<hr class="smSolid" ></hr>
 	</div>	`,
 
@@ -717,12 +777,12 @@ const content = [{
 		</div>	
 		`,
     },
-		 
+
     {
-		title: `Computing Foundations`,
-		description: `Problem Analysis: This skill is useful for breaking-down a given identified problem into sub-problem and 
+        title: `Computing Foundations`,
+        description: `Problem Analysis: This skill is useful for breaking-down a given identified problem into sub-problem and 
 					creating multiple possible solution paths.`,
-		text: `
+        text: `
 	
 	<hr style="solid 5px #bbb"></hr>
 	<div class="sm">
@@ -875,5 +935,5 @@ const content = [{
 		<hr class="smSolid" ></hr>
 	</div>	
 `
-	},
+    },
 ];

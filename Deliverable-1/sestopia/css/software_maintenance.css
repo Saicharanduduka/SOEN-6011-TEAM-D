@@ -1,60 +1,94 @@
-div.sm{
-	padding-top: 60px;
-	font-size: 20px
+div.sm {
+    padding-top: 60px;
+    font-size: 20px
 }
 
-hr.smSolid{
-	border-top: 4px #bbb;
+hr.smSolid {
+    border-top: 4px #bbb;
 }
 
-h2.sm{
-	padding-bottom: 8px;
+h2.sm {
+    padding-bottom: 8px;
 }
 
 ul.sm {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 
 ul.sm li {
-  border: 1px solid #ddd;
-  margin-top: -1px; /* Prevent double borders */
-  background-color: #f6f6f6;
-  padding: 12px;
+    border: 1px solid #ddd;
+    margin-top: -1px;
+    /* Prevent double borders */
+    background-color: #f6f6f6;
+    padding: 12px;
 }
 
+div.author {
+    position: absolute;
+    right: 0;
+}
 
+.imgWrap {
+    float: right;
+    margin: 10px;
+    height: 180px;
+    width: 400px;
+}
 
+.real {
+    margin: 10px;
+    height: 380px;
+    width: 800px;
+}
+
+div.box {
+    width: 400px;
+    font-size: medium;
+    padding: 10px;
+    border: 5px solid grey;
+    margin: 0;
+    float: right;
+}
 
 .column {
-  float: left;
-  width: 25%;
-  padding: 0 10px;
+    float: left;
+    width: 25%;
+    padding: 0 10px;
 }
 
-.row {margin: 0 -5px;}
+.row {
+    margin: 0 -5px;
+}
+
 
 /* Clear floats after the columns */
+
 .row:after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
+
 
 /* Responsive columns */
+
 @media screen and (max-width: 600px) {
-  .column {
-    width: 100%;
-    display: block;
-    margin-bottom: 20px;
-  }
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
 }
 
+
 /* Style the counter cards */
+
 .card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  padding: 16px;
-  text-align: center;
-  background-color: #f1f1f1;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+    font-size: medium;
 }

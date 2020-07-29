@@ -715,12 +715,12 @@ User research and persona is one of the important skill to start any project. If
 		</div>
 		<div class="sm">
 			<h2  class="sm"> Prerequisites for Skill </h2>
-			Technical experience, critical thinking, anticipation skills.
+			Technical experience, critical thinking, anticipation skills, delegating, abstraction capability.
 			<hr class="smSolid" ></hr>
 		</div>
 		<div class="sm">
 			<h2  class="sm"> Related Software Engineering Area(s)  </h2>
-			Software Project Management, Software Developer, Risk management.
+			Software Project Management,Risk management.
 			<hr class="smSolid" ></hr>
 		</div>
 		<div class="sm">
@@ -729,21 +729,42 @@ User research and persona is one of the important skill to start any project. If
 			<hr class="smSolid" ></hr>
 		</div>
 		<div class="sm"><h2  class="sm"> Roles for Skill </h2>
-			Requires skill to understand code written by others, helps to increase efficiency of the code.
-			<hr class="smSolid" ></hr>
-		</div>
-		<div class="sm">
-			<h2  class="sm"> Work Related to Skill </h2>
 			Project Manager, Risk Manager, Scrum Master, etc…
 			<hr class="smSolid" ></hr>
 		</div>
 		<div class="sm">
+			<h2  class="sm"> Work Related to Skill </h2>
+			Building cronograms, estimate and identify risks in early stages of the project, cronogram control.
+			<hr class="smSolid" ></hr>
+		</div>
+		<div class="sm">
 			<h2  class="sm"> Real-World Example </h2>
-			TODO:
+			<div class="row" style="padding-top:70px">
+				
+				<div class="column">
+					<div class="card">
+						<h4>Estimator/Project Coordinator</h4>
+						<p>Responsible for coordinating the construction projects from start to finish.</p>
+					</div>
+				</div>
+				<div class="column">
+					<div class="card">
+						<h4>Senior Director, Project Management Office</h4>
+						<p>Responsible for driving the overall strategy for the Project Management Office and providing industry standard project controls to effectively deliver large-scale capital projects and integrated programs within the Nuclear Power industry.</p>
+					</div>
+				</div>
+				<div class="column">
+					<div class="card">
+						<h4>Risk Assessment Officer</h4>
+						<p>Provides planned, systematic project risk management support and oversight to ensure that projects’ risks are managed to support capital construction projects being delivered in a timely, safe, cost effective manner, with the required level of quality.</p>
+					</div>
+				</div>
+			</div>
 		</div>
 		<div class="sm">
 			<h2  class="sm"> Role of Academia or Industry in Cultivating the Skill </h2>
-			TODO:
+			<p>Hard to find an explicit approach, what drives the development of the skill is that this is the very essence of a project, three of the most fundamental pilar are time, budget and quality which is exactly what schedulling is about, how to make the budget and the quality into the time available or any similar fiting among these 3.</p>
+			<p>Many ways of cultivating it have been raised, but I bring the attention to the agile methodology, which is a new way of scheduling which gives more freedom to handle the unknown which is very unstable.</p>
 			<hr class="smSolid" ></hr>
 		</div>
 		<div class="sm">
@@ -767,14 +788,17 @@ User research and persona is one of the important skill to start any project. If
 		</div>
 		<div class="sm">
 			<h2  class="sm"> Skill Self-Assessment </h2>
-			6
+			4
 			<hr class="smSolid" ></hr>
 		</div>
 		<div class="sm">
 			<h2  class="sm"> References </h2>
-			TODO:
+			<p><a href="https://ca.indeed.com/?r=us">Indeed</a></p>
+			<p><a href="https://www.pmi.org/learning/library/scheduling-professional-career-option-certified-6600">Project Management Institute</a></p>
+			<p><a href="https://www.cleverism.com/skills-and-tools/scheduling/">Cleverism</a></p>
+			<p><a href="https://www.mindtools.com/pages/article/newHTE_07.htm">MindTools</a></p>
 			<hr class="smSolid" ></hr>
-		</div>	
+		</div>		
 		`,
     },
 

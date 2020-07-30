@@ -735,12 +735,15 @@ User research and persona is one of the important skill to start any project. If
 			<p>Did you ever lose that leg flight? It is better to be ready to bleed, being aware of your options before hand can save you from the worst-case scenario and things can scale quickly in these scenarios and trust me there is no fun involved.</p>
 			<h4>Delegating</h4>
 			<p>Well, consider everything involved in a vacation trip, car rental, hotel rental, air tickets, itinerary, logistics, etc… splitting the work is the key to getting things done in time, just be sure of not leaving the credit card with your wife, you know, common sense.</p>
-
+			<h4>Measurement</h4>
+			<p>If you go for vacations its better to know for how long you will stay at places, after all several decisions depends on it, how many days at the hotel, date of air tickets, etc... the whole logistic of the schedule depends heavily on starting and end date of the activities.</p>
+			<div class="box">“Measurement is the first step that leads to control and eventually to improvement. If you can’t measure something, you can’t understand it. If you can’t understand it, you can’t control it. If you can’t control it, you can’t improve it.” — H. James Harrington</div>
 			<hr class="smSolid" ></hr>
 		</div>
 		<div class="sm">
 			<h2  class="sm"> Related Software Engineering Area(s)  </h2>
-			Software Project Management,Risk management.
+			<p>Software Project Management</p>
+			<p>Risk management.</p>
 			<hr class="smSolid" ></hr>
 		</div>
 		<div class="sm">
@@ -749,13 +752,20 @@ User research and persona is one of the important skill to start any project. If
 			<hr class="smSolid" ></hr>
 		</div>
 		<div class="sm"><h2  class="sm"> Roles for Skill </h2>
-			Project Manager, Risk Manager, Scrum Master, etc…
+			<p>Project Manager</p>
+			<p>Risk Manager</p>
+			<p>Scrum Master/Member</p>
 			<hr class="smSolid" ></hr>
 		</div>
 		<div class="sm">
 			<h2  class="sm"> Work Related to Skill </h2>
-			Building cronograms, estimate and identify risks in early stages of the project, cronogram control.
-			<hr class="smSolid" ></hr>
+			<h4>Work Breakdown Structure(WBS)</h4>
+			Deliverable-Based
+			Phase-Based
+			<h4>Critical Path Method</h4>
+			<h4>Preliminary Schedules Refinement</h4>
+			<h4>Realistic Scheduling, Applying Risk Management(Prevention/Contingency) to Schedules</h4>
+			<h4>Earned Value Management(EVM)</h4>
 		</div>
 		<div class="sm">
 			<h2  class="sm"> Real-World Example </h2>

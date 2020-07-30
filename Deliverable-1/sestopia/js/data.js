@@ -704,18 +704,38 @@ User research and persona is one of the important skill to start any project. If
         text: `
 		<hr style="solid 5px #bbb"></hr>
 		<div class="sm">
-			<h2  class="sm"> Name of Skill </h2>
-			Scheduling
+			<h2  class="sm"> Scheduling </h2>
+			<p>Very close to project planning, scheduling is fundamental to any project, certainly no different for software projects, many see scheduling solely as a matter of estimation, where lies the first mistake for beginners.</p>
+			<p>Making a schedule is not difference than giving times, time to begin and a time to end, making good or even great schedule though involve mastering skills to deal with things under and with things beyond one’s control.</p>
+			<p>One of the definitions of Scheduling quoted by the website Cleverism is:</p>
+			<p>“The ability to overcome such complex and frustrating situations by planning your activities such that you are able to complete all your projects and goals according to your priorities as well as within the available time limit”</p>
+			<p>Greatness lives in simplicity, so let’s call scheduling as the ability to get things done in time, in budget and in specifications…. easy? Not at all!</p>
+
+			
 			<hr class="smSolid" ></hr>
 		</div>
 		<div class="sm">
 			<h2  class="sm"> Classification of Skill </h2>
-			Hard, Non-Technical.
+			<p>How to classify a skill that is so simple to execute but so hard to master, in fact its easy to the point where anyone can do it while hard enough to be impossible to reach perfection, the reason for that is quite simple, scheduling requires to deal with time, people, resources and with the future which is unpredictable at least at its entirety.</p>
+			<p>Though dealing with the unknown is not new for human beings at this point and being prepared and experienced in dealing with it can prevent those busy days at work where we have been frequently disturbed by calls for urgent meetings, or been assigned with last-minute tasks where yet we return home without accomplishing anything significant.</p>
+			<p>With it we can certainly conclude that scheduling is very hard to distinguish among soft and hard skill while it certainly demands a lot from interpersonal and technical capacity.</p>
+
 			<hr class="smSolid" ></hr>
 		</div>
 		<div class="sm">
 			<h2  class="sm"> Prerequisites for Skill </h2>
-			Technical experience, critical thinking, anticipation skills, delegating, abstraction capability.
+			<p>What is needed to play soccer? A field and a ball, but what is needed to be a great player?</p>
+			<p>In summary all that is required to scheduling is a project, from that so dreamed vacation project up to the construction of a nuclear powerplant both require the same skill but the difficulty and expectation “may” differ.</p>
+			<p>Now what differs a professional in scheduling who deals with the construction of a huge nuclear powerplant from normal people making their next vacation schedule?</p>
+			<h4>Experience</h4>
+			<p>I am quite sure you have learned from that mistake of renting that hotel room with no air conditioning in a tropical place, do not do that. Seriously!</p>
+			<h4>Anticipation and Critical Thinking</h4>
+			<p>If you are touring around, please check the meteorology before deciding between the umbrella and the sunscreen, it can be the difference between a pleasant time and a not so much.</p>
+			<h4>Risk Management</h4>
+			<p>Did you ever lose that leg flight? It is better to be ready to bleed, being aware of your options before hand can save you from the worst-case scenario and things can scale quickly in these scenarios and trust me there is no fun involved.</p>
+			<h4>Delegating</h4>
+			<p>Well, consider everything involved in a vacation trip, car rental, hotel rental, air tickets, itinerary, logistics, etc… splitting the work is the key to getting things done in time, just be sure of not leaving the credit card with your wife, you know, common sense.</p>
+
 			<hr class="smSolid" ></hr>
 		</div>
 		<div class="sm">
@@ -793,10 +813,10 @@ User research and persona is one of the important skill to start any project. If
 		</div>
 		<div class="sm">
 			<h2  class="sm"> References </h2>
-			<p><a href="https://ca.indeed.com/?r=us">Indeed</a></p>
-			<p><a href="https://www.pmi.org/learning/library/scheduling-professional-career-option-certified-6600">Project Management Institute</a></p>
-			<p><a href="https://www.cleverism.com/skills-and-tools/scheduling/">Cleverism</a></p>
-			<p><a href="https://www.mindtools.com/pages/article/newHTE_07.htm">MindTools</a></p>
+			<p><a href="https://ca.indeed.com/?r=us">Indeed</a>[1]</p>
+			<p><a href="https://www.pmi.org/learning/library/scheduling-professional-career-option-certified-6600">Project Management Institute</a>[2]</p>
+			<p><a href="https://www.cleverism.com/skills-and-tools/scheduling/">Cleverism</a>[3]</p>
+			<p><a href="https://www.mindtools.com/pages/article/newHTE_07.htm">MindTools</a>[4]</p>
 			<hr class="smSolid" ></hr>
 		</div>		
 		`,

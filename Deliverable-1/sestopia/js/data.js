@@ -372,101 +372,327 @@ User research and persona is one of the important skill to start any project. If
         title: `Software Maintenance`,
         description: `<hr border-top: 3px solid #bbb;></hr><br>Lorem4 ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum dictum condimentum. Donec aliquam libero eu malesuada aliquam. Aliquam erat volutpat. Proin eu velit ut augue rutrum vestibulum. `,
         text: `
+<hr style="solid 5px #bbb"></hr>
+	<h2>Index</h2>
+	<div class="boxsm" id="index">
+		<ul>
+			<li><a href="#nos">1. Name of Skill.</a></li>
+			<li><a href="#cos">2. Classification of Skill.</a></li>
+			<li><a href="#pfs">3. Prerequisites for Skill.</a></li>
+			<li><a href="#rsfea">4. Related Software Engineering Area(s).</a></li>
+			<li><a href="#rafs">5. Rationale for Skill. </a></li>
+			<li><a href="#rofs">6. Roles for Skill.</a></li>
+			<li><a href="#wrts">7. Work Related to Skill.</a></li>
+			<li><a href="#rwe">8. Real-World Example/Scenario of Skill.</a></li>
+			<li><a href="#roai">9. Role of Academia or Industry in Cultivating the Skill.</a></li>
+			<li><a href="#tsts">10. Tools Supporting the Skill.</a></li>
+			<li><a href="#ssa">11. Skill Self-Assessment.</a></li>
+			<li><a href="#r">12. References.</a></li>
+		</ul>	
+	</div>
+
+
+
+
+	<div class="sm" id="nos">
+		
+		<h2  class="sm"> <a href="#index"> Reengineering</a> </h2>
+		<hr style="solid 5px #bbb"></hr>
+		<img src="images/sm/smpm.png" style="float:right; width:30% ">
+		<p style="margin-right:40px">
+		Software Reengineering is the process of updating software without affecting its functionality. This process may be done by developing additional features on the software and adding functionalities that may or may not be required but considered to make the software experience better and more efficient. As far as the definition goes, this process also entails that the software product will have improved maintainability. Thus, software reengineering is a step towards continuous improvement of software for it to be handled better by developers and clients alike. Additionally, it is a way to make existing products continue in service.
+		</p>
+		
+		<hr class="smSolid" ></hr>
+	</div>
+
+
+	<div class="sm" id="cos">
+		<h2  class="sm"> <a href="#index">Classification of Skill </a></h2>
+		<hr style="solid 5px #bbb"></hr>
+		
+		<div class="row" style="margin-bottom:40px">
+		It can be classified as a <u style="margin-left:6px"> technical skill</u>
+		A technical skill is the ability to carry out a task associated with technical roles such as IT, engineering, mechanics, science or finance. Typical technical skills 
+		are programming, the analysis of complex figures or the use of specific tools. The majority of technical skills require experience and sometimes extensive training to master.
+		</div>
+
+		
+		<div class="row">
+			<p>Maintenance as seen are of 4 types</p>			
+		</div>
+
+		<div class="row">
+			<div class="col">
+			<ul >
+				<li><b>Corrective:</b></br> Maintenance performed to correct faults in hardware or software, maintenance involves testing to detect a problem and injecting a fix without disturbing the rest of the system.</li>
+				<li><b>Adaptive:</b></br> Software maintenance performed to make a computer program usable in a changed environment (business rules, government policy, software platforms, hardware upgrades, etc.)</li>
+				<li><b>Perfective:</b></br> Software maintenance performed to improve the performance, maintainability, or other attributes of a computer program.</li>
+				<li><b>Preventive:</b></br> Maintenance performed for the purpose of preventing problems before they occur.</li>
+			</ul>
+			</div>
+			<div class="col">
+			<img src="images/sm/mainttypes.png" >
+			<p style="margin-top:60px"> Preventative maintenance is also called software reengineering (Data restructuring, Code restructuring).</p>
+			</div>
+
+		</div>
+
+
+
+		<hr class="smSolid" ></hr>
+	</div>
+
+
+	<div class="sm" id="pfs">
+		<h2  class="sm"> <a href="#index">Prerequisites for Skill</a> </h2>
+		<hr style="solid 5px #bbb"></hr>
+
+			<ul class="sm" style="width:50%">
+				<li>General programming skills</li>
+				<li>Software requirements analysis</li>
+				<li>Software architecture design</li>	
+				<li>Software Modelling</li>
+				<li>Software debugging</li>
+				<li>Documentation</li>
+			</ul>  
+		<hr class="smSolid" ></hr>
+	</div>
+
+
+	<div class="sm" id="rsfea">
+		<h2  class="sm" ><a href="#index"> Related Software Engineering Area(s) </a> </h2>
+		<hr style="solid 5px #bbb"></hr>
+		<ul class="sm" style="width:70%">
+			<li>Software Quality</li>
+			<li>Software Testing</li>
+			<li>Software Configuration Management</li>
+		</ul>
+
+		
+		<hr class="smSolid" ></hr>
+	</div>
+
+
+	<div class="sm" id="rafs">
+		<h2  class="sm"> <a href="#index">Rationale for Skill</a> </h2>
+		<hr style="solid 5px #bbb"></hr>
+		<p style="width:80%">
+			 Legacy applications are at the core of many large businesses. However, they are difficult to maintain because of multiple workarounds that have been growing for years. 
+			 Their support requires significant investments. For example, according to the latest estimates, the federal government spends up to 80% percent of their IT budget on 
+			 maintenance of existing legacy systems. What’s more, legacy applications can be a real impediment to the digital transformation of a company due to their inflexibility 
+			 and inability to get new features or harness emerging technologies.
+		</p>
+		<p style="width:80%">
+			Software reengineering is one of the viable ways to mitigate issues with legacy applications. In this article, we highlight its area of use, explore activities it 
+			comprises, and look at why and when you may need each of these activities. On top of that, we reveal possible risks of reengineering and advise on how to organize a 
+			working reengineering process.
+		</p>
+
+		<h5 style="margin-top:60px; margin-bottom:30px">When you may need it ?</h5>
+		<ul style="width:70%">
+			<li>To identify if further changes are feasible or if the system has to be substituted.</li>
+			<li>To allow for smoother and faster substitution of the original system with a new one, in case the revival of a legacy application turns out to be too complicated or even impossible.</li>
+			<li>To help to predict the effect of future enhancements and changes in software.</li>
+			<li>To shorten the learning curve for a new support provider.</li>
+			<li>To identify potentially re-usable components for future integrations.</li>
+		</ul>
+		<hr class="smSolid" ></hr>
+	</div>
+
+
+	<div class="sm" id="rofs">
+		<h2  class="sm"> <a href="#index">Roles for Skill </a></h2>
+		<hr style="solid 5px #bbb"></hr>
+		
+		<ul class="sm" style="width:70%">
+			<li>Software developer</li>
+			<li>Software architect</li>
+			<li>Software tester</li>
+		</ul>
+
+		<hr class="smSolid" ></hr>
+	</div>
+
+
+	<div class="sm" id="wrts">
+		<h2  class="sm"> <a href="#index">Work Related to Skill </a></h2>
+		<hr style="solid 5px #bbb"></hr>
+		<ul class="sm" style="width:70%">
+			<li>Reverse engineering</li>
+			<li>Code restructuring</li>
+			<li>Forward engineering</li>
+			<li>Software testing</li>
+			<li>Redocumentation</li>
+		</ul> 
+		<hr class="smSolid" ></hr>
+	</div>
+
+
+	<div class="sm" id="rwe">
+		<h2  class="sm"><a href="#index">Real-World Example</a></h2> 
+			<hr style="solid 5px #bbb"></hr>
+		
+		<h5></h5>
+		<div class="row" style="margin-top:30px">
+			<div class="col"></div>
+			<div class="col"></div>
+		</div>
+
+		<h5>1. Enterprise Knowledge Management System </h5>
+		<div class="row" style="margin-top:30px">
+			<div class="col" >
+			The Enterprise Knowledge Management System was not considered for reengineering, however, when starting work on this project, the INSART team analyzed the code 
+			and system architecture and discovered that it would require reengineering. This idea was then suggested to the customer who understood the importance of this 
+			process after thorough justification of the necessary changes and the advent of opening new prospects.
+			</div>
+			<div class="col">
+				<img src="images/sm/ekms.png">
+			</div>
+		</div>
+
+		<div class="row" style="margin-top:10px; margin-left:10px ">
+		The reengineering of this system included two stages: upgrading the programming language version (from Java 5 to Java 7) and gradually updating each component. 
+		This approach allowed us to save the operability of the system, improving its performance on the first stage and making more profound changes later on. 
+		The following technologies were used: Spring Framework, Ehcache, DHTMLX, JQuery, Maven, etc.
+		</div>
+		<div class="row" style="margin-top:10px ; margin-left:10px" >
+		The Enterprise Knowledge Management System is still under development, however even now its performance and scalability have been improved greatly and its support 
+		and ability for further updates became much easier. Apart from that, the system is on production, therefore its architecture cannot be changed significantly, since 
+		such changes can influence business rules.
+		</div>
+
+		<h5 style="margin-top:60px">2. Online Marketing Platform</h5>
+		<div class="row" style="margin-top:30px">
+			The Online Marketing Platform has a 10+ year history. Bad scalability and an overly complicated updating process for new requirements caused the need for full 
+			engineering. INSART took charge by implementing modern technologies like Java 8, PostgreSQL 9, Spring Framework, AngularJS, etc., and created a new system architecture. 
+			This allowed us to improve system performance, avoid multiple software faults found in the legacy system and add new functionality. As a result, the system became 
+			scalable and easy to update.
+		</div>
+
+		<div class="row" style="margin-top:30px">
+			<div class="col" style="text-align: center">
+				<h5>Legacy architecture</h5>
+				<img src="images/sm/legacy.jpg" style="width:500px;">
+			</div>
+			<div class="col" style="text-align: center">
+				<h5>New architecture</h5>
+				<img src="images/sm/new.jpg" style="width:500px;">
+			</div>
+			<div class="row" style="margin-top:30px">
 	
-	<hr style="solid 5px #bbb"></hr>
-	<div class="sm">
-		<h2  class="sm"> Name of Skill </h2>
-		Reengineering
-		<hr class="smSolid" ></hr>
-	</div>
+				Reengineering has been ongoing for two years and the revamped Online Marketing Platform is still being developed and improved. 
+				Nevertheless, it has already met almost all requirements for functionality, performance, scalability and reliability.
+			</div>
+		</div>
 
-
-	<div class="sm">
-		<h2  class="sm"> Classification of Skill </h2>
-		Technical
-		<hr class="smSolid" ></hr>
-	</div>
-
-
-	<div class="sm">
-		<h2  class="sm"> Prerequisites for Skill </h2>
-		Programming  
-		<hr class="smSolid" ></hr>
-	</div>
-
-
-	<div class="sm">
-		<h2  class="sm"> Related Software Engineering Area(s)  </h2>
-		Software Quality,Software Testing,Software Configuration Management
-		<hr class="smSolid" ></hr>
-	</div>
-
-
-	<div class="sm">
-		<h2  class="sm"> Rationale for Skill </h2>
-		<hr class="smSolid" ></hr>
-	</div>
-
-
-	<div class="sm"><h2  class="sm"> Roles for Skill </h2>
-		Requires skill to understand code written by others, helps to increase efficiency of the code.
-		<hr class="smSolid" ></hr>
-	</div>
-
-
-	<div class="sm">
-		<h2  class="sm"> Work Related to Skill </h2>
-		Refactor, Reverse eng, code restructuring, forward eng,redocumentation
-		<hr class="smSolid" ></hr>
-	</div>
-
-
-	<div class="sm">
-		<h2  class="sm"> Real-World Example </h2>
-		taking a legacy sofware and adapting to mordern systems.
-		<hr class="smSolid" ></hr>
-	</div>
-
-
-	<div class="sm">
-		<h2  class="sm"> Role of Academia or Industry in Cultivating the Skill </h2>
-		<hr class="smSolid" ></hr>
-	</div>
-
-
-	<div class="sm">
-		<h2  class="sm" > Tools Supporting the Skill </h2>
-
-		<div class="row" style="padding-top:70px">
+		<h5 style="margin-top:60px">3. The Remote Device Management Project</h5>
+		<div class="row" style="margin-top:30px">
 			
-			<div class="column">
-				<div class="card">
-					<h4>Lighthouse</h4>
-					<p>Description</p>
-				</div>
-			</div>
+			<p>
+			Having worked with the Remote Device Management project for several years, the INSART team suggested a strategy of reengineering the system to the customer which 
+			would solve the performance and scalability problems caused by monolithic core architecture and using inconvenient database structure. The customer agreed with the 
+			presented arguments and as a result, the INSART team supports operability of the current system version and is simultaneously developing a new system.
+			</p>
 
-			<div class="column">
-				<div class="card">
-					<h4>Dependency analyzer</h4>
-					<p>Description</p>
-				</div>
-			</div>
-
-			<div class="column">
-				<div class="card">
-					<h4>Disassembler</h4>
-					<p>Description</p>
-				</div>
-			</div>
+			<p>
+			Using new technologies (Spring Framework 4, MongoDB, AngularJS and Bootstrap) and creating new system architecture not only increased the performance of the system, but also reduced the terms of development. Additionally, using the modified data structure allows to significantly simplify data processing and to prevent damaging data as a result of inconsistencies in user actions (this problem occurred in the legacy system).
+			</p>
+		</div>
+		
 
 
-			<div class="column">
+		<hr class="smSolid" ></hr>
+	</div>
+
+
+	<div class="sm" id="roai">
+		<h2  class="sm"> <a href="#index">Role of Academia or Industry in Cultivating the Skill</a> </h2>
+		<hr style="solid 5px #bbb"></hr>
+		
+		<div class="row" style="width:70%	">
+			Software engineering curricula emphasize developing new software systems. Little attention is given to how to change and modernize existing systems, i.e., 
+			the theory and practice of software maintenance and reengineering. The paper presents the author’s experience in teaching software reengineering, 
+			findings/conclusions are as follows:<a href="#r4" style="color:blue">[4]</a>
+			<ul style="margin-top:30px; margin-bottom:30px;">
+				<li>1. There is a big shortage of educational materials for teaching software reengineering.</li>
+				<li>2. Selecting the suitable materials (that balance theory and practice) and the right tool(s) for the level of students and depth of coverage required is a difficult task</li>
+				<li>3. Teaching reengineering using toy exercises and assignments does not convey the practical aspects of the subject</li>
+			</ul> 
+			
+			<p> While, teaching with real, even small size, exercises and assignments, is almost infeasible. Getting the balance right requires careful consideration and 
+			experimentation. Students understand and appreciate this topic much more if they have previous industrial experience and when they are presented with 
+			real industrial case studies.
+			</p> 
+		</div>
+		
+		<hr class="smSolid" ></hr>
+	</div>
+
+
+	<div class="sm" id="tsts">
+		<h2  class="sm" > <a href="#index">Tools Supporting the Skill </a></h2>
+		<hr style="solid 5px #bbb"></hr>
+		<h4  style="margin-top:30px">DMS® Software Reengineering Toolkit™</h4>	
+		<div class="row" style="margin-top:50px">
+			<p style="width:30%;"">
+				It is a sophisticated set of infrastructure and highly customizable tools for automating:<br> 
+					<br>1. Source program analysis 
+					<br>2. Modification of source code 
+					<br>3. Generation of software
+			</p>
+			<a href="http://www.semanticdesigns.com/Products/DMS/DMSToolkit.html" target="_blank">
+				<img style="float:right;" src="images/sm/DMS.png">
+			</a>
+			
+		</div>
+		
+		<div class="row" style="padding-top:50px">
+			<a href="https://www.hex-rays.com/products/ida/"  target="_blank" style = "width:45%;  display:flex;">
 				<div class="card">
-					<h4>PE and HEX editors</h4>
-					<p>Description</p>
+					<h5>Disassemblers</h4>
+					<p>A disassembler is a program that translates an executable file to assembly language. The most popular one is IDA Pro</p>
+					<img src="images/sm/hexray.png" style="height:50%; width:100%">
 				</div>
+			</a>
+
+			
+			<div class="card" style = "width:45%; height:100%; display:flex; align-content: center;">
+				<h5>Debuggers</h5>
+				
+				<p>A debugger is invaluable for any developer to see what a program is doing right now. You get the same benefit from debugging when 
+				reversing applications as you get from debugging live applications.
+				The most popular debuggers are 
+				</p>
+
+				<div class="row" style="align-content: center; display:flex"; margin-top:30px;>
+					
+
+					<div class="column" style="width:33%">
+						<a href="http://www.ollydbg.de/" target="_blank">
+							<img src="images/sm/ollydbg.gif">
+							<p>OllyDbg</p>
+						</a>
+					</div >
+
+					
+					<div class="column" style="width:33%">
+						<a href="http://www.windbg.org/" target="_blank">
+							<img src="images/sm/windbg.png" style="height:55px; width:55px">
+							<p>WinDbg</p>
+						</a>
+					</div>					
+					
+					<div class="column" style;"width:33%">
+						<a href="https://www.microsoft.com/uk-ua/p/windbg-preview/9pgjgd53tn86?activetab=pivot:overviewtab" target="_blank">
+							<img src="images/sm/windbgp.png" style="height:55px; width:55px">
+							<p>Windbg Preview.</p>	
+						</a>
+					</div>
+				</div>
+				
 			</div>
+
 
 		</div>
 
@@ -474,16 +700,78 @@ User research and persona is one of the important skill to start any project. If
 	</div>
 
 
-	<div class="sm">
-		<h2  class="sm"> Skill Self-Assessment </h2>
-		5
+	<div class="sm" id="ssa">
+		<h2  class="sm"><a href="#index"> Skill Self-Assessment</a> </h2>
+		<hr style="solid 5px #bbb"></hr>
+
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star"></span>
+		(5/10)
+		<p style="margin-top:50px">
+		Software Reengineering is a skill that requires expertise in varied spectrum of maintenance and software development. At my current level as mentioned previously in 
+		role of academia secion, I myslef as a student am more adept to classifying myself as developer which plays a major role in 3rd stage of forward engineering phase, 
+		restructuring requires an in depth knowledge of data structures to be able to optimise the current structure of the code, and i would classify myself as a 
+		beginner at this stage. Also, i would rate myself as an intermediate in the first stage of reengineering where slicing skills are necessary.    
+		</p>
+		<p>
+		Considering an average of all of my skills currently falling in category of intermediate, i would rate myself 5/10.
+		</p>
 		<hr class="smSolid" ></hr>
 	</div>
 
 
-	<div class="sm">
-		<h2  class="sm"> References </h2>
-		<hr class="smSolid" ></hr>
+	<div class="sm" id="r">
+				<h2  class="sm"> <a href="#index">References </a></h2>
+				<hr style="solid 5px #bbb"></hr>
+				<hr class="smSolid" ></hr>
+		<ul>
+
+			<li>
+				<a href="http://www.sdibo.com/maintenance" target="_blank" style="color:blue">
+				1. http://www.sdibo.com/maintenance
+				</a>
+			</li>
+
+			<li>
+				<a href="https://www.scnsoft.com/blog/legacy-software-reengineering-guide" target="_blank" style="color:blue"> 
+				2. https://www.scnsoft.com/blog/legacy-software-reengineering-guide
+				</a>
+			</li>
+			
+			<li>
+				<a href="https://www.linkedin.com/pulse/software-reengineering-successful-implementation-vasiliy-soloshchuk-1/" target="_blank" style="color:blue">
+				3. https://www.linkedin.com/pulse/software-reengineering-successful-implementation-vasiliy-soloshchuk-1/
+				</a>
+			</li>
+			
+			<li>
+				<a href="https://sci-hub.tw/10.1145/1134285.1134395" target="_blank" style="color:blue" id="r4">
+				4. https://sci-hub.tw/10.1145/1134285.1134395
+				</a>
+			</li>
+
+			<li>
+				<a href="http://www.semdesigns.com/Products/DMS/DMSToolkit.html" target="_blank" style="color:blue">
+				5. http://www.semdesigns.com/Products/DMS/DMSToolkit.html 
+				</a>
+			</li>
+			
+			<li>	
+				<a href="https://www.indeed.com/q-Software-Reengineering-jobs.html?vjk=eb6e6645a6c23836" target="_blank" style="color:blue">
+				6. https://www.indeed.com/q-Software-Reengineering-jobs.html?vjk=eb6e6645a6c23836" 
+				</a>
+			</li>
+
+			<li>
+				<a href=https://hiring.monster.com/employer-resources/job-description-templates/software-engineer-job-description-sample/" target="_blank" style="color:blue">
+				7. https://hiring.monster.com/employer-resources/job-description-templates/software-engineer-job-description-sample/
+				</a>
+			</li>
+		</ul>
+
 	</div>	
 `
     },
@@ -572,6 +860,7 @@ User research and persona is one of the important skill to start any project. If
 			<hr class="smSolid" ></hr>
 		</div>	
 		<a href="./index.html">Return Home</a>
+
 		`,
     },
     {

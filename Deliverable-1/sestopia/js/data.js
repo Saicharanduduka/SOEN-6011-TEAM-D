@@ -1049,9 +1049,18 @@ User research and persona is one of the important skill to start any project. If
 		<div class="sm">
 			<h2  class="sm"> Work Related to Skill </h2>
 			<h4>Work Breakdown Structure(WBS)</h4>
-			Deliverable-Based
-			Phase-Based
+			<p>This is the concept of breaking activities into sub activities in order to allow control in a project management, its hard to keep control of an activity that takes months, easier though to have follow up and consequently taking the according measure for tasks that have the length of days or hours.</p>
+			<p>According to PMI WBS is a “deliverable oriented hierarchical decomposition of the work to be executed by the project team.”</p>
+			<p>There are two types of WBS approaches as follows bellow:</p>
+			<h5>Deliverable-Based</h5>
+			<p>As the name suggests, the focus here is on the deliverables, so each deliverable will be the root of the decomposition structure, its very close to what we know as a top-down approach in software engineering, and the most common approach.</p>
+			<img class="real" src="images/DeliverableBased.jpg">
+			<h5>Phase-Based</h5>
+			<p>This approach sees things based on project phases, from conception into implementation until the ending activities of the project, this approach usually encapsulated more than just technical activities and involves control activities such as closing.</p>
+			<img class="real" src="images/PhaseBased.jpg">
 			<h4>Critical Path Method</h4>
+			<p>Critical path method, is about to distinguish the path of higher length on your schedule, after defining dependencies and building an activities schedule, you sum the estimation of each activity in the existing paths and highlight the one that would take longer, this will determine the minimum amount of time necessary to conclude the project, once parallelisation wont matter due to the dependencies. This method is very important to understand which is the most critical activities in a project once they are the ones that will be leading the project downstream.</p>
+			<img class="real" src="images/CriticalPath.png">
 			<h4>Preliminary Schedules Refinement</h4>
 			<h4>Realistic Scheduling, Applying Risk Management(Prevention/Contingency) to Schedules</h4>
 			<h4>Earned Value Management(EVM)</h4>

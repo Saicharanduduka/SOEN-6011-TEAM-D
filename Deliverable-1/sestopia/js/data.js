@@ -1133,54 +1133,55 @@ User research and persona is one of the important skill to start any project. If
     },
 
     {
-        title: `Computing Foundations`,
-        description: `Problem Analysis: This skill is useful for breaking-down a given identified problem into sub-problem and 
+	title: `Computing Foundations`,
+	description: `Problem Analysis: This skill is useful for breaking-down a given identified problem into sub-problem and 
 					creating multiple cause-effect path to get the actual cause for the problem.`,
-        text: `
+	text: `
 	
 		<hr style="solid 5px #bbb"></hr>
-	<h2 id="table_pa">Table of Contents</h2>
-	<div class="boxpa">
-		<ol>
-			<li><a href="#name_pa">Name of Skill.</a></li>
-			<li><a href="#class_pa">Classification of Skill.</a></li>
-			<li><a href="#pre_pa">Prerequisites for Skill.</a></li>
-			<li><a href="#areas_pa">Related Software Engineering Area(s).</a></li>
-			<li><a href="#rationale_pa">Rationale for Skill. </a></li>
-			<li><a href="#roles_pa">Roles for Skill.</a></li>
-			<li><a href="#work_pa">Work Related to Skill.</a></li>
-			<li><a href="#example_pa">Real-World Example/Scenario of Skill.</a></li>
-			<li><a href="#academia_pa">Role of Academia or Industry in Cultivating the Skill.</a></li>
-			<li><a href="#tools_pa">Tools Supporting the Skill.</a></li>
-			<li><a href="#assessment_pa">Skill Self-Assessment.</a></li>
-			<li><a href="#ref_pa">References.</a></li>
-		</ol>	
+	<div id="table_pa_container">
+	<p class="table_pa_title" style="color: #005a9c;">On this Page:</p>
+		<ul>
+			<li><a id="table_pa_container" href="#name_pa">Name of Skill</a></li>
+			<li><a id="table_pa_container" href="#class_pa">Classification of Skill</a></li>
+			<li><a id="table_pa_container" href="#pre_pa">Prerequisites for Skill</a></li>
+			<li><a id="table_pa_container" href="#areas_pa">Related Software Engineering Area(s)</a></li>
+			<li><a id="table_pa_container" href="#rationale_pa">Rationale for Skill </a></li>
+			<li><a id="table_pa_container" href="#roles_pa">Roles for Skill</a></li>
+			<li><a id="table_pa_container" href="#work_pa">Work Related to Skill</a></li>
+			<li><a id="table_pa_container" href="#example_pa">Real-World Example/Scenario of Skill</a></li>
+			<li><a id="table_pa_container" href="#academia_pa">Role of Academia or Industry in Cultivating the Skill</a></li>
+			<li><a id="table_pa_container" href="#tools_pa">Tools Supporting the Skill</a></li>
+			<li><a id="table_pa_container" href="#assessment_pa">Skill Self-Assessment</a></li>
+			<li><a id="table_pa_container" href="#ref_pa">References.</a></li>
+		</ul>	
 	</div>
 	<div id="navbar_pa">
   	<a href="index.html">Home</a>
-  	<a href="#table_pa">Table Of Contents</a>
+  	<a href="#table_pa_container">Table Of Contents</a>
 	</div>
 	<hr style="solid 5px #bbb"></hr>
 	
 	<div class="sm" id="name_pa">
 		<figure>
-		<img src="images/pa/root.jpg" style="float:right; width:50%" alt="Root Cause Analysis Figure">
+		<img class="img-fluid" src="images/pa/root.jpg" style="float:right; width:50%" alt="Root Cause Analysis diagram for searching one root cause">
 		</figure>
 		
 		<h2  class="ps" > Name of Skill </h2><br>
 		
-		<b>Problem Analysis</b><br>
+		<strong>Problem Analysis</strong><br>
 		
 		<p>It is often termed as <b>Root Cause Analysis</b> and is a method of Problem-Solving. It is used for identifying the root causes of
 		faults or problems [1].</p>
 		
 		<hr class="smSolid" ></hr>
 	</div>
+	
 
 
 	<div class="sm" id="class_pa">
 		<h2  class="ps" > Classification of Skill </h2>
-		It can be classified as <u>Hard Technical Skill</u> <br>
+		It can be classified as Hard Technical Skill<br>
 		<p> Hard skills are technical knowledge or training that you have gained through any life experience, 
 		including in your career or education [2]. </p>
 		<hr class="smSolid" ></hr>
@@ -1283,7 +1284,7 @@ User research and persona is one of the important skill to start any project. If
 		<div class="column" style = "width:50%; display:flex; align-content: center;">
 		<div class="card" style = "width:100%; display:flex; align-content: center;">
 					<a href="https://www.brighthubpm.com/project-planning/118441-problem-tree-a-comprehensive-analysis-tool/#:~:text=A%20problem%20tree%20analysis%20is,into%20a%20set%20of%20consequences.">
-					<h4><u>Problem Tree Analysis</h4></u>
+					<h3><u>Problem Tree Analysis</h4></u>
 					<p>A problem tree analysis is a pictorial representation of a problem, its causes and 
 					its consequences are fitted into the diagram on a hierarchical preference basis. This helps the 
 					project team get a quick glance of how a range of complex issues contribute toward a problem and 
@@ -1295,7 +1296,7 @@ User research and persona is one of the important skill to start any project. If
 			<div class="column" style = "width:50%; display:flex; align-content: center;">
 			<div class="card" style = "width:100%; display:flex; align-content: center;">
 					<a href="https://www.businessanalyststoolkit.com/mind-mapping-for-problem-solving/">
-					<h4><u>Mind Mapping</h4></u>
+					<h3><u>Mind Mapping</h4></u>
 					<p>This visual technique is used to outline information around a central word or phrase. 
 					This central concept may form the known issue that may be causing the problem.</p>
 					</a>
@@ -1307,7 +1308,7 @@ User research and persona is one of the important skill to start any project. If
 			<div class="column" style = "width:50%; display:flex; align-content: center;">
 			<div class="card" style = "width:100%; display:flex; align-content: center;">
 					<a href="https://www.businessanalyststoolkit.com/five-whys-example/">
-					<h4><u>The Five Whys</u></h4>
+					<h3><u>The Five Whys</u></h4>
 					<p>The Five Whys technique is simply the process of asking “why” enough times that you 
 					eventually get to the root cause of a problem. It is an effective way to solving problems 
 					that can be used by any business analyst to improve a business process or write better 
@@ -1319,10 +1320,11 @@ User research and persona is one of the important skill to start any project. If
 			<div class="column" style = "width:50%; display:flex; align-content: center;">
 				<div class="card" style = "width:100%; display:flex; align-content: center;">
 					<a href="https://www.businessanalyststoolkit.com/fishbone-analysis-example/">
-					<h4><u>Fishbone Analysis</u></h4>
+					<h3><u>Fishbone Analysis</u></h4>
 					<p>Like Mind Mapping, Fishbone Analysis is a visual technique for exploring a central problem 
 					or concept. This tool is also called the Ishikawa Diagram as it was first used by Dr. Kaoru Ishikawa 
 					of the University of Tokyo in 1943.</p>
+
 					</a>
 				</div>
 			</div>
@@ -1349,12 +1351,12 @@ User research and persona is one of the important skill to start any project. If
 	<div class="sm" id="ref_pa">
 		<h2  class="sm"> References </h2>
 		<ul>
-		<li><a href="https://www.elo.iastate.edu/engl-309/problem-analysis/">[1] Elo.iastate.edu, 2020.</a></li>
+		<li><a id="pa" href="https://www.elo.iastate.edu/engl-309/problem-analysis/">[1] Elo.iastate.edu, 2020.</a></li>
 		<li><a href="https://www.indeed.com/career-advice/resumes-cover-letters/hard-skills-vs-soft-skills#:~:text=Hard%20skills%20are%20technical%20knowledge,in%20your%20career%20or%20education">[2] Indeed.com, 2020. </a></li>
-		<li>[3] By <a href="//commons.wikimedia.org/w/index.php?title=User:KellyLawless&amp;action=edit&amp;redlink=1" class="new" title="User:KellyLawless (page does not exist)">KellyLawless</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=30417444"><u>Link</u><a/></li>
+		<li><a href="//commons.wikimedia.org/w/index.php?title=User:KellyLawless&amp;action=edit&amp;redlink=1" class="new" title="User:KellyLawless (page does not exist)">[3] By KellyLawless</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=30417444"><u>Open Link</u><a/></li>
 		</ul>
 		<hr class="smSolid" ></hr>
 	</div>	
 `
-    },
+},
 ];

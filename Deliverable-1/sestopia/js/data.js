@@ -1154,6 +1154,10 @@ User research and persona is one of the important skill to start any project. If
 			<li><a href="#ref_pa">References.</a></li>
 		</ol>	
 	</div>
+	<div id="navbar_pa">
+  	<a href="index.html">Home</a>
+  	<a href="#table_pa">Table Of Contents</a>
+	</div>
 	<hr style="solid 5px #bbb"></hr>
 	
 	<div class="sm" id="name_pa">

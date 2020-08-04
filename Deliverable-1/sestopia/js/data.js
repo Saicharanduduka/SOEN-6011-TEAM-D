@@ -375,20 +375,20 @@ User research and persona is one of the important skill to start any project. If
 <hr style="solid 5px #bbb"></hr>
 	<h2>Index</h2>
 	<div class="boxsm" id="index">
-		<ul>
-			<li><a href="#nos">1. Name of Skill.</a></li>
-			<li><a href="#cos">2. Classification of Skill.</a></li>
-			<li><a href="#pfs">3. Prerequisites for Skill.</a></li>
-			<li><a href="#rsfea">4. Related Software Engineering Area(s).</a></li>
-			<li><a href="#rafs">5. Rationale for Skill. </a></li>
-			<li><a href="#rofs">6. Roles for Skill.</a></li>
-			<li><a href="#wrts">7. Work Related to Skill.</a></li>
-			<li><a href="#rwe">8. Real-World Example/Scenario of Skill.</a></li>
-			<li><a href="#roai">9. Role of Academia or Industry in Cultivating the Skill.</a></li>
-			<li><a href="#tsts">10. Tools Supporting the Skill.</a></li>
-			<li><a href="#ssa">11. Skill Self-Assessment.</a></li>
-			<li><a href="#r">12. References.</a></li>
-		</ul>	
+		<ol>
+			<li><a href="#nos"> Name of Skill.</a></li>
+			<li><a href="#cos"> Classification of Skill.</a></li>
+			<li><a href="#pfs"> Prerequisites for Skill.</a></li>
+			<li><a href="#rsfea"> Related Software Engineering Area(s).</a></li>
+			<li><a href="#rafs"> Rationale for Skill. </a></li>
+			<li><a href="#rofs"> Roles for Skill.</a></li>
+			<li><a href="#wrts"> Work Related to Skill.</a></li>
+			<li><a href="#rwe"> Real-World Example/Scenario of Skill.</a></li>
+			<li><a href="#roai"> Role of Academia or Industry in Cultivating the Skill.</a></li>
+			<li><a href="#tsts"> Tools Supporting the Skill.</a></li>
+			<li><a href="#ssa"> Skill Self-Assessment.</a></li>
+			<li><a href="#r"> References.</a></li>
+		</ol>	
 	</div>
 
 
@@ -398,7 +398,7 @@ User research and persona is one of the important skill to start any project. If
 		
 		<h2  class="sm"> <a href="#index"> Reengineering</a> </h2>
 		<hr style="solid 5px #bbb"></hr>
-		<img src="images/sm/smpm.png" style="float:right; width:30% ">
+		<img src="images/sm/smpm.png" class="responsive" style="float:right; width:30% ">
 		<p style="margin-right:40px">
 		Software Reengineering is the process of updating software without affecting its functionality. This process may be done by developing additional features on the software and adding functionalities that may or may not be required but considered to make the software experience better and more efficient. As far as the definition goes, this process also entails that the software product will have improved maintainability. Thus, software reengineering is a step towards continuous improvement of software for it to be handled better by developers and clients alike. Additionally, it is a way to make existing products continue in service.
 		</p>
@@ -424,7 +424,9 @@ User research and persona is one of the important skill to start any project. If
 
 		<div class="row">
 			<div class="col">
-			<ul >
+			<
+
+			ul >
 				<li><b>Corrective:</b></br> Maintenance performed to correct faults in hardware or software, maintenance involves testing to detect a problem and injecting a fix without disturbing the rest of the system.</li>
 				<li><b>Adaptive:</b></br> Software maintenance performed to make a computer program usable in a changed environment (business rules, government policy, software platforms, hardware upgrades, etc.)</li>
 				<li><b>Perfective:</b></br> Software maintenance performed to improve the performance, maintainability, or other attributes of a computer program.</li>
@@ -432,7 +434,7 @@ User research and persona is one of the important skill to start any project. If
 			</ul>
 			</div>
 			<div class="col">
-			<img src="images/sm/mainttypes.png" >
+			<img src="images/sm/mainttypes.png" class="responsive">
 			<p style="margin-top:60px"> Preventative maintenance is also called software reengineering (Data restructuring, Code restructuring).</p>
 			</div>
 
@@ -547,7 +549,7 @@ User research and persona is one of the important skill to start any project. If
 			process after thorough justification of the necessary changes and the advent of opening new prospects.
 			</div>
 			<div class="col">
-				<img src="images/sm/ekms.png">
+				<img src="images/sm/ekms.png" class="responsive">
 			</div>
 		</div>
 
@@ -573,11 +575,11 @@ User research and persona is one of the important skill to start any project. If
 		<div class="row" style="margin-top:30px">
 			<div class="col" style="text-align: center">
 				<h5>Legacy architecture</h5>
-				<img src="images/sm/legacy.jpg" style="width:500px;">
+				<img src="images/sm/legacy.jpg" style="width:500px;" class="responsive">
 			</div>
 			<div class="col" style="text-align: center">
 				<h5>New architecture</h5>
-				<img src="images/sm/new.jpg" style="width:500px;">
+				<img src="images/sm/new.jpg" style="width:500px;" class="responsive">
 			</div>
 			<div class="row" style="margin-top:30px">
 	
@@ -614,11 +616,11 @@ User research and persona is one of the important skill to start any project. If
 			Software engineering curricula emphasize developing new software systems. Little attention is given to how to change and modernize existing systems, i.e., 
 			the theory and practice of software maintenance and reengineering. The paper presents the author’s experience in teaching software reengineering, 
 			findings/conclusions are as follows:<a href="#r4" style="color:blue">[4]</a>
-			<ul style="margin-top:30px; margin-bottom:30px;">
-				<li>1. There is a big shortage of educational materials for teaching software reengineering.</li>
-				<li>2. Selecting the suitable materials (that balance theory and practice) and the right tool(s) for the level of students and depth of coverage required is a difficult task</li>
-				<li>3. Teaching reengineering using toy exercises and assignments does not convey the practical aspects of the subject</li>
-			</ul> 
+			<ol style="margin-top:30px; margin-bottom:30px;">
+				<li>  There is a big shortage of educational materials for teaching software reengineering.</li>
+				<li>  Selecting the suitable materials (that balance theory and practice) and the right tool(s) for the level of students and depth of coverage required is a difficult task</li>
+				<li>  Teaching reengineering using toy exercises and assignments does not convey the practical aspects of the subject</li>
+			</ol> 
 			
 			<p> While, teaching with real, even small size, exercises and assignments, is almost infeasible. Getting the balance right requires careful consideration and 
 			experimentation. Students understand and appreciate this topic much more if they have previous industrial experience and when they are presented with 
@@ -642,7 +644,7 @@ User research and persona is one of the important skill to start any project. If
 					<br>3. Generation of software
 			</p>
 			<a href="http://www.semanticdesigns.com/Products/DMS/DMSToolkit.html" target="_blank">
-				<img style="float:right;" src="images/sm/DMS.png">
+				<img style="float:right;" src="images/sm/DMS.png" class="responsive">
 			</a>
 			
 		</div>
@@ -652,7 +654,7 @@ User research and persona is one of the important skill to start any project. If
 				<div class="card">
 					<h5>Disassemblers</h4>
 					<p>A disassembler is a program that translates an executable file to assembly language. The most popular one is IDA Pro</p>
-					<img src="images/sm/hexray.png" style="height:50%; width:100%">
+					<img src="images/sm/hexray.png" style="height:50%; width:100%" class="responsive">
 				</div>
 			</a>
 
@@ -670,7 +672,7 @@ User research and persona is one of the important skill to start any project. If
 
 					<div class="column" style="width:33%">
 						<a href="http://www.ollydbg.de/" target="_blank">
-							<img src="images/sm/ollydbg.gif">
+							<img src="images/sm/ollydbg.gif" class="responsive">
 							<p>OllyDbg</p>
 						</a>
 					</div >
@@ -678,14 +680,14 @@ User research and persona is one of the important skill to start any project. If
 					
 					<div class="column" style="width:33%">
 						<a href="http://www.windbg.org/" target="_blank">
-							<img src="images/sm/windbg.png" style="height:55px; width:55px">
+							<img src="images/sm/windbg.png"  style="height:55px; width:55px" class="responsive">
 							<p>WinDbg</p>
 						</a>
 					</div>					
 					
 					<div class="column" style;"width:33%">
 						<a href="https://www.microsoft.com/uk-ua/p/windbg-preview/9pgjgd53tn86?activetab=pivot:overviewtab" target="_blank">
-							<img src="images/sm/windbgp.png" style="height:55px; width:55px">
+							<img src="images/sm/windbgp.png" style="height:55px; width:55px" class="responsive">
 							<p>Windbg Preview.</p>	
 						</a>
 					</div>
@@ -727,50 +729,50 @@ User research and persona is one of the important skill to start any project. If
 				<h2  class="sm"> <a href="#index">References </a></h2>
 				<hr style="solid 5px #bbb"></hr>
 				<hr class="smSolid" ></hr>
-		<ul>
+		<ol>
 
 			<li>
 				<a href="http://www.sdibo.com/maintenance" target="_blank" style="color:blue">
-				1. http://www.sdibo.com/maintenance
+				 http://www.sdibo.com/maintenance
 				</a>
 			</li>
 
 			<li>
 				<a href="https://www.scnsoft.com/blog/legacy-software-reengineering-guide" target="_blank" style="color:blue"> 
-				2. https://www.scnsoft.com/blog/legacy-software-reengineering-guide
+				 https://www.scnsoft.com/blog/legacy-software-reengineering-guide
 				</a>
 			</li>
 			
 			<li>
 				<a href="https://www.linkedin.com/pulse/software-reengineering-successful-implementation-vasiliy-soloshchuk-1/" target="_blank" style="color:blue">
-				3. https://www.linkedin.com/pulse/software-reengineering-successful-implementation-vasiliy-soloshchuk-1/
+				 https://www.linkedin.com/pulse/software-reengineering-successful-implementation-vasiliy-soloshchuk-1/
 				</a>
 			</li>
 			
 			<li>
 				<a href="https://sci-hub.tw/10.1145/1134285.1134395" target="_blank" style="color:blue" id="r4">
-				4. https://sci-hub.tw/10.1145/1134285.1134395
+				 https://sci-hub.tw/10.1145/1134285.1134395
 				</a>
 			</li>
 
 			<li>
 				<a href="http://www.semdesigns.com/Products/DMS/DMSToolkit.html" target="_blank" style="color:blue">
-				5. http://www.semdesigns.com/Products/DMS/DMSToolkit.html 
+				 http://www.semdesigns.com/Products/DMS/DMSToolkit.html 
 				</a>
 			</li>
 			
 			<li>	
 				<a href="https://www.indeed.com/q-Software-Reengineering-jobs.html?vjk=eb6e6645a6c23836" target="_blank" style="color:blue">
-				6. https://www.indeed.com/q-Software-Reengineering-jobs.html?vjk=eb6e6645a6c23836" 
+				 https://www.indeed.com/q-Software-Reengineering-jobs.html?vjk=eb6e6645a6c23836" 
 				</a>
 			</li>
 
 			<li>
 				<a href=https://hiring.monster.com/employer-resources/job-description-templates/software-engineer-job-description-sample/" target="_blank" style="color:blue">
-				7. https://hiring.monster.com/employer-resources/job-description-templates/software-engineer-job-description-sample/
+				 https://hiring.monster.com/employer-resources/job-description-templates/software-engineer-job-description-sample/
 				</a>
 			</li>
-		</ul>
+		</ol>
 
 	</div>	
 `
@@ -1054,7 +1056,7 @@ User research and persona is one of the important skill to start any project. If
 			<p>There are two types of WBS approaches as follows bellow:</p>
 			<h5>Deliverable-Based</h5>
 			<p>As the name suggests, the focus here is on the deliverables, so each deliverable will be the root of the decomposition structure, its very close to what we know as a top-down approach in software engineering, and the most common approach.</p>
-			<img class="real" src="images/DeliverableBased.jpg">
+			<img class="real" src="images/DeliverableBased.jpg" >
 			<h5>Phase-Based</h5>
 			<p>This approach sees things based on project phases, from conception into implementation until the ending activities of the project, this approach usually encapsulated more than just technical activities and involves control activities such as closing.</p>
 			<img class="real" src="images/PhaseBased.jpg">

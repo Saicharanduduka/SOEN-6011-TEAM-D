@@ -41,6 +41,11 @@ ul.sm li {
     padding: 12px;
 }
 
+img.responsive{
+  width: 100%;
+  height: auto;
+}
+
 ul li{
 	margin-bottom: 
 }

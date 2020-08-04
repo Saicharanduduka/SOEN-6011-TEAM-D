@@ -62,7 +62,29 @@ a:hover{
 }
 
 
-
+/* navigation bar on the content page for traversing back to Home page or table of contents*/
+#navbar_pa {
+    background-color: rgb(52, 58, 64); /* background color matching with Home page top bar*/
+    position: fixed; /* Make it stick/fixed */
+    top: -50px; /* Hide the navbar 50 px outside of the top view */
+    width: 80%; /* 80% width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+  }
+  
+  /* Style the navbar links */
+#navbar_pa a {
+    float: left;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+  }
+  
+#navbar_pa a:hover {
+    background-color: #ddd;
+    color: black;
+  }
 /******************************************************************************************************************************************/
 
 div.author {

@@ -1133,27 +1133,59 @@ User research and persona is one of the important skill to start any project. If
     {
         title: `Computing Foundations`,
         description: `Problem Analysis: This skill is useful for breaking-down a given identified problem into sub-problem and 
-					creating multiple possible solution paths.`,
+					creating multiple cause-effect path to get the actual cause for the problem.`,
         text: `
 	
+		<hr style="solid 5px #bbb"></hr>
+	<h2>Table of Contents</h2>
+	<div class="boxpa" id="table_pa">
+		<ol>
+			<li><a href="#name_pa">Name of Skill.</a></li>
+			<li><a href="#class_pa">Classification of Skill.</a></li>
+			<li><a href="#pre_pa">Prerequisites for Skill.</a></li>
+			<li><a href="#areas_pa">Related Software Engineering Area(s).</a></li>
+			<li><a href="#rationale_pa">Rationale for Skill. </a></li>
+			<li><a href="#roles_pa">Roles for Skill.</a></li>
+			<li><a href="#work_pa">Work Related to Skill.</a></li>
+			<li><a href="#example_pa">Real-World Example/Scenario of Skill.</a></li>
+			<li><a href="#academia_pa">Role of Academia or Industry in Cultivating the Skill.</a></li>
+			<li><a href="#tools_pa">Tools Supporting the Skill.</a></li>
+			<li><a href="#assessment_pa">Skill Self-Assessment.</a></li>
+			<li><a href="#ref_pa">References.</a></li>
+		</ol>	
+	</div>
 	<hr style="solid 5px #bbb"></hr>
-	<div class="sm">
-		<h2  class="ps"> Name of Skill </h2>
-		Problem Analysis
+	
+	<div class="sm" id="name_pa">
+		<figure>
+		<img src="images/pa/root.jpg" style="float:right; width:50%" alt="Root Cause Analysis Figure">
+		</figure>
+		
+		<h2  class="ps" > Name of Skill </h2><br>
+		
+		<b>Problem Analysis</b><br>
+		
+		<p>It is often termed as <b>Root Cause Analysis</b> and is a method of Problem-Solving. It is used for identifying the root causes of
+		faults or problems [1].</p>
+		
 		<hr class="smSolid" ></hr>
 	</div>
 
 
-	<div class="sm">
-		<h2  class="ps"> Classification of Skill </h2>
-		Analytical (Problem-Solving)
+	<div class="sm" id="class_pa">
+		<h2  class="ps" > Classification of Skill </h2>
+		It can be classified as <u>Hard Technical Skill</u> <br>
+		<p> Hard skills are technical knowledge or training that you have gained through any life experience, 
+		including in your career or education [2]. </p>
 		<hr class="smSolid" ></hr>
 	</div>
 
 
-	<div class="sm">
+	<div class="sm" id="pre_pa">
 		<h2  class="sm"> Prerequisites for Skill </h2>
 		<ul style="list-style-type:square;">
+		<li>Identified problem Statement</li>
+		<li>Problem Domain Knowledge</li>
 		<li>Convergent Thinking</li>
 		<li>Divergent Thinking</li>
 		<li>Algorithms</li>
@@ -1165,125 +1197,156 @@ User research and persona is one of the important skill to start any project. If
 	</div>
 
 
-	<div class="sm">
+	<div class="sm" id="areas_pa">
 		<h2  class="sm"> Related Software Engineering Area(s)  </h2>
 		<ul style="list-style-type:square;">
 		<li>Software Design</li>
 		<li>Software Construction</li>
-		<li>Software Management</li>
+		<li>Software Maintenance</li>
+		<li>Software Requirements</li>
 		</ul>
 		<hr class="smSolid" ></hr>
 	</div>
 
 
-	<div class="sm">
+	<div class="sm" id="rationale_pa">
 		<h2  class="sm"> Rationale for Skill </h2>
 		<p>The rationale for choosing Problem Analysis skill is to be develop the ability to generate more than one possible solution
-		for an identified problem. Being the combination of Soft-skill, Hard-skill and Cognitive skill, it is quite much
-		difficult to generate multiple solution paths. Software Engineers tend to make decision based on their past experience
-		for most of the time and it might be possible to use or define a new path for that problem. This might become a must skill
-		for any software engineer in near future and it is very important to develop this skill in order to gain problem-solving skill.
+		for an identified problem. Being the combination of Hard-skill and Cognitive skill, it is quite
+		difficult to generate multiple cause paths. Software Engineers tend to make decision based on their past experience
+		for most of the time and it might be possible to use or define a cause-effect new path for that problem. This might be considered as a must have skill
+		for any software engineer/ Business Analyst in near future and it is very important to develop the problem-solving skill and exploring the problem space.
 		This skill helps in taking more informed decisions for solving a problem.</p>
 		<hr class="smSolid" ></hr>
 	</div>
 
 
-	<div class="sm"><h2  class="sm"> Roles for Skill </h2>
+	<div class="sm" id="roles_pa">
+	<h2  class="sm"> Roles for Skill </h2>
 	<ul style="list-style-type:square;">
 	<li>Software Developer</li>
 	<li>Software Designer</li>
 	<li>Software Project Manager</li>
 	<li>Software Tester</li>
 	<li>Algorithm Developer</li>
+	<li>Business Analyst</li>
 	</ul>
 		<hr class="smSolid" ></hr>
 	</div>
 
 
-	<div class="sm">
+	<div class="sm" id="work_pa">
 		<h2  class="sm"> Work Related to Skill </h2>
 		<ul style="list-style-type:square;">
 		<li>Critical Thinking and breaking down a problem into more smaller sub-problems</li>
 		<li>Requirement for having involvement of other group members</li>
 		<li>Creating a new customized data structure or Algorithm</li>
 		<li>Requirement Validation</li>
+		<li>Changes in the system</li>
 		<li>Collecting information for the similar kind problem that might have occured in the past</li>
 		</ul>
 		<hr class="smSolid" ></hr>
 	</div>
 
 
-	<div class="sm">
+	<div class="sm" id="example_pa">
 		<h2  class="sm"> Real-World Example </h2>
 		<p>Company developing any new innovative software solutions after the complete analysis over a problem domain.</p>
 		<hr class="smSolid" ></hr>
 	</div>
 
 
-	<div class="sm">
+	<div class="sm" id="academia_pa">
 		<h2  class="sm"> Role of Academia or Industry in Cultivating the Skill </h2>
 		<p>Academia is working rigorously to incorporate subjects/ assignments to make students understand the importance
-		of probelm analysis in order to solve any given problem.</p>
+		of probelm analysis in order to solve any given problem. This even helps in reducing the cognitive baises between stakeholders
+		while iterating over the problem space. </p>
 		<br>
 		<p>E.g. Given a common problem or assignment to a class of students for solving it individually and then if 
-		peer reviewing is allowed, students might get to learn new possible solutions path one could have. 
+		peer reviewing is allowed, students might get to learn new possible cause-effect paths one could have. 
 		This might help them in developing problem analysis skill to think more creatively over a given problem 
-		and might be able to create multiple solution path for any problem.</p>
+		and might be able to create multiple solution path for any identified problem.</p>
 		<hr class="smSolid" ></hr>
 	</div>
 
 
-	<div class="sm">
+	<div class="sm" id="tools_pa">
 		<h2  class="sm" > Tools Supporting the Skill </h2>
+	
+		<div class="row" style="width:100%;">
+		<div class="column" style = "width:50%; display:flex; align-content: center;">
+		<div class="card" style = "width:100%; display:flex; align-content: center;">
+					<a href="https://www.brighthubpm.com/project-planning/118441-problem-tree-a-comprehensive-analysis-tool/#:~:text=A%20problem%20tree%20analysis%20is,into%20a%20set%20of%20consequences.">
+					<h4><u>Problem Tree Analysis</h4></u>
+					<p>A problem tree analysis is a pictorial representation of a problem, its causes and 
+					its consequences are fitted into the diagram on a hierarchical preference basis. This helps the 
+					project team get a quick glance of how a range of complex issues contribute toward a problem and 
+					how this problem branches out into a set of consequences.</p>
+					</a>
+				</div>
+			</div>
+		
+			<div class="column" style = "width:50%; display:flex; align-content: center;">
+			<div class="card" style = "width:100%; display:flex; align-content: center;">
+					<a href="https://www.businessanalyststoolkit.com/mind-mapping-for-problem-solving/">
+					<h4><u>Mind Mapping</h4></u>
+					<p>This visual technique is used to outline information around a central word or phrase. 
+					This central concept may form the known issue that may be causing the problem.</p>
+					</a>
+				</div>
+			</div>
+			</div>
 
-		<div class="row" style="padding-top:30px">
-			
-			<div class="column">
-				<div class="card">
-					<h4>Problem Tree Analysis</h4>
-					<p>Description</p>
+			<div class="row" style="width:100%;">
+			<div class="column" style = "width:50%; display:flex; align-content: center;">
+			<div class="card" style = "width:100%; display:flex; align-content: center;">
+					<a href="https://www.businessanalyststoolkit.com/five-whys-example/">
+					<h4><u>The Five Whys</u></h4>
+					<p>The Five Whys technique is simply the process of asking “why” enough times that you 
+					eventually get to the root cause of a problem. It is an effective way to solving problems 
+					that can be used by any business analyst to improve a business process or write better 
+					requirements.</p>
+					</a>
 				</div>
 			</div>
 
-			<div class="column">
-				<div class="card">
-					<h4>Mind Maps</h4>
-					<p>Description</p>
+			<div class="column" style = "width:50%; display:flex; align-content: center;">
+				<div class="card" style = "width:100%; display:flex; align-content: center;">
+					<a href="https://www.businessanalyststoolkit.com/fishbone-analysis-example/">
+					<h4><u>Fishbone Analysis</u></h4>
+					<p>Like Mind Mapping, Fishbone Analysis is a visual technique for exploring a central problem 
+					or concept. This tool is also called the Ishikawa Diagram as it was first used by Dr. Kaoru Ishikawa 
+					of the University of Tokyo in 1943.</p>
+					</a>
 				</div>
 			</div>
-
-			<div class="column">
-				<div class="card">
-					<h4>Six Thinking Hats</h4>
-					<p>Description</p>
-				</div>
 			</div>
 
-
-			<div class="column">
-				<div class="card">
-					<h4>Rational Decision-Making Model</h4>
-					<p>Description</p>
-				</div>
-			</div>
-
-		</div>
 
 		<hr class="smSolid" ></hr>
 	</div>
 
 
-	<div class="sm">
+	<div class="sm" id="assessment_pa">
 		<h2  class="sm"> Skill Self-Assessment </h2>
-		<p>6, I have a good knowledge about the above mentioned pre-requisites and tools and also have used few of them 
-		for finding user-centric sociteal problems. I want to apply the same tools and knowledge for generating mutilple solution paths
-		in the software enviornment. 
+		<p> 5, I have a good knowledge and experience about the pre-requisites and the tools mentioned above. But, in order to 
+		gain expertise in this skill, it does require you to have an experience of doing this analysis for over a year and
+		there's no concrete standard way of getting one perfect solution to any problem. It's always to iterate over the solution and strategies
+		to cover as many branches as possible to get to the root cause of the solution. </p>
+
+		<p> It does require team collaboration and being in a distributed environment it was not feasible to think to change hats and stick the 
+		maybe problems on any whiteboard or to draw one Fishbone diagram by only the insights of one's mind</p>
 		<hr class="smSolid" ></hr>
 	</div>
 
 
-	<div class="sm">
+	<div class="sm" id="ref_pa">
 		<h2  class="sm"> References </h2>
+		<ul>
+		<li><a href="https://www.elo.iastate.edu/engl-309/problem-analysis/">[1] Elo.iastate.edu, 2020.</a></li>
+		<li><a href="https://www.indeed.com/career-advice/resumes-cover-letters/hard-skills-vs-soft-skills#:~:text=Hard%20skills%20are%20technical%20knowledge,in%20your%20career%20or%20education">[2] Indeed.com, 2020. </a></li>
+		<li>[3] By <a href="//commons.wikimedia.org/w/index.php?title=User:KellyLawless&amp;action=edit&amp;redlink=1" class="new" title="User:KellyLawless (page does not exist)">KellyLawless</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=30417444"><u>Link</u><a/></li>
+		</ul>
 		<hr class="smSolid" ></hr>
 	</div>	
 `

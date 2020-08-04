@@ -1137,8 +1137,8 @@ User research and persona is one of the important skill to start any project. If
         text: `
 	
 		<hr style="solid 5px #bbb"></hr>
-	<h2>Table of Contents</h2>
-	<div class="boxpa" id="table_pa">
+	<h2 id="table_pa">Table of Contents</h2>
+	<div class="boxpa">
 		<ol>
 			<li><a href="#name_pa">Name of Skill.</a></li>
 			<li><a href="#class_pa">Classification of Skill.</a></li>

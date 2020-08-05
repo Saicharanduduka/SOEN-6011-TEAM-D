@@ -1163,15 +1163,16 @@ User research and persona is one of the important skill to start any project. If
 	<hr style="solid 5px #bbb"></hr>
 	
 	<div class="sm" id="name_pa">
-		<figure>
-		<img class="img-fluid" src="images/pa/root.jpg" style="float:right; width:50%" alt="Root Cause Analysis diagram for searching one root cause">
-		</figure>
 		
 		<h2  class="ps" > Name of Skill </h2><br>
-		
 		<strong>Problem Analysis</strong><br>
+		<figure>
+		<img class="img-fluid" src="images/pa/root.jpg" style="float:right; width:400px; height:auto;" alt="Root Cause Analysis diagram for searching one root cause"></img>
+		</figure>
 		
-		<p>It is often termed as <b>Root Cause Analysis</b> and is a method of Problem-Solving. It is used for identifying the root causes of
+		
+		
+		<p id="pa"> It is often termed as <b>Root Cause Analysis</b> and is a method of Problem-Solving. It is used for identifying the root causes of
 		faults or problems [1].</p>
 		
 		<hr class="smSolid" ></hr>
@@ -1181,8 +1182,8 @@ User research and persona is one of the important skill to start any project. If
 
 	<div class="sm" id="class_pa">
 		<h2  class="ps" > Classification of Skill </h2>
-		It can be classified as Hard Technical Skill<br>
-		<p> Hard skills are technical knowledge or training that you have gained through any life experience, 
+		It can be classified as <b>Hard Technical Skill</b>.<br>
+		<p id="pa"> Hard skills are technical knowledge or training that you have gained through any life experience, 
 		including in your career or education [2]. </p>
 		<hr class="smSolid" ></hr>
 	</div>
@@ -1218,7 +1219,7 @@ User research and persona is one of the important skill to start any project. If
 
 	<div class="sm" id="rationale_pa">
 		<h2  class="sm"> Rationale for Skill </h2>
-		<p>The rationale for choosing Problem Analysis skill is to be develop the ability to generate more than one possible solution
+		<p id="pa">The rationale for choosing Problem Analysis skill is to be develop the ability to generate more than one possible solution
 		for an identified problem. Being the combination of Hard-skill and Cognitive skill, it is quite
 		difficult to generate multiple cause paths. Software Engineers tend to make decision based on their past experience
 		for most of the time and it might be possible to use or define a cause-effect new path for that problem. This might be considered as a must have skill
@@ -1257,19 +1258,48 @@ User research and persona is one of the important skill to start any project. If
 
 
 	<div class="sm" id="example_pa">
-		<h2  class="sm"> Real-World Example </h2>
-		<p>Company developing any new innovative software solutions after the complete analysis over a problem domain.</p>
-		<hr class="smSolid" ></hr>
+		<h2  class="sm"> Real-World Example/ Scenario of Skill</h2>
+		<strong><a href="https://global-sei.com/technology/tr/bn73/pdf/73-13.pdf"><u>Process Improvement Activities for Automotive Software[4]</a></u></strong><br>
+		<br><p id="pa"> It is an example of automotive company where they tried to improve the process of manufacturing using software system
+		after finding out the problem finding activity using 5 whys (problem analysis). They succeeded in getting the exact bug location in V-shaped software system.
+		</p>
+
+		<figure>
+		<img class="img-fluid" src="images/pa/process-improve.png" style="margin-left: 10%; margin-right: 10% ;width: 600px; height:40%" alt="Process to improve Problem-Solving Techniques for V-shaped model system"></img>
+		<figcaption><i> fig 2: Image of ideal analysis flow [4] </i></figcaption>
+		</figure>
+
+		<p id="pa">Here they proposed an analyzing method of the root causes for software problems. To prevent
+		the recurrence of the same problems, they considered it to be necessary to logically identify the root causes and take appropriate
+		measures. Therefore, the research team applied “the 5 whys analysis” [KATAOKA*,FURUTO,MATSUMOTO,2011]. </p>
+		
+		<figure>
+		<img class="img-fluid" src="images/pa/result.png" style="margin-left: 10%; margin-right: 10% ;width: 600px; height:40%" alt="Sheet form to analyse a problem using 5 whys"></img>
+		<figcaption><i> fig 3: Effectiveness [4] </i></figcaption>
+		</figure>
+
+		<p id="pa">They tried to create a form sheet for filling out the bug related details to answer 
+		the 5 whys and concluded that problem analysis helps in reducing the lead time and also improves the 
+		process quality effectively. </p><br>
+		
+		<strong>Other Few scenarios where Problem Analysis skill is required</strong><br>
+		
+		<ul> 
+		<li>During Design Thinking</li>
+		<li>During Problem Solving</li>
+		<li>During Decision Making</li>
+		</ul>
+		
 	</div>
 
 
 	<div class="sm" id="academia_pa">
 		<h2  class="sm"> Role of Academia or Industry in Cultivating the Skill </h2>
-		<p>Academia is working rigorously to incorporate subjects/ assignments to make students understand the importance
+		<p id="pa">Academia is working rigorously to incorporate subjects/ assignments to make students understand the importance
 		of probelm analysis in order to solve any given problem. This even helps in reducing the cognitive baises between stakeholders
 		while iterating over the problem space. </p>
 		<br>
-		<p>E.g. Given a common problem or assignment to a class of students for solving it individually and then if 
+		<p id="pa">E.g. Given a common problem or assignment to a class of students for solving it individually and then if 
 		peer reviewing is allowed, students might get to learn new possible cause-effect paths one could have. 
 		This might help them in developing problem analysis skill to think more creatively over a given problem 
 		and might be able to create multiple solution path for any identified problem.</p>
@@ -1337,13 +1367,13 @@ User research and persona is one of the important skill to start any project. If
 
 	<div class="sm" id="assessment_pa">
 		<h2  class="sm"> Skill Self-Assessment </h2>
-		<p> 5, I have a good knowledge and experience about the pre-requisites and the tools mentioned above. But, in order to 
-		gain expertise in this skill, it does require you to have an experience of doing this analysis for over a year and
-		there's no concrete standard way of getting one perfect solution to any problem. It's always to iterate over the solution and strategies
-		to cover as many branches as possible to get to the root cause of the solution. </p>
+		<p id="pa"> <b> 4 </b>, I have a good knowledge and experience about the pre-requisites and the tools mentioned above. But, in order to 
+		gain expertise in this skill, it does require you to have an experiential knowledge of doing this analysis for over a year and
+		as it's a process by which you would be able to find the actual root cause which is affecting the system. 
+		It requires you to reiterate over the problem space and forces you to cover as many branches as possible to get to the root cause of the solution. </p>
 
-		<p> It does require team collaboration and being in a distributed environment it was not feasible to think to change hats and stick the 
-		maybe problems on any whiteboard or to draw one Fishbone diagram by only the insights of one's mind</p>
+		<p id="pa"> Team collaboration is a necessity in order to get more insights after brainstorming and being in a distributed environment 
+		it was not possible to try changing Hats trick (To think from all different perspectives).</p>
 		<hr class="smSolid" ></hr>
 	</div>
 
@@ -1354,6 +1384,7 @@ User research and persona is one of the important skill to start any project. If
 		<li><a id="pa" href="https://www.elo.iastate.edu/engl-309/problem-analysis/">[1] Elo.iastate.edu, 2020.</a></li>
 		<li><a href="https://www.indeed.com/career-advice/resumes-cover-letters/hard-skills-vs-soft-skills#:~:text=Hard%20skills%20are%20technical%20knowledge,in%20your%20career%20or%20education">[2] Indeed.com, 2020. </a></li>
 		<li><a href="//commons.wikimedia.org/w/index.php?title=User:KellyLawless&amp;action=edit&amp;redlink=1" class="new" title="User:KellyLawless (page does not exist)">[3] By KellyLawless</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=30417444"><u>Open Link</u><a/></li>
+		<li><a href="https://global-sei.com/technology/tr/bn73/pdf/73-13.pdf">[4] Global-sei.com, 2020.</a></li>
 		</ul>
 		<hr class="smSolid" ></hr>
 	</div>	

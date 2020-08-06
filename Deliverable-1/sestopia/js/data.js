@@ -398,7 +398,7 @@ User research and persona is one of the important skill to start any project. If
 		
 		<h2  class="sm"> <a href="#index"> Reengineering</a> </h2>
 		<hr style="solid 5px #bbb"></hr>
-		<img src="images/sm/smpm.png" class="responsive" style="float:right; width:30% ">
+		<img alt="software maintenance process models" src="images/sm/smpm.png" class="responsive" style="float:right; width:30% ">
 		<p style="margin-right:40px">
 		Software Reengineering is the process of updating software without affecting its functionality. This process may be done by developing additional features on the software and adding functionalities that may or may not be required but considered to make the software experience better and more efficient. As far as the definition goes, this process also entails that the software product will have improved maintainability. Thus, software reengineering is a step towards continuous improvement of software for it to be handled better by developers and clients alike. Additionally, it is a way to make existing products continue in service.
 		</p>
@@ -434,7 +434,7 @@ User research and persona is one of the important skill to start any project. If
 			</ul>
 			</div>
 			<div class="col">
-			<img src="images/sm/mainttypes.png" class="responsive">
+			<img alt="maintenance types" src="images/sm/mainttypes.png" class="responsive">
 			<p style="margin-top:60px"> Preventative maintenance is also called software reengineering (Data restructuring, Code restructuring).</p>
 			</div>
 
@@ -535,7 +535,6 @@ User research and persona is one of the important skill to start any project. If
 		<h2  class="sm"><a href="#index">Real-World Example</a></h2> 
 			<hr style="solid 5px #bbb"></hr>
 		
-		<h5></h5>
 		<div class="row" style="margin-top:30px">
 			<div class="col"></div>
 			<div class="col"></div>
@@ -549,7 +548,7 @@ User research and persona is one of the important skill to start any project. If
 			process after thorough justification of the necessary changes and the advent of opening new prospects.
 			</div>
 			<div class="col">
-				<img src="images/sm/ekms.png" class="responsive">
+				<img alt="Enterprise Knowledge Management System" src="images/sm/ekms.png" class="responsive">
 			</div>
 		</div>
 
@@ -575,11 +574,11 @@ User research and persona is one of the important skill to start any project. If
 		<div class="row" style="margin-top:30px">
 			<div class="col" style="text-align: center">
 				<h5>Legacy architecture</h5>
-				<img src="images/sm/legacy.jpg" style="width:500px;" class="responsive">
+				<img alt="Legacy architecture" src="images/sm/legacy.jpg" style="width:500px;" class="responsive">
 			</div>
 			<div class="col" style="text-align: center">
 				<h5>New architecture</h5>
-				<img src="images/sm/new.jpg" style="width:500px;" class="responsive">
+				<img alt="New architecture" src="images/sm/new.jpg" style="width:500px;" class="responsive">
 			</div>
 			<div class="row" style="margin-top:30px">
 	
@@ -644,7 +643,7 @@ User research and persona is one of the important skill to start any project. If
 					<br>3. Generation of software
 			</p>
 			<a href="http://www.semanticdesigns.com/Products/DMS/DMSToolkit.html" target="_blank">
-				<img style="float:right;" src="images/sm/DMS.png" class="responsive">
+				<img alt="DMS" style="float:right;" src="images/sm/DMS.png" class="responsive">
 			</a>
 			
 		</div>
@@ -654,7 +653,7 @@ User research and persona is one of the important skill to start any project. If
 				<div class="card">
 					<h5>Disassemblers</h4>
 					<p>A disassembler is a program that translates an executable file to assembly language. The most popular one is IDA Pro</p>
-					<img src="images/sm/hexray.png" style="height:50%; width:100%" class="responsive">
+					<img alt="hexray" src="images/sm/hexray.png" style="height:50%; width:100%" class="responsive">
 				</div>
 			</a>
 
@@ -672,27 +671,26 @@ User research and persona is one of the important skill to start any project. If
 
 					<div class="column" style="width:33%">
 						<a href="http://www.ollydbg.de/" target="_blank">
-							<img src="images/sm/ollydbg.gif" class="responsive">
+							<img alt="ollydbg" src="images/sm/ollydbg.gif" class="responsive">
 							<p>OllyDbg</p>
 						</a>
-					</div >
+					</div>
 
 					
 					<div class="column" style="width:33%">
 						<a href="http://www.windbg.org/" target="_blank">
-							<img src="images/sm/windbg.png"  style="height:55px; width:55px" class="responsive">
+							<img alt="windbg" src="images/sm/windbg.png"  style="height:55px; width:55px" class="responsive">
 							<p>WinDbg</p>
 						</a>
 					</div>					
 					
 					<div class="column" style;"width:33%">
 						<a href="https://www.microsoft.com/uk-ua/p/windbg-preview/9pgjgd53tn86?activetab=pivot:overviewtab" target="_blank">
-							<img src="images/sm/windbgp.png" style="height:55px; width:55px" class="responsive">
+							<img alt="windbg_prv" src="images/sm/windbgp.png" style="height:55px; width:55px" class="responsive">
 							<p>Windbg Preview.</p>	
 						</a>
 					</div>
 				</div>
-				
 			</div>
 
 

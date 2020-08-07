@@ -248,124 +248,330 @@ User research and persona is one of the important skill to start any project. If
     },
     {
         title: `Software Quality`,
-        description: `Lorem3 ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum dictum condimentum. Donec aliquam libero eu malesuada aliquam. Aliquam erat volutpat. Proin eu velit ut augue rutrum vestibulum. `,
+
+        description: `<hr border-top: 3px solid #bbb;>Conducting reviews and audits is skill in the knowledge area software quality</hr><br> `,
         text: `
-	
-	<hr style="solid 5px #bbb"></hr>
-	<div class="sm">
-		<h2  class="sm"> Name of Skill </h2>
-		Conducting Reviews and Audits
-		<hr class="smSolid" ></hr>
-	</div>
-	<div class="sm">
-		<h2  class="sm"> Classification of Skill </h2>
-		Management Reviews, Technical Reviews, Inspections, Walkthroughs
-		<hr class="smSolid" ></hr>
-	</div>
-	<div class="sm">
-		<h2  class="sm"> Prerequisites for Skill </h2>
-		Functional and Technical Understanding of the system  
-		<hr class="smSolid" ></hr>
-	</div>
-	<div class="sm">
-		<h2  class="sm"> Related Software Engineering Area(s)  </h2>
-		Software Requirements,Software Testing
-		<hr class="smSolid" ></hr>
-	</div>
-	<div class="sm">
-		<h2  class="sm"> Rationale for Skill </h2>
-		<hr class="smSolid" ></hr>
-	</div>
-	<div class="sm"><h2  class="sm"> Roles for Skill </h2>
-		 Decision maker (i.e., software lead), a Review leader, a recorder, and checkers (technical staff members who examine the work-products). 
-		<hr class="smSolid" ></hr>
-	</div>
-	<div class="sm">
-		<h2  class="sm"> Work Related to Skill </h2>
-		Examination of software engineering artifacts with respect to standards that have been established by the organization or project for those artifacts.
-		
-		<hr class="smSolid" ></hr>
-	</div>
-	<div class="sm">
-		<h2  class="sm"> Real-World Example </h2>
-		Management reviews evaluate actual project results with respect to plans.
-        Technical reviews (including inspections, walkthrough, and desk checking) examine engineering work-products.
-		
-		<hr class="smSolid" ></hr>
-	</div>
-	<div class="sm">
-		<h2  class="sm"> Role of Academia or Industry in Cultivating the Skill </h2>
-		<hr class="smSolid" ></hr>
-	</div>
-	<div class="sm">
-		<h2  class="sm" > Tools Supporting the Skill </h2>
-		<div class="row" style="padding-top:70px">
-			
-			<div class="column">
-				<div class="card">
-					<h4>Phabricator</h4>
-					<p>Phabricator is a complete suite of open-source software development applications which include light-weight web-based code review, planning, testing, browsing and audit score, finding bugs, etc.
+<hr style="solid 5px #bbb"></hr>
+<h2>Index</h2>
+<div class="boxsm" id="index">
+<ol>
+<li><a href="#nos"> Name of Skill.</a></li>
+<li><a href="#cos"> Classification of Skill.</a></li>
+<li><a href="#pfs"> Prerequisites for Skill.</a></li>
+<li><a href="#rsfea"> Related Software Engineering Area(s).</a></li>
+<li><a href="#rafs"> Rationale for Skill. </a></li>
+<li><a href="#rofs"> Roles for Skill.</a></li>
+<li><a href="#wrts"> Work Related to Skill.</a></li>
+<li><a href="#rwe"> Real-World Example/Scenario of Skill.</a></li>
+<li><a href="#roai"> Role of Academia or Industry in Cultivating the Skill.</a></li>
+<li><a href="#tsts"> Tools Supporting the Skill.</a></li>
+<li><a href="#ssa"> Skill Self-Assessment.</a></li>
+<li><a href="#r"> References.</a></li>
+</ol>
+</div>
 
-					Key Features:
 
-					Code review tool from Phabricator suite is termed as “Differential”. It is used in minimizing the efforts required in creating the best quality code.
-					Phabricator has two types of code review workflows, namely “pre-push” also termed as “review” and “post-push” termed as “audit”.
-					Phabricator can be integrated with Git, Subversion, and Mercurial.</p>
-				</div>
-			</div>
-			<div class="column">
-				<div class="card">
-					<h4>Crucible</h4>
-					<p>Crucible is a web-based collaborative code review application used by developers for code review, finding defects, discussing the changes and knowledge sharing, etc.
 
-					Key Features:
 
-					Crucible is a flexible application that accommodates ample range of work approaches and team sizes.
-					Crucible is a lightweight peer code review tool that is used in pre-commit and post-commit reviews.
-					Code review has become easy for SVN, Perforce, and CVS etc using Crucible.</p>
-				</div>
-			</div>
-			<div class="column">
-				<div class="card">
-					<h4>Veracode</h4>
-					<p> Veracode (now acquired by CA Technologies) is a company which delivers various solutions for automated & on-demand application security testing, automated code review, etc.
+<div class="sm" id="nos">
 
-					Key Features:
+<h2  class="sm"> <a href="#index"> Conducting Reviews and Audits</a> </h2>
+<hr style="solid 5px #bbb"></hr>
+<img src="images/sq/review.png" class="responsive" style="float:right; width:30% ">
+<p style="margin-right:40px">
+Reviews and audit processes are broadly defined
+as static—meaning that no software programs or
+models are executed—examination of software
+engineering artifacts with respect to standards that
+have been established by the organization or project for those artifacts. Different types of reviews
+and audits are distinguished by their purpose, levels of independence, tools and techniques, roles,
+and by the subject of the activity. Product assurance and process assurance audits are typically
+conducted by software quality assurance (SQA)
+personnel who are independent of development teams. Management reviews are conducted by
+organizational or project management.<a href="https://www2.deloitte.com/za/en/pages/risk/articles/quality-assurance-reviews.html"  target="_blank"><b>[4]</b></a>
+</p>
 
-					Veracode is used by the developers in creating secured software by scanning the binary code or byte code in place of source code.
-					Using Veracode one can identify the improper encrypted functionalities, malicious code and backdoors from source code.
-					Veracode can review a large amount of code and returns the results immediately.
-					To use Veracode there is no need to buy any software or hardware, you just need to pay for the analysis services you need.</p>
-				</div>
-			</div>
-			<div class="column">
-				<div class="card">
-					<h4>Review Board</h4>
-					<p>Review Board is a web-based, collaborative, free and open-source tool used for code review and document review by open-source projects and companies.
+<hr class="smSolid" ></hr>
+</div>
 
-					Key Features:
 
-					Using Review Board for code review one can save money and time. Time saved can be used in concentrating on creating great software.
-					Review Board can be integrated with ClearCase, CVS, Perforce, Plastic, etc.
-					In a code review by Review Board tool, the code is syntax highlighted which makes it be read faster.
-					Review Board supports pre-commit reviews and post-commit reviews.</p>
-				</div>
-			</div>
-		</div>
-		<hr class="smSolid" ></hr>
-	</div>
-	<div class="sm">
-		<h2  class="sm"> Skill Self-Assessment </h2>
-		6
-		<hr class="smSolid" ></hr>
-	</div>
-	<div class="sm">
-		<h2  class="sm"> References </h2>
-		https://www.softwaretestinghelp.com/code-review-tools/
-		https://www.guru99.com/software-quality-assurance-test-audit-review-makes-your-life-easy.html
-		http://www.qasigma.com/2008/12/sqa-audit.html
-		<hr class="smSolid" ></hr>
-	</div>	
+<div class="sm" id="cos">
+<h2  class="sm"> <a href="#index">Classification of Skill </a></h2>
+<hr style="solid 5px #bbb"></hr>
+
+<div class="row" style="margin-bottom:40px">
+
+</div>
+
+
+<div class="row">
+<p>Reviews and audit are generally classified of 4 types</p>
+</div>
+
+<div class="row">
+<div class="col">
+<ul >
+<li><b>Management Reviews:</b></br>  Management reviews compare actual project results against plans to determine the status of projects or maintenance efforts. The main parameters of management reviews are project cost, schedule, scope, and quality.</li>
+<li><b>Technical Reviews:</b></br> The purpose of a technical review is to evaluate a software product by a team of qualified personnel to determine its suitability for its intended use and identify discrepancies from specifications and standards. It provides management with evidence to confirm the technical status of the project.</li>
+<li><b>Inspections:</b></br> The purpose of an inspection is to detect and identify software product anomalies. Software inspections always involve the author of an intermediate or final product; other reviews might not. Inspections also include an inspection leader, a recorder, a reader, and a few (two to five) checkers (inspectors). The members of an inspection team may possess different expertise, such as domain expertise, software design method expertise, or programming language expertise.</li>
+<li><b>Walkthroughs:</b></br> The purpose of a systematic walk-through is to evaluate a software product. A walkthrough may be conducted for the purpose of educating an audience regarding a software product.</li>
+</ul>
+</div>
+<div class="col">
+<img src="images/sq/types.png" class="responsive">
+</div>
+
+</div>
+
+
+
+<hr class="smSolid" ></hr>
+</div>
+
+
+<div class="sm" id="pfs">
+<h2  class="sm"> <a href="#index">Prerequisites for Skill</a> </h2>
+<hr style="solid 5px #bbb"></hr>
+
+<ul class="sm" style="width:50%">
+<li>Knowledge of Business requirements</li>
+<li>Knowledge of user stories</li>
+<li>Understanding of sprint goal and scope of project</li>
+<li>Functional  Understanding of the system</li>
+</ul>  
+<hr class="smSolid" ></hr>
+</div>
+
+
+<div class="sm" id="rsfea">
+<h2  class="sm" ><a href="#index"> Related Software Engineering Area(s) </a> </h2>
+<hr style="solid 5px #bbb"></hr>
+<ul class="sm" style="width:70%">
+<li>Software Requirements</li>
+<li>Software Quality Assurance</li>
+<li>Software Maintenance</li>
+<li>Software Testing Life Cycle</li>
+</ul>
+
+
+<hr class="smSolid" ></hr>
+</div>
+
+
+<div class="sm" id="rafs">
+<h2  class="sm"> <a href="#index">Rationale for Skill</a> </h2>
+<hr style="solid 5px #bbb"></hr>
+<p style="width:80%">
+The objective of quality audit and review is to verify the compliance of the department/organization to the defined Quality Management system and requirements of ISO 9001. Also, it provides the assurance and confidence to the management that the processes of the organization are being complied. Another important objective is to identify and highlight the non compliances to the required levels within the organization so that they are acted upon promptly.
+</p>
+<p style="width:80%">
+It verifies that each and every element of the system be audited yearly to make sure that each element has been implemented according to the standard’s requirement, and that the elements are applied to the company’s operations properly. In addition, external auditors from the certifying body will audit the system annually to ensure that the system still meets accreditation requirements.
+</p>
+
+<h5 style="margin-top:60px; margin-bottom:30px">Reasons to use ?</h5>
+<ul style="width:70%">
+<li>To review the project plan.</li>
+<li>To review the software requirements specification.</li>
+<li>To review the test design plan.</li>
+<li>To review the overall test report before finally deploying the product.</li>
+<li>To analyse whether no aspect is left behind while closing the project.</li>
+</ul>
+<hr class="smSolid" ></hr>
+</div>
+
+
+<div class="sm" id="rofs">
+<h2  class="sm"> <a href="#index">Roles for Skill </a></h2>
+<hr style="solid 5px #bbb"></hr>
+
+<ul class="sm" style="width:70%">
+<li>Decision maker </li>
+<li>Review leader</li>
+<li>Recorder</li>
+<li>Checkers</li>
+</ul>
+
+<hr class="smSolid" ></hr>
+</div>
+
+
+<div class="sm" id="wrts">
+<h2  class="sm"> <a href="#index">Work Related to Skill </a></h2>
+<hr style="solid 5px #bbb"></hr>
+<ul class="sm" style="width:70%">
+<li>Examination of software engineering artifacts with respect to standards that have been established by the organization or project for those artifacts.</li>
+<li>Audit: Detailed testing and substantiating of balances</li>
+<li>Review: Enquiries and analysis, less detailed</li>
+</ul>
+<hr class="smSolid" ></hr>
+</div>
+
+
+<div class="sm" id="rwe">
+<h2  class="sm"><a href="#index">Real-World Example</a></h2>
+<hr style="solid 5px #bbb"></hr>
+
+<h5></h5>
+<div class="row" style="margin-top:30px">
+<div class="col"></div>
+<div class="col"></div>
+</div>
+
+<h5> Reviews and audit of Daily Cash Reports </h5>
+<div class="row" style="margin-top:30px">
+<div class="col" >
+On a most basic level, auditing and review involves one person checking another person's work. In an organization in which at least one person handles cash, there's the need for a daily cash report. When one employee totals up all payments collected for the day e.g., debit, credit card, cash and check payments, he must log all information on the daily cash report. Later, if another employee checks the report to see if all numbers match the report, she performs a basic audit of the cash report.
+</div>
+<div class="col">
+<img src="images/sq/example.png" class="responsive">
+</div>
+</div>
+
+
+
+
+
+
+<hr class="smSolid" ></hr>
+</div>
+
+
+<div class="sm" id="roai">
+<h2  class="sm"> <a href="#index">Role of Academia or Industry in Cultivating the Skill</a> </h2>
+<hr style="solid 5px #bbb"></hr>
+
+<div class="row" style="width:70% ">
+<b>Academia </b><br>
+In terms of academic purposes, the knowldege base consists of tools which can be used for conducting audits and reviews in quality domain. But in real world, the focus is primarily on setting the right standards in terms of meeting the requirements.<br>
+<b>Industry</b><br>
+Where as in industry, the set of standards is maintained by the business, hence after gaining experience in reviews and audits, we can have expertise in management reviews and technical reviews<br>
+
+
+
+</div>
+
+<hr class="smSolid" ></hr>
+</div>
+
+
+<div class="sm" id="tsts">
+<h2  class="sm" > <a href="#index">Tools Supporting the Skill </a></h2>
+<hr style="solid 5px #bbb"></hr>
+<div class="row" style="padding-top:70px">
+
+<div class="column">
+<div class="card">
+<h4>Phabricator</h4>
+<p>Phabricator is a complete suite of open-source software development applications which include light-weight web-based code review, planning, testing, browsing and audit score, finding bugs, etc.
+
+Key Features:
+
+Code review tool from Phabricator suite is termed as “Differential”. It is used in minimizing the efforts required in creating the best quality code.
+Phabricator has two types of code review workflows, namely “pre-push” also termed as “review” and “post-push” termed as “audit”.
+Phabricator can be integrated with Git, Subversion, and Mercurial.</p>
+</div>
+</div>
+<div class="column">
+<div class="card">
+<h4>Crucible</h4>
+<p>Crucible is a web-based collaborative code review application used by developers for code review, finding defects, discussing the changes and knowledge sharing, etc.
+
+Key Features:
+
+Crucible is a flexible application that accommodates ample range of work approaches and team sizes.
+Crucible is a lightweight peer code review tool that is used in pre-commit and post-commit reviews.
+Code review has become easy for SVN, Perforce, and CVS etc using Crucible.</p>
+</div>
+</div>
+<div class="column">
+<div class="card">
+<h4>Veracode</h4>
+<p> Veracode (now acquired by CA Technologies) is a company which delivers various solutions for automated & on-demand application security testing, automated code review, etc.
+
+Key Features:
+
+Veracode is used by the developers in creating secured software by scanning the binary code or byte code in place of source code.
+Using Veracode one can identify the improper encrypted functionalities, malicious code and backdoors from source code.
+Veracode can review a large amount of code and returns the results immediately.
+To use Veracode there is no need to buy any software or hardware, you just need to pay for the analysis services you need.</p>
+</div>
+</div>
+<div class="column">
+<div class="card">
+<h4>Review Board</h4>
+<p>Review Board is a web-based, collaborative, free and open-source tool used for code review and document review by open-source projects and companies.
+
+Key Features:
+
+Using Review Board for code review one can save money and time. Time saved can be used in concentrating on creating great software.
+Review Board can be integrated with ClearCase, CVS, Perforce, Plastic, etc.
+In a code review by Review Board tool, the code is syntax highlighted which makes it be read faster.
+Review Board supports pre-commit reviews and post-commit reviews.</p>
+</div>
+</div>
+</div>
+
+<hr class="smSolid" ></hr>
+</div>
+
+
+<div class="sm" id="ssa">
+<h2  class="sm"><a href="#index"> Skill Self-Assessment</a> </h2>
+<hr style="solid 5px #bbb"></hr>
+
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star checked"></span>
+<span class="fa fa-star"></span>
+(6/10)
+<p style="margin-top:50px">
+ I have around 4 years of experience in quality assurance. But I have been  a part of a project in which I conducted reviews and audits.
+Technical reviews (including inspections, walkthrough, and desk checking) examine engineering work-products.
+After working with technical reviews for 3 years, I got involved in management reviews as well, to evaluate actual project results with respect to plans. 
+Design track and collect metrics to monitor project quality. Achieves the expected results, meets the organisation’s requirements functions in accordance with the established operating procedures and processes
+Capable of identifying non-conformities and monitoring subsequent corrective and preventive actions. A management Review also ensures that all levels of management are made aware of any changes, updates, revisions. to the day-to-day workings of the Management System itself.
+<hr class="smSolid" ></hr>
+</div>
+
+
+<div class="sm" id="r">
+<h2  class="sm"> <a href="#index">References </a></h2>
+<hr style="solid 5px #bbb"></hr>
+<hr class="smSolid" ></hr>
+<ol>
+
+
+<li>
+<a href="https://www.softwaretestinghelp.com/code-review-tools/" target="_blank" style="color:blue">
+https://www.softwaretestinghelp.com/code-review-tools/
+</a>
+</li>
+
+<li>
+<a href="https://www.guru99.com/software-quality-assurance-test-audit-review-makes-your-life-easy.html" target="_blank" style="color:blue">
+https://www.guru99.com/software-quality-assurance-test-audit-review-makes-your-life-easy.html
+</a>
+</li>
+
+<li>
+<a href="http://www.qasigma.com/2008/12/sqa-audit.html" target="_blank" style="color:blue">
+http://www.qasigma.com/2008/12/sqa-audit.html
+</a>
+</li>
+
+<li>
+<a href="https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx" target="_blank" style="color:blue">
+https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
+</a>
+</li>
+
+
+
+</ol>
+
+</div>
+
 `,
     },
     {

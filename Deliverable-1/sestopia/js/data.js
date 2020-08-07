@@ -1448,9 +1448,6 @@ It is not seldom to find software developing companies considering process measu
 			<h4>Critical Path Method</h4>
 			<p>Critical path method, is about to distinguish the path of higher length on your schedule, after defining dependencies and building an activities schedule, you sum the estimation of each activity in the existing paths and highlight the one that would take longer, this will determine the minimum amount of time necessary to conclude the project, once parallelisation wont matter due to the dependencies. This method is very important to understand which is the most critical activities in a project once they are the ones that will be leading the project downstream.</p>
 			<img class="real" src="images/CriticalPath.png">
-			<h4>Preliminary Schedules Refinement</h4>
-			<h4>Realistic Scheduling, Applying Risk Management(Prevention/Contingency) to Schedules</h4>
-			<h4>Earned Value Management(EVM)</h4>
 		</div>
 		<div class="sm">
 			<h2  class="sm"> Real-World Example </h2>

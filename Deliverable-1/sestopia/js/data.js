@@ -14,49 +14,49 @@ const content = [{
 	<div class="row justify-content-center text-center">
 	<div class="col-12 col-sm-6 col-md-4 col-lg-3 p-4">
 	<a href="?page=Software Design">
-	<img src="icons/research.png" class="img-fluid skill-icon" alt="skill icon">
+	<img src="icons/research.png" class="img-fluid skill-icon" alt="Software Design skill icon">
 	<p class="text-capitalize"><strong>Software Design</strong></p>
 	</a>
 	</div>
 	<div class="col-12 col-sm-6 col-md-4 col-lg-3 p-4">
 	<a href="?page=Software Quality">
-	<img src="icons/file.png" class="img-fluid skill-icon" alt="skill icon">
+	<img src="icons/file.png" class="img-fluid skill-icon" alt="Software Quality skill icon">
 	<p class="text-capitalize"><strong>Software Quality</strong></p>
 	</a>
 	</div>
 	<div class="col-12 col-sm-6 col-md-4 col-lg-3 p-4">
 	<a href="?page=Software Maintenance">
-	<img src="icons/code.png" class="img-fluid skill-icon" alt="skill icon">
+	<img src="icons/code.png" class="img-fluid skill-icon" alt="Software Maintenance skill icon">
 	<p class="text-capitalize"><strong>Software Maintenance</strong></p>
 	</a>
 	</div>
 	<div class="col-12 col-sm-6 col-md-4 col-lg-3 p-4">
 	<a href="?page=Software Process Measurement">
-	<img src="icons/engineering.png" class="img-fluid skill-icon" alt="skill icon">
+	<img src="icons/engineering.png" class="img-fluid skill-icon" alt="Process Measurement skill icon">
 	<p class="text-capitalize"><strong>Software Process Measurement</strong></p>
 	</a>
 	</div>
 	<div class="col-12 col-sm-6 col-md-4 col-lg-3 p-4">
 	<a href="?page=Software Testing">
-	<img src="icons/test.png" class="img-fluid skill-icon" alt="skill icon">
+	<img src="icons/test.png" class="img-fluid skill-icon" alt="Software Testing skill icon">
 	<p class="text-capitalize"><strong>Software Testing</strong></p>
 	</a>
 	</div>
 	<div class="col-12 col-sm-6 col-md-4 col-lg-3 p-4">
 	<a href="?page=Software Requirements">
-	<img src="icons/text.png" class="img-fluid skill-icon" alt="skill icon">
+	<img src="icons/text.png" class="img-fluid skill-icon" alt=" Software Requirements skill icon">
 	<p class="text-capitalize"><strong>Software Requirements</strong></p>
 	</a>
 	</div>
 	<div class="col-12 col-sm-6 col-md-4 col-lg-3 p-4">
 	<a href="?page=Software Engineering Management">
-	<img src="icons/influencer.png" class="img-fluid skill-icon" alt="skill icon">
+	<img src="icons/influencer.png" class="img-fluid skill-icon" alt="Software Engineering Management Skill icon">
 	<p class="text-capitalize"><strong>Software Engineering Management</strong></p>
 	</a>
 	</div>
 	<div class="col-12 col-sm-6 col-md-4 col-lg-3 p-4">
 	<a href="?page=Computing Foundations">
-	<img src="icons/problem.png" class="img-fluid skill-icon" alt="skill icon">
+	<img src="icons/problem.png" class="img-fluid skill-icon" alt="Computing Foundation skill icon">
 	<p class="text-capitalize"><strong>Computing Foundations</strong></p>
 	</a>
 	</div>

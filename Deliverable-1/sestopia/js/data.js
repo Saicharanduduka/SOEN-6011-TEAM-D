@@ -72,19 +72,40 @@ const content = [{
         title: `Software Design`,
         description: `User Research is the study of users which include their needs and what they want. User researchers find crucial information that will lead them to design good UI. `,
         text: `<hr style="solid 5px #bbb"></hr>
-	<div class="sm">
-		<h2  class="sm"> User Research and Personas </h2>
+		
+	<h2>Index</h2>
+	<div class="boxsm" id="index">
+		<ol>
+			<li><a href="#nos"> Name of Skill.</a></li>
+			<li><a href="#cos"> Classification of Skill.</a></li>
+			<li><a href="#pfs"> Prerequisites for Skill.</a></li>
+			<li><a href="#rsfea"> Related Software Engineering Area(s).</a></li>
+			<li><a href="#rafs"> Rationale for Skill. </a></li>
+			<li><a href="#rofs"> Roles for Skill.</a></li>
+			<li><a href="#wrts"> Work Related to Skill.</a></li>
+			<li><a href="#rwe"> Real-World Example/Scenario of Skill.</a></li>
+			<li><a href="#roai"> Role of Academia or Industry in Cultivating the Skill.</a></li>
+			<li><a href="#tsts"> Tools Supporting the Skill.</a></li>
+			<li><a href="#ssa"> Skill Self-Assessment.</a></li>
+			<li><a href="#r"> References.</a></li>
+		</ol>	
+	</div>
+
+
+	<div class="sm" id="nos">
+		<h2  class="sm"> <a href="#index"> User Research and Personas </a></h2>
 		<div class="author"><I> -by Pooja Dhir</I></div><br>
-		<img class="imgWrap" src="icons/urandp.png">
+		<img class="responsive" src="images/sd/urandp.png" style="float:right; width:30% ">
+		<p style="margin-right:40px">
 		User Research is the study of users which include their needs and what they want. User researchers find crucial information that will lead them to design good UI.<br>
 		Personas are fictional characters that are created using user research which might use your product, service, site, etc. It helps the designer to understand the user's needs, experiences, behaviors, and goals.
-		
+		</p>
 		<hr class="smSolid" ></hr>
 	</div>
 
 
-	<div class="sm">
-		<h2  class="sm"> Classification of Skill </h2>
+	<div class="sm" id="cos">
+		<h2  class="sm"> <a href="#index"> Classification of Skill</a> </h2>
 		User research can be classified into two categories:<br><br>
 <b>A) Quantitative research</b><br>
 In quantitative techniques, for example, surveys, investigation, and formal trials, the researcher tries to quantify parts of users and user behavior in a manner that can be measured and used for factual examination. Best practice for quantitative strategies is to gather target estimations that are unbiased by the researcher’s theories, presence, and personality. Getting an example of users who can represent the entire user population in a factually important manner regularly requires many research participants. Quantitative Research utilizes quantifiable information to detail realities and reveals designs in research. Quantitative data collection techniques are considerably more organized than Qualitative data collection methods.<br><br>
@@ -95,9 +116,10 @@ Qualitative techniques, for example, interviews, case studies, observation, grou
 	</div>
 
 
-	<div class="sm">
-		<h2  class="sm"> Prerequisites for Skill </h2>
-		<ul>
+	<div class="sm" id="pfs">
+		<h2  class="sm"><a href="#index"> Prerequisites for Skill</a> </h2>
+				
+		<ul class="sm" style="width:70%">
 		<li>Experience conducting user research</li>
 		<li>Experience with qualitative and user-centered design methodologies</li>
 		<li>Working knowledge of quantitative, behavioral analysis and statistics</li>
@@ -108,9 +130,9 @@ Qualitative techniques, for example, interviews, case studies, observation, grou
 	</div>
 
 
-	<div class="sm">
-		<h2  class="sm"> Related Software Engineering Area(s)  </h2>
-		<ul>
+	<div class="sm" id="rsfea">
+		<h2  class="sm"> <a href="#index">Related Software Engineering Area(s) </a> </h2>
+		<ul class="sm" style="width:50%">
 		<li>Software Requirements</li>
 		<li>Software Quality</li>
 		<li>Software Engineering Professional Practice</li>
@@ -119,8 +141,8 @@ Qualitative techniques, for example, interviews, case studies, observation, grou
 	</div>
 
 
-	<div class="sm">
-		<h2  class="sm"> Rationale for Skill </h2>
+	<div class="sm" id="rafs">
+		<h2  class="sm"> <a href="#index">Rationale for Skill</a> </h2>
 		<div class="box">"Empathy is at the heart of design. Without the understanding of what others see, feel, and experience, design is a pointless task."<br>
 		<i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Tim Brown, CEO of the innovation and design firm IDEO</i></div>
 		<b>1. To Create Designs That are Truly Relevant</b><br><br>
@@ -139,8 +161,9 @@ In spite of the fact that the significance of good design has widely recognized,
 	</div>
 
 
-	<div class="sm"><h2  class="sm"> Roles for Skill </h2>
-	<ul>
+	<div class="sm" id="rofs">
+	<h2  class="sm"><a href="#index"> Roles for Skill</a> </h2>
+	<ul class="sm" style="width:100%">
 		<li><b>UX Researcher</b> – Study the requirements of target user and create personas</li>
 		<li><b>Information Architect</b> – They ensure a positive user experience by making the information accessible, logical and well organized.</li>
 		<li><b>Usability analyst</b> – They focus on a very specific aspect of user experience :Usability</li>
@@ -151,29 +174,32 @@ In spite of the fact that the significance of good design has widely recognized,
 	</div>
 
 
-	<div class="sm">
-		<h2  class="sm"> Work Related to Skill </h2>
-		<ul>
+	<div class="sm" id="wrts">
+		<h2  class="sm"> <a href="#index">Work Related to Skill </a></h2>
+
+		<ul class="sm" style="width:50%">
 		<li>Brainstorming</li>
 		<li>Usability testing</li>
 		<li>Field studies</li>
 		<li>Analytical Evaluation</li>
 		</ul> 
+
 		<hr class="smSolid" ></hr>
 	</div>
 
 
-	<div class="sm">
-		<h2  class="sm"> Real-World Example </h2>
-		<center><img class="real" src="icons/UserResearchExample.png">
+	<div class="sm" id="rwe">
+		<h2  class="sm"><a href="#index"> Real-World Example</a> </h2>
+
+		<center><img class="real" src="images/sd/UserResearchExample.png" style="height:30%; width:60%" class="responsive">
 		<figcaption>Usability Lab</figcaption></center>
 		This is the real world scenario where the user is being monitored. It involves recording the performance of the user doing typical tasks. This research is in a controlled environment setting. The person sitting inside with the user is evaluating user satisfaction using questionnaires and interviews. Goals and questions focus on how well she understands the product and perform a task. This testing is done with the goal that we can comprehend what changes are expected to cause things to go in the correct way.
 		<hr class="smSolid" ></hr>
 	</div>
 
 
-	<div class="sm">
-		<h2  class="sm"> Role of Academia or Industry in Cultivating the Skill </h2>
+	<div class="sm" id="roai">
+		<h2  class="sm"> <a href="#index">Role of Academia or Industry in Cultivating the Skill</a> </h2>
 		<b>Academia </b><br>
 What we understand in Academic courses is that user research is all about recording videos, audios, gathering information from users about their needs. Most popular surveys, interviews, questionnaires, observation, studying documentation, etc are enough to be a UX Researcher. But in the real-world it is more than that. One should know the Design Principles, Usability principles, Mental Model, Personas, etc which includes the requirement and how to make a good design.<br>
 <b>Industry</b><br>
@@ -183,64 +209,83 @@ While in industry researcher builds information about their users to serve the u
 	</div>
 
 
-	<div class="sm">
-		<h2  class="sm" > Tools Supporting the Skill </h2>
+	<div class="sm" id="tsts">
+		<h2  class="sm" ><a href="#index"> Tools Supporting the Skill</a> </h2>
 		There are many tools which support the skill. But here are some best tools which help to make UX researchers jobs easy. <br>
-		<div class="row" style="padding-top:70px">
+
+				<div class="row" style="padding-top:70px">
 			
-			<div class="column">
-				<div class="card">
-					<h4>Bugsee</h4>
+							<div class="column">
+				<div class="card" style="min-height: 620px;">
+					<h4><center><a href="https://www.bugsee.com/"  target="_blank" style = "width:45%;  display:flex;">Bugsee</a></center></h4>
+					<center><a href="https://www.bugsee.com/"  target="_blank" ><img src="images/sd/bugsee.png" style="height:30%; width:60%" class="responsive"></a></center>
+					<br><br>
 					<p>Bugsee is a mobile analytics solution that focuses mostly on bug/crash reporting. It provides mobile professionals with tools like crashed session recordings, console logs, and network traffic analysis, all of which permit you and your team to track bug/crashes more efficiently and save time and resources.</p>
+					
 				</div>
 			</div>
 
-			<div class="column">
-				<div class="card">
-					<h4>Appsee</h4>
-					<p>Appsee is the pioneer of Qualitative Analytics. It is one of the main stages to present this approach and use it to give versatile experts better devices to understand their users and optimize their user experience & performance to perfection. Unlike Bugsee, Appsee isn't just centered around bug/crash reporting yet in addition gives a wide range of solutions to assist you to monitor and optimize different aspects of your app.</p>
-				</div>
-			</div>
-
-			<div class="column">
-				<div class="card">
-					<h4>Lookback.io</h4>
-					<p>Lookback.io is a versatile user-research platform, permitting UI/UX designers and mobile professionals to perform remote user research, communicate with users in real-time, perform individual test research on user’s end with pre-defined goals and set up a face to face application tests.Lookback.io also provides its users a strong dashboard where they can monitor their movement and replay tests at any given time.</p>
+						<div class="column">
+				<div class="card" style="min-height: 620px;">
+				<h4><center><a href="https://lookback.io/"  target="_blank" style = "width:45%;  display:flex;">Lookback.io</a></center></h4>
+				<center><a href="https://lookback.io/"  target="_blank" ><img src="images/sd/lookback.png" style="height:30%; width:60%" class="responsive"></a></center>
+				<br><br>
+					<p>Lookback.io is a versatile user-research platform, permitting UI/UX designers and mobile professionals to perform remote user research, communicate with users in real-time, perform individual test research on user’s end with pre-defined goals.Lookback.io also provides its users a strong dashboard where they can monitor their movement and replay tests at any given time.</p>
 				</div>
 			</div>
 
 
 			<div class="column">
-				<div class="card">
-					<h4>Smaply</h4>
+				<div class="card" style="min-height: 620px;">
+				<h4><center><a href="https://www.smaply.com/"  target="_blank" style = "width:45%;  display:flex;">Smaply</a></center></h4>
+				<center><a href="https://www.smaply.com/"  target="_blank" ><img src="images/sd/smaply.png" style="height:30%; width:60%" class="responsive"></a></center><br>
+				<br>
+			
 					<p>Smaply helps you to create personas. You can create a clear persona for your user which holds the information of the user. They are easy to duplicate and edit, and you can quickly switch between multiple personas and export them as PDF.</p>
 				</div>
 			</div>
 
+			<div class="column">
+				<div class="card" style="min-height: 620px;">
+					<h4><center><a href="https://xtensio.com/how-to-create-a-persona/"  target="_blank" style = "width:45%;  display:flex;">Xtensio</a></center></h4>
+					<center><a href="https://xtensio.com/how-to-create-a-persona/"  target="_blank" ><img src="images/sd/xtensio.png" style="height:30%; width:60%" class="responsive"></a></center>
+					<br><br><br>
+					<p>Xtensio is used to create personas. It is the easy and simplest way to create. Not only persona it helps to create pitches, sales sheets, reports, case studies, agendas and more. It is used by Agencies, Consultancies, Startups, Sales team, Educators and teachers.
+					Some templates are free while some are paid.</p>
+					
+				</div>
+			</div>
 		</div>
 
 		<hr class="smSolid" ></hr>
 	</div>
 
 
-	<div class="sm">
-		<h2  class="sm"> Skill Self-Assessment </h2>
-		<b>8</b><br>
+	<div class="sm" id="ssa">
+		<h2  class="sm"><a href="#index"> Skill Self-Assessment </a></h2>
+		<b>6</b><br>
 User research and persona is one of the important skill to start any project. If you don’t know what your user wants you to end with making an unsuccessful product. I have taken the subject “Human-Computer Interface Design” where I discovered how good design plays a role in successful products. Therefore, this subject has given me the opportunity to learn in-depth and enhance my knowledge in this area. But, this skill is a part of UI development. In order to self assess my score to 10 I would want to gain proficiency with all skills that come in UI development, which will give a kick start to my career.
 
 		<hr class="smSolid" ></hr>
 	</div>
 
 
-	<div class="sm">
-		<h2  class="sm"> References </h2>
+	<div class="sm" id="r">
+		<h2  class="sm"> <a href="#index">References</a> </h2>
+
 		<ul>
-		<li><a href="https://www.interaction-design.org/literature/topics/personas">https://www.interaction-design.org/literature/topics/personas</a></li>
-		<li><a href="https://www.interaction-design.org/literature/article/best-practices-for-qualitative-user-research">https://www.interaction-design.org/literature/article/best-practices-for-qualitative-user-research</a></li>
-		<li><a href="https://www.springboard.com/blog/becoming-a-ux-researcher/#:~:text=Experience%20conducting%20user%20research,thinking%20and%20problem%2Dsolving%20skills">https://www.springboard.com/blog/becoming-a-ux-researcher/#:~:text=Experience%20conducting%20user%20research,thinking%20and%20problem%2Dsolving%20skills</a></li>
-		<li><a href="https://www.invisionapp.com/inside-design/5-ux-specialties/">https://www.invisionapp.com/inside-design/5-ux-specialties/</a></li>
-		<li><a href="https://usabilitygeek.com/best-ux-tools-user-research-user-testing-2018/">https://usabilitygeek.com/best-ux-tools-user-research-user-testing-2018/</a></li>
-		<li><a href="https://medium.com/@kate.r.storey/industry-ux-researcher-vs-academic-hci-researcher-d13a7283fbf0">https://medium.com/@kate.r.storey/industry-ux-researcher-vs-academic-hci-researcher-d13a7283fbf0</a></li>
+		<li><a href="https://www.interaction-design.org/literature/topics/personas" target="_blank" style="color:blue">https://www.interaction-design.org/literature/topics/personas</a></li>
+
+		<li><a href="https://www.interaction-design.org/literature/article/best-practices-for-qualitative-user-research" target="_blank" style="color:blue">https://www.interaction-design.org/literature/article/best-practices-for-qualitative-user-research</a></li>
+
+		<li><a href="https://www.springboard.com/blog/becoming-a-ux-researcher/#:~:text=Experience%20conducting%20user%20research,thinking%20and%20problem%2Dsolving%20skills" target="_blank" style="color:blue">https://www.springboard.com/blog/becoming-a-ux-researcher/#:~:text=Experience%20conducting%20user%20research,thinking%20and%20problem%2Dsolving%20skills</a></li>
+
+		<li><a href="https://www.invisionapp.com/inside-design/5-ux-specialties/" target="_blank" style="color:blue">https://www.invisionapp.com/inside-design/5-ux-specialties/</a></li>
+
+		<li><a href="https://usabilitygeek.com/best-ux-tools-user-research-user-testing-2018/" target="_blank" style="color:blue">https://usabilitygeek.com/best-ux-tools-user-research-user-testing-2018/</a></li>
+
+		<li><a href="https://medium.com/@kate.r.storey/industry-ux-researcher-vs-academic-hci-researcher-d13a7283fbf0" target="_blank" style="color:blue">https://medium.com/@kate.r.storey/industry-ux-researcher-vs-academic-hci-researcher-d13a7283fbf0</a></li>
+
 		<hr class="smSolid" ></hr>
 	</div>	`,
 
@@ -1518,10 +1563,10 @@ It is not seldom to find software developing companies considering process measu
     },
 
     {
-	title: `Computing Foundations`,
-	description: `Problem Analysis: This skill is useful for breaking-down a given identified problem into sub-problem and 
+        title: `Computing Foundations`,
+        description: `Problem Analysis: This skill is useful for breaking-down a given identified problem into sub-problem and 
 					creating multiple cause-effect path to get the actual cause for the problem.`,
-	text: `
+        text: `
 	
 		<hr style="solid 5px #bbb"></hr>
 	<div id="table_pa_container">
@@ -1774,5 +1819,5 @@ It is not seldom to find software developing companies considering process measu
 		<hr class="smSolid" ></hr>
 	</div>	
 `
-},
+    },
 ];

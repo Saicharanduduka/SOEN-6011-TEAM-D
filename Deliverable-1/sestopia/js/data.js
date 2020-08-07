@@ -31,9 +31,9 @@ const content = [{
 	</a>
 	</div>
 	<div class="col-12 col-sm-6 col-md-4 col-lg-3 p-4">
-	<a href="?page=Software Process Measurement Techniques">
+	<a href="?page=Software Process Measurement">
 	<img src="icons/engineering.png" class="img-fluid skill-icon" alt="skill icon">
-	<p class="text-capitalize"><strong>Software Process Measurement Techniques</strong></p>
+	<p class="text-capitalize"><strong>Software Process Measurement</strong></p>
 	</a>
 	</div>
 	<div class="col-12 col-sm-6 col-md-4 col-lg-3 p-4">
@@ -776,7 +776,7 @@ User research and persona is one of the important skill to start any project. If
 `
     },
     {
-        title: `Software Process Measurement Techniques`,
+        title: `Software Process Measurement`,
         description: `<hr border-top: 3px solid #bbb;></hr>
 		<br>The evaluation of software processes is nowadays a
 		very important issue due to the growing 
@@ -785,202 +785,381 @@ User research and persona is one of the important skill to start any project. If
 		for measurement in the software process improvement context`,
         text: `
 		<hr style="solid 5px #bbb"></hr>
-		<div class="sm">
-			<h2  class="sm"> Name of Skill </h2>
-			Software Process Measurement Techniques
-			<hr class="smSolid" ></hr>
-		</div>
-		<div class="sm">
-			<h2  class="sm"> Classification of Skill </h2>
-			Quantitative Process Measurement Techniques
-            Qualitative Process Measurement Techniques
-			<hr class="smSolid" ></hr>
-		</div>
-		<div class="sm">
-			<h2  class="sm"> Prerequisites for Skill </h2>
-			Technical experience, Project Management Experience
-			<hr class="smSolid" ></hr>
-		</div>
-		<div class="sm">
-			<h2  class="sm"> Related Software Engineering Area(s)  </h2>
-			Software Engineering Process.
-			<hr class="smSolid" ></hr>
-		</div>
-		<div class="sm">
-			<h2  class="sm"> Rationale for Skill </h2>
-			 The purpose of quantitative process measurement techniques is to collect, transform, and analyze quantitative process and work product data that can be used to indicate where process improvements are needed and to assess the results of process improvement initiatives. Quantitative process measurement techniques are used to collect and analyze data in numerical form
-			 to which mathematical and statistical techniques can be applied..
-			<hr class="smSolid" ></hr>
-		</div>
-		<div class="sm"><h2  class="sm"> Roles for Skill </h2>
-			
-			<hr class="smSolid" ></hr>
-		</div>
-		<div class="sm">
-			<h2  class="sm"> Work Related to Skill </h2>
-			Project Manager,  Scrum Master, etc…
-			<hr class="smSolid" ></hr>
-		</div>
-		<div class="sm">
-			<h2  class="sm"> Real-World Example </h2>
-			TODO:
-		</div>
-		<div class="sm">
-			<h2  class="sm"> Role of Academia or Industry in Cultivating the Skill </h2>
-			TODO:
-			<hr class="smSolid" ></hr>
-		</div>
-		<div class="sm">
-			<h2  class="sm" > Tools Supporting the Skill </h2>
-			<div class="row" style="padding-top:70px">
-				
-				<div class="column">
-					<div class="card">
-						<h4>GenMETRIC</h4>
-						<p>Description</p>
-					</div>
-				</div>
-				<div class="column">
-					<div class="card">
-						<h4></h4>
-						<p>Description</p>
-					</div>
-				</div>
-			</div>
-			<hr class="smSolid" ></hr>
-		</div>
-		<div class="sm">
-			<h2  class="sm"> Skill Self-Assessment </h2>
-			
-			<hr class="smSolid" ></hr>
-		</div>
-		<div class="sm">
-			<h2  class="sm"> References </h2>
-			TODO:
-			<hr class="smSolid" ></hr>
-		</div>	
-		<a href="./index.html">Return Home</a>
+	<h2>Index</h2>
+	<div class="boxsm" id="index">
+		<ol>
+			<li><a href="#nos">Name of Skill.</a></li>
+			<li><a href="#cos">Classification of Skill.</a></li>
+			<li><a href="#pfs">Prerequisites for Skill.</a></li>
+			<li><a href="#rsfea">Related Software Engineering Area(s).</a></li>
+			<li><a href="#rafs">Rationale for Skill. </a></li>
+			<li><a href="#rofs">Roles for Skill.</a></li>
+			<li><a href="#wrts">Work Related to Skill.</a></li>
+			<li><a href="#rwe">Real-World Example/Scenario of Skill.</a></li>
+			<li><a href="#roai">Role of Academia or Industry in Cultivating the Skill.</a></li>
+			<li><a href="#tsts">Tools Supporting the Skill.</a></li>
+			<li><a href="#ssa">Skill Self-Assessment.</a></li>
+			<li><a href="#r">References.</a></li>
+		</ol>	
+	</div>
+	<div id="navbar_pa">
+  	<a href="index.html">Home</a>
+  	<a href="#table_pa_container">Table Of Contents</a>
+	</div>
+	<div class="sm" id="nos">
+		
+		<h2  class="sm"> <a href="#index">Software Process Measurement</a> </h2>
+		<hr style="solid 5px #bbb"></hr>
+		<img src="images/measure/measurementprocess.png" style="float:right; width:30% ">
+		<p style="margin-right:40px">
+		The measurement of software processes is nowadays a very important issue due to the growing 
+		interest of software companies in the improvement of the productivity and quality of delivered products. 
+		Software measurement plays a fundamental role in software industry. Given the great diversity of entities
+		which are candidates for measurement in the software process improvement context 
+		(process models, projects, resources, products) this measurement must be performed in a consistent 
+		and integrated way. This will facilitate the making of decisions in process improvement.
 
-		`,
-    },
-    {
-        title: `Software Testing`,
-        description: `Lorem5 ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum dictum condimentum. Donec aliquam libero eu malesuada aliquam. Aliquam erat volutpat. Proin eu velit ut augue rutrum vestibulum. `,
-        text: `<p>Lorem1 ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum dictum condimentum. Donec aliquam libero eu malesuada aliquam. Aliquam erat volutpat. Proin eu velit ut augue rutrum vestibulum. Maecenas sit amet nisl arcu. Aenean sagittis tempor felis, at facilisis nulla mattis vel. Duis sed magna cursus, pharetra enim a, vehicula sem. Phasellus velit ex, porttitor quis tempor in, congue sed felis. Aliquam accumsan tellus ac lectus porta dictum. Duis imperdiet, purus id ultricies ullamcorper, quam nibh dictum felis, sit amet volutpat enim arcu et lacus. In eget massa feugiat metus laoreet varius. Praesent finibus eget nunc ut finibus. Praesent vitae tincidunt orci. Pellentesque vulputate nisl sed nunc tempor blandit.</p>
-    	
-    	<div class="sm">
-		<h2  class="sm"> Name of Skill </h2>
-		Writing Unit Testing
+		</p>
+		
+		<div class="sm" id="cos">
+		<h2  class="sm"> <a href="#index">Classification of Skill </a></h2>
+		<hr style="solid 5px #bbb"></hr>
+		
+		<div class="row" style="margin-bottom:40px">
+		Software Process Measurement considered as technical skill used to measure many characteristics 
+		of software and software projects such as size, complexity, reliability, quality, adherence to process, and profitability.<br>
+		The Goal Question Metric (GQM) approach is a valuable, structured, and widely accepted method for answering the question of 
+		what to measure and drives the definition of a metrics program from the top down:<br>
+A software metric is a measure of software characteristics which are measurable or countable. Software metrics are valuable for many reasons, including measuring software performance, planning work items, measuring productivity,
+ and many other uses and used to measure the efficiency and effectiveness of various processes<br>
+Within the software development process, many metrics are that are all connected.
+ Software metrics are like the four functions of management: Planning, Organization, Control, or Improvement.<br>
+Software metrics can be classified into two types as follows:<br>
+<h4>1. Product Metrics:</h4> <br>
+<p>These are the measures of various characteristics of the software product. The two important software characteristics are:<br>
+  1.	Size and complexity of software.<br>
+  2.	Quality and reliability of software.<br>
+These metrics can be computed for different stages of SDLC.</p><br>
+ <h4> 2. Process Metrics:</h4> <br>
+  <p>These are the measures of various characteristics of the software development process.
+  For example, the efficiency of fault detection. They are used to measure the characteristics of methods
+  , techniques, and tools that are used for developing software.</p>
+<img src="images/measure/classificationofmetrics.png" >
+		</div>
+
+		
+		
+		</div>
+
+
+
 		<hr class="smSolid" ></hr>
-		</div>
+	</div>
 
 
-		<div class="sm">
-			<h2  class="sm"> Classification of Skill </h2>
-			Lorem1 ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum dictum condimentum. Donec aliquam libero eu malesuada aliquam. Aliquam erat volutpat. Proin eu velit ut augue rutrum vestibulum. Maecenas sit amet nisl arcu.
-			<hr class="smSolid" ></hr>
-		</div>
+	<div class="sm" id="pfs">
+		<h2  class="sm"> <a href="#index">Prerequisites for Skill</a> </h2>
+		<hr style="solid 5px #bbb"></hr>
+
+			To measure a software process, one should know about effort and cost required for the project and in terms of product lines of code produced, execution speed, and other defects should be known.
+software engineers need to be skilled in estimation and measurement,
+which means:
+<ul class="sm" style="width:70%">
+<li>Understanding the activities and risks involved in software development</li>
+<li>Predicting and controlling the activities</li>
+<li>Managing the risks</li>
+<li>Delivering reliably</li>
+<li>Managing proactively to avoid crises</li>
+</ul>
+
+		<hr class="smSolid" ></hr>
+	</div>
 
 
-		<div class="sm">
-			<h2  class="sm"> Prerequisites for Skill </h2>
-			Lorem1 ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum dictum condimentum. Donec aliquam libero eu malesuada aliquam. Aliquam erat volutpat. Proin eu velit ut augue rutrum vestibulum. Maecenas sit amet nisl arcu.  
-			<hr class="smSolid" ></hr>
-		</div>
-
-
-		<div class="sm">
-			<h2  class="sm"> Related Software Engineering Area(s)  </h2>
-			Lorem1 ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum dictum condimentum. Donec aliquam libero eu malesuada aliquam. Aliquam erat volutpat. Proin eu velit ut augue rutrum vestibulum. Maecenas sit amet nisl arcu.
-			<hr class="smSolid" ></hr>
-		</div>
-
-
-		<div class="sm">
-			<h2  class="sm"> Rationale for Skill </h2>
-			<hr class="smSolid" ></hr>
-		</div>
-
-
-		<div class="sm"><h2  class="sm"> Roles for Skill </h2>
-		Lorem1 ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum dictum condimentum. Donec aliquam libero eu malesuada aliquam. Aliquam erat volutpat. Proin eu velit ut augue rutrum vestibulum. Maecenas sit amet nisl arcu.
-			<hr class="smSolid" ></hr>
-		</div>
-
-
-		<div class="sm">
-			<h2  class="sm"> Work Related to Skill </h2>
-			Lorem1 ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum dictum condimentum. Donec aliquam libero eu malesuada aliquam. Aliquam erat volutpat. Proin eu velit ut augue rutrum vestibulum. Maecenas sit amet nisl arcu.
-			<hr class="smSolid" ></hr>
-		</div>
-
-
-		<div class="sm">
-			<h2  class="sm"> Real-World Example </h2>
-			Lorem1 ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum dictum condimentum. Donec aliquam libero eu malesuada aliquam. Aliquam erat volutpat. Proin eu velit ut augue rutrum vestibulum. Maecenas sit amet nisl arcu.
-			<hr class="smSolid" ></hr>
-		</div>
-
-
-		<div class="sm">
-			<h2  class="sm"> Role of Academia or Industry in Cultivating the Skill </h2>
-			<hr class="smSolid" ></hr>
-		</div>
-
-
-		<div class="sm">
-				<h2  class="sm" > Tools Supporting the Skill </h2>
-
-			<div class="row" style="padding-top:70px">
+	<div class="sm" id="rsfea">
+		<h2  class="sm" ><a href="#index"> Related Software Engineering Area(s) </a> </h2>
+		<hr style="solid 5px #bbb"></hr>
+		<ul class="sm" style="width:70%">
+			<li>Software Engineering Process</li>
 			
-				<div class="column">
-					<div class="card">
-						<h4>TOOL1</h4>
-						<p>Description</p>
-					</div>
-				</div>
+		</ul>
 
-				<div class="column">
-					<div class="card">
-						<h4>TOOL2</h4>
-						<p>Description</p>
-					</div>
-				</div>
-
-				<div class="column">
-					<div class="card">
-						<h4>TOOL3</h4>
-						<p>Description</p>
-					</div>
-				</div>
+		
+		<hr class="smSolid" ></hr>
+	</div>
 
 
-				<div class="column">
-					<div class="card">
-						<h4>TOOL4</h4>
-						<p>Description</p>
-					</div>
-				</div>
+	<div class="sm" id="rafs">
+		<h2  class="sm"> <a href="#index">Rationale for Skill</a> </h2>
+		<hr style="solid 5px #bbb"></hr>
+		<p>
+			When we look at the track record for the software industry, 
+			although it has improved over the last ten years, a disappointing picture still emerges.
+			<ul class="sm" style="width:70%">
+<li>A full 23% of all software projects are canceled before completion</li>
+<li>Of those projects completed, only 28% were delivered on time, within budget,
+and with all originally specified features
+</li>
+<li>The average software project overran the budget by 45%.</li>
+</ul>
+		</p>
+		<p>
+			So, the very nature of software engineering makes measurement a necessity, because more rigorous 
+			methods for production, planning, monitoring, and control are needed, otherwise the amount of risk 
+			of software projects may become excessive, and software production may easily get out of industrial control. 
+			This would produce obvious damages to both software producers (e.g., higher costs, schedule slippage) and users 
+			(e.g., poor quality products, late product delivery, high prices). To be effective and make good use of the 
+			resources devoted to it, software measurement should address important development issues, i.e., it should be 
+			carried out within a precise goal of industrial interest.In this context, software measurement may serve several purposes, depending on the level of knowledge about a process of product
+		</p>
 
+		
+		<hr class="smSolid" ></hr>
+	</div>
+
+
+	<div class="sm" id="rofs">
+		<h2  class="sm"> <a href="#index">Roles for Skill </a></h2>
+		<hr style="solid 5px #bbb"></hr>
+		
+		<ul class="sm" style="width:70%">
+			<li>Software Engineer</li>
+			<li>Software architect</li>
+			<li>Manager</li>
+		</ul>
+
+		<hr class="smSolid" ></hr>
+	</div>
+
+
+	<div class="sm" id="wrts">
+		<h2  class="sm"> <a href="#index">Work Related to Skill </a></h2>
+		<hr style="solid 5px #bbb"></hr>
+		<p>
+			This measurement process becomes a process asset to be made
+available for use by the projects in developing, maintaining, and implementing the
+organization's standard software process. Some examples of process assets
+related to measurement include:
+			<ul class="sm" style="width:70%">
+<li>The organization's standard software measurement process element (described
+below).
+</li>
+<li>Organizational databases and associated user documentation.
+</li>
+<li>cost models and associated user documentation.</li>
+<li>Tools and methods for defining measures.</li>
+<li>Guidelines and criteria for tailoring the software measurement process element.</li>
+</ul>
+		</p>
+		<div class="col" style="text-align: center">
+				<h5>Figure describes the measurement process model:</h5>
+				<img src="images/measure/measurementprocessmodel.png" style="width:500px;">
+			</div>
+			<p>
+			It is fundamental that all measurement activities be carried out in the context of a 
+			well-defined measurement goal. In turn, the measurement goal should be clearly connected with an industrial goal, 
+			so the measurement program responds to a software organization's needs.<br>
+			The Goal/Question/Metric (GQM) provides a framework for deriving measures from measurement goals.<br>
+			<ol class="sm" style="width:70%">
+<li>Identify the Goal for the product/process/resource. This is the goal that your
+metrics “customer” is trying to achieve.</li>
+<li>Determine the Question(s) that will characterize the way achievement of the
+goal is going to be assessed
+.
+</li>
+<li>Define the Metric(s) that will provide a quantitative answer to each question.
+Metrics can be objective (based solely on the object being measured) or subjective
+.</li>
+<li>Tools and methods for defining measures.</li>
+<li>Guidelines and criteria for tailoring the software measurement process element.</li>
+</ol>
+			</p>
+			<p>
+			The idea is to define a measurement goal, with five dimensions, as follows: <br>
+			<ul class="sm" style="width:70%">
+<li><h5>Object of Study:</h5> the entity or set of entities that should be studied, e.g., a software specification, 
+or a testing process.<li> 
+<li><h5>Purpose:</h5> the reason/the type of result that should be obtained:
+ e.g., one may want to carry out/obtain a characterization, evaluation, prediction, or improvement. <li>
+<li><h5>Quality Focus:</h5> the attribute or set of attributes that should be studied, e.g., size
+ (for the software specification, or effectiveness (for the testing process); <li>
+<li><h5>Point of View:</h5> the person or organization for whose benefit measurement is 
+carried out, e.g., the designers (for the software specification), or the testers (for the testing process) .<li>
+<li><h5>Environment:</h5> the context (e.g., the specific project or environment) in which measurement is carried out.<li>
+</ul>
+
+			</p>
+		
+		<hr class="smSolid" ></hr>
+	</div>
+
+
+	<div class="sm" id="rwe">
+		<h2  class="sm"><a href="#index">Real-World Example</a></h2> 
+			<p>In E-Government and E-Commerce systems measurements have been conducted throughout the 
+			software development life cycle, their scope varies depending on the development phase. 
+			Different measurement goals are defined at different development phases, thus resulting 
+			into different kinds of metrics. In the early phases of E-Government and 
+			E-Commerce software development, metrics are used mainly for estimation purposes.
+			It is useful to collect metrics relating to different 
+			projects as these can serve as historical data for future projects, aiding in better results
+			</p>
+		<p>
+		In the intermediate phases of the E-Government and E-Commerce development process, 
+		metrics are used for project monitoring purposes while, in the meantime, 
+		code metrics are used to prevent errors. Furthermore, 
+		defect reports during testing are used for evaluating 
+		product quality and calibrating the measurement methods 
+		of the early phases. This purpose is also served by collecting external 
+		measurement data following project delivery, namely during the beta testing or maintenance
+		phases of an E-Government or E-Commerce project. 
+		So, the time to measure is determined by the requirements and the aims of the 
+		measurement program and can vary from a project to another.
+			</p>
+			<p>
+			Although many measurement tools are available, using number of metrics, 
+			there are not many tools available yet combining past projects’
+			measurement data with current project data to aid in decision making. 
+			Combining metrics with decision support techniques, or methods for resolving uncertainty 
+			will lead to the development of valuable tools, 
+			which can aid towards higher-quality software for E-Government and ECommerce systems.
+			</p>
+
+
+		<hr class="smSolid" ></hr>
+	</div>
+
+
+	<div class="sm" id="roai">
+		<h2  class="sm"> <a href="#index">Role of Academia or Industry in Cultivating the Skill</a> </h2>
+		<hr style="solid 5px #bbb"></hr>
+		
+		
+			 
+			
+			<p>      Software processes require knowledge and tools for measuring all working activities involved. 
+			Despite the benefits that could be gained from models for certifying software processes, cost and complexity 
+			are factors that must be considered by software developing companies willing to adopt them.</p>
+<p>Knowledge and techniques for measuring software processes have been evolving in the software engineering domain. 
+To manage a software, company requires continuously improving staff and conditions that leverage working processes performance. 
+It is not seldom to find software developing companies considering process measurements as an additional and difficult activity.
+ However, PMS have been adopted as a proactive approach by software developing companies willing to improve software quality from 
+ a viewpoint of development processes.</p> 
+ <p>The measurement process present in maturity models for software processes can function as the
+ foundation for structuring a PMS with metrics for supporting business decisions at software developing companies. 
+ The continuous analysis of measurements acquired from different software projects and processes can provide information to 
+ support business decisions, corrective actions for projects and for promoting competitive advantage. Considering this whole
+ scenario for software process management, software development measuring processes develops relationships between strategic
+ business objectives and metrics from software development processes.</p>
+
+			
+			
+		<hr class="smSolid" ></hr>
+	</div>
+
+
+	<div class="sm" id="tsts">
+		<h2  class="sm" > <a href="#index">Tools Supporting the Skill </a></h2>
+		<hr style="solid 5px #bbb"></hr>
+			
+		
+		
+		<div class="row" style="padding-top:50px">
+			
+
+			
+			<div class="card" style = "width:45%; height:100%; display:flex; align-content: center;">
+				<h5>SonarQube</h5>
+				
+				<p>SonarQube is an open-source platform developed by SonarSource for continuous inspection 
+				of code quality to perform automatic reviews with static analysis of code to detect bugs,
+				code smells, and security vulnerabilities on 20+ programming languages. SonarQube offers 
+				reports on duplicated code, coding standards, unit tests, code coverage,
+				code complexity, comments, bugs, and security vulnerabilities 
+				</p>
+			</div>
+            <div class="card" style = "width:45%; height:100%; display:flex; align-content: center;">
+				<h5>Visual Studio</h5>
+				
+				<p>Developers can use Visual Studio to generate code metrics data that measure the 
+				complexity and maintainability of their managed code. 
+				Code metrics data can be generated for an entire solution or a single project.
+				</p>
+			</div>
+			<div class="card" style = "width:45%; height:100%; display:flex; align-content: center;">
+				<h5>CCMETRICS</h5>
+				
+				<p>Cyclomatic complexity is a software metric used to indicate the complexity of a program
+				</p>
 			</div>
 
-			<hr class="smSolid" ></hr>
 		</div>
 
-
-		<div class="sm">
-			<h2  class="sm"> Skill Self-Assessment </h2>
-			Lorem1 ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum dictum condimentum. Donec aliquam libero eu malesuada aliquam. Aliquam erat volutpat. Proin eu velit ut augue rutrum vestibulum. Maecenas sit amet nisl arcu.
-			<hr class="smSolid" ></hr>
-		</div>
+		<hr class="smSolid" ></hr>
+	</div>
 
 
-		<div class="sm">
-			<h2  class="sm"> References </h2>
-			<hr class="smSolid" ></hr>
-		</div>	
+	<div class="sm" id="ssa">
+		<h2  class="sm"><a href="#index"> Skill Self-Assessment</a> </h2>
+		<hr style="solid 5px #bbb"></hr>
 
-		<p><a href="./index.html">Return Home</a></p>`
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star checked"></span>
+		<span class="fa fa-star"></span>
+		(6/10)
+		<p style="margin-top:50px">
+		Software Measurement is a skill which requires professional experience in the software development and software planning. 
+		As a graduate student myself developed few applications in academic time and measured complexity of one application 
+		which is at small level so, 
+		I would rate myself 6/10 at an intermediate level for this skill as it required more experience in different projects.    
+		</p>
+		
+		<hr class="smSolid" ></hr>
+	</div>
+
+
+	<div class="sm" id="r">
+				<h2  class="sm"> <a href="#index">References </a></h2>
+				<hr style="solid 5px #bbb"></hr>
+				<hr class="smSolid" ></hr>
+		<ul>
+
+			<li>
+				<a href="https://www.scielo.br/scielo.php?script=sci_arttext&pid=S1807-17752013000200357" target="_blank" style="color:blue">
+				 https://www.scielo.br/scielo.php?script=sci_arttext&pid=S1807-17752013000200357
+				</a>
+			</li>
+
+			<li>
+				<a href="https://www.javatpoint.com/software-engineering-software-metrics" target="_blank" style="color:blue"> 
+				 https://www.javatpoint.com/software-engineering-software-metrics
+				</a>
+			</li>
+			
+			<li>
+				<a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.97.9040&rep=rep1&type=pdf" target="_blank" style="color:blue">
+				 http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.97.9040&rep=rep1&type=pdf
+				</a>
+			</li>
+			
+			<li>
+				<a href="https://www.tutorialspoint.com/software_quality_management/software_quality_management_basics_of_measurement.htm" target="_blank" style="color:blue" id="r4">
+				 https://www.tutorialspoint.com/software_quality_management/software_quality_management_basics_of_measurement.htm
+				</a>
+			</li>
+
+			<li>
+				<a href="https://ecomputernotes.com/software-engineering/software-measurement" target="_blank" style="color:blue">
+				 https://ecomputernotes.com/software-engineering/software-measurement
+				</a>
+			</li>
+		</ul>
+
+	</div>	
+`
     },
     {
         title: `Software Requirements`,

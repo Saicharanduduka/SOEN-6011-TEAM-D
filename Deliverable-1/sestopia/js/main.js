@@ -130,17 +130,3 @@ function scrollFunction() {
     document.getElementById("navbar_pa").style.top = "-100px";
   }
 }
-
-/**
- * To visually hide the element and text to avoid redundancy and also to provide the element to satisfy WCGA 2.0
- */
-.visuallyhidden {
-  border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;
-}

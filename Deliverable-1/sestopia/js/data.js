@@ -276,6 +276,8 @@ User research and persona is one of the important skill to start any project. If
 <div class="sm" id="nos">
 
 <h2  class="sm"> <a href="#index"> Conducting Reviews and Audits</a> </h2>
+- By Neha Dighe
+<br>
 <hr style="solid 5px #bbb"></hr>
 <img src="images/sq/review.png" class="responsive" style="float:right; width:30% ">
 <p style="margin-right:40px">

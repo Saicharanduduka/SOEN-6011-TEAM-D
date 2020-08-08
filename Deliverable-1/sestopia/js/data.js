@@ -1063,7 +1063,7 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
 		
 		<h2  class="sm"> <a href="#index">Software Process Measurement</a> </h2>
 		<hr style="solid 5px #bbb"></hr>
-		<img src="images/measure/measurementprocess.png" style="float:right; width:30% ">
+		<img src="images/measure/measurementprocess.png" alt = "Measurement Process" style="float:right; width:30% ">
 		<p style="margin-right:40px">
 		The measurement of software processes is nowadays a very important issue due to the growing 
 		interest of software companies in the improvement of the productivity and quality of delivered products. 
@@ -1097,7 +1097,7 @@ These metrics can be computed for different stages of SDLC.</p><br>
   <p>These are the measures of various characteristics of the software development process.
   For example, the efficiency of fault detection. They are used to measure the characteristics of methods
   , techniques, and tools that are used for developing software.</p>
-<img src="images/measure/classificationofmetrics.png" >
+<img src="images/measure/classificationofmetrics.png" alt = "Classification of metrics" >
 		</div>
 
 		
@@ -1112,7 +1112,7 @@ These metrics can be computed for different stages of SDLC.</p><br>
 
 	<div class="sm" id="pfs">
 		<h2  class="sm"> <a href="#index">Prerequisites for Skill</a> </h2>
-		<hr style="solid 5px #bbb"></hr>
+		<hr class="smSolid"/>
 
 			To measure a software process, one should know about effort and cost required for the project and in terms of product lines of code produced, execution speed, and other defects should be known.
 software engineers need to be skilled in estimation and measurement,
@@ -1125,13 +1125,13 @@ which means:
 <li>Managing proactively to avoid crises</li>
 </ul>
 
-		<hr class="smSolid" ></hr>
+		<hr class="smSolid"/>
 	</div>
 
 
 	<div class="sm" id="rsfea">
 		<h2  class="sm" ><a href="#index"> Related Software Engineering Area(s) </a> </h2>
-		<hr style="solid 5px #bbb"></hr>
+		<hr class="smSolid"/>
 		<ul class="sm" style="width:70%">
 			<li>Software Engineering Process</li>
 			
@@ -1144,7 +1144,7 @@ which means:
 
 	<div class="sm" id="rafs">
 		<h2  class="sm"> <a href="#index">Rationale for Skill</a> </h2>
-		<hr style="solid 5px #bbb"></hr>
+		<hr class="smSolid"/>
 		<p>
 			When we look at the track record for the software industry, 
 			although it has improved over the last ten years, a disappointing picture still emerges.
@@ -1173,7 +1173,7 @@ and with all originally specified features
 
 	<div class="sm" id="rofs">
 		<h2  class="sm"> <a href="#index">Roles for Skill </a></h2>
-		<hr style="solid 5px #bbb"></hr>
+		<hr class="smSolid"/>
 		
 		<ul class="sm" style="width:70%">
 			<li>Software Engineer</li>
@@ -1187,7 +1187,7 @@ and with all originally specified features
 
 	<div class="sm" id="wrts">
 		<h2  class="sm"> <a href="#index">Work Related to Skill </a></h2>
-		<hr style="solid 5px #bbb"></hr>
+		<hr class="smSolid"/>
 		<p>
 			This measurement process becomes a process asset to be made
 available for use by the projects in developing, maintaining, and implementing the
@@ -1206,7 +1206,7 @@ below).
 		</p>
 		<div class="col" style="text-align: center">
 				<h5>Figure describes the measurement process model:</h5>
-				<img src="images/measure/measurementprocessmodel.png" style="width:500px;">
+				<img src="images/measure/measurementprocessmodel.png" alt = "Measurement Model" style="width:500px;">
 			</div>
 			<p>
 			It is fundamental that all measurement activities be carried out in the context of a 
@@ -1285,7 +1285,7 @@ carried out, e.g., the designers (for the software specification), or the tester
 
 	<div class="sm" id="roai">
 		<h2  class="sm"> <a href="#index">Role of Academia or Industry in Cultivating the Skill</a> </h2>
-		<hr style="solid 5px #bbb"></hr>
+		<hr class="smSolid"/>
 		
 		
 			 
@@ -1313,7 +1313,7 @@ It is not seldom to find software developing companies considering process measu
 
 	<div class="sm" id="tsts">
 		<h2  class="sm" > <a href="#index">Tools Supporting the Skill </a></h2>
-		<hr style="solid 5px #bbb"></hr>
+		<hr class="smSolid"/>
 			
 		
 		
@@ -1354,7 +1354,7 @@ It is not seldom to find software developing companies considering process measu
 
 	<div class="sm" id="ssa">
 		<h2  class="sm"><a href="#index"> Skill Self-Assessment</a> </h2>
-		<hr style="solid 5px #bbb"></hr>
+		<hr class="smSolid"/>
 
 		<span class="fa fa-star checked"></span>
 		<span class="fa fa-star checked"></span>
@@ -1376,8 +1376,8 @@ It is not seldom to find software developing companies considering process measu
 
 	<div class="sm" id="r">
 				<h2  class="sm"> <a href="#index">References </a></h2>
-				<hr style="solid 5px #bbb"></hr>
-				<hr class="smSolid" ></hr>
+				<hr class="smSolid"/>
+				<hr class="smSolid" />
 		<ul>
 
 			<li>

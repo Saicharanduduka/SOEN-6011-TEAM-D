@@ -1536,7 +1536,7 @@ It is not seldom to find software developing companies considering process measu
 
 
 		<a href="#" class="to-top">
-			<i class="fas fa-chevron-up"></i>
+			<i class="fas fa-chevron-up" aria-hidden="false"><label class="visuallyhidden">Go to Top</label></i>
 		</a>
 
 		<p><a href="./index.html">Return Home</a></p>`,

@@ -130,3 +130,16 @@ function scrollFunction() {
     document.getElementById("navbar_pa").style.top = "-100px";
   }
 }
+
+/**
+scroll to-top
+**/
+const toTop = document.querySelector(".to-top");
+
+window.addEventListener("scroll", () => {
+  if (window.pageYOffset > 100) {
+    toTop.classList.add("active");
+  } else {
+    toTop.classList.remove("active");
+  }
+})

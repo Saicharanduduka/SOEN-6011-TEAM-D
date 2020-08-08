@@ -1,0 +1,52 @@
+/*
+Software Testing Style Sheet
+*/
+
+html{
+	scroll-behavior: smooth;
+}
+
+
+#imgSDLC{
+	float: right;
+    margin: 10px;
+    height: 220px;
+    width: 220px;
+}
+
+.to-top {
+	background: #ffffff;
+	position: fixed;
+	bottom: 16px;
+	right: 45px;
+	width: 50px:
+	height: 50px;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center; 
+	font-size: 32px;
+	color: #ffffff;
+	text-decoration: none;
+	opacity: 0;
+	pointer-events: none;
+	transition: all .5s;
+}
+
+.to-top.active{
+	bottom: 70px;
+	pointer-events: auto;
+	opacity: 1;
+}
+
+/*.nav-left{
+	float: left;
+	padding-left: 10px;
+}
+
+.nav-left.active{
+	transition: all .5s;
+}
+ul{
+	position: fixed;
+}*/

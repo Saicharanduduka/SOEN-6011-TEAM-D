@@ -90,7 +90,7 @@ const content = [{
 			<li><a href="#r"> References.</a></li>
 		</ol>	
 	</div>
-
+	
 
 	<div class="sm" id="nos">
 		<h2  class="sm"> <a href="#index"> User Research and Personas </a></h2>

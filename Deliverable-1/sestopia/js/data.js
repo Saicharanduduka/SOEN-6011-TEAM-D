@@ -625,6 +625,12 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
         title: `Software Maintenance`,
         description: `<hr border-top: 3px solid #bbb;></hr><br>Lorem4 ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum dictum condimentum. Donec aliquam libero eu malesuada aliquam. Aliquam erat volutpat. Proin eu velit ut augue rutrum vestibulum. `,
         text: `
+
+<div class="to-top">
+	<a href="#"><i class="fas fa-arrow-up" style="color:black; "></i></a>
+	<a href="index.html"><i class="fas fa-home " style="color:black; margin-left:20px;"></i></a>
+</div>
+
 <hr style="solid 5px #bbb"></hr>
 	<h2>Index</h2>
 	<div class="boxsm" id="index">
@@ -677,9 +683,7 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
 
 		<div class="row">
 			<div class="col">
-			<
-
-			ul >
+			<ul>
 				<li><b>Corrective:</b></br> Maintenance performed to correct faults in hardware or software, maintenance involves testing to detect a problem and injecting a fix without disturbing the rest of the system.</li>
 				<li><b>Adaptive:</b></br> Software maintenance performed to make a computer program usable in a changed environment (business rules, government policy, software platforms, hardware upgrades, etc.)</li>
 				<li><b>Perfective:</b></br> Software maintenance performed to improve the performance, maintainability, or other attributes of a computer program.</li>
@@ -924,7 +928,7 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
 
 					<div class="column" style="width:33%">
 						<a href="http://www.ollydbg.de/" target="_blank">
-							<img alt="ollydbg" src="images/sm/ollydbg.gif" class="responsive">
+							<img alt="ollydbg" src="images/sm/ollydbg.gif" class="responsive" style="height:55px; width:55px" class="responsive">
 							<p>OllyDbg</p>
 						</a>
 					</div>

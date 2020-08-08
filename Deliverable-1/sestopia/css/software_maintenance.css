@@ -1,5 +1,32 @@
 /* USED BY SM PAGE, EVERYONE IS FREE  TO USE THE CODE IN THIS SECTION, BUT IF CHANGE REQUIRED, THEN PLEASE CREATE A TAG WITH INITIALS OF YOUR TOPIC*/
 
+.icon-bar {
+  width: 90px; /* Set a specific width */
+   position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  right: 0;
+  margin-top:18%;
+  transition: bottom 0.3s;
+}
+
+.icon-bar a {
+  display: block; /* Make the links appear below each other instead of side-by-side */
+  text-align: center; /* Center-align text */
+  padding: 16px; /* Add some padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: white; /* White text color */
+  font-size: 36px; /* Increased font-size */
+}
+
+
+i.sm{
+  height: 40px;
+  width: 40px;
+}
+
+
+
 html{
   scroll-behavior: smooth;
 }

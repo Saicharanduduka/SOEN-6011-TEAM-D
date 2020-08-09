@@ -1421,7 +1421,13 @@ It is not seldom to find software developing companies considering process measu
     {
         title: `Software Testing`,
         description: `Lorem5 ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum dictum condimentum. Donec aliquam libero eu malesuada aliquam. Aliquam erat volutpat. Proin eu velit ut augue rutrum vestibulum. `,
-        text: `<p>Lorem1 ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum dictum condimentum. Donec aliquam libero eu malesuada aliquam. Aliquam erat volutpat. Proin eu velit ut augue rutrum vestibulum. Maecenas sit amet nisl arcu. Aenean sagittis tempor felis, at facilisis nulla mattis vel. Duis sed magna cursus, pharetra enim a, vehicula sem. Phasellus velit ex, porttitor quis tempor in, congue sed felis. Aliquam accumsan tellus ac lectus porta dictum. Duis imperdiet, purus id ultricies ullamcorper, quam nibh dictum felis, sit amet volutpat enim arcu et lacus. In eget massa feugiat metus laoreet varius. Praesent finibus eget nunc ut finibus. Praesent vitae tincidunt orci. Pellentesque vulputate nisl sed nunc tempor blandit.</p><p><a href="./index.html">Return Home</a></p>
+        text: `<p>Software Testing is one of the main the phase in Software Development Life Cycle (SDLC) and it is about testing code with having a purpose of finding errors in code by executing a program.
+        A software application will be efficient when it is free of error in code. All errors will be removed from the software if testing is successfully done [7].</p>
+        <p>Software Testing can be classified into two major testing types including static testing and dynamic testing [2].</p>
+        <p>Static testing is about reviewing software project documents to recognize the errors by performing informal and formal interview, inspection or technical and nontechnical review [2].</p>
+        <p>Dynamic testing is about testing software during the execution. It also can be divided into two types which are white box testing and black box testing [2].
+
+            	
             	<div class="sm">
 		<h2  class="sm"> Name of Skill </h2>
 		Writing Unit Testing
@@ -1431,14 +1437,27 @@ It is not seldom to find software developing companies considering process measu
 
 		<div class="sm">
 			<h2  class="sm"> Classification of Skill </h2>
-			Lorem1 ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum dictum condimentum. Donec aliquam libero eu malesuada aliquam. Aliquam erat volutpat. Proin eu velit ut augue rutrum vestibulum. Maecenas sit amet nisl arcu.
+			<p>In general, Automated Unit Testing can be classified into Hard Skills.</br>
+			Hard Skills which are the skills are acquired by practical experiences, technical knowledge and training [4].</p>
+			<p>Unit Testing also can be divided into two sub categories including Manual and Automated testing [2].</p>  
+
 			<hr class="smSolid" ></hr>
 		</div>
 
 
 		<div class="sm">
 			<h2  class="sm"> Prerequisites for Skill </h2>
-			Lorem1 ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum dictum condimentum. Donec aliquam libero eu malesuada aliquam. Aliquam erat volutpat. Proin eu velit ut augue rutrum vestibulum. Maecenas sit amet nisl arcu.  
+			<p>As a Software tester it is expected to have some prerequisite skills before performing testing process and for having a proper test cases such as bellows:</p>
+
+			<ol>
+				<li>Costumer requirements should be met and cover by all tests [7].</li>
+				<li>Using third parties and proper tools to perform software testing [7].</li>
+				<li>As what the needs of the optimal number of testing which is based on the risk assessment of the application, the complete and exhaustive testing are impossible [7].</li>
+				<li>All testing should be planned before implementing the test [7].</li>
+				<li>According to Pareto principle [8], 20% of the program component will produce 80% of errors.</li>
+				<li>The testing should be started by small parts then extend to large parts [7].</li>
+			</ol>
+			
 			<hr class="smSolid" ></hr>
 		</div>
 

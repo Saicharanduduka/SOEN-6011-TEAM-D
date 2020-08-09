@@ -31,9 +31,9 @@ const content = [{
 	</a>
 	</div>
 	<div class="col-12 col-sm-6 col-md-4 col-lg-3 p-4">
-	<a href="?page=Software Process Measurement">
+	<a href="?page=Software Measurement">
 	<img src="icons/engineering.png" class="img-fluid skill-icon" alt="Process Measurement skill icon">
-	<p class="text-capitalize"><strong>Software Process Measurement</strong></p>
+	<p class="text-capitalize"><strong>Software Measurement</strong></p>
 	</a>
 	</div>
 	<div class="col-12 col-sm-6 col-md-4 col-lg-3 p-4">
@@ -1033,7 +1033,7 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
 `
     },
     {
-        title: `Software Process Measurement`,
+        title: `Software Measurement`,
         description: `<hr border-top: 3px solid #bbb;></hr>
 		<br>The evaluation of software processes is nowadays a
 		very important issue due to the growing 
@@ -1043,6 +1043,7 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
         text: `
 		<hr style="solid 5px #bbb"></hr>
 	<h2>Index</h2>
+	<div id="table_pa_container">
 	<div class="boxsm" id="index">
 		<ol>
 			<li><a href="#nos">Name of Skill.</a></li>
@@ -1058,6 +1059,7 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
 			<li><a href="#ssa">Skill Self-Assessment.</a></li>
 			<li><a href="#r">References.</a></li>
 		</ol>	
+	</div>
 	</div>
 	<div id="navbar_pa">
   	<a href="index.html">Home</a>
@@ -1368,10 +1370,10 @@ It is not seldom to find software developing companies considering process measu
 		<span class="fa fa-star"></span>
 		(6/10)
 		<p style="margin-top:50px">
-		Software Measurement is a skill which requires professional experience in the software development and software planning. 
-		As a graduate student myself developed few applications in academic time and measured complexity of one application 
-		which is at small level so, 
-		I would rate myself 6/10 at an intermediate level for this skill as it required more experience in different projects.    
+		Software Measurement is a skill which requires professional experience in the estimation process of 
+		software development and software planning. As a graduate student myself developed few applications in
+		academic time and measured complexity of one application which is at small level so,
+		I would rate myself 5/10 as a beginner for this skill as it required more experience in different projects. 
 		</p>
 		
 		<hr class="smSolid" ></hr>
@@ -1416,7 +1418,11 @@ It is not seldom to find software developing companies considering process measu
 		</ul>
 
 	</div>	
-`
+        <a href="#" class="to-top">
+			<i class="fas fa-chevron-up" aria-hidden="false"><label class="visuallyhidden">Go to Top</label></i>
+		</a>
+
+		<p><a href="./index.html">Return Home</a></p>`,
     },
     {
         title: `Software Testing`,

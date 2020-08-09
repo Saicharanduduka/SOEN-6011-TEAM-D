@@ -1728,6 +1728,9 @@ It is not seldom to find software developing companies considering process measu
 			<li><a id="table_pa_container" href="#assessment_pa">Skill Self-Assessment</a></li>
 			<li><a id="table_pa_container" href="#ref_pa">References.</a></li>
 		</ul>	
+	<a href="#" class="to-top">
+		<i class="fas fa-chevron-up" aria-hidden="false"><label class="visuallyhidden">Go to Top</label></i>
+	</a>
 	</div>
 	<div id="navbar_pa">
   	<a href="index.html">Home</a>

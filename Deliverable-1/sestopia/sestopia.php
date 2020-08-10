@@ -63,6 +63,7 @@ class sestopia
         $pageContent['title'] = "";
         $pageContent['text'] = "<div class='row justify-content-center text-center'>";
         $pageContent['isHomePage'] = true;
+        $pageContent['description'] = "Home page...";
 
         foreach ($results as $row) {
             $skillTitle = $row['title'];

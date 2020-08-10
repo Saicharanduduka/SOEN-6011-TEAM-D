@@ -18,7 +18,7 @@ if (!$pageContent){
 
 // Prepare page title (used in header.inc.php)
 $pageSubTitle = $pageContent['title'];
-
+$pageDescription = $pageContent['description'];
 
 ////////////////////////////
 // Start of Page Content ///

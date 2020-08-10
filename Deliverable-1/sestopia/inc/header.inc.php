@@ -4,8 +4,8 @@
 <head>
     <title><?= (isset($pageSubTitle) && $pageSubTitle === "") ? "" : "$pageSubTitle - "; ?>Sestopia</title>
     <meta charset="utf-8">
-    <meta name="description" content=""/> <!-- TODO -->
-    <meta name="keywords" content=""/> <!-- TODO -->
+    <meta name="description" content="<?= isset($pageDescription) ? $pageDescription : "" ?>"/> <!-- TODO -->
+    <meta name="keywords" content="Software, Quality, Maintenance, Design, Process Measurement, System Requirements, Testing, Engineering, Computing Foundations"/> <!-- TODO -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="icons/favicon.png"/>
     <!-- Bootstrap CSS -->

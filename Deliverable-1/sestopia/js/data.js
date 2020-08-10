@@ -96,7 +96,7 @@ const content = [{
 	<a href="#" class="to-top">
 		<i class="fas fa-chevron-up" aria-hidden="false"><label class="visuallyhidden">Go to Top</label></i>
 	</a>
-	</div>
+	
 	<div id="navbar_pa">
   	<a href="index.html">Home</a>
   	<a href="#table_pa_container">Table Of Contents</a>
@@ -325,10 +325,10 @@ User research and persona is one of the important skill to start any project. If
 <li><a id="table_pa_container" href="#ssa"> Skill Self-Assessment.</a></li>
 <li><a id="table_pa_container" href="#r"> References</a></li>
 </ul>
+</div>
 <a href="#" class="to-top">
 		<i class="fas fa-chevron-up" aria-hidden="false"><label class="visuallyhidden">Go to Top</label></i>
 	</a>
-</div>
 <div id="navbar_pa">
   	<a href="index.html">Home</a>
   	<a href="#table_pa_container">Table Of Contents</a>
@@ -663,10 +663,10 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
 			<li><a id="table_pa_container" href="#ssa"> Skill Self-Assessment.</a></li>
 			<li><a id="table_pa_container" href="#r"> References</a></li>
 		</ul>	
-		<a href="#" class="to-top">
+	</div>
+	<a href="#" class="to-top">
 		<i class="fas fa-chevron-up" aria-hidden="false"><label class="visuallyhidden">Go to Top</label></i>
 	</a>
-	</div>
 	<div id="navbar_pa">
   	<a href="index.html">Home</a>
   	<a href="#table_pa_container">Table Of Contents</a>
@@ -1082,10 +1082,10 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
 			<li><a id="table_pa_container" href="#ssa">Skill Self-Assessment.</a></li>
 			<li><a id="table_pa_container" href="#r">References</a></li>
 		</ul>	
-		<a href="#" class="to-top">
+	</div>
+	<a href="#" class="to-top">
 		<i class="fas fa-chevron-up" aria-hidden="false"><label class="visuallyhidden">Go to Top</label></i>
 	</a>
-	</div>
 
 	<div id="navbar_pa">
   	<a href="index.html">Home</a>
@@ -1475,10 +1475,10 @@ It is not seldom to find software developing companies considering process measu
 			<li><a id="table_pa_container" href="#assess_st">Skill Self-Assessment</a></li>
 			<li><a id="table_pa_container" href="#ref_st">References</a></li>
 		</ul>	
+	</div>
 	<a href="#" class="to-top">
 		<i class="fas fa-chevron-up" aria-hidden="false"><label class="visuallyhidden">Go to Top</label></i>
 	</a>
-	</div>
 	<div id="navbar_pa">
   	<a href="index.html">Home</a>
   	<a href="#table_pa_container">Table Of Contents</a>
@@ -1744,10 +1744,11 @@ It is not seldom to find software developing companies considering process measu
               <li><a id="table_pa_container" href="#ssa">Skill Self-Assessment</a></li>
               <li><a id="table_pa_container" href="#r">References</a></li>
 			</ul>
-			<a href="#" class="to-top">
+			
+		  </div>
+		<a href="#" class="to-top">
 		<i class="fas fa-chevron-up" aria-hidden="false"><label class="visuallyhidden">Go to Top</label></i>
 	</a>
-		  </div>
 		  <div id="navbar_pa">
   	<a href="index.html">Home</a>
   	<a href="#table_pa_container">Table Of Contents</a>
@@ -2180,10 +2181,10 @@ It is not seldom to find software developing companies considering process measu
 			<li><a id="table_pa_container" href="#assess_sch">Skill Self-Assessment</a></li>
 			<li><a id="table_pa_container" href="#ref_sch">References</a></li>
 		</ul>	
+	</div>
 	<a href="#" class="to-top">
 		<i class="fas fa-chevron-up" aria-hidden="false"><label class="visuallyhidden">Go to Top</label></i>
 	</a>
-	</div>
 	<div id="navbar_pa">
   	<a href="index.html">Home</a>
   	<a href="#table_pa_container">Table Of Contents</a>
@@ -2349,10 +2350,12 @@ It is not seldom to find software developing companies considering process measu
 			<li><a id="table_pa_container" href="#assessment_pa">Skill Self-Assessment</a></li>
 			<li><a id="table_pa_container" href="#ref_pa">References</a></li>
 		</ul>	
-	<a href="#" class="to-top">
+	</div>
+	
+<a href="#" class="to-top">
 		<i class="fas fa-chevron-up" aria-hidden="false"><label class="visuallyhidden">Go to Top</label></i>
 	</a>
-	</div>
+	
 	<div id="navbar_pa">
   	<a href="index.html">Home</a>
   	<a href="#table_pa_container">Table Of Contents</a>

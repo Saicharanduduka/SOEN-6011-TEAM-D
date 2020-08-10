@@ -41,6 +41,15 @@
    cursor: pointer;
  }
 
+ form.search-form button {
+   height: 61px;
+ }
+
+ form.search-form button i {
+   color: #ffffffe7; 
+   height: 20%;
+ }
+
  form.search-form button:hover {
    background: #0b7dda;
  }

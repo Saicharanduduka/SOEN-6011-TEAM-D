@@ -1569,7 +1569,9 @@ It is not seldom to find software developing companies considering process measu
     {
         title: `Software Requirements`,
         description: `In requirements engineering, requirements elicitation is the practice of researching and discovering the requirements of a system from users, customers, and other stakeholders.`,
-        text: `<h2>Index</h2>
+        text: `<p class="text-muted pb-5">Author: Sareh Farid</p>
+
+          <h2>Index</h2>
           <div class="boxsm" id="index">
             <ol>
               <li><a href="#nos">Name of Skill</a></li>
@@ -1800,7 +1802,28 @@ It is not seldom to find software developing companies considering process measu
                 >Role of Academia or Industry in Cultivating the Skill</a
               >
             </h2>
-            <p>TODO</p>
+            <p>
+              Many methods exist for performing the requirement elicitation
+              process. But requirement engineers still face problems in
+              gathering the requirements due to the lack of knowledge about the
+              results of those methods and also selection of the appropriate
+              method for each type of project. A multitude of researches have
+              been conducted by the academia and industry to analyze and compare
+              different requirement elicitation processes to know the
+              characteristics and effectiveness of each method which also helps
+              the development of future methods for requirement elicitation.
+            </p>
+            <p>
+              There is a separate course in most universities in software
+              engineering for system requirement specification which helps
+              students to become familiar with how to elicit requirements and
+              practice this skill by expanding their knowledge theoretically and
+              doing practical projects. Students also learn how to prepare for
+              industry considering various factors including requirements
+              traceability. They also find the difference between academia and
+              industry in theory including changing requirements in real word
+              and prepare for that in advance.
+            </p>
             <hr class="smSolid" />
           </div>
 
@@ -1889,16 +1912,16 @@ It is not seldom to find software developing companies considering process measu
 
           <div class="sm" id="ssa">
             <h2 class="sm"><a href="#index">Skill Self-Assessment</a></h2>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
             (5/10)
             <p class="mt-3">
               Even though I have passed a course in requirement engineering at

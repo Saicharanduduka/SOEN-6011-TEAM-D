@@ -63,7 +63,7 @@ class sestopia
         $pageContent['title'] = "";
         $pageContent['text'] = "<div class='row justify-content-center text-center'>";
         $pageContent['isHomePage'] = true;
-        $pageContent['description'] = "Home page...";
+        $pageContent['description'] = "Home page..."; // TODO
 
         foreach ($results as $row) {
             $skillTitle = $row['title'];
@@ -72,7 +72,7 @@ class sestopia
                 <div class='col-12 col-sm-6 col-md-4 col-lg-3 p-4'>
                      <a href='?page=$skillLink'>
                          <img src='icons/$skillLink.png' class='img-fluid skill-icon' alt='$skillTitle skill icon'>
-                         <p class='text-capitalize'><strong>$skillTitle</strong></p>
+                         <p class='text-capitalize text-center'><strong>$skillTitle</strong></p>
                      </a>
                  </div>
             ";

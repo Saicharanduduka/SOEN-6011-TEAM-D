@@ -36,7 +36,9 @@ class sestopia
     public function fetchPageContentByTitle($pageTitle)
     {
         $pageTitle = str_replace('%20', ' ', $pageTitle);
-        return DB::queryOneRow("SELECT * FROM skills WHERE title = %s", $pageTitle);
+        $pageContent = DB::queryOneRow("SELECT * FROM skills WHERE title = %s", $pageTitle);
+        $pageContent['isHomePage'] = false;
+        return $pageContent;
     }
 
 
@@ -58,8 +60,9 @@ class sestopia
     {
         $results = $this->fetchAllSkills();
 
-        $pageContent['title'] = "&nbsp;";
+        $pageContent['title'] = "";
         $pageContent['text'] = "<div class='row justify-content-center text-center'>";
+        $pageContent['isHomePage'] = true;
 
         foreach ($results as $row) {
             $skillTitle = $row['title'];

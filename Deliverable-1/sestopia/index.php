@@ -28,14 +28,25 @@ $pageSubTitle = $pageContent['title'];
 include "inc/header.inc.php";
 
 // Main Content
-?>
+
+if ($pageContent['isHomePage']){ ?>
+
+    <div class="col-10">
+        <?= $pageContent['text'] ?>
+    </div>
+
+<?php
+} else { ?>
+
     <div class="col-10">
         <h2 class="pb-3">
-           <?= $pageContent['title'] ?>
+            <?= $pageContent['title'] ?>
         </h2>
-           <?= $pageContent['text'] ?>
+        <?= $pageContent['text'] ?>
     </div>
+
 <?php
+}
 
 // Footer
 include "inc/footer.inc.php";

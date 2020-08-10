@@ -12,7 +12,7 @@ $pageContent = $sestopia->getPageContent($requestedTitle);
 
 // Check for PageNotFound
 if (!$pageContent){
-    header("Location: errors/page-not-found.php");
+    header("Location: page-not-found.php");
     die();
 }
 

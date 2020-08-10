@@ -9,9 +9,48 @@ html{
 
 #imgSDLC{
 	float: right;
+    margin: 30px;
+    height: 220px;
+    width: 220px;
+}
+
+#imgSWtestingClass{
+	float: right;
+    margin: 10px;
+    height: 320px;
+    width: 420px;
+}
+
+#imgUnitTesting{
+	float: right;
+    margin: 10px;
+    height: 220px;
+    width: 320px;
+}
+
+#imgRoles{
+	float: right;
+    margin: 10px;
+    height: 120px;
+    width: 420px;
+}
+
+#imgCal{
+	float: right;
     margin: 10px;
     height: 220px;
     width: 220px;
+}
+
+
+
+#caption-SDLC{
+	font-size: 12px;
+}
+
+#caption-SWtestingClass{
+	font-size: 17px;
+	padding-left: 60px;
 }
 
 .to-top {
@@ -38,15 +77,3 @@ html{
 	pointer-events: auto;
 	opacity: 1;
 }
-
-/*.nav-left{
-	float: left;
-	padding-left: 10px;
-}
-
-.nav-left.active{
-	transition: all .5s;
-}
-ul{
-	position: fixed;
-}*/

@@ -127,6 +127,7 @@ a:hover{
 
 /* navigation bar on the content page for traversing back to Home page or table of contents*/
 #navbar_pa {
+    z-index: 1;
     background-color: rgb(52, 58, 64); /* Black background color */
     position: fixed; /* Make it stick/fixed */
     top: -50px; /* Hide the navbar 50 px outside of the top view */

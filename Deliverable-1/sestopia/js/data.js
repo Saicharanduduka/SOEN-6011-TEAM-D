@@ -1559,9 +1559,13 @@ It is not seldom to find software developing companies considering process measu
               <h3  class="sm"> Related Software Engineering Areas </h3>
               <hr class="smSolid" />
               <p>According to chapter four in SWEBOK, there some relevant areas to the software testing as below <a href="#SWEBOK">[3]</a>:</p>
-              Software Maintenance<br>
-              Software Quality<br>
-              Software Construction<br>
+             
+              <ul>
+              	<li>Software Maintenance</li>
+              	<li>Software Quality</li>
+              	<li>Software Construction</li>
+              </ul>
+
               <hr class="smSolid" />
           </div>
   

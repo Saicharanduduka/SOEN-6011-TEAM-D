@@ -4,10 +4,10 @@
 require_once("vendor/autoload.php");
 
 // MEEKRO - database variables
-DB::$host = "";
-DB::$user = "";
-DB::$password = "";
-DB::$dbName = "";
+DB::$host = "sql102.epizy.com";
+DB::$user = "epiz_26274222";
+DB::$password = "C4xE5g2wuWzy";
+DB::$dbName = "epiz_26274222_Sestopia_db";
 DB::$encoding = "utf8";
 
 
@@ -60,10 +60,12 @@ class sestopia
     {
         $results = $this->fetchAllSkills();
 
-        $pageContent['title'] = "";
-        $pageContent['text'] = "<div class='row justify-content-center text-center'>";
         $pageContent['isHomePage'] = true;
-        $pageContent['description'] = "Home page..."; // TODO
+        $pageContent['title'] = "";
+        $pageContent['description'] = "Skills desirable of a software engineer to develop proficiency and
+excel in a particular area in software engineering for the 21st century as given by SWEBOK and/or SWECOM";
+
+        $pageContent['text'] = "<div class='row justify-content-center text-center'>";
 
         foreach ($results as $row) {
             $skillTitle = $row['title'];
@@ -99,10 +101,55 @@ class sestopia
     }
 
 
+    /****************************
+     ********* SEARCH ***********
+     ****************************/
 
-///////////////////////////////////////////////////////////
-/// TODO : Search
-///////////////////////////////////////////////////////////
+
+    /**
+     * Search in the database and return all rows that contain the search keyword
+     * @param $searchCriteria
+     * @return mixed Assoc.array
+     */
+    public function searchDB($searchCriteria)
+    {
+        $searchCriteria = "%" . trim($searchCriteria) . "%"; // adding wildcard before and after the criteria
+        return DB::query("SELECT title, description FROM skills WHERE title LIKE %s0 OR description LIKE %s0 OR text LIKE %s0", $searchCriteria);
+    }
+
+
+    /**
+     * Prepare the content for search page
+     * @return mixed: Assoc.array
+     */
+    public function prepareSearchPageContent($searchCriteria)
+    {
+        $searchResults = $this->searchDB($searchCriteria);
+        $searchResultsCount = count($searchResults);
+
+        $pageContent['isHomePage'] = false;
+        $pageContent['title'] = "Search Results";
+        $pageContent['description'] = "All Search Results Related to the Provided Term(s)";
+
+        $pageContent['text'] = "<div id='search-results' class='col-10 text-justify'>
+            <p>$searchResultsCount Result(s) Found</p>";
+
+        foreach ($searchResults as $result) {
+            $skillTitle = $result['title'];
+            $skillLink = str_replace(' ', '%20', $skillTitle); // to avoid HTML validation issues
+            $skillDescription = substr($result['description'], 0, 150);
+            $pageContent['text'] .= "
+                <h4>
+                    <a href='index.php?page=$skillLink' class='text-primary'>$skillTitle</a>
+                </h4>
+                <p>$skillDescription...</p >
+            ";
+        }
+
+        $pageContent['text'] .= "</div>";
+
+        return $pageContent;
+    }
 
 
 }

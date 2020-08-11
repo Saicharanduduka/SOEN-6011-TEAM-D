@@ -1,10 +1,12 @@
- /* Remove the navbar's default margin-bottom and rounded borders */
+ html {
+	scroll-behavior: smooth;
+ }
 
  .navbar {
    margin-bottom: 0;
    border-radius: 0;
  }
-
+ 
  main {
    min-height: 550px;
  }
@@ -67,6 +69,30 @@
  .row a {
    color: #333;
  }
+
+
+/* Back to Top Button */
+#toTop {
+    color: black;
+    text-align: center;
+    font-size: 24px;
+    line-height: 24px;
+    text-decoration: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: 1px solid black;
+    z-index: 999;
+    width: 32px;
+    height: 32px;
+}
+
+#toTop:hover, #toTop:focus {
+    color: white;
+    background-color: black;
+}
+
+
 
 /**
  * To visually hide the element and text to avoid redundancy and also to provide the element to satisfy WCGA 2.0

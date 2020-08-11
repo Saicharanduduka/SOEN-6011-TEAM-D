@@ -2,6 +2,7 @@
 // Including our class
 require "sestopia.php";
 
+// Creating the instance
 $sestopia = new sestopia();
 
 // Find the Requested Page Title From URL
@@ -15,10 +16,6 @@ if (!$pageContent){
     header("Location: page-not-found.php");
     die();
 }
-
-// Prepare page title (used in header.inc.php)
-$pageSubTitle = $pageContent['title'];
-$pageDescription = $pageContent['description'];
 
 ////////////////////////////
 // Start of Page Content ///

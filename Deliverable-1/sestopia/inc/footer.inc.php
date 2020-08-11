@@ -11,6 +11,11 @@
     </div>
 </footer>
 
+<?php if (isset($pageContent) && !$pageContent['isHomePage']){ ?>
+    <!-- Back to the Top Button -->
+    <a href="#" id="toTop" title="Back to Top"><i class="fa fa-angle-up"></i></a>
+<?php } ?>
+
 <!-- JavaScript -->
 <!-- jQuery JS -->
 <script src="https://code.jquery.com/jquery-3.4.1.min.js"

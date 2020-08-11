@@ -78,24 +78,21 @@ const content = [{
 	<div id="table_pa_container">
 	<p class="table_pa_title" style="color: #005a9c;">On this Page:</p>
 		<ul>
-			<li><a id="table_pa_container" href="#nos">Name of Skill</a></li>
-			<li><a id="table_pa_container" href="#cos">Classification of Skill</a></li>
-			<li><a id="table_pa_container" href="#pfs">Prerequisites for Skill</a></li>
-			<li><a id="table_pa_container" href="#rsfea">Related Software Engineering Area(s)</a></li>
-			<li><a id="table_pa_container" href="#rafs">Rationale for Skill</a></li>
-			<li><a id="table_pa_container" href="#rofs">Roles for Skill</a></li>
-			<li><a id="table_pa_container" href="#wrts">Work Related to Skill</a></li>
-			<li><a id="table_pa_container" href="#rwe">Real-World Example/Scenario of Skill</a></li>
-			<li><a id="table_pa_container" href="#roai">Role of Academia or Industry in Cultivating the Skill</a></li>
-			<li><a id="table_pa_container" href="#tsts">Tools Supporting the Skill</a></li>
-			<li><a id="table_pa_container" href="#ssa">Skill Self-Assessment</a></li>
-			<li><a id="table_pa_container" href="#r">References</a></li>
+			<li><a href="#nos">Name of Skill</a></li>
+			<li><a href="#cos">Classification of Skill</a></li>
+			<li><a href="#pfs">Prerequisites for Skill</a></li>
+			<li><a href="#rsfea">Related Software Engineering Area(s)</a></li>
+			<li><a href="#rafs">Rationale for Skill</a></li>
+			<li><a href="#rofs">Roles for Skill</a></li>
+			<li><a href="#wrts">Work Related to Skill</a></li>
+			<li><a href="#rwe">Real-World Example/Scenario of Skill</a></li>
+			<li><a href="#roai">Role of Academia or Industry in Cultivating the Skill</a></li>
+			<li><a href="#tsts">Tools Supporting the Skill</a></li>
+			<li><a href="#ssa">Skill Self-Assessment</a></li>
+			<li><a href="#r">References</a></li>
 		</ul>	
 	</div>
 	
-	<a href="#" class="to-top">
-		<i class="fas fa-chevron-up" aria-hidden="false"><label class="visuallyhidden">Go to Top</label></i>
-	</a>
 	
 	<div id="navbar_pa">
   	<a href="index.html">Home</a>
@@ -106,8 +103,8 @@ const content = [{
 	<div class="sm" id="nos">
 		<h2 class="sm"> <a href="#index"> User Research and Personas </a></h2>
 		
-		<img class="img-fluid" src="images/sd/urandp.png" style="float:right; width:30% ">
-		<p style="margin-right:40px">
+		<img class="img-fluid pl-5" src="images/sd/urandp.png" style="float:right; width:30%" alt="User Research and Personas">
+		<p>
 		User Research is the study of users which include their needs and what they want. User researchers find crucial information that will lead them to design good UI.<br>
 		Personas are fictional characters that are created using user research which might use your product, service, site, etc. It helps the designer to understand the user's needs, experiences, behaviors, and goals.
 		</p>
@@ -160,7 +157,7 @@ const content = [{
 <p>User research is the best way to accomplish an understanding of the individuals who are going to utilize your design. If you get what user wants, you can make design that are relevant to them. But in case you don't have an clear idea of your users understanding, you have no way of knowing whether your design will be relevant. A design that isn't applicable to its target users will never be a success.<br></p>
 
 <b>2. To Create Designs That are Easy and Pleasurable to Use</b><br>
-<div class="box ml-5">"If the user is having a problem, it’s our problem.”<br>
+<div class="box ml-5 mt-4">"If the user is having a problem, it’s our problem.”<br>
 <i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Steve Jobs, co-founder of Apple Computers</i></div><br>
 <p>Products should have a significant level of usability and user tests can be a major assistance in accomplishing that. People expect that products should be easy to learn and easy to use. They hope to get them and get things done with them while just considering what they would like to accomplish, not having to think about the products themselves. If your user experience is not good, than there is a possibility that people will move on with another product. Except the fact that you are working in a field with no competitors, a significant level of usability is essential in making any product a commercial success. Also, people will cherish you for making an extraordinary user experience. Regardless of whether you are designing products for a highly specialized work environment where the users have no other options, products with a significant level of usability will make work forms quicker, more secure and more efficient.<br></p>
 <b>3. To Understand the Return on Investment of Your UX Design</b><br><br>
@@ -202,8 +199,9 @@ const content = [{
 	<div class="sm" id="rwe">
 		<h2 class="sm"><a href="#index"> Real-World Example</a> </h2>
 
-		<center><img class="real" src="images/sd/UserResearchExample.png" style="height:30%; width:60%" class="img-fluid">
-		<figcaption>Usability Lab</figcaption></center><p>
+		<div class="text-center"><img src="images/sd/UserResearchExample.png" style="height:30%; width:60%" class="real img-fluid" alt="User Research Example">
+		<figcaption>Usability Lab</figcaption></div>
+		<p>
 		This is the real world scenario where the user is being monitored. It involves recording the performance of the user doing typical tasks. This research is in a controlled environment setting. The person sitting inside with the user is evaluating user satisfaction using questionnaires and interviews. Goals and questions focus on how well she understands the product and perform a task. This testing is done with the goal that we can comprehend what changes are expected to cause things to go in the correct way.</p>
 		<hr class="smSolid" />
 	</div>
@@ -229,7 +227,7 @@ While in industry researcher builds information about their users to serve the u
 							<div class="column">
 				<div class="card" style="min-height: 620px;">
 					<h4><center><a href="https://www.bugsee.com/"  target="_blank" style = "width:45%;  display:flex;">Bugsee</a></center></h4>
-					<center><a href="https://www.bugsee.com/"  target="_blank" ><img src="images/sd/bugsee.png" style="height:30%; width:60%" class="img-fluid"></a></center>
+					<center><a href="https://www.bugsee.com/" target="_blank" ><img src="images/sd/bugsee.png" style="height:30%; width:60%" class="img-fluid" alt="Bugsee logo"></a></center>
 					<br><br>
 					<p>Bugsee is a mobile analytics solution that focuses mostly on bug/crash reporting. It provides mobile professionals with tools like crashed session recordings, console logs, and network traffic analysis, all of which permit you and your team to track bug/crashes more efficiently and save time and resources.</p>
 					
@@ -239,7 +237,7 @@ While in industry researcher builds information about their users to serve the u
 						<div class="column">
 				<div class="card" style="min-height: 620px;">
 				<h4><center><a href="https://lookback.io/"  target="_blank" style = "width:45%;  display:flex;">Lookback.io</a></center></h4>
-				<center><a href="https://lookback.io/"  target="_blank" ><img src="images/sd/lookback.png" style="height:30%; width:60%" class="img-fluid"></a></center>
+				<center><a href="https://lookback.io/"  target="_blank" ><img src="images/sd/lookback.png" style="height:30%; width:60%" class="img-fluid" alt="Loockback logo"></a></center>
 				<br><br>
 					<p>Lookback.io is a versatile user-research platform, permitting UI/UX designers and mobile professionals to perform remote user research, communicate with users in real-time, perform individual test research on user’s end with pre-defined goals.Lookback.io also provides its users a strong dashboard where they can monitor their movement and replay tests at any given time.</p>
 				</div>
@@ -249,7 +247,7 @@ While in industry researcher builds information about their users to serve the u
 			<div class="column">
 				<div class="card" style="min-height: 620px;">
 				<h4><center><a href="https://www.smaply.com/"  target="_blank" style = "width:45%;  display:flex;">Smaply</a></center></h4>
-				<center><a href="https://www.smaply.com/"  target="_blank" ><img src="images/sd/smaply.png" style="height:30%; width:60%" class="img-fluid"></a></center><br>
+				<center><a href="https://www.smaply.com/"  target="_blank" ><img src="images/sd/smaply.png" style="height:30%; width:60%" class="img-fluid" alt="Smaply logo"></a></center><br>
 				<br>
 			
 					<p>Smaply helps you to create personas. You can create a clear persona for your user which holds the information of the user. They are easy to duplicate and edit, and you can quickly switch between multiple personas and export them as PDF.</p>
@@ -259,7 +257,7 @@ While in industry researcher builds information about their users to serve the u
 			<div class="column">
 				<div class="card" style="min-height: 620px;">
 					<h4><center><a href="https://xtensio.com/how-to-create-a-persona/"  target="_blank" style = "width:45%;  display:flex;">Xtensio</a></center></h4>
-					<center><a href="https://xtensio.com/how-to-create-a-persona/"  target="_blank" ><img src="images/sd/xtensio.png" style="height:30%; width:60%" class="img-fluid"></a></center>
+					<center><a href="https://xtensio.com/how-to-create-a-persona/"  target="_blank" ><img src="images/sd/xtensio.png" style="height:30%; width:60%" class="img-fluid" alt="Xtensio logo"></a></center>
 					<br><br><br>
 					<p>Xtensio is used to create personas. It is the easy and simplest way to create. Not only persona it helps to create pitches, sales sheets, reports, case studies, agendas and more. It is used by Agencies, Consultancies, Startups, Sales team, Educators and teachers.
 					Some templates are free while some are paid.</p>
@@ -307,7 +305,7 @@ User research and persona is one of the important skill to start any project. If
 		<li><a href="https://usabilitygeek.com/best-ux-tools-user-research-user-testing-2018/" target="_blank" class="text-primary">https://usabilitygeek.com/best-ux-tools-user-research-user-testing-2018/</a></li>
 
 		<li><a href="https://medium.com/@kate.r.storey/industry-ux-researcher-vs-academic-hci-researcher-d13a7283fbf0" target="_blank" class="text-primary">https://medium.com/@kate.r.storey/industry-ux-researcher-vs-academic-hci-researcher-d13a7283fbf0</a></li>
-
+		</ul>
 		<hr class="smSolid" />
 	</div>	`,
 
@@ -323,23 +321,21 @@ User research and persona is one of the important skill to start any project. If
 <div id="table_pa_container">
 	<p class="table_pa_title" style="color: #005a9c;">On this Page:</p>
 <ul>
-<li><a id="table_pa_container" href="#nos">Name of Skill</a></li>
-<li><a id="table_pa_container" href="#cos">Classification of Skill</a></li>
-<li><a id="table_pa_container" href="#pfs">Prerequisites for Skill</a></li>
-<li><a id="table_pa_container" href="#rsfea">Related Software Engineering Area(s)</a></li>
-<li><a id="table_pa_container" href="#rafs">Rationale for Skill</a></li>
-<li><a id="table_pa_container" href="#rofs">Roles for Skill</a></li>
-<li><a id="table_pa_container" href="#wrts">Work Related to Skill</a></li>
-<li><a id="table_pa_container" href="#rwe">Real-World Example/Scenario of Skill</a></li>
-<li><a id="table_pa_container" href="#roai">Role of Academia or Industry in Cultivating the Skill</a></li>
-<li><a id="table_pa_container" href="#tsts">Tools Supporting the Skill</a></li>
-<li><a id="table_pa_container" href="#ssa">Skill Self-Assessment</a></li>
-<li><a id="table_pa_container" href="#r">References</a></li>
+<li><a href="#nos">Name of Skill</a></li>
+<li><a href="#cos">Classification of Skill</a></li>
+<li><a href="#pfs">Prerequisites for Skill</a></li>
+<li><a href="#rsfea">Related Software Engineering Area(s)</a></li>
+<li><a href="#rafs">Rationale for Skill</a></li>
+<li><a href="#rofs">Roles for Skill</a></li>
+<li><a href="#wrts">Work Related to Skill</a></li>
+<li><a href="#rwe">Real-World Example/Scenario of Skill</a></li>
+<li><a href="#roai">Role of Academia or Industry in Cultivating the Skill</a></li>
+<li><a href="#tsts">Tools Supporting the Skill</a></li>
+<li><a href="#ssa">Skill Self-Assessment</a></li>
+<li><a href="#r">References</a></li>
 </ul>
 </div>
-<a href="#" class="to-top">
-		<i class="fas fa-chevron-up" aria-hidden="false"><label class="visuallyhidden">Go to Top</label></i>
-	</a>
+
 <div id="navbar_pa">
   	<a href="index.html">Home</a>
   	<a href="#table_pa_container">Table Of Contents</a>
@@ -658,23 +654,21 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
 <div id="table_pa_container">
 <p class="table_pa_title" style="color: #005a9c;">On this Page:</p>
 		<ul>
-			<li><a id="table_pa_container" href="#nos">Name of Skill</a></li>
-			<li><a id="table_pa_container" href="#cos">Classification of Skill</a></li>
-			<li><a id="table_pa_container" href="#pfs">Prerequisites for Skill</a></li>
-			<li><a id="table_pa_container" href="#rsfea">Related Software Engineering Area(s)</a></li>
-			<li><a id="table_pa_container" href="#rafs">Rationale for Skill</a></li>
-			<li><a id="table_pa_container" href="#rofs">Roles for Skill</a></li>
-			<li><a id="table_pa_container" href="#wrts">Work Related to Skill</a></li>
-			<li><a id="table_pa_container" href="#rwe">Real-World Example/Scenario of Skill</a></li>
-			<li><a id="table_pa_container" href="#roai">Role of Academia or Industry in Cultivating the Skill</a></li>
-			<li><a id="table_pa_container" href="#tsts">Tools Supporting the Skill</a></li>
-			<li><a id="table_pa_container" href="#ssa">Skill Self-Assessment</a></li>
-			<li><a id="table_pa_container" href="#r">References</a></li>
+			<li><a href="#nos">Name of Skill</a></li>
+			<li><a href="#cos">Classification of Skill</a></li>
+			<li><a href="#pfs">Prerequisites for Skill</a></li>
+			<li><a href="#rsfea">Related Software Engineering Area(s)</a></li>
+			<li><a href="#rafs">Rationale for Skill</a></li>
+			<li><a href="#rofs">Roles for Skill</a></li>
+			<li><a href="#wrts">Work Related to Skill</a></li>
+			<li><a href="#rwe">Real-World Example/Scenario of Skill</a></li>
+			<li><a href="#roai">Role of Academia or Industry in Cultivating the Skill</a></li>
+			<li><a href="#tsts">Tools Supporting the Skill</a></li>
+			<li><a href="#ssa">Skill Self-Assessment</a></li>
+			<li><a href="#r">References</a></li>
 		</ul>	
 	</div>
-	<a href="#" class="to-top">
-		<i class="fas fa-chevron-up" aria-hidden="false"><label class="visuallyhidden">Go to Top</label></i>
-	</a>
+
 	<div id="navbar_pa">
   	<a href="index.html">Home</a>
   	<a href="#table_pa_container">Table Of Contents</a>
@@ -939,7 +933,7 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
 		<div class="row" style="padding-top:50px">
 			<a href="https://www.hex-rays.com/products/ida/"  target="_blank" style = "width:45%;  display:flex;">
 				<div class="card">
-					<h5>Disassemblers</h4>
+					<h5>Disassemblers</h5>
 					<p>A disassembler is a program that translates an executable file to assembly language. The most popular one is IDA Pro</p>
 					<img alt="hexray" src="images/sm/hexray.png" style="height:50%; width:100%" class="img-fluid">
 				</div>
@@ -972,7 +966,7 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
 						</a>
 					</div>					
 					
-					<div class="column" style:"width:33%">
+					<div class="column" style="width:33%">
 						<a href="https://www.microsoft.com/uk-ua/p/windbg-preview/9pgjgd53tn86?activetab=pivot:overviewtab" target="_blank">
 							<img alt="windbg_prv" src="images/sm/windbgp.png" style="height:55px; width:55px" class="img-fluid">
 							<p>Windbg Preview.</p>	
@@ -1058,7 +1052,7 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
 			</li>
 
 			<li>
-				<a href=https://hiring.monster.com/employer-resources/job-description-templates/software-engineer-job-description-sample/" target="_blank" class="text-primary">
+				<a href="https://hiring.monster.com/employer-resources/job-description-templates/software-engineer-job-description-sample/" target="_blank" class="text-primary">
 				 https://hiring.monster.com/employer-resources/job-description-templates/software-engineer-job-description-sample/
 				</a>
 			</li>
@@ -1076,23 +1070,21 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
 	<div id="table_pa_container">
 	<p class="table_pa_title" style="color: #005a9c;">On this Page:</p>
 		<ul>
-			<li><a id="table_pa_container" href="#nos">Name of Skill.</a></li>
-			<li><a id="table_pa_container" href="#cos">Classification of Skill.</a></li>
-			<li><a id="table_pa_container" href="#pfs">Prerequisites for Skill.</a></li>
-			<li><a id="table_pa_container" href="#rsfea">Related Software Engineering Area(s).</a></li>
-			<li><a id="table_pa_container" href="#rafs">Rationale for Skill. </a></li>
-			<li><a id="table_pa_container" href="#rofs">Roles for Skill.</a></li>
-			<li><a id="table_pa_container" href="#wrts">Work Related to Skill.</a></li>
-			<li><a id="table_pa_container" href="#rwe">Real-World Example/Scenario of Skill.</a></li>
-			<li><a id="table_pa_container" href="#roai">Role of Academia or Industry in Cultivating the Skill.</a></li>
-			<li><a id="table_pa_container" href="#tsts">Tools Supporting the Skill.</a></li>
-			<li><a id="table_pa_container" href="#ssa">Skill Self-Assessment.</a></li>
-			<li><a id="table_pa_container" href="#r">References</a></li>
+			<li><a href="#nos">Name of Skill</a></li>
+			<li><a href="#cos">Classification of Skill</a></li>
+			<li><a href="#pfs">Prerequisites for Skill</a></li>
+			<li><a href="#rsfea">Related Software Engineering Area(s)</a></li>
+			<li><a href="#rafs">Rationale for Skill</a></li>
+			<li><a href="#rofs">Roles for Skill</a></li>
+			<li><a href="#wrts">Work Related to Skill</a></li>
+			<li><a href="#rwe">Real-World Example/Scenario of Skill</a></li>
+			<li><a href="#roai">Role of Academia or Industry in Cultivating the Skill</a></li>
+			<li><a href="#tsts">Tools Supporting the Skill</a></li>
+			<li><a href="#ssa">Skill Self-Assessment</a></li>
+			<li><a href="#r">References</a></li>
 		</ul>	
 	</div>
-	<a href="#" class="to-top">
-		<i class="fas fa-chevron-up" aria-hidden="false"><label class="visuallyhidden">Go to Top</label></i>
-	</a>
+
 
 	<div id="navbar_pa">
   	<a href="index.html">Home</a>
@@ -1191,14 +1183,13 @@ which means:</p>
 		<p>
 			When we look at the track record for the software industry, 
 			although it has improved over the last ten years, a disappointing picture still emerges.
-			<ul class="sm" style="width:70%">
-<li>A full 23% of all software projects are canceled before completion</li>
-<li>Of those projects completed, only 28% were delivered on time, within budget,
-and with all originally specified features
-</li>
-<li>The average software project overran the budget by 45%.</li>
-</ul>
 		</p>
+			<ul class="sm" style="width:70%">
+				<li>A full 23% of all software projects are canceled before completion</li>
+				<li>Of those projects completed, only 28% were delivered on time, within budget,
+				and with all originally specified features</li>
+				<li>The average software project overran the budget by 45%.</li>
+			</ul>
 		<p>
 			So, the very nature of software engineering makes measurement a necessity, because more rigorous 
 			methods for production, planning, monitoring, and control are needed, otherwise the amount of risk 
@@ -1235,7 +1226,7 @@ and with all originally specified features
 			This measurement process becomes a process asset to be made
 available for use by the projects in developing, maintaining, and implementing the
 organization's standard software process. Some examples of process assets
-related to measurement include:
+related to measurement include:</p>
 			<ul class="sm" style="width:70%">
 <li>The organization's standard software measurement process element (described
 below).
@@ -1246,7 +1237,7 @@ below).
 <li>Tools and methods for defining measures.</li>
 <li>Guidelines and criteria for tailoring the software measurement process element.</li>
 </ul>
-		</p>
+		
 		<div class="col" style="text-align: center">
 				<h5>Figure describes the measurement process model:</h5>
 				<img src="images/measure/measurementprocessmodel.png" alt="Measurement Model" style="max-width:500px;" class="img-fluid">
@@ -1255,7 +1246,7 @@ below).
 			It is fundamental that all measurement activities be carried out in the context of a 
 			well-defined measurement goal. In turn, the measurement goal should be clearly connected with an industrial goal, 
 			so the measurement program responds to a software organization's needs.<br>
-			The Goal/Question/Metric (GQM) provides a framework for deriving measures from measurement goals.<br>
+			The Goal/Question/Metric (GQM) provides a framework for deriving measures from measurement goals.</p>
 			<ol class="sm">
 <li>Identify the Goal for the product/process/resource. This is the goal that your
 metrics “customer” is trying to achieve.</li>
@@ -1269,9 +1260,9 @@ Metrics can be objective (based solely on the object being measured) or subjecti
 <li>Tools and methods for defining measures.</li>
 <li>Guidelines and criteria for tailoring the software measurement process element.</li>
 </ol>
-			</p>
+			
 			<p>
-			The idea is to define a measurement goal, with five dimensions, as follows: <br>
+			The idea is to define a measurement goal, with five dimensions, as follows: </p>
 			<ul class="sm" style="width:70%">
 <li><h5>Object of Study:</h5> the entity or set of entities that should be studied, e.g., a software specification, 
 or a testing process.<li> 
@@ -1284,7 +1275,6 @@ carried out, e.g., the designers (for the software specification), or the tester
 <li><h5>Environment:</h5> the context (e.g., the specific project or environment) in which measurement is carried out.<li>
 </ul>
 
-			</p>
 		
 		<hr class="smSolid" />
 	</div>
@@ -1458,277 +1448,274 @@ It is not seldom to find software developing companies considering process measu
 		</ul>
 
 	</div>	
-        <a href="#" class="to-top">
-			<i class="fas fa-chevron-up" aria-hidden="false"><label class="visuallyhidden">Go to Top</label></i>
-		</a>
-
 		`,
     },
     {
         title: `Software Testing`,
         description: `Software Testing is a phase in Software Development Life Cycle (SDLC), during this phase all functionalities is tested.`,
-		text: `
-
-		<p class="text-muted pb-5">Author: Mahmoudreza Entezami</p>
-		<hr class="smSolid" />
-	<div id="table_pa_container">
-	<p class="table_pa_title" style="color: #005a9c;">On this Page:</p>
-		<ul>
-			<li><a id="table_pa_container" href="#nos">Name of Skill</a></li>
-			<li><a id="table_pa_container" href="#class_st">Classification of Skill</a></li>
-			<li><a id="table_pa_container" href="#pre_st">Prerequisites for Skill</a></li>
-			<li><a id="table_pa_container" href="#areas_st">Related Software Engineering Area(s)</a></li>
-			<li><a id="table_pa_container" href="#rat_st">Rationale for Skill </a></li>
-			<li><a id="table_pa_container" href="#roles_st">Roles for Skill</a></li>
-			<li><a id="table_pa_container" href="#work_st">Work Related to Skill</a></li>
-			<li><a id="table_pa_container" href="#example_st">Real-World Example/Scenario of Skill</a></li>
-			<li><a id="table_pa_container" href="#cult_st">Role of Academia or Industry in Cultivating the Skill</a></li>
-			<li><a id="table_pa_container" href="#tools_st">Tools Supporting the Skill</a></li>
-			<li><a id="table_pa_container" href="#assess_st">Skill Self-Assessment</a></li>
-			<li><a id="table_pa_container" href="#ref_st">References</a></li>
-		</ul>	
-	</div>
-
-	<div id="navbar_pa">
-  	<a href="index.html">Home</a>
-  	<a href="#table_pa_container">Table Of Contents</a>
-	</div>
-	<hr class="smSolid" />
-		<div class="sm" >
-			<figure id="imgSDLC">
-				<img class="img-fluid" src="images/st/SDLC.jpg" alt="Software Development Life Cycle" style="max-width: 500px">
-				<figcaption id="caption-SDLC">Software Development Life Cycle <a href="#SDLC-img">[11]</a></figcaption>
-			</figure>
-        	<p class="text-justify" id="first-title"><strong>Software Testing-</strong> is one of the main the phase in Software Development Life Cycle (SDLC) and it is about testing code with having a purpose of finding errors in code by executing a program.
-        	A software application will be efficient when it is free of error in code. All errors will be removed from the software if testing is successfully done <a href="#ref-seven">[7]</a>.</p>
-        	<p class="text-justify">Software Testing can be classified into two major testing types including <strong>static testing</strong> and <strong>dynamic testing</strong> <a href="#ref-two">[2]</a>.</p>
-        	<p class="text-justify"><strong>Static testing-</strong> is about reviewing software project documents to recognize the errors by performing informal and formal interview, inspection or technical and nontechnical review <a href="#ref-two">[2]</a>.</p>
-        	<p class="text-justify"><strong>Dynamic testing-</strong> is about testing software during the execution. It also can be divided into two types which are <strong>white box testing</strong> and <strong>black box testing</strong> <a href="#ref-two">[2]</a>.</p>
-        </div>
-
-
-
-        <div class="sm" id="nos">
-			<h3  class="sm"> Name of Skill </h3>
-			<hr class="smSolid" />
-			<p><strong>Automated Unit Testing</strong></p>
-				<figure id="imgSWtestingClass">
-					<img class="img-fluid" src="images/st/classification_of_sw_testing.png" alt="Classification of Software Testing" style="max-width: 500px">
-					<figcaption id="caption-SWtestingClass">Software Testing Classification <a href="#ref-one">[1]</a></figcaption>
-				</figure>
-			<p class="text-justify">Unit testing is one of testing approach for software testing phase in Software Development Life Cycle (SDLC) where individual units of a software are tested <a href="#ref-nine">[9]</a>, <a href="#ref-ten">[10]</a>. In other words, units or components are a smallest testable part of a software which are tested independently and individually with aim of validating functionality of each unit <a href="#ref-nine">[9]</a>, <a href="#ref-ten">[10]</a>.</p>
-			<p class="text-justify">Unit testing can be done both <strong>manually</strong> and <strong>automated</strong> while automated is more common <a href="#ref-ten">[10]</a>. They usually have one or more inputs with a single output. In Object-Oriented Programming (OOP) the unit is a method <a href="#ref-nine">[9]</a>.</p>
-			<p class="text-justify">It is also one part in Test Driven Development (TDD) methodology <a href="#ref-ten">[10]</a>.
-				Unit testing methods is also based on using <strong>White Box Testing</strong> method <a href="#ref-nine">[9]</a>.</p>
-			</p>
-			<hr class="smSolid" />
-		</div>
-
-
-		<div class="sm" id="class_st">
-			<h3  class="sm"> Classification of Skill </h3>
-			<hr class="smSolid" />
-			<img class="img-fluid" src="images/st/UnitTestingTypes.png" id="imgUnitTesting" alt="Unit Testing Types">
-			<p class="text-justify">In general, Automated Unit Testing can be classified as a Hard Skills. Hard Skills which are the skills are acquired by practical experiences, technical knowledge and training <a href="#ref-four">[4]</a>.</p>
-			<p class="text-justify">Unit Testing also can be classified into two sub categories including <strong>Manual</strong> and <strong>Automated</strong> testing <a href="#ref-two">[2]</a>.</p>  
-
-			<hr class="smSolid" />
-		</div>
-
-
-		<div class="sm" id="pre_st">
-			<h3  class="sm"> Prerequisites for Skill </h3>
-			<hr class="smSolid" />
-			<p class="text-justify">As a Software tester it is expected to have some prerequisite skills before performing testing process and for having a proper test cases such as bellows:</p>
-
-			<ol class="text-justify">
-				<li>Knowledge of programming in at least one or more programming languages</li>
-				<li>Costumer requirements should be met and cover by all tests <a href="#ref-seven">[7]</a>.</li>
-				<li>Using third parties and proper tools to perform software testing <a href="#ref-seven">[7]</a>.</li>
-				<li>As what the needs of the optimal number of testing which is based on the risk assessment of the application, the complete and exhaustive testing are impossible <a href="#ref-seven">[7]</a>.</li>
-				<li>All testing should be planned before implementing the test <a href="#ref-seven">[7]</a>.</li>
-				<li>According to Pareto principle <a href="#ref-eight">[8]</a>, 20% of the program component will produce 80% of errors.</li>
-				<li>The testing should be started by small parts then extend to large parts <a href="#ref-seven">[7]</a>.</li>
-			</ol>
-			
-			<hr class="smSolid" />
-		</div>
-
-
-		<div class="sm" id="areas_st">
-			<h3  class="sm"> Related Software Engineering Areas </h3>
-			<hr class="smSolid" />
-			<p class="text-justify">According to chapter four in SWEBOK, there some relevant areas to the software testing as below <a href="#SWEBOK">[3]</a>:</p>
-			Software Maintenance<br>
-			Software Quality<br>
-			Software Construction<br>
-			<hr class="smSolid" />
-		</div>
-
-
-		<div class="sm" id="rat_st">
-			<h3  class="sm"> Rationale for Skill </h3>
-			<hr class="smSolid" />
-			<p class="text-justify">
-			There are number of reasons for performing unit testing as well as its advantages in Software Development Life Cycle (SDLC) as follows <a href="#ref-six">[6]</a>:</p>
-
-			<ol class="text-justify">
-				<li>It helps for isolating a section of the code.</li>
-				<li>It helps for verifying the correctness of the code.</li>
-				<li>It tests all functions and procedures.</li>
-				<li>It helps to save costs by finding and fixing the bugs in the early stage of development cycle.</li>
-				<li>It helps to the developers for making changes easily and quickly by providing deep understanding the code for them.</li>
-				<li>It helps to reuse the code and save costs.</li>
-			<hr class="smSolid" />
-		</div>
-
-
-		<div class="sm" id="roles_st">
-		<h3  class="sm"> Roles for Skill </h3>
-		<hr class="smSolid" />
-		<img class="img-fluid" src="images/st/roles.jpg" id="imgRoles" alt="Roles of Unit Testing">
-		<p class="text-justify">In general, the procedure of unit testing is divided into four main roles as below <a href="#ref-six">[6]</a>:</p>
-		<ol class="text-justify">
-			<li>Creating and writing the test cases.</li>
-			<li>Reviewing and testing the reviewed test cases.</li>
-			<li>Creating baseline.</li>
-			<li>Executing the test cases.</li>
-		</ol>
-
-		<hr class="smSolid" />
-		</div>
-
-
-		<div class="sm" id="work_st">
-			<h3  class="sm"> Work Related to Skill </h3>
-			<hr class="smSolid" />
-			<p class="text-justify">There some primary work related ot unit testing should be perform by developer as below <a href="#ref-two">[2]</a>:</p>
-			<ol class="text-justify">
-				<li>Writing a part of code just for testing the function.</li>
-				<li>Isolating the function for rigorously testing that function.</li>
-				<li>Using a proper testing tools and frameworks for developing automated test cases.</li>
-			</ol>
-			<hr class="smSolid" />
-		</div>
-
-
-		<div class="sm" id="example_st">
-			<h3  class="sm"> Real-World Example </h3>
-			<hr class="smSolid" />
-			<img class="img-fluid" src="images/st/calculator.png" id="imgCal" alt="Claculator">
-			<p class="text-justify">There various example of the role of uniting testing in the world such as banking industries, healthcare systems, air plan industries, etc.</p>
-			<p class="text-justify">In a banking application which is offered by RBC bank in Canada, the simple calculator is needed to perform simple and basic calculating functions such as addition, subtraction, multiplication, division. The developers of this application create four units for checking the functionality of the calculator. The units are addition method, subtraction method, multiplication method and division method. Each unit should work individually and after that testing all unit, they are integrated together for checking the functionality of the whole calculator.</p>
-
-			<hr class="smSolid" />
-		</div>
-
-
-		<div class="sm" id="cult_st">
-			<h3  class="sm"> Role of Academia or Industry in Cultivating the Skill </h3>
-			<hr class="smSolid" />
-			<p class="text-justify">Universities and academic institutions play a vital role for proving a good knowledge and highlighting the importance of testing in software development for new generation of software developers and testers by offering various courses such as Software Maintenance, Advance Programming Practice, Software Refactoring as well as focusing on outstanding scholars and papers in this area.</p>
-			<p class="text-justify">In parallel, the industries focus on practical aspects in software testing by offering and performing proper projects in this area that helpful for software testing developers to acquire proficiency and experience.</p>
-
-			<hr class="smSolid" />
-		</div>
-
-
-		<div class="sm" id="tools_st">
-				<h3  class="sm" > Tools Supporting the Skill </h3>
-				<hr class="smSolid" />
-				<p class="text-justify" style="font-size: 18px">There are many tools and frameworks for unit testing in different programming languages. Some of common tools are listed as follows <a href="#ref-two">[2]</a>:</p>
-
-			<div class="row" style="padding-top:70px">
-			
-				<div class="column">
-					<div class="card" style="min-height: 440px">
-						<h4><center><a href="https://junit.org/junit5/"  target="_blank" style = "width:30%;  display:flex;"><u>JUnit</u></a></center></h4>
-						<br>
-						<center><img src="images/st/junit.png" style="height:30%; width:60%" class="img-fluid" alt="JUnit icon"></center>
-						<br><br>
-						<p class="text-justify"><strong>JUnit</strong> is one of the most common testing frameworks for unit testing in Java programming language.</p>
-					</div>
-				</div>
-
-				<div class="column">
-					<div class="card" style="min-height: 440px">
-						<h4><center><a href="https://nunit.org"  target="_blank" style = "width:27%;  display:flex;"><u>NUnit</u></a></center></h4>
-						<br>
-						<center><img src="images/st/nunit.png" style="height:30%; width:60%" class="img-fluid" alt="NUnit icon"></center>
-						<br><br>
-						<p class="text-justify"><strong>NUnit</strong> is a most common unit testing framework for any .NET programming language.</p>
-					</div>
-				</div>
-
-				<div class="column">
-					<div class="card" style="min-height: 440px">
-						<h4><center><a href="https://phpunit.de"  target="_blank" style = "width:35%;  display:flex;"><u>PHPUnit</u></a></center></h4>
-						<br><br><br>
-						<center><img src="images/st/phpunit.png" style="height:30%; width:60%" class="img-fluid" alt="PHP Unit icone"></center>
-						<br><br><br>
-						<p class="text-justify"><strong>PHPUnit</strong> which is a common testing framework for performing unit testing in PHP programming language.</p>
-					</div>
-				</div>
-
-
-				<div class="column">
-					<div class="card" style="min-height: 440px">
-						<h4><center><a href="https://jestjs.io"  target="_blank" style = "width:25%;  display:flex;"><u>Jest</u></a></center></h4>
-						<br><br>
-						<center><img src="images/st/jest.png" style="height:30%; width:60%" class="img-fluid" alt="Jest icon"></center>
-						<br>
-						<p class="text-justify"><strong>Jest</strong> is one of the most popular testing frameworks for unit testing and other kind of testing in JavaScript programming language <a href="#ref-five">[5]</a>.</p>
-					</div>
-				</div>
-
-			</div>
-
-			<hr class="smSolid" />
-		</div>
-
-
-		<div class="sm" id="assess_st">
-			<h3 class="sm"> Skill Self-Assessment </h3>
-			<hr class="smSolid" />
-			<i class="fas fa-star"></i>
-			<i class="fas fa-star"></i>
-			<i class="fas fa-star"></i>
-			<i class="fas fa-star"></i>
-			<i class="fas fa-star"></i>
-			<i class="fas fa-star"></i>
-			<i class="far fa-star"></i>
-			<i class="far fa-star"></i>
-			<i class="far fa-star"></i>
-			<i class="far fa-star"></i>
-			(6/10)
-			<p class="mt-3">
-				As my work experience as a developer which is around 2 years, I still need to gain more practical experience because testing is a critical phase of Software Development Life Cycle (SDLC).
-				<br>Also for creating proper test cases and units, having a good knowledge in various programming is needed.
-			</p>
-		</div>
-
-
-		<div class="sm" id="ref_st">
-			<h3  class="sm"> References </h3>
-			<hr class="smSolid" />
-				<a href="https://www.h2kinfosys.com/blog/software-testing-classification/" id="ref-one" class="text-primary">[1] https://www.h2kinfosys.com/blog/software-testing-classification/</a><br>
-				<a href="https://www.guru99.com/unit-testing-guide.html" id="ref-two" class="text-primary">[2] https://www.guru99.com/unit-testing-guide.html</a><br>
-				<a id="SWEBOK" class="text-primary">[3] Bourque, Pierre, and Richard E. Fairley. Guide to the software engineering body of knowledge (SWEBOK (R)): Version 3.0. IEEE Computer Society Press, 2014.<br>
-				<a href="https://www.indeed.com/career-advice/resumes-cover-letters/hard-skills-vs-soft-skills" id="ref-four" class="text-primary">[4] https://www.indeed.com/career-advice/resumes-cover-letters/hard-skills-vs-soft-skills</a><br>
-				<a href="https://geekflare.com/javascript-unit-testing/" id="ref-five" class="text-primary">[5] ttps://geekflare.com/javascript-unit-testing/</a><br>
-				<a href="https://www.geeksforgeeks.org/unit-testing-software-testing/" id="ref-six" class="text-primary">[6] https://www.geeksforgeeks.org/unit-testing-software-testing/</a><br>
-				<a href="https://www.geeksforgeeks.org/types-software-testing/" id="ref-seven" class="text-primary">[7] https://www.geeksforgeeks.org/types-software-testing/</a><br>
-				<a href="https://en.wikipedia.org/wiki/Pareto_principle" id="ref-eight" class="text-primary">[8] https://en.wikipedia.org/wiki/Pareto_principle</a><br>
-				<a href="http://softwaretestingfundamentals.com/unit-testing/" id="ref-nine" class="text-primary">[9] http://softwaretestingfundamentals.com/unit-testing/</a><br>
-				<a href="https://www.getzephyr.com/insights/role-unit-tests-test-automation" id="ref-ten" class="text-primary">[10] https://www.getzephyr.com/insights/role-unit-tests-test-automation</a><br>
-				<a href="https://commons.wikimedia.org/wiki/File:SDLC_-_Software_Development_Life_Cycle.jpg" id="SDLC-img" class="text-primary">[11] https://commons.wikimedia.org/wiki/File:SDLC_-_Software_Development_Life_Cycle.jpg</a>
-			<hr class="smSolid" />
-		</div>
-
-
-		<a href="#" class="to-top">
-			<i class="fas fa-chevron-up" aria-hidden="false"><label class="visuallyhidden">Go to Top</label></i>
-		</a>`,
+		text: `  <p class="text-muted pb-5">Author: Mahmoudreza Entezami</p>
+          <hr class="smSolid" />
+      <div id="table_pa_container">
+      <p class="table_pa_title" style="color: #005a9c;">On this Page:</p>
+          <ul>
+              <li><a href="#nos">Name of Skill</a></li>
+              <li><a href="#class_st">Classification of Skill</a></li>
+              <li><a href="#pre_st">Prerequisites for Skill</a></li>
+              <li><a href="#areas_st">Related Software Engineering Area(s)</a></li>
+              <li><a href="#rat_st">Rationale for Skill </a></li>
+              <li><a href="#roles_st">Roles for Skill</a></li>
+              <li><a href="#work_st">Work Related to Skill</a></li>
+              <li><a href="#example_st">Real-World Example/Scenario of Skill</a></li>
+              <li><a href="#cult_st">Role of Academia or Industry in Cultivating the Skill</a></li>
+              <li><a href="#tools_st">Tools Supporting the Skill</a></li>
+              <li><a href="#assess_st">Skill Self-Assessment</a></li>
+              <li><a href="#ref_st">References</a></li>
+          </ul>	
+      </div>
+  
+      <div id="navbar_pa">
+        <a href="index.html">Home</a>
+        <a href="#table_pa_container">Table Of Contents</a>
+      </div>
+      <hr class="smSolid" />
+          <div class="sm" >
+              <figure id="imgSDLC">
+                  <img class="img-fluid" src="images/st/SDLC.jpg" alt="Software Development Life Cycle" style="max-width: 500px">
+                  <figcaption id="caption-SDLC">Software Development Life Cycle <a href="#SDLC-img">[11]</a></figcaption>
+              </figure>
+			  <div>
+				  <p id="first-title"><strong>Software Testing-</strong> is one of the main the phase in Software Development Life Cycle (SDLC) and it is about testing code with having a purpose of finding errors in code by executing a program.
+				  A software application will be efficient when it is free of error in code. All errors will be removed from the software if testing is successfully done <a href="#ref-seven">[7]</a>.</p>
+				  
+				  <p>Software Testing can be classified into two major testing types including <strong>static testing</strong> and <strong>dynamic testing</strong> <a href="#ref-two">[2]</a>.</p>
+				  
+				  <p><strong>Static testing-</strong> is about reviewing software project documents to recognize the errors by performing informal and formal interview, inspection or technical and nontechnical review <a href="#ref-two">[2]</a>.</p>
+				  
+				  <p><strong>Dynamic testing-</strong> is about testing software during the execution. It also can be divided into two types which are <strong>white box testing</strong> and <strong>black box testing</strong> <a href="#ref-two">[2]</a>.</p>
+			  </div>
+          </div>
+  
+  
+  
+          <div class="sm" id="nos">
+              <h3  class="sm"> Name of Skill </h3>
+              <hr class="smSolid" />
+              <p><strong>Automated Unit Testing</strong></p>
+			  <div class="text-center">
+                  <figure id="imgSWtestingClass">
+                      <img class="img-fluid" src="images/st/classification_of_sw_testing.png" alt="Classification of Software Testing">
+                      <figcaption id="caption-SWtestingClass">Software Testing Classification <a href="#ref-one">[1]</a></figcaption>
+                  </figure>
+			  </div>
+              <p>Unit testing is one of testing approach for software testing phase in Software Development Life Cycle (SDLC) where individual units of a software are tested <a href="#ref-nine">[9]</a>, <a href="#ref-ten">[10]</a>. In other words, units or components are a smallest testable part of a software which are tested independently and individually with aim of validating functionality of each unit <a href="#ref-nine">[9]</a>, <a href="#ref-ten">[10]</a>.</p>
+              <p>Unit testing can be done both <strong>manually</strong> and <strong>automated</strong> while automated is more common <a href="#ref-ten">[10]</a>. They usually have one or more inputs with a single output. In Object-Oriented Programming (OOP) the unit is a method <a href="#ref-nine">[9]</a>.</p>
+              <p>It is also one part in Test Driven Development (TDD) methodology <a href="#ref-ten">[10]</a>.
+                  Unit testing methods is also based on using <strong>White Box Testing</strong> method <a href="#ref-nine">[9]</a>.
+              </p>
+              <hr class="smSolid" />
+          </div>
+  
+  
+          <div class="sm" id="class_st">
+              <h3  class="sm"> Classification of Skill </h3>
+              <hr class="smSolid" />
+              <img class="img-fluid" src="images/st/UnitTestingTypes.png" id="imgUnitTesting" alt="Unit Testing Types">
+              <p>In general, Automated Unit Testing can be classified as a Hard Skills. Hard Skills which are the skills are acquired by practical experiences, technical knowledge and training <a href="#ref-four">[4]</a>.</p>
+              <p>Unit Testing also can be classified into two sub categories including <strong>Manual</strong> and <strong>Automated</strong> testing <a href="#ref-two">[2]</a>.</p>  
+  
+              <hr class="smSolid" />
+          </div>
+  
+  
+          <div class="sm" id="pre_st">
+              <h3  class="sm"> Prerequisites for Skill </h3>
+              <hr class="smSolid" />
+              <p>As a Software tester it is expected to have some prerequisite skills before performing testing process and for having a proper test cases such as bellows:</p>
+  
+              <ol class="text-justify">
+                  <li>Knowledge of programming in at least one or more programming languages</li>
+                  <li>Costumer requirements should be met and cover by all tests <a href="#ref-seven">[7]</a>.</li>
+                  <li>Using third parties and proper tools to perform software testing <a href="#ref-seven">[7]</a>.</li>
+                  <li>As what the needs of the optimal number of testing which is based on the risk assessment of the application, the complete and exhaustive testing are impossible <a href="#ref-seven">[7]</a>.</li>
+                  <li>All testing should be planned before implementing the test <a href="#ref-seven">[7]</a>.</li>
+                  <li>According to Pareto principle <a href="#ref-eight">[8]</a>, 20% of the program component will produce 80% of errors.</li>
+                  <li>The testing should be started by small parts then extend to large parts <a href="#ref-seven">[7]</a>.</li>
+              </ol>
+              
+              <hr class="smSolid" />
+          </div>
+  
+  
+          <div class="sm" id="areas_st">
+              <h3  class="sm"> Related Software Engineering Areas </h3>
+              <hr class="smSolid" />
+              <p>According to chapter four in SWEBOK, there some relevant areas to the software testing as below <a href="#SWEBOK">[3]</a>:</p>
+              Software Maintenance<br>
+              Software Quality<br>
+              Software Construction<br>
+              <hr class="smSolid" />
+          </div>
+  
+  
+          <div class="sm" id="rat_st">
+              <h3  class="sm"> Rationale for Skill </h3>
+              <hr class="smSolid" />
+              <p>
+              There are number of reasons for performing unit testing as well as its advantages in Software Development Life Cycle (SDLC) as follows <a href="#ref-six">[6]</a>:</p>
+  
+              <ol class="text-justify">
+                  <li>It helps for isolating a section of the code.</li>
+                  <li>It helps for verifying the correctness of the code.</li>
+                  <li>It tests all functions and procedures.</li>
+                  <li>It helps to save costs by finding and fixing the bugs in the early stage of development cycle.</li>
+                  <li>It helps to the developers for making changes easily and quickly by providing deep understanding the code for them.</li>
+                  <li>It helps to reuse the code and save costs.</li>
+            </ol>
+              <hr class="smSolid" />
+          </div>
+  
+  
+          <div class="sm" id="roles_st">
+          <h3  class="sm"> Roles for Skill </h3>
+          <hr class="smSolid" />
+          <img class="img-fluid" src="images/st/roles.jpg" id="imgRoles" alt="Roles of Unit Testing">
+          <p>In general, the procedure of unit testing is divided into four main roles as below <a href="#ref-six">[6]</a>:</p>
+          <ol class="text-justify">
+              <li>Creating and writing the test cases.</li>
+              <li>Reviewing and testing the reviewed test cases.</li>
+              <li>Creating baseline.</li>
+              <li>Executing the test cases.</li>
+          </ol>
+  
+          <hr class="smSolid" />
+          </div>
+  
+  
+          <div class="sm" id="work_st">
+              <h3  class="sm"> Work Related to Skill </h3>
+              <hr class="smSolid" />
+              <p>There some primary work related ot unit testing should be perform by developer as below <a href="#ref-two">[2]</a>:</p>
+              <ol class="text-justify">
+                  <li>Writing a part of code just for testing the function.</li>
+                  <li>Isolating the function for rigorously testing that function.</li>
+                  <li>Using a proper testing tools and frameworks for developing automated test cases.</li>
+              </ol>
+              <hr class="smSolid" />
+          </div>
+  
+  
+          <div class="sm" id="example_st">
+              <h3  class="sm"> Real-World Example </h3>
+              <hr class="smSolid" />
+              <img class="img-fluid" src="images/st/calculator.png" id="imgCal" alt="Claculator">
+              <p>There various example of the role of uniting testing in the world such as banking industries, healthcare systems, air plan industries, etc.</p>
+              <p>In a banking application which is offered by RBC bank in Canada, the simple calculator is needed to perform simple and basic calculating functions such as addition, subtraction, multiplication, division. The developers of this application create four units for checking the functionality of the calculator. The units are addition method, subtraction method, multiplication method and division method. Each unit should work individually and after that testing all unit, they are integrated together for checking the functionality of the whole calculator.</p>
+  
+              <hr class="smSolid" />
+          </div>
+  
+  
+          <div class="sm" id="cult_st">
+              <h3  class="sm"> Role of Academia or Industry in Cultivating the Skill </h3>
+              <hr class="smSolid" />
+              <p>Universities and academic institutions play a vital role for proving a good knowledge and highlighting the importance of testing in software development for new generation of software developers and testers by offering various courses such as Software Maintenance, Advance Programming Practice, Software Refactoring as well as focusing on outstanding scholars and papers in this area.</p>
+              <p>In parallel, the industries focus on practical aspects in software testing by offering and performing proper projects in this area that helpful for software testing developers to acquire proficiency and experience.</p>
+  
+              <hr class="smSolid" />
+          </div>
+  
+  
+          <div class="sm" id="tools_st">
+                  <h3  class="sm" > Tools Supporting the Skill </h3>
+                  <hr class="smSolid" />
+                  <p class="text-justify" style="font-size: 18px">There are many tools and frameworks for unit testing in different programming languages. Some of common tools are listed as follows <a href="#ref-two">[2]</a>:</p>
+  
+              <div class="row" style="padding-top:70px">
+              
+                  <div class="column">
+                      <div class="card" style="min-height: 440px">
+                          <div class="text-center"><h4><a href="https://junit.org/junit5/" target="_blank" style = "width:30%;  display:flex;"><u>JUnit</u></a></h4></div>
+                          <br>
+                          <div class="text-center"><img src="images/st/junit.png" style="height:30%; width:60%" class="img-fluid" alt="JUnit icon"></div>
+                          <br><br>
+                          <p><strong>JUnit</strong> is one of the most common testing frameworks for unit testing in Java programming language.</p>
+                      </div>
+                  </div>
+  
+                  <div class="column">
+                      <div class="card" style="min-height: 440px">
+                          <div class="text-center"><h4><a href="https://nunit.org"  target="_blank" style = "width:27%;  display:flex;"><u>NUnit</u></a></h4></div>
+                          <br>
+                          <div class="text-center"><img src="images/st/nunit.png" style="height:30%; width:60%" class="img-fluid" alt="NUnit icon"></div>
+                          <br><br>
+                          <p><strong>NUnit</strong> is a most common unit testing framework for any .NET programming language.</p>
+                      </div>
+                  </div>
+  
+                  <div class="column">
+                      <div class="card" style="min-height: 440px">
+                          <div class="text-center"><h4><a href="https://phpunit.de"  target="_blank" style = "width:35%;  display:flex;"><u>PHPUnit</u></a></h4></div>
+                          <br><br><br>
+                          <div class="text-center"><img src="images/st/phpunit.png" style="height:30%; width:60%" class="img-fluid" alt="PHP Unit icone"></div>
+                          <br><br><br>
+                          <p><strong>PHPUnit</strong> which is a common testing framework for performing unit testing in PHP programming language.</p>
+                      </div>
+                  </div>
+  
+  
+                  <div class="column">
+                      <div class="card" style="min-height: 440px">
+                          <div class="text-center"><h4><a href="https://jestjs.io"  target="_blank" style = "width:25%;  display:flex;"><u>Jest</u></a></h4></div>
+                          <br><br>
+                          <div class="text-center"><img src="images/st/jest.png" style="height:30%; width:60%" class="img-fluid" alt="Jest icon"></div>
+                          <br>
+                          <p><strong>Jest</strong> is one of the most popular testing frameworks for unit testing and other kind of testing in JavaScript programming language <a href="#ref-five">[5]</a>.</p>
+                      </div>
+                  </div>
+  
+              </div>
+  
+              <hr class="smSolid" />
+          </div>
+  
+  
+          <div class="sm" id="assess_st">
+              <h3 class="sm"> Skill Self-Assessment </h3>
+              <hr class="smSolid" />
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              <i class="far fa-star"></i>
+              (6/10)
+              <p class="mt-3">
+                  As my work experience as a developer which is around 2 years, I still need to gain more practical experience because testing is a critical phase of Software Development Life Cycle (SDLC).
+                  <br>Also for creating proper test cases and units, having a good knowledge in various programming is needed.
+              </p>
+          </div>
+  
+  
+          <div class="sm" id="ref_st">
+              <h3  class="sm"> References </h3>
+              <hr class="smSolid" />
+                  <a href="https://www.h2kinfosys.com/blog/software-testing-classification/" id="ref-one" class="text-primary">[1] https://www.h2kinfosys.com/blog/software-testing-classification/</a><br>
+                  <a href="https://www.guru99.com/unit-testing-guide.html" id="ref-two" class="text-primary">[2] https://www.guru99.com/unit-testing-guide.html</a><br>
+                  <a id="SWEBOK" class="text-primary">[3] Bourque, Pierre, and Richard E. Fairley. Guide to the software engineering body of knowledge (SWEBOK (R)): Version 3.0. IEEE Computer Society Press, 2014.</a><br>
+                  <a href="https://www.indeed.com/career-advice/resumes-cover-letters/hard-skills-vs-soft-skills" id="ref-four" class="text-primary">[4] https://www.indeed.com/career-advice/resumes-cover-letters/hard-skills-vs-soft-skills</a><br>
+                  <a href="https://geekflare.com/javascript-unit-testing/" id="ref-five" class="text-primary">[5] ttps://geekflare.com/javascript-unit-testing/</a><br>
+                  <a href="https://www.geeksforgeeks.org/unit-testing-software-testing/" id="ref-six" class="text-primary">[6] https://www.geeksforgeeks.org/unit-testing-software-testing/</a><br>
+                  <a href="https://www.geeksforgeeks.org/types-software-testing/" id="ref-seven" class="text-primary">[7] https://www.geeksforgeeks.org/types-software-testing/</a><br>
+                  <a href="https://en.wikipedia.org/wiki/Pareto_principle" id="ref-eight" class="text-primary">[8] https://en.wikipedia.org/wiki/Pareto_principle</a><br>
+                  <a href="http://softwaretestingfundamentals.com/unit-testing/" id="ref-nine" class="text-primary">[9] http://softwaretestingfundamentals.com/unit-testing/</a><br>
+                  <a href="https://www.getzephyr.com/insights/role-unit-tests-test-automation" id="ref-ten" class="text-primary">[10] https://www.getzephyr.com/insights/role-unit-tests-test-automation</a><br>
+                  <a href="https://commons.wikimedia.org/wiki/File:SDLC_-_Software_Development_Life_Cycle.jpg" id="SDLC-img" class="text-primary">[11] https://commons.wikimedia.org/wiki/File:SDLC_-_Software_Development_Life_Cycle.jpg</a>
+              <hr class="smSolid" />
+          </div>`,
     },
     {
         title: `Software Requirements`,
@@ -1739,24 +1726,23 @@ It is not seldom to find software developing companies considering process measu
 		<div id="table_pa_container">
 		<p class="table_pa_title" style="color: #005a9c;">On this Page:</p>
             <ul>
-              <li><a id="table_pa_container" href="#nos">Name of Skill</a></li>
-              <li><a id="table_pa_container" href="#cos">Classification of Skill</a></li>
-              <li><a id="table_pa_container" href="#pfs">Prerequisites for Skill</a></li>
-              <li><a id="table_pa_container" href="#rsfea">Related Software Engineering Area(s)</a></li>
-              <li><a id="table_pa_container" href="#rafs">Rationale for Skill</a></li>
-              <li><a id="table_pa_container" href="#rofs">Roles for Skill</a></li>
-              <li><a id="table_pa_container" href="#wrts">Work Related to Skill</a></li>
-              <li><a id="table_pa_container" href="#rwe">Real-World Example/Scenario of Skill</a></li>
-              <li><a id="table_pa_container" href="#roai">Role of Academia or Industry in Cultivating the Skill</a></li>
-              <li><a id="table_pa_container" href="#tsts">Tools Supporting the Skill</a></li>
-              <li><a id="table_pa_container" href="#ssa">Skill Self-Assessment</a></li>
-              <li><a id="table_pa_container" href="#r">References</a></li>
+              <li><a href="#nos">Name of Skill</a></li>
+              <li><a href="#cos">Classification of Skill</a></li>
+              <li><a href="#pfs">Prerequisites for Skill</a></li>
+              <li><a href="#rsfea">Related Software Engineering Area(s)</a></li>
+              <li><a href="#rafs">Rationale for Skill</a></li>
+              <li><a href="#rofs">Roles for Skill</a></li>
+              <li><a href="#wrts">Work Related to Skill</a></li>
+              <li><a href="#rwe">Real-World Example/Scenario of Skill</a></li>
+              <li><a href="#roai">Role of Academia or Industry in Cultivating the Skill</a></li>
+              <li><a href="#tsts">Tools Supporting the Skill</a></li>
+              <li><a href="#ssa">Skill Self-Assessment</a></li>
+              <li><a href="#r">References</a></li>
 			</ul>
 			
 		  </div>
-		<a href="#" class="to-top">
-		<i class="fas fa-chevron-up" aria-hidden="false"><label class="visuallyhidden">Go to Top</label></i>
-	</a>
+	
+
 		  <div id="navbar_pa">
   	<a href="index.html">Home</a>
   	<a href="#table_pa_container">Table Of Contents</a>
@@ -2197,23 +2183,21 @@ It is not seldom to find software developing companies considering process measu
 	<div id="table_pa_container">
 	<p class="table_pa_title" style="color: #005a9c;">On this Page:</p>
 		<ul>
-			<li><a id="table_pa_container" href="#name_sch">Name of Skill</a></li>
-			<li><a id="table_pa_container" href="#class_sch">Classification of Skill</a></li>
-			<li><a id="table_pa_container" href="#pre_sch">Prerequisites for Skill</a></li>
-			<li><a id="table_pa_container" href="#areas_sch">Related Software Engineering Area(s)</a></li>
-			<li><a id="table_pa_container" href="#rat_sch">Rationale for Skill </a></li>
-			<li><a id="table_pa_container" href="#roles_sch">Roles for Skill</a></li>
-			<li><a id="table_pa_container" href="#work_sch">Work Related to Skill</a></li>
-			<li><a id="table_pa_container" href="#example_sch">Real-World Example/Scenario of Skill</a></li>
-			<li><a id="table_pa_container" href="#cult_sch">Role of Academia or Industry in Cultivating the Skill</a></li>
-			<li><a id="table_pa_container" href="#tools_sch">Tools Supporting the Skill</a></li>
-			<li><a id="table_pa_container" href="#assess_sch">Skill Self-Assessment</a></li>
-			<li><a id="table_pa_container" href="#ref_sch">References</a></li>
+			<li><a href="#name_sch">Name of Skill</a></li>
+			<li><a href="#class_sch">Classification of Skill</a></li>
+			<li><a href="#pre_sch">Prerequisites for Skill</a></li>
+			<li><a href="#areas_sch">Related Software Engineering Area(s)</a></li>
+			<li><a href="#rat_sch">Rationale for Skill </a></li>
+			<li><a href="#roles_sch">Roles for Skill</a></li>
+			<li><a href="#work_sch">Work Related to Skill</a></li>
+			<li><a href="#example_sch">Real-World Example/Scenario of Skill</a></li>
+			<li><a href="#cult_sch">Role of Academia or Industry in Cultivating the Skill</a></li>
+			<li><a href="#tools_sch">Tools Supporting the Skill</a></li>
+			<li><a href="#assess_sch">Skill Self-Assessment</a></li>
+			<li><a href="#ref_sch">References</a></li>
 		</ul>	
 	</div>
-	<a href="#" class="to-top">
-		<i class="fas fa-chevron-up" aria-hidden="false"><label class="visuallyhidden">Go to Top</label></i>
-	</a>
+
 	<div id="navbar_pa">
   	<a href="index.html">Home</a>
   	<a href="#table_pa_container">Table Of Contents</a>
@@ -2284,13 +2268,13 @@ It is not seldom to find software developing companies considering process measu
 			<p>There are two types of WBS approaches as follows bellow:</p>
 			<h5>Deliverable-Based</h5>
 			<p>As the name suggests, the focus here is on the deliverables, so each deliverable will be the root of the decomposition structure, its very close to what we know as a top-down approach in software engineering, and the most common approach.</p>
-			<img class="img-fluid pt-3 pb-3" src="images/DeliverableBased.jpg" >
+			<img class="img-fluid pt-3 pb-3" src="images/DeliverableBased.jpg" alt="Deliverable Based" >
 			<h5>Phase-Based</h5>
 			<p>This approach sees things based on project phases, from conception into implementation until the ending activities of the project, this approach usually encapsulated more than just technical activities and involves control activities such as closing.</p>
-			<img class="img-fluid pt-3 pb-3" src="images/PhaseBased.jpg">
+			<img class="img-fluid pt-3 pb-3" src="images/PhaseBased.jpg" alt="Phase Based">
 			<h4 class="mt-3">Critical Path Method</h4>
 			<p>Critical path method, is about to distinguish the path of higher length on your schedule, after defining dependencies and building an activities schedule, you sum the estimation of each activity in the existing paths and highlight the one that would take longer, this will determine the minimum amount of time necessary to conclude the project, once parallelisation wont matter due to the dependencies. This method is very important to understand which is the most critical activities in a project once they are the ones that will be leading the project downstream.</p>
-			<img class="img-fluid" src="images/CriticalPath.png">
+			<img class="img-fluid" src="images/CriticalPath.png" alt="Critical Path">
 		</div>
 		<div class="sm" id="example_sch">
 			<h2 class="sm"> Real-World Example </h2>
@@ -2379,24 +2363,21 @@ It is not seldom to find software developing companies considering process measu
 	<div id="table_pa_container">
 	<p class="table_pa_title" style="color: #005a9c;">On this Page:</p>
 		<ul>
-			<li><a id="table_pa_container" href="#name_pa">Name of Skill</a></li>
-			<li><a id="table_pa_container" href="#class_pa">Classification of Skill</a></li>
-			<li><a id="table_pa_container" href="#pre_pa">Prerequisites for Skill</a></li>
-			<li><a id="table_pa_container" href="#areas_pa">Related Software Engineering Area(s)</a></li>
-			<li><a id="table_pa_container" href="#rationale_pa">Rationale for Skill </a></li>
-			<li><a id="table_pa_container" href="#roles_pa">Roles for Skill</a></li>
-			<li><a id="table_pa_container" href="#work_pa">Work Related to Skill</a></li>
-			<li><a id="table_pa_container" href="#example_pa">Real-World Example/Scenario of Skill</a></li>
-			<li><a id="table_pa_container" href="#academia_pa">Role of Academia or Industry in Cultivating the Skill</a></li>
-			<li><a id="table_pa_container" href="#tools_pa">Tools Supporting the Skill</a></li>
-			<li><a id="table_pa_container" href="#assessment_pa">Skill Self-Assessment</a></li>
-			<li><a id="table_pa_container" href="#ref_pa">References</a></li>
+			<li><a href="#name_pa">Name of Skill</a></li>
+			<li><a href="#class_pa">Classification of Skill</a></li>
+			<li><a href="#pre_pa">Prerequisites for Skill</a></li>
+			<li><a href="#areas_pa">Related Software Engineering Area(s)</a></li>
+			<li><a href="#rationale_pa">Rationale for Skill </a></li>
+			<li><a href="#roles_pa">Roles for Skill</a></li>
+			<li><a href="#work_pa">Work Related to Skill</a></li>
+			<li><a href="#example_pa">Real-World Example/Scenario of Skill</a></li>
+			<li><a href="#academia_pa">Role of Academia or Industry in Cultivating the Skill</a></li>
+			<li><a href="#tools_pa">Tools Supporting the Skill</a></li>
+			<li><a href="#assessment_pa">Skill Self-Assessment</a></li>
+			<li><a href="#ref_pa">References</a></li>
 		</ul>	
 	</div>
 	
-<a href="#" class="to-top">
-		<i class="fas fa-chevron-up" aria-hidden="false"><label class="visuallyhidden">Go to Top</label></i>
-	</a>
 	
 	<div id="navbar_pa">
   	<a href="index.html">Home</a>
@@ -2414,7 +2395,7 @@ It is not seldom to find software developing companies considering process measu
 		
 		
 		
-		<p id="pa"> It is often termed as <b>Root Cause Analysis</b> and is a method of Problem-Solving. It is used for identifying the root causes of
+		<p> It is often termed as <b>Root Cause Analysis</b> and is a method of Problem-Solving. It is used for identifying the root causes of
 		faults or problems [1].</p>
 		
 		<hr class="smSolid" />
@@ -2425,7 +2406,7 @@ It is not seldom to find software developing companies considering process measu
 	<div class="sm" id="class_pa">
 		<h2  class="ps" > Classification of Skill </h2>
 		It can be classified as <b>Hard Technical Skill</b>.<br>
-		<p id="pa"> Hard skills are technical knowledge or training that you have gained through any life experience, 
+		<p> Hard skills are technical knowledge or training that you have gained through any life experience, 
 		including in your career or education [2]. </p>
 		<hr class="smSolid" />
 	</div>
@@ -2461,7 +2442,7 @@ It is not seldom to find software developing companies considering process measu
 
 	<div class="sm" id="rationale_pa">
 		<h2 class="sm"> Rationale for Skill </h2>
-		<p id="pa">The rationale for choosing Problem Analysis skill is to be develop the ability to generate more than one possible solution
+		<p>The rationale for choosing Problem Analysis skill is to be develop the ability to generate more than one possible solution
 		for an identified problem. Being the combination of Hard-skill and Cognitive skill, it is quite
 		difficult to generate multiple cause paths. Software Engineers tend to make decision based on their past experience
 		for most of the time and it might be possible to use or define a cause-effect new path for that problem. This might be considered as a must have skill
@@ -2501,26 +2482,26 @@ It is not seldom to find software developing companies considering process measu
 
 	<div class="sm" id="example_pa">
 		<h2 class="sm"> Real-World Example/ Scenario of Skill</h2>
-		<strong><a href="https://global-sei.com/technology/tr/bn73/pdf/73-13.pdf"><u>Process Improvement Activities for Automotive Software[4]</a></u></strong><br>
-		<br><p id="pa"> It is an example of automotive company where they tried to improve the process of manufacturing using software system
+		<strong><a href="https://global-sei.com/technology/tr/bn73/pdf/73-13.pdf"><u>Process Improvement Activities for Automotive Software[4]</u></a></strong><br>
+		<br><p> It is an example of automotive company where they tried to improve the process of manufacturing using software system
 		after finding out the problem finding activity using 5 whys (problem analysis). They succeeded in getting the exact bug location in V-shaped software system.
 		</p>
 
 		<figure>
-		<img class="img-fluid" src="images/pa/process-improve.png" style="margin-left: 10%; margin-right: 10% ;width: 600px; height:40%" alt="Process to improve Problem-Solving Techniques for V-shaped model system"></img>
+		<img class="img-fluid" src="images/pa/process-improve.png" style="margin-left: 10%; margin-right: 10% ;width: 600px; height:40%" alt="Process to improve Problem-Solving Techniques for V-shaped model system">
 		<figcaption><i> fig 2: Image of ideal analysis flow [4] </i></figcaption>
 		</figure>
 
-		<p id="pa">Here they proposed an analyzing method of the root causes for software problems. To prevent
+		<p>Here they proposed an analyzing method of the root causes for software problems. To prevent
 		the recurrence of the same problems, they considered it to be necessary to logically identify the root causes and take appropriate
 		measures. Therefore, the research team applied “the 5 whys analysis” [KATAOKA*,FURUTO,MATSUMOTO,2011]. </p>
 		
 		<figure>
-		<img class="img-fluid" src="images/pa/result.png" style="margin-left: 10%; margin-right: 10% ;width: 600px; height:40%" alt="Sheet form to analyse a problem using 5 whys"></img>
+		<img class="img-fluid" src="images/pa/result.png" style="margin-left: 10%; margin-right: 10% ;width: 600px; height:40%" alt="Sheet form to analyse a problem using 5 whys">
 		<figcaption><i> fig 3: Effectiveness [4] </i></figcaption>
 		</figure>
 
-		<p id="pa">They tried to create a form sheet for filling out the bug related details to answer 
+		<p>They tried to create a form sheet for filling out the bug related details to answer 
 		the 5 whys and concluded that problem analysis helps in reducing the lead time and also improves the 
 		process quality effectively. </p><br>
 		
@@ -2537,17 +2518,16 @@ It is not seldom to find software developing companies considering process measu
 
 	<div class="sm" id="academia_pa">
 		<h2 class="sm"> Role of Academia or Industry in Cultivating the Skill </h2>
-		<p id="pa">Academia is working rigorously to incorporate subjects/ assignments to make students understand the importance
+		<p>Academia is working rigorously to incorporate subjects/ assignments to make students understand the importance
 		of probelm analysis in order to solve any given problem. This even helps in reducing the cognitive baises between stakeholders
 		while iterating over the problem space. </p>
 		<br>
-		<p id="pa">E.g. Given a common problem or assignment to a class of students for solving it individually and then if 
+		<p>E.g. Given a common problem or assignment to a class of students for solving it individually and then if 
 		peer reviewing is allowed, students might get to learn new possible cause-effect paths one could have. 
 		This might help them in developing problem analysis skill to think more creatively over a given problem 
 		and might be able to create multiple solution path for any identified problem.</p>
 		<hr class="smSolid" />
 	</div>
-
 
 	<div class="sm" id="tools_pa">
 		<h2  class="sm" > Tools Supporting the Skill </h2>
@@ -2556,7 +2536,7 @@ It is not seldom to find software developing companies considering process measu
 		<div class="column" style = "width:50%; display:flex; align-content: center;">
 		<div class="card" style = "width:100%; display:flex; align-content: center;">
 					<a href="https://www.brighthubpm.com/project-planning/118441-problem-tree-a-comprehensive-analysis-tool/#:~:text=A%20problem%20tree%20analysis%20is,into%20a%20set%20of%20consequences.">
-					<h3><u>Problem Tree Analysis</h4></u>
+					<h3><u>Problem Tree Analysis</u></h3>
 					<p>A problem tree analysis is a pictorial representation of a problem, its causes and 
 					its consequences are fitted into the diagram on a hierarchical preference basis. This helps the 
 					project team get a quick glance of how a range of complex issues contribute toward a problem and 
@@ -2568,7 +2548,7 @@ It is not seldom to find software developing companies considering process measu
 			<div class="column" style = "width:50%; display:flex; align-content: center;">
 			<div class="card" style = "width:100%; display:flex; align-content: center;">
 					<a href="https://www.businessanalyststoolkit.com/mind-mapping-for-problem-solving/">
-					<h3><u>Mind Mapping</h4></u>
+					<h3><u>Mind Mapping</u></h3>
 					<p>This visual technique is used to outline information around a central word or phrase. 
 					This central concept may form the known issue that may be causing the problem.</p>
 					</a>
@@ -2580,7 +2560,7 @@ It is not seldom to find software developing companies considering process measu
 			<div class="column" style = "width:50%; display:flex; align-content: center;">
 			<div class="card" style = "width:100%; display:flex; align-content: center;">
 					<a href="https://www.businessanalyststoolkit.com/five-whys-example/">
-					<h3><u>The Five Whys</u></h4>
+					<h3><u>The Five Whys</u></h3>
 					<p>The Five Whys technique is simply the process of asking “why” enough times that you 
 					eventually get to the root cause of a problem. It is an effective way to solving problems 
 					that can be used by any business analyst to improve a business process or write better 
@@ -2592,7 +2572,7 @@ It is not seldom to find software developing companies considering process measu
 			<div class="column" style = "width:50%; display:flex; align-content: center;">
 				<div class="card" style = "width:100%; display:flex; align-content: center;">
 					<a href="https://www.businessanalyststoolkit.com/fishbone-analysis-example/">
-					<h3><u>Fishbone Analysis</u></h4>
+					<h3><u>Fishbone Analysis</u></h3>
 					<p>Like Mind Mapping, Fishbone Analysis is a visual technique for exploring a central problem 
 					or concept. This tool is also called the Ishikawa Diagram as it was first used by Dr. Kaoru Ishikawa 
 					of the University of Tokyo in 1943.</p>
@@ -2620,7 +2600,7 @@ It is not seldom to find software developing companies considering process measu
             <i class="far fa-star"></i>
             <i class="far fa-star"></i>
             (4/10)
-            <p class="mt-3" id="pa">
+            <p class="mt-3">
 			I have a good knowledge and experience about the pre-requisites and the tools mentioned above. But, in order to 
 		gain expertise in this skill, it does require you to have an experiential knowledge of doing this analysis for over a year and
 		as it's a process by which you would be able to find the actual root cause which is affecting the system. 
@@ -2635,9 +2615,9 @@ It is not seldom to find software developing companies considering process measu
 	<div class="sm" id="ref_pa">
 		<h2 class="sm"> References </h2>
 		<ul>
-		<li><a id="pa" href="https://www.elo.iastate.edu/engl-309/problem-analysis/" class="text-primary">[1] Elo.iastate.edu, 2020.</a></li>
+		<li><a href="https://www.elo.iastate.edu/engl-309/problem-analysis/" class="text-primary">[1] Elo.iastate.edu, 2020.</a></li>
 		<li><a href="https://www.indeed.com/career-advice/resumes-cover-letters/hard-skills-vs-soft-skills#:~:text=Hard%20skills%20are%20technical%20knowledge,in%20your%20career%20or%20education"  class="text-primary">[2] Indeed.com, 2020. </a></li>
-		<li><a href="//commons.wikimedia.org/w/index.php?title=User:KellyLawless&amp;action=edit&amp;redlink=1" title="User:KellyLawless (page does not exist)" class="text-primary">[3] By KellyLawless</a> - <span class="int-own-work" lang="en" class="text-primary">Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0" class="text-primary">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=30417444" class="text-primary">Open Link<a/></li>
+		<li><a href="//commons.wikimedia.org/w/index.php?title=User:KellyLawless&amp;action=edit&amp;redlink=1" title="User:KellyLawless (page does not exist)" class="text-primary">[3] By KellyLawless</a> - <span class="int-own-work text-primary" lang="en">Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0" class="text-primary">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=30417444" class="text-primary">Open Link</a></li>
 		<li><a href="https://global-sei.com/technology/tr/bn73/pdf/73-13.pdf" class="text-primary">[4] Global-sei.com, 2020.</a></li>
 		</ul>
 		<hr class="smSolid" />

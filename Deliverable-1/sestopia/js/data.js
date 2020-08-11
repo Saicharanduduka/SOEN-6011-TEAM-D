@@ -73,23 +73,23 @@ const content = [{
         description: `User Research is the study of users which include their needs and what they want. User researchers find crucial information that will lead them to design good UI. `,
 		text: `
 		<p class="text-muted pb-5">Author: Pooja Dhir</p>
-	<hr style="solid 5px #bbb"></hr>
+	<hr class="smSolid" />
 		
 	<div id="table_pa_container">
 	<p class="table_pa_title" style="color: #005a9c;">On this Page:</p>
 		<ul>
-			<li><a id="table_pa_container" href="#nos"> Name of Skill.</a></li>
-			<li><a id="table_pa_container" href="#cos"> Classification of Skill.</a></li>
-			<li><a id="table_pa_container" href="#pfs"> Prerequisites for Skill.</a></li>
-			<li><a id="table_pa_container" href="#rsfea"> Related Software Engineering Area(s).</a></li>
-			<li><a id="table_pa_container" href="#rafs"> Rationale for Skill. </a></li>
-			<li><a id="table_pa_container" href="#rofs"> Roles for Skill.</a></li>
-			<li><a id="table_pa_container" href="#wrts"> Work Related to Skill.</a></li>
-			<li><a id="table_pa_container" href="#rwe"> Real-World Example/Scenario of Skill.</a></li>
-			<li><a id="table_pa_container" href="#roai"> Role of Academia or Industry in Cultivating the Skill.</a></li>
-			<li><a id="table_pa_container" href="#tsts"> Tools Supporting the Skill.</a></li>
-			<li><a id="table_pa_container" href="#ssa"> Skill Self-Assessment.</a></li>
-			<li><a id="table_pa_container" href="#r"> References</a></li>
+			<li><a id="table_pa_container" href="#nos">Name of Skill</a></li>
+			<li><a id="table_pa_container" href="#cos">Classification of Skill</a></li>
+			<li><a id="table_pa_container" href="#pfs">Prerequisites for Skill</a></li>
+			<li><a id="table_pa_container" href="#rsfea">Related Software Engineering Area(s)</a></li>
+			<li><a id="table_pa_container" href="#rafs">Rationale for Skill</a></li>
+			<li><a id="table_pa_container" href="#rofs">Roles for Skill</a></li>
+			<li><a id="table_pa_container" href="#wrts">Work Related to Skill</a></li>
+			<li><a id="table_pa_container" href="#rwe">Real-World Example/Scenario of Skill</a></li>
+			<li><a id="table_pa_container" href="#roai">Role of Academia or Industry in Cultivating the Skill</a></li>
+			<li><a id="table_pa_container" href="#tsts">Tools Supporting the Skill</a></li>
+			<li><a id="table_pa_container" href="#ssa">Skill Self-Assessment</a></li>
+			<li><a id="table_pa_container" href="#r">References</a></li>
 		</ul>	
 	</div>
 	
@@ -101,34 +101,34 @@ const content = [{
   	<a href="index.html">Home</a>
   	<a href="#table_pa_container">Table Of Contents</a>
 	</div>
-	<hr style="solid 5px #bbb"></hr>
+	<hr class="smSolid" />
 
 	<div class="sm" id="nos">
-		<h2  class="sm"> <a href="#index"> User Research and Personas </a></h2>
+		<h2 class="sm"> <a href="#index"> User Research and Personas </a></h2>
 		
-		<img class="responsive" src="images/sd/urandp.png" style="float:right; width:30% ">
+		<img class="img-fluid" src="images/sd/urandp.png" style="float:right; width:30% ">
 		<p style="margin-right:40px">
 		User Research is the study of users which include their needs and what they want. User researchers find crucial information that will lead them to design good UI.<br>
 		Personas are fictional characters that are created using user research which might use your product, service, site, etc. It helps the designer to understand the user's needs, experiences, behaviors, and goals.
 		</p>
-		<hr class="smSolid" ></hr>
+		<hr class="smSolid" />
 	</div>
 
 
 	<div class="sm" id="cos">
-	<h2  class="sm"> <a href="#index"> Classification of Skill</a> </h2>
+	<h2 class="sm"> <a href="#index"> Classification of Skill</a> </h2>
 		User research can be classified into two categories:<br><br>
 	<b>A) Quantitative research</b><br>
 	In quantitative techniques, for example, surveys, investigation, and formal trials, the researcher tries to quantify parts of users and user behavior in a manner that can be measured and used for factual examination. Best practice for quantitative strategies is to gather target estimations that are unbiased by the researcher’s theories, presence, and personality. Getting an example of users who can represent the entire user population in a factually important manner regularly requires many research participants. Quantitative Research utilizes quantifiable information to detail realities and reveals designs in research. Quantitative data collection techniques are considerably more organized than Qualitative data collection methods.<br><br>
 	<b>B) Qualitative research</b><br>
 	Qualitative techniques, for example, interviews, case studies, observation, group discussion, open-ended questionnaires, and (somewhat) ease of use tests are frequently more exploratory and look to get a more inside and out comprehension of the individual users’ or user group’s experiences, motivations, and regular daily existences. In qualitative methods, the researcher acknowledges that he/she is somewhat a co-maker of research results, so the outcomes are not totally objective and reproducible. The results of qualitative research are normally not communicated numerically, yet rather as topics or classifications that have happened during the research. It is used to increase an understanding of fundamental reasons, opinions, and motivations. It gives bits of knowledge into the issue or assists with creating thoughts or theories for potential quantitative research. Qualitative Research is additionally used to reveal patterns in thought and opinions, and dive deeper into the issue. It gives detailed information including knowledge about behavior, attitude, and aptitude of the user.<br>
 
-		<hr class="smSolid" ></hr>
+		<hr class="smSolid" />
 	</div>
 
 
 	<div class="sm" id="pfs">
-		<h2  class="sm"><a href="#index"> Prerequisites for Skill</a> </h2>
+		<h2 class="sm"><a href="#index">Prerequisites for Skill</a> </h2>
 				
 		<ul class="sm" style="width:70%">
 		<li>Experience conducting user research</li>
@@ -137,23 +137,23 @@ const content = [{
 		<li>Surveys and formal experiments</li>
 		<li>Critical-thinking and problem-solving skills</li>
 		</ul> 
-		<hr class="smSolid" ></hr>
+		<hr class="smSolid" />
 	</div>
 
 
 	<div class="sm" id="rsfea">
-		<h2  class="sm"> <a href="#index">Related Software Engineering Area(s) </a> </h2>
+		<h2 class="sm"> <a href="#index">Related Software Engineering Area(s)</a> </h2>
 		<ul class="sm" style="width:50%">
 		<li>Software Requirements</li>
 		<li>Software Quality</li>
 		<li>Software Engineering Professional Practice</li>
 		</ul> 
-		<hr class="smSolid" ></hr>
+		<hr class="smSolid" />
 	</div>
 
 
 	<div class="sm" id="rafs">
-		<h2  class="sm"> <a href="#index">Rationale for Skill</a> </h2>
+		<h2 class="sm"> <a href="#index">Rationale for Skill</a> </h2>
 		<div class="box">"Empathy is at the heart of design. Without the understanding of what others see, feel, and experience, design is a pointless task."<br>
 		<i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Tim Brown, CEO of the innovation and design firm IDEO</i></div>
 		<b>1. To Create Designs That are Truly Relevant</b><br><br>
@@ -168,25 +168,25 @@ In spite of the fact that the significance of good design has widely recognized,
 
 
 
-		<hr class="smSolid" ></hr>
+		<hr class="smSolid" />
 	</div>
 
 
 	<div class="sm" id="rofs">
-	<h2  class="sm"><a href="#index"> Roles for Skill</a> </h2>
-	<ul class="sm" style="width:100%">
+	<h2 class="sm"><a href="#index"> Roles for Skill</a> </h2>
+	<ul class="sm">
 		<li><b>UX Researcher</b> – Study the requirements of target user and create personas</li>
 		<li><b>Information Architect</b> – They ensure a positive user experience by making the information accessible, logical and well organized.</li>
 		<li><b>Usability analyst</b> – They focus on a very specific aspect of user experience :Usability</li>
 		<li><b>UX writer</b> – They are the interaction between user experience design, copywriting and branding.</li>
 		<li><b>UX Designer</b> – They conduct user research, design, write ux copy, validate/test with user and sell/present the design solution to the business.</li>
 		</ul> 
-		<hr class="smSolid" ></hr>
+		<hr class="smSolid" />
 	</div>
 
 
 	<div class="sm" id="wrts">
-		<h2  class="sm"> <a href="#index">Work Related to Skill </a></h2>
+		<h2 class="sm"> <a href="#index">Work Related to Skill</a></h2>
 
 		<ul class="sm" style="width:50%">
 		<li>Brainstorming</li>
@@ -195,28 +195,28 @@ In spite of the fact that the significance of good design has widely recognized,
 		<li>Analytical Evaluation</li>
 		</ul> 
 
-		<hr class="smSolid" ></hr>
+		<hr class="smSolid" />
 	</div>
 
 
 	<div class="sm" id="rwe">
-		<h2  class="sm"><a href="#index"> Real-World Example</a> </h2>
+		<h2 class="sm"><a href="#index"> Real-World Example</a> </h2>
 
-		<center><img class="real" src="images/sd/UserResearchExample.png" style="height:30%; width:60%" class="responsive">
+		<center><img class="real" src="images/sd/UserResearchExample.png" style="height:30%; width:60%" class="img-fluid">
 		<figcaption>Usability Lab</figcaption></center>
 		This is the real world scenario where the user is being monitored. It involves recording the performance of the user doing typical tasks. This research is in a controlled environment setting. The person sitting inside with the user is evaluating user satisfaction using questionnaires and interviews. Goals and questions focus on how well she understands the product and perform a task. This testing is done with the goal that we can comprehend what changes are expected to cause things to go in the correct way.
-		<hr class="smSolid" ></hr>
+		<hr class="smSolid" />
 	</div>
 
 
 	<div class="sm" id="roai">
-		<h2  class="sm"> <a href="#index">Role of Academia or Industry in Cultivating the Skill</a> </h2>
+		<h2 class="sm"> <a href="#index">Role of Academia or Industry in Cultivating the Skill</a> </h2>
 		<b>Academia </b><br>
 What we understand in Academic courses is that user research is all about recording videos, audios, gathering information from users about their needs. Most popular surveys, interviews, questionnaires, observation, studying documentation, etc are enough to be a UX Researcher. But in the real-world it is more than that. One should know the Design Principles, Usability principles, Mental Model, Personas, etc which includes the requirement and how to make a good design.<br>
 <b>Industry</b><br>
 While in industry researcher builds information about their users to serve the user network they work, but their approach is heavily influenced by the company’s business plan. The business benefit is determined by conveying value to the user, for instance, research to design a better customer experience will contribute to uplift in usage, patronage, and profit. Benefit, competition, and innovation shape the approach of the Industry UX Researcher.<br>
 
-		<hr class="smSolid" ></hr>
+		<hr class="smSolid" />
 	</div>
 
 
@@ -229,7 +229,7 @@ While in industry researcher builds information about their users to serve the u
 							<div class="column">
 				<div class="card" style="min-height: 620px;">
 					<h4><center><a href="https://www.bugsee.com/"  target="_blank" style = "width:45%;  display:flex;">Bugsee</a></center></h4>
-					<center><a href="https://www.bugsee.com/"  target="_blank" ><img src="images/sd/bugsee.png" style="height:30%; width:60%" class="responsive"></a></center>
+					<center><a href="https://www.bugsee.com/"  target="_blank" ><img src="images/sd/bugsee.png" style="height:30%; width:60%" class="img-fluid"></a></center>
 					<br><br>
 					<p>Bugsee is a mobile analytics solution that focuses mostly on bug/crash reporting. It provides mobile professionals with tools like crashed session recordings, console logs, and network traffic analysis, all of which permit you and your team to track bug/crashes more efficiently and save time and resources.</p>
 					
@@ -239,7 +239,7 @@ While in industry researcher builds information about their users to serve the u
 						<div class="column">
 				<div class="card" style="min-height: 620px;">
 				<h4><center><a href="https://lookback.io/"  target="_blank" style = "width:45%;  display:flex;">Lookback.io</a></center></h4>
-				<center><a href="https://lookback.io/"  target="_blank" ><img src="images/sd/lookback.png" style="height:30%; width:60%" class="responsive"></a></center>
+				<center><a href="https://lookback.io/"  target="_blank" ><img src="images/sd/lookback.png" style="height:30%; width:60%" class="img-fluid"></a></center>
 				<br><br>
 					<p>Lookback.io is a versatile user-research platform, permitting UI/UX designers and mobile professionals to perform remote user research, communicate with users in real-time, perform individual test research on user’s end with pre-defined goals.Lookback.io also provides its users a strong dashboard where they can monitor their movement and replay tests at any given time.</p>
 				</div>
@@ -249,7 +249,7 @@ While in industry researcher builds information about their users to serve the u
 			<div class="column">
 				<div class="card" style="min-height: 620px;">
 				<h4><center><a href="https://www.smaply.com/"  target="_blank" style = "width:45%;  display:flex;">Smaply</a></center></h4>
-				<center><a href="https://www.smaply.com/"  target="_blank" ><img src="images/sd/smaply.png" style="height:30%; width:60%" class="responsive"></a></center><br>
+				<center><a href="https://www.smaply.com/"  target="_blank" ><img src="images/sd/smaply.png" style="height:30%; width:60%" class="img-fluid"></a></center><br>
 				<br>
 			
 					<p>Smaply helps you to create personas. You can create a clear persona for your user which holds the information of the user. They are easy to duplicate and edit, and you can quickly switch between multiple personas and export them as PDF.</p>
@@ -259,7 +259,7 @@ While in industry researcher builds information about their users to serve the u
 			<div class="column">
 				<div class="card" style="min-height: 620px;">
 					<h4><center><a href="https://xtensio.com/how-to-create-a-persona/"  target="_blank" style = "width:45%;  display:flex;">Xtensio</a></center></h4>
-					<center><a href="https://xtensio.com/how-to-create-a-persona/"  target="_blank" ><img src="images/sd/xtensio.png" style="height:30%; width:60%" class="responsive"></a></center>
+					<center><a href="https://xtensio.com/how-to-create-a-persona/"  target="_blank" ><img src="images/sd/xtensio.png" style="height:30%; width:60%" class="img-fluid"></a></center>
 					<br><br><br>
 					<p>Xtensio is used to create personas. It is the easy and simplest way to create. Not only persona it helps to create pitches, sales sheets, reports, case studies, agendas and more. It is used by Agencies, Consultancies, Startups, Sales team, Educators and teachers.
 					Some templates are free while some are paid.</p>
@@ -268,21 +268,32 @@ While in industry researcher builds information about their users to serve the u
 			</div>
 		</div>
 
-		<hr class="smSolid" ></hr>
+		<hr class="smSolid" />
 	</div>
 
 
 	<div class="sm" id="ssa">
-		<h2  class="sm"><a href="#index"> Skill Self-Assessment </a></h2>
-		<b>6</b><br>
-User research and persona is one of the important skill to start any project. If you don’t know what your user wants you to end with making an unsuccessful product. I have taken the subject “Human-Computer Interface Design” where I discovered how good design plays a role in successful products. Therefore, this subject has given me the opportunity to learn in-depth and enhance my knowledge in this area. But, this skill is a part of UI development. In order to self assess my score to 10 I would want to gain proficiency with all skills that come in UI development, which will give a kick start to my career.
+		<h2 class="sm"><a href="#index"> Skill Self-Assessment </a></h2>
+		<i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            (6/10)
+            <p class="mt-3">
+User research and persona is one of the important skill to start any project. If you don’t know what your user wants you to end with making an unsuccessful product. I have taken the subject “Human-Computer Interface Design” where I discovered how good design plays a role in successful products. Therefore, this subject has given me the opportunity to learn in-depth and enhance my knowledge in this area. But, this skill is a part of UI development. In order to self assess my score to 10 I would want to gain proficiency with all skills that come in UI development, which will give a kick start to my career.</p>
 
-		<hr class="smSolid" ></hr>
+		<hr class="smSolid" />
 	</div>
 
 
 	<div class="sm" id="r">
-		<h2  class="sm"> <a href="#index">References</a> </h2>
+		<h2 class="sm"> <a href="#index">References</a> </h2>
 
 		<ul>
 		<li><a href="https://www.interaction-design.org/literature/topics/personas" target="_blank" style="color:blue">https://www.interaction-design.org/literature/topics/personas</a></li>
@@ -297,7 +308,7 @@ User research and persona is one of the important skill to start any project. If
 
 		<li><a href="https://medium.com/@kate.r.storey/industry-ux-researcher-vs-academic-hci-researcher-d13a7283fbf0" target="_blank" style="color:blue">https://medium.com/@kate.r.storey/industry-ux-researcher-vs-academic-hci-researcher-d13a7283fbf0</a></li>
 
-		<hr class="smSolid" ></hr>
+		<hr class="smSolid" />
 	</div>	`,
 
 
@@ -308,22 +319,22 @@ User research and persona is one of the important skill to start any project. If
         description: `<hr border-top: 3px solid #bbb;>Conducting reviews and audits is skill in the knowledge area software quality</hr><br> `,
 		text: `
 		<p class="text-muted pb-5">Author: Neha Sarang Dighe</p>
-<hr style="solid 5px #bbb"></hr>
+<hr class="smSolid" />
 <div id="table_pa_container">
 	<p class="table_pa_title" style="color: #005a9c;">On this Page:</p>
 <ul>
-<li><a id="table_pa_container" href="#nos"> Name of Skill.</a></li>
-<li><a id="table_pa_container" href="#cos"> Classification of Skill.</a></li>
-<li><a id="table_pa_container" href="#pfs"> Prerequisites for Skill.</a></li>
-<li><a id="table_pa_container" href="#rsfea"> Related Software Engineering Area(s).</a></li>
-<li><a id="table_pa_container" href="#rafs"> Rationale for Skill. </a></li>
-<li><a id="table_pa_container" href="#rofs"> Roles for Skill.</a></li>
-<li><a id="table_pa_container" href="#wrts"> Work Related to Skill.</a></li>
-<li><a id="table_pa_container" href="#rwe"> Real-World Example/Scenario of Skill.</a></li>
-<li><a id="table_pa_container" href="#roai"> Role of Academia or Industry in Cultivating the Skill.</a></li>
-<li><a id="table_pa_container" href="#tsts"> Tools Supporting the Skill.</a></li>
-<li><a id="table_pa_container" href="#ssa"> Skill Self-Assessment.</a></li>
-<li><a id="table_pa_container" href="#r"> References</a></li>
+<li><a id="table_pa_container" href="#nos">Name of Skill</a></li>
+<li><a id="table_pa_container" href="#cos">Classification of Skill</a></li>
+<li><a id="table_pa_container" href="#pfs">Prerequisites for Skill</a></li>
+<li><a id="table_pa_container" href="#rsfea">Related Software Engineering Area(s)</a></li>
+<li><a id="table_pa_container" href="#rafs">Rationale for Skill</a></li>
+<li><a id="table_pa_container" href="#rofs">Roles for Skill</a></li>
+<li><a id="table_pa_container" href="#wrts">Work Related to Skill</a></li>
+<li><a id="table_pa_container" href="#rwe">Real-World Example/Scenario of Skill</a></li>
+<li><a id="table_pa_container" href="#roai">Role of Academia or Industry in Cultivating the Skill</a></li>
+<li><a id="table_pa_container" href="#tsts">Tools Supporting the Skill</a></li>
+<li><a id="table_pa_container" href="#ssa">Skill Self-Assessment</a></li>
+<li><a id="table_pa_container" href="#r">References</a></li>
 </ul>
 </div>
 <a href="#" class="to-top">
@@ -333,17 +344,17 @@ User research and persona is one of the important skill to start any project. If
   	<a href="index.html">Home</a>
   	<a href="#table_pa_container">Table Of Contents</a>
 	</div>
-	<hr style="solid 5px #bbb"></hr>
+	<hr class="smSolid" />
 
 
 
 
 <div class="sm" id="nos">
 
-<h2  class="sm"> <a href="#index"> Conducting Reviews and Audits</a> </h2>
+<h2 class="sm"> <a href="#index"> Conducting Reviews and Audits</a> </h2>
 <br>
-<hr style="solid 5px #bbb"></hr>
-<img src="images/sq/review.png" class="responsive" style="float:right; width:30% ">
+<hr class="smSolid" />
+<img src="images/sq/review.png" class="img-fluid" style="float:right; width:30% ">
 <p style="margin-right:40px">
 Reviews and audit processes are broadly defined
 as static—meaning that no software programs or
@@ -357,13 +368,13 @@ personnel who are independent of development teams. Management reviews are condu
 organizational or project management.<a href="https://www2.deloitte.com/za/en/pages/risk/articles/quality-assurance-reviews.html"  target="_blank"><b>[4]</b></a>
 </p>
 
-<hr class="smSolid" ></hr>
+<hr class="smSolid" />
 </div>
 
 
 <div class="sm" id="cos">
-<h2  class="sm"> <a href="#index">Classification of Skill </a></h2>
-<hr style="solid 5px #bbb"></hr>
+<h2 class="sm"> <a href="#index">Classification of Skill</a></h2>
+<hr class="smSolid" />
 
 <div class="row" style="margin-bottom:40px">
 
@@ -384,20 +395,20 @@ organizational or project management.<a href="https://www2.deloitte.com/za/en/pa
 </ul>
 </div>
 <div class="col">
-<img src="images/sq/types.png" class="responsive">
+<img src="images/sq/types.png" class="img-fluid">
 </div>
 
 </div>
 
 
 
-<hr class="smSolid" ></hr>
+<hr class="smSolid" />
 </div>
 
 
 <div class="sm" id="pfs">
-<h2  class="sm"> <a href="#index">Prerequisites for Skill</a> </h2>
-<hr style="solid 5px #bbb"></hr>
+<h2 class="sm"> <a href="#index">Prerequisites for Skill</a> </h2>
+<hr class="smSolid" />
 
 <ul class="sm" style="width:50%">
 <li>Knowledge of Business requirements</li>
@@ -405,13 +416,13 @@ organizational or project management.<a href="https://www2.deloitte.com/za/en/pa
 <li>Understanding of sprint goal and scope of project</li>
 <li>Functional  Understanding of the system</li>
 </ul>  
-<hr class="smSolid" ></hr>
+<hr class="smSolid" />
 </div>
 
 
 <div class="sm" id="rsfea">
 <h2  class="sm" ><a href="#index"> Related Software Engineering Area(s) </a> </h2>
-<hr style="solid 5px #bbb"></hr>
+<hr class="smSolid" />
 <ul class="sm" style="width:70%">
 <li>Software Requirements</li>
 <li>Software Quality Assurance</li>
@@ -420,17 +431,17 @@ organizational or project management.<a href="https://www2.deloitte.com/za/en/pa
 </ul>
 
 
-<hr class="smSolid" ></hr>
+<hr class="smSolid" />
 </div>
 
 
 <div class="sm" id="rafs">
-<h2  class="sm"> <a href="#index">Rationale for Skill</a> </h2>
-<hr style="solid 5px #bbb"></hr>
-<p style="width:80%">
+<h2 class="sm"> <a href="#index">Rationale for Skill</a> </h2>
+<hr class="smSolid" />
+<p>
 The objective of quality audit and review is to verify the compliance of the department/organization to the defined Quality Management system and requirements of ISO 9001. Also, it provides the assurance and confidence to the management that the processes of the organization are being complied. Another important objective is to identify and highlight the non compliances to the required levels within the organization so that they are acted upon promptly.
 </p>
-<p style="width:80%">
+<p>
 It verifies that each and every element of the system be audited yearly to make sure that each element has been implemented according to the standard’s requirement, and that the elements are applied to the company’s operations properly. In addition, external auditors from the certifying body will audit the system annually to ensure that the system still meets accreditation requirements.
 </p>
 
@@ -442,13 +453,13 @@ It verifies that each and every element of the system be audited yearly to make 
 <li>To review the overall test report before finally deploying the product.</li>
 <li>To analyse whether no aspect is left behind while closing the project.</li>
 </ul>
-<hr class="smSolid" ></hr>
+<hr class="smSolid" />
 </div>
 
 
 <div class="sm" id="rofs">
-<h2  class="sm"> <a href="#index">Roles for Skill </a></h2>
-<hr style="solid 5px #bbb"></hr>
+<h2 class="sm"> <a href="#index">Roles for Skill </a></h2>
+<hr class="smSolid" />
 
 <ul class="sm" style="width:70%">
 <li>Decision maker </li>
@@ -457,25 +468,25 @@ It verifies that each and every element of the system be audited yearly to make 
 <li>Checkers</li>
 </ul>
 
-<hr class="smSolid" ></hr>
+<hr class="smSolid" />
 </div>
 
 
 <div class="sm" id="wrts">
-<h2  class="sm"> <a href="#index">Work Related to Skill </a></h2>
-<hr style="solid 5px #bbb"></hr>
+<h2 class="sm"> <a href="#index">Work Related to Skill </a></h2>
+<hr class="smSolid" />
 <ul class="sm" style="width:70%">
 <li>Examination of software engineering artifacts with respect to standards that have been established by the organization or project for those artifacts.</li>
 <li>Audit: Detailed testing and substantiating of balances</li>
 <li>Review: Enquiries and analysis, less detailed</li>
 </ul>
-<hr class="smSolid" ></hr>
+<hr class="smSolid" />
 </div>
 
 
 <div class="sm" id="rwe">
-<h2  class="sm"><a href="#index">Real-World Example</a></h2>
-<hr style="solid 5px #bbb"></hr>
+<h2 class="sm"><a href="#index">Real-World Example</a></h2>
+<hr class="smSolid" />
 
 <h5></h5>
 <div class="row" style="margin-top:30px">
@@ -489,7 +500,7 @@ It verifies that each and every element of the system be audited yearly to make 
 On a most basic level, auditing and review involves one person checking another person's work. In an organization in which at least one person handles cash, there's the need for a daily cash report. When one employee totals up all payments collected for the day e.g., debit, credit card, cash and check payments, he must log all information on the daily cash report. Later, if another employee checks the report to see if all numbers match the report, she performs a basic audit of the cash report.
 </div>
 <div class="col">
-<img src="images/sq/example.png" class="responsive">
+<img src="images/sq/example.png" class="img-fluid">
 </div>
 </div>
 
@@ -498,13 +509,13 @@ On a most basic level, auditing and review involves one person checking another 
 
 
 
-<hr class="smSolid" ></hr>
+<hr class="smSolid" />
 </div>
 
 
 <div class="sm" id="roai">
-<h2  class="sm"> <a href="#index">Role of Academia or Industry in Cultivating the Skill</a> </h2>
-<hr style="solid 5px #bbb"></hr>
+<h2 class="sm"> <a href="#index">Role of Academia or Industry in Cultivating the Skill</a> </h2>
+<hr class="smSolid" />
 
 <div class="row" style="width:70% ">
 <b>Academia </b><br>
@@ -516,13 +527,13 @@ Where as in industry, the set of standards is maintained by the business, hence 
 
 </div>
 
-<hr class="smSolid" ></hr>
+<hr class="smSolid" />
 </div>
 
 
 <div class="sm" id="tsts">
 <h2  class="sm" > <a href="#index">Tools Supporting the Skill </a></h2>
-<hr style="solid 5px #bbb"></hr>
+<hr class="smSolid" />
 <div class="row" style="padding-top:70px">
 
 <div class="column">
@@ -577,34 +588,38 @@ Review Board supports pre-commit reviews and post-commit reviews.</p>
 </div>
 </div>
 
-<hr class="smSolid" ></hr>
+<hr class="smSolid" />
 </div>
 
 
 <div class="sm" id="ssa">
-<h2  class="sm"><a href="#index"> Skill Self-Assessment</a> </h2>
-<hr style="solid 5px #bbb"></hr>
-
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star checked"></span>
-<span class="fa fa-star"></span>
+<h2 class="sm"><a href="#index"> Skill Self-Assessment</a> </h2>
+<hr class="smSolid" />
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="fas fa-star"></i>
+<i class="far fa-star"></i>
+<i class="far fa-star"></i>
+<i class="far fa-star"></i>
+<i class="far fa-star"></i>
 (6/10)
-<p style="margin-top:50px">
+<p class="mt-3">
  I have around 4 years of experience in quality assurance. But I have been  a part of a project in which I conducted reviews and audits.
 Technical reviews (including inspections, walkthrough, and desk checking) examine engineering work-products.
 After working with technical reviews for 3 years, I got involved in management reviews as well, to evaluate actual project results with respect to plans. 
 Design track and collect metrics to monitor project quality. Achieves the expected results, meets the organisation’s requirements functions in accordance with the established operating procedures and processes
 Capable of identifying non-conformities and monitoring subsequent corrective and preventive actions. A management Review also ensures that all levels of management are made aware of any changes, updates, revisions. to the day-to-day workings of the Management System itself.
-<hr class="smSolid" ></hr>
+<hr class="smSolid" />
 </div>
 
 
 <div class="sm" id="r">
-<h2  class="sm"> <a href="#index">References </a></h2>
-<hr style="solid 5px #bbb"></hr>
-<hr class="smSolid" ></hr>
+<h2 class="sm"> <a href="#index">References </a></h2>
+<hr class="smSolid" />
+<hr class="smSolid" />
 <ol>
 
 
@@ -642,28 +657,28 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
     },
     {
         title: `Software Maintenance`,
-        description: `<hr border-top: 3px solid #bbb;></hr><br>Software Maintenance is the process of modifying a software product after it has been 
+        description: `<hr class="smSolid" /><br>Software Maintenance is the process of modifying a software product after it has been 
         			delivered to the customer. The main purpose of software maintenance is to modify and update software application after delivery 
-        			to correct faults and to improve performance. `,
+        			to correct faults and to improve performance.`,
         text: `
 
 		<p class="text-muted pb-5">Author: Harsh Divecha</p>
-<hr style="solid 5px #bbb"></hr>
+<hr class="smSolid" />
 <div id="table_pa_container">
 <p class="table_pa_title" style="color: #005a9c;">On this Page:</p>
 		<ul>
-			<li><a id="table_pa_container" href="#nos"> Name of Skill.</a></li>
-			<li><a id="table_pa_container" href="#cos"> Classification of Skill.</a></li>
-			<li><a id="table_pa_container" href="#pfs"> Prerequisites for Skill.</a></li>
-			<li><a id="table_pa_container" href="#rsfea"> Related Software Engineering Area(s).</a></li>
-			<li><a id="table_pa_container" href="#rafs"> Rationale for Skill. </a></li>
-			<li><a id="table_pa_container" href="#rofs"> Roles for Skill.</a></li>
-			<li><a id="table_pa_container" href="#wrts"> Work Related to Skill.</a></li>
-			<li><a id="table_pa_container" href="#rwe"> Real-World Example/Scenario of Skill.</a></li>
-			<li><a id="table_pa_container" href="#roai"> Role of Academia or Industry in Cultivating the Skill.</a></li>
-			<li><a id="table_pa_container" href="#tsts"> Tools Supporting the Skill.</a></li>
-			<li><a id="table_pa_container" href="#ssa"> Skill Self-Assessment.</a></li>
-			<li><a id="table_pa_container" href="#r"> References</a></li>
+			<li><a id="table_pa_container" href="#nos">Name of Skill</a></li>
+			<li><a id="table_pa_container" href="#cos">Classification of Skill</a></li>
+			<li><a id="table_pa_container" href="#pfs">Prerequisites for Skill</a></li>
+			<li><a id="table_pa_container" href="#rsfea">Related Software Engineering Area(s)</a></li>
+			<li><a id="table_pa_container" href="#rafs">Rationale for Skill</a></li>
+			<li><a id="table_pa_container" href="#rofs">Roles for Skill</a></li>
+			<li><a id="table_pa_container" href="#wrts">Work Related to Skill</a></li>
+			<li><a id="table_pa_container" href="#rwe">Real-World Example/Scenario of Skill</a></li>
+			<li><a id="table_pa_container" href="#roai">Role of Academia or Industry in Cultivating the Skill</a></li>
+			<li><a id="table_pa_container" href="#tsts">Tools Supporting the Skill</a></li>
+			<li><a id="table_pa_container" href="#ssa">Skill Self-Assessment</a></li>
+			<li><a id="table_pa_container" href="#r">References</a></li>
 		</ul>	
 	</div>
 	<a href="#" class="to-top">
@@ -673,27 +688,27 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
   	<a href="index.html">Home</a>
   	<a href="#table_pa_container">Table Of Contents</a>
 	</div>
-	<hr style="solid 5px #bbb"></hr>
+	<hr class="smSolid" />
 
 
 
 
 	<div class="sm" id="nos">
 		
-		<h2  class="sm"> <a href="#index"> Reengineering</a> </h2>
-		<hr style="solid 5px #bbb"></hr>
-		<img alt="software maintenance process models" src="images/sm/smpm.png" class="responsive" style="float:right; width:30% ">
+		<h2 class="sm"> <a href="#index"> Reengineering</a> </h2>
+		<hr class="smSolid" />
+		<img alt="software maintenance process models" src="images/sm/smpm.png" class="img-fluid" style="float:right; width:30% ">
 		<p style="margin-right:40px">
 		Software Reengineering is the process of updating software without affecting its functionality. This process may be done by developing additional features on the software and adding functionalities that may or may not be required but considered to make the software experience better and more efficient. As far as the definition goes, this process also entails that the software product will have improved maintainability. Thus, software reengineering is a step towards continuous improvement of software for it to be handled better by developers and clients alike. Additionally, it is a way to make existing products continue in service.
 		</p>
 		
-		<hr class="smSolid" ></hr>
+		<hr class="smSolid" />
 	</div>
 
 
 	<div class="sm" id="cos">
-		<h2  class="sm"> <a href="#index">Classification of Skill </a></h2>
-		<hr style="solid 5px #bbb"></hr>
+		<h2 class="sm"> <a href="#index">Classification of Skill </a></h2>
+		<hr class="smSolid" />
 		
 		<div class="row" style="margin-bottom:40px">
 		It can be classified as a <u style="margin-left:6px"> technical skill</u>
@@ -716,7 +731,7 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
 			</ul>
 			</div>
 			<div class="col">
-			<img alt="maintenance types" src="images/sm/mainttypes.png" class="responsive">
+			<img alt="maintenance types" src="images/sm/mainttypes.png" class="img-fluid">
 			<p style="margin-top:60px"> Preventative maintenance is also called software reengineering (Data restructuring, Code restructuring).</p>
 			</div>
 
@@ -724,13 +739,13 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
 
 
 
-		<hr class="smSolid" ></hr>
+		<hr class="smSolid" />
 	</div>
 
 
 	<div class="sm" id="pfs">
-		<h2  class="sm"> <a href="#index">Prerequisites for Skill</a> </h2>
-		<hr style="solid 5px #bbb"></hr>
+		<h2 class="sm"> <a href="#index">Prerequisites for Skill</a> </h2>
+		<hr class="smSolid" />
 
 			<ul class="sm" style="width:50%">
 				<li>General programming skills</li>
@@ -740,13 +755,13 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
 				<li>Software debugging</li>
 				<li>Documentation</li>
 			</ul>  
-		<hr class="smSolid" ></hr>
+		<hr class="smSolid" />
 	</div>
 
 
 	<div class="sm" id="rsfea">
 		<h2  class="sm" ><a href="#index"> Related Software Engineering Area(s) </a> </h2>
-		<hr style="solid 5px #bbb"></hr>
+		<hr class="smSolid" />
 		<ul class="sm" style="width:70%">
 			<li>Software Quality</li>
 			<li>Software Testing</li>
@@ -754,20 +769,20 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
 		</ul>
 
 		
-		<hr class="smSolid" ></hr>
+		<hr class="smSolid" />
 	</div>
 
 
 	<div class="sm" id="rafs">
-		<h2  class="sm"> <a href="#index">Rationale for Skill</a> </h2>
-		<hr style="solid 5px #bbb"></hr>
-		<p style="width:80%">
+		<h2 class="sm"> <a href="#index">Rationale for Skill</a> </h2>
+		<hr class="smSolid" />
+		<p>
 			 Legacy applications are at the core of many large businesses. However, they are difficult to maintain because of multiple workarounds that have been growing for years. 
 			 Their support requires significant investments. For example, according to the latest estimates, the federal government spends up to 80% percent of their IT budget on 
 			 maintenance of existing legacy systems. What’s more, legacy applications can be a real impediment to the digital transformation of a company due to their inflexibility 
 			 and inability to get new features or harness emerging technologies.
 		</p>
-		<p style="width:80%">
+		<p>
 			Software reengineering is one of the viable ways to mitigate issues with legacy applications. In this article, we highlight its area of use, explore activities it 
 			comprises, and look at why and when you may need each of these activities. On top of that, we reveal possible risks of reengineering and advise on how to organize a 
 			working reengineering process.
@@ -781,13 +796,13 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
 			<li>To shorten the learning curve for a new support provider.</li>
 			<li>To identify potentially re-usable components for future integrations.</li>
 		</ul>
-		<hr class="smSolid" ></hr>
+		<hr class="smSolid" />
 	</div>
 
 
 	<div class="sm" id="rofs">
-		<h2  class="sm"> <a href="#index">Roles for Skill </a></h2>
-		<hr style="solid 5px #bbb"></hr>
+		<h2 class="sm"> <a href="#index">Roles for Skill </a></h2>
+		<hr class="smSolid" />
 		
 		<ul class="sm" style="width:70%">
 			<li>Software developer</li>
@@ -795,13 +810,13 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
 			<li>Software tester</li>
 		</ul>
 
-		<hr class="smSolid" ></hr>
+		<hr class="smSolid" />
 	</div>
 
 
 	<div class="sm" id="wrts">
-		<h2  class="sm"> <a href="#index">Work Related to Skill </a></h2>
-		<hr style="solid 5px #bbb"></hr>
+		<h2 class="sm"> <a href="#index">Work Related to Skill </a></h2>
+		<hr class="smSolid" />
 		<ul class="sm" style="width:70%">
 			<li>Reverse engineering</li>
 			<li>Code restructuring</li>
@@ -809,13 +824,13 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
 			<li>Software testing</li>
 			<li>Redocumentation</li>
 		</ul> 
-		<hr class="smSolid" ></hr>
+		<hr class="smSolid" />
 	</div>
 
 
 	<div class="sm" id="rwe">
-		<h2  class="sm"><a href="#index">Real-World Example</a></h2> 
-			<hr style="solid 5px #bbb"></hr>
+		<h2 class="sm"><a href="#index">Real-World Example</a></h2> 
+			<hr class="smSolid" />
 		
 		<div class="row" style="margin-top:30px">
 			<div class="col"></div>
@@ -830,7 +845,7 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
 			process after thorough justification of the necessary changes and the advent of opening new prospects.
 			</div>
 			<div class="col">
-				<img alt="Enterprise Knowledge Management System" src="images/sm/ekms.png" class="responsive">
+				<img alt="Enterprise Knowledge Management System" src="images/sm/ekms.png" class="img-fluid">
 			</div>
 		</div>
 
@@ -856,11 +871,11 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
 		<div class="row" style="margin-top:30px">
 			<div class="col" style="text-align: center">
 				<h5>Legacy architecture</h5>
-				<img alt="Legacy architecture" src="images/sm/legacy.jpg" style="width:500px;" class="responsive">
+				<img alt="Legacy architecture" src="images/sm/legacy.jpg" style="max-width:500px;" class="img-fluid">
 			</div>
 			<div class="col" style="text-align: center">
 				<h5>New architecture</h5>
-				<img alt="New architecture" src="images/sm/new.jpg" style="width:500px;" class="responsive">
+				<img alt="New architecture" src="images/sm/new.jpg" style="max-width:500px;" class="img-fluid">
 			</div>
 			<div class="row" style="margin-top:30px">
 	
@@ -885,13 +900,13 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
 		
 
 
-		<hr class="smSolid" ></hr>
+		<hr class="smSolid" />
 	</div>
 
 
 	<div class="sm" id="roai">
-		<h2  class="sm"> <a href="#index">Role of Academia or Industry in Cultivating the Skill</a> </h2>
-		<hr style="solid 5px #bbb"></hr>
+		<h2 class="sm"> <a href="#index">Role of Academia or Industry in Cultivating the Skill</a> </h2>
+		<hr class="smSolid" />
 		
 		<div class="row" style="width:70%	">
 			Software engineering curricula emphasize developing new software systems. Little attention is given to how to change and modernize existing systems, i.e., 
@@ -909,13 +924,13 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
 			</p> 
 		</div>
 		
-		<hr class="smSolid" ></hr>
+		<hr class="smSolid" />
 	</div>
 
 
 	<div class="sm" id="tsts">
 		<h2  class="sm" > <a href="#index">Tools Supporting the Skill </a></h2>
-		<hr style="solid 5px #bbb"></hr>
+		<hr class="smSolid" />
 		<h4  style="margin-top:30px">DMS® Software Reengineering Toolkit™</h4>	
 		<div class="row" style="margin-top:50px">
 			<p style="width:30%;"">
@@ -925,7 +940,7 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
 					<br>3. Generation of software
 			</p>
 			<a href="http://www.semanticdesigns.com/Products/DMS/DMSToolkit.html" target="_blank">
-				<img alt="DMS" style="float:right;" src="images/sm/DMS.png" class="responsive">
+				<img alt="DMS" style="float:right;" src="images/sm/DMS.png" class="img-fluid">
 			</a>
 			
 		</div>
@@ -935,7 +950,7 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
 				<div class="card">
 					<h5>Disassemblers</h4>
 					<p>A disassembler is a program that translates an executable file to assembly language. The most popular one is IDA Pro</p>
-					<img alt="hexray" src="images/sm/hexray.png" style="height:50%; width:100%" class="responsive">
+					<img alt="hexray" src="images/sm/hexray.png" style="height:50%; width:100%" class="img-fluid">
 				</div>
 			</a>
 
@@ -953,7 +968,7 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
 
 					<div class="column" style="width:33%">
 						<a href="http://www.ollydbg.de/" target="_blank">
-							<img alt="ollydbg" src="images/sm/ollydbg.gif" class="responsive" style="height:55px; width:55px" class="responsive">
+							<img alt="ollydbg" src="images/sm/ollydbg.gif" class="img-fluid" style="height:55px; width:55px" class="img-fluid">
 							<p>OllyDbg</p>
 						</a>
 					</div>
@@ -961,14 +976,14 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
 					
 					<div class="column" style="width:33%">
 						<a href="http://www.windbg.org/" target="_blank">
-							<img alt="windbg" src="images/sm/windbg.png"  style="height:55px; width:55px" class="responsive">
+							<img alt="windbg" src="images/sm/windbg.png"  style="height:55px; width:55px" class="img-fluid">
 							<p>WinDbg</p>
 						</a>
 					</div>					
 					
 					<div class="column" style;"width:33%">
 						<a href="https://www.microsoft.com/uk-ua/p/windbg-preview/9pgjgd53tn86?activetab=pivot:overviewtab" target="_blank">
-							<img alt="windbg_prv" src="images/sm/windbgp.png" style="height:55px; width:55px" class="responsive">
+							<img alt="windbg_prv" src="images/sm/windbgp.png" style="height:55px; width:55px" class="img-fluid">
 							<p>Windbg Preview.</p>	
 						</a>
 					</div>
@@ -978,21 +993,26 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
 
 		</div>
 
-		<hr class="smSolid" ></hr>
+		<hr class="smSolid" />
 	</div>
 
 
 	<div class="sm" id="ssa">
-		<h2  class="sm"><a href="#index"> Skill Self-Assessment</a> </h2>
-		<hr style="solid 5px #bbb"></hr>
+		<h2 class="sm"><a href="#index"> Skill Self-Assessment</a> </h2>
+		<hr class="smSolid" />
 
-		<span class="fa fa-star checked"></span>
-		<span class="fa fa-star checked"></span>
-		<span class="fa fa-star checked"></span>
-		<span class="fa fa-star checked"></span>
-		<span class="fa fa-star"></span>
+		<i class="fas fa-star"></i>
+		<i class="fas fa-star"></i>
+		<i class="fas fa-star"></i>
+		<i class="fas fa-star"></i>
+		<i class="fas fa-star"></i>
+		<i class="far fa-star"></i>
+		<i class="far fa-star"></i>
+		<i class="far fa-star"></i>
+		<i class="far fa-star"></i>
+		<i class="far fa-star"></i>
 		(5/10)
-		<p style="margin-top:50px">
+		<p class="mt-3">
 		Software Reengineering is a skill that requires expertise in varied spectrum of maintenance and software development. At my current level as mentioned previously in 
 		role of academia secion, I myslef as a student am more adept to classifying myself as developer which plays a major role in 3rd stage of forward engineering phase, 
 		restructuring requires an in depth knowledge of data structures to be able to optimise the current structure of the code, and i would classify myself as a 
@@ -1001,14 +1021,14 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
 		<p>
 		Considering an average of all of my skills currently falling in category of intermediate, i would rate myself 5/10.
 		</p>
-		<hr class="smSolid" ></hr>
+		<hr class="smSolid" />
 	</div>
 
 
 	<div class="sm" id="r">
-				<h2  class="sm"> <a href="#index">References </a></h2>
-				<hr style="solid 5px #bbb"></hr>
-				<hr class="smSolid" ></hr>
+				<h2 class="sm"> <a href="#index">References </a></h2>
+				<hr class="smSolid" />
+				<hr class="smSolid" />
 		<ol>
 
 			<li>
@@ -1059,7 +1079,7 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
     },
     {
         title: `Software Measurement`,
-        description: `<hr border-top: 3px solid #bbb;></hr>
+        description: `<hr class="smSolid" />
 		<br>The evaluation of software processes is nowadays a
 		very important issue due to the growing 
 		interest of software companies in the improvement of the productivity and quality of delivered products. 
@@ -1067,7 +1087,7 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
 		for measurement in the software process improvement context`,
 		text: `
 		<p class="text-muted pb-5">Author: Sai Charan Duduka</p>
-	<hr style="solid 5px #bbb"></hr>
+	<hr class="smSolid" />
 	<div id="table_pa_container">
 	<p class="table_pa_title" style="color: #005a9c;">On this Page:</p>
 		<ul>
@@ -1093,12 +1113,12 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
   	<a href="index.html">Home</a>
   	<a href="#table_pa_container">Table Of Contents</a>
 	</div>
-	<hr style="solid 5px #bbb"></hr>
+	<hr class="smSolid" />
 
 	<div class="sm" id="nos">
 		
-		<h2  class="sm"> <a href="#index">Software Process Measurement</a> </h2>
-		<hr style="solid 5px #bbb"></hr>
+		<h2 class="sm"> <a href="#index">Software Process Measurement</a> </h2>
+		<hr class="smSolid" />
 		<img src="images/measure/measurementprocess.png" alt = "Measurement Process" style="float:right; width:30% ">
 		<p style="margin-right:40px">
 		The measurement of software processes is nowadays a very important issue due to the growing 
@@ -1111,8 +1131,8 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
 		</p>
 		
 		<div class="sm" id="cos">
-		<h2  class="sm"> <a href="#index">Classification of Skill </a></h2>
-		<hr style="solid 5px #bbb"></hr>
+		<h2 class="sm"> <a href="#index">Classification of Skill </a></h2>
+		<hr class="smSolid" />
 		
 		<div class="row" style="margin-bottom:40px">
 		Software Process Measurement considered as technical skill used to measure many characteristics 
@@ -1142,12 +1162,12 @@ These metrics can be computed for different stages of SDLC.</p><br>
 
 
 
-		<hr class="smSolid" ></hr>
+		<hr class="smSolid" />
 	</div>
 
 
 	<div class="sm" id="pfs">
-		<h2  class="sm"> <a href="#index">Prerequisites for Skill</a> </h2>
+		<h2 class="sm"> <a href="#index">Prerequisites for Skill</a> </h2>
 		<hr class="smSolid"/>
 
 			To measure a software process, one should know about effort and cost required for the project and in terms of product lines of code produced, execution speed, and other defects should be known.
@@ -1174,12 +1194,12 @@ which means:
 		</ul>
 
 		
-		<hr class="smSolid" ></hr>
+		<hr class="smSolid" />
 	</div>
 
 
 	<div class="sm" id="rafs">
-		<h2  class="sm"> <a href="#index">Rationale for Skill</a> </h2>
+		<h2 class="sm"> <a href="#index">Rationale for Skill</a> </h2>
 		<hr class="smSolid"/>
 		<p>
 			When we look at the track record for the software industry, 
@@ -1203,12 +1223,12 @@ and with all originally specified features
 		</p>
 
 		
-		<hr class="smSolid" ></hr>
+		<hr class="smSolid" />
 	</div>
 
 
 	<div class="sm" id="rofs">
-		<h2  class="sm"> <a href="#index">Roles for Skill </a></h2>
+		<h2 class="sm"> <a href="#index">Roles for Skill </a></h2>
 		<hr class="smSolid"/>
 		
 		<ul class="sm" style="width:70%">
@@ -1217,12 +1237,12 @@ and with all originally specified features
 			<li>Manager</li>
 		</ul>
 
-		<hr class="smSolid" ></hr>
+		<hr class="smSolid" />
 	</div>
 
 
 	<div class="sm" id="wrts">
-		<h2  class="sm"> <a href="#index">Work Related to Skill </a></h2>
+		<h2 class="sm"> <a href="#index">Work Related to Skill </a></h2>
 		<hr class="smSolid"/>
 		<p>
 			This measurement process becomes a process asset to be made
@@ -1242,7 +1262,7 @@ below).
 		</p>
 		<div class="col" style="text-align: center">
 				<h5>Figure describes the measurement process model:</h5>
-				<img src="images/measure/measurementprocessmodel.png" alt = "Measurement Model" style="width:500px;">
+				<img src="images/measure/measurementprocessmodel.png" alt="Measurement Model" style="max-width:500px;" class="img-fluid">
 			</div>
 			<p>
 			It is fundamental that all measurement activities be carried out in the context of a 
@@ -1279,12 +1299,12 @@ carried out, e.g., the designers (for the software specification), or the tester
 
 			</p>
 		
-		<hr class="smSolid" ></hr>
+		<hr class="smSolid" />
 	</div>
 
 
 	<div class="sm" id="rwe">
-		<h2  class="sm"><a href="#index">Real-World Example</a></h2> 
+		<h2 class="sm"><a href="#index">Real-World Example</a></h2> 
 			<p>In E-Government and E-Commerce systems measurements have been conducted throughout the 
 			software development life cycle, their scope varies depending on the development phase. 
 			Different measurement goals are defined at different development phases, thus resulting 
@@ -1315,12 +1335,12 @@ carried out, e.g., the designers (for the software specification), or the tester
 			</p>
 
 
-		<hr class="smSolid" ></hr>
+		<hr class="smSolid" />
 	</div>
 
 
 	<div class="sm" id="roai">
-		<h2  class="sm"> <a href="#index">Role of Academia or Industry in Cultivating the Skill</a> </h2>
+		<h2 class="sm"> <a href="#index">Role of Academia or Industry in Cultivating the Skill</a> </h2>
 		<hr class="smSolid"/>
 		
 		
@@ -1343,7 +1363,7 @@ It is not seldom to find software developing companies considering process measu
 
 			
 			
-		<hr class="smSolid" ></hr>
+		<hr class="smSolid" />
 	</div>
 
 
@@ -1384,34 +1404,37 @@ It is not seldom to find software developing companies considering process measu
 
 		</div>
 
-		<hr class="smSolid" ></hr>
+		<hr class="smSolid" />
 	</div>
 
 
 	<div class="sm" id="ssa">
-		<h2  class="sm"><a href="#index"> Skill Self-Assessment</a> </h2>
+		<h2 class="sm"><a href="#index"> Skill Self-Assessment</a> </h2>
 		<hr class="smSolid"/>
-
-		<span class="fa fa-star checked"></span>
-		<span class="fa fa-star checked"></span>
-		<span class="fa fa-star checked"></span>
-		<span class="fa fa-star checked"></span>
-		<span class="fa fa-star checked"></span>
-		<span class="fa fa-star"></span>
-		(6/10)
-		<p style="margin-top:50px">
+		<i class="fas fa-star"></i>
+		<i class="fas fa-star"></i>
+		<i class="fas fa-star"></i>
+		<i class="fas fa-star"></i>
+		<i class="fas fa-star"></i>
+		<i class="far fa-star"></i>
+		<i class="far fa-star"></i>
+		<i class="far fa-star"></i>
+		<i class="far fa-star"></i>
+		<i class="far fa-star"></i>
+		(5/10)
+		<p class="mt-3">
 		Software Measurement is a skill which requires professional experience in the estimation process of 
 		software development and software planning. As a graduate student myself developed few applications in
 		academic time and measured complexity of one application which is at small level so,
 		I would rate myself 5/10 as a beginner for this skill as it required more experience in different projects. 
 		</p>
 		
-		<hr class="smSolid" ></hr>
+		<hr class="smSolid" />
 	</div>
 
 
 	<div class="sm" id="r">
-				<h2  class="sm"> <a href="#index">References </a></h2>
+				<h2 class="sm"> <a href="#index">References </a></h2>
 				<hr class="smSolid"/>
 				<hr class="smSolid" />
 		<ul>
@@ -1460,7 +1483,7 @@ It is not seldom to find software developing companies considering process measu
 		text: `
 
 		<p class="text-muted pb-5">Author: Mahmoudreza Entezami</p>
-		<hr style="solid 5px #bbb"></hr>
+		<hr class="smSolid" />
 	<div id="table_pa_container">
 	<p class="table_pa_title" style="color: #005a9c;">On this Page:</p>
 		<ul>
@@ -1483,10 +1506,10 @@ It is not seldom to find software developing companies considering process measu
   	<a href="index.html">Home</a>
   	<a href="#table_pa_container">Table Of Contents</a>
 	</div>
-	<hr style="solid 5px #bbb"></hr>
+	<hr class="smSolid" />
 		<div class="sm" >
 			<figure id="imgSDLC">
-				<img class="responsive" src="images/st/SDLC.jpg" alt="Software Development Life Cycle">
+				<img class="img-fluid" src="images/st/SDLC.jpg" alt="Software Development Life Cycle">
 				<figcaption id="caption-SDLC">Software Development Life Cycle <a href="#SDLC-img">[11]</a></figcaption>
 			</figure>
         	<p class="text-justify" id="first-title"><strong>Software Testing-</strong> is one of the main the phase in Software Development Life Cycle (SDLC) and it is about testing code with having a purpose of finding errors in code by executing a program.
@@ -1500,10 +1523,10 @@ It is not seldom to find software developing companies considering process measu
 
         <div class="sm" id="nos">
 			<h3  class="sm"> Name of Skill </h3>
-			<hr style="solid 5px #bbb"></hr>
+			<hr class="smSolid" />
 			<p><strong>Automated Unit Testing</strong></p>
 				<figure id="imgSWtestingClass">
-					<img class="responsive" src="images/st/classification_of_sw_testing.png" alt="Classification of Software Testing">
+					<img class="img-fluid" src="images/st/classification_of_sw_testing.png" alt="Classification of Software Testing">
 					<figcaption id="caption-SWtestingClass">Software Testing Classification <a href="#ref-one">[1]</a></figcaption>
 				</figure>
 			<p class="text-justify">Unit testing is one of testing approach for software testing phase in Software Development Life Cycle (SDLC) where individual units of a software are tested <a href="#ref-nine">[9]</a>, <a href="#ref-ten">[10]</a>. In other words, units or components are a smallest testable part of a software which are tested independently and individually with aim of validating functionality of each unit <a href="#ref-nine">[9]</a>, <a href="#ref-ten">[10]</a>.</p>
@@ -1511,24 +1534,24 @@ It is not seldom to find software developing companies considering process measu
 			<p class="text-justify">It is also one part in Test Driven Development (TDD) methodology <a href="#ref-ten">[10]</a>.
 				Unit testing methods is also based on using <strong>White Box Testing</strong> method <a href="#ref-nine">[9]</a>.</p>
 			</p>
-			<hr class="smSolid" ></hr>
+			<hr class="smSolid" />
 		</div>
 
 
 		<div class="sm" id="class_st">
 			<h3  class="sm"> Classification of Skill </h3>
-			<hr style="solid 5px #bbb"></hr>
-			<img class="responsive" src="images/st/UnitTestingTypes.png" id="imgUnitTesting" alt="Unit Testing Types">
+			<hr class="smSolid" />
+			<img class="img-fluid" src="images/st/UnitTestingTypes.png" id="imgUnitTesting" alt="Unit Testing Types">
 			<p class="text-justify">In general, Automated Unit Testing can be classified as a Hard Skills. Hard Skills which are the skills are acquired by practical experiences, technical knowledge and training <a href="#ref-four">[4]</a>.</p>
 			<p class="text-justify">Unit Testing also can be classified into two sub categories including <strong>Manual</strong> and <strong>Automated</strong> testing <a href="#ref-two">[2]</a>.</p>  
 
-			<hr class="smSolid" ></hr>
+			<hr class="smSolid" />
 		</div>
 
 
 		<div class="sm" id="pre_st">
 			<h3  class="sm"> Prerequisites for Skill </h3>
-			<hr style="solid 5px #bbb"></hr>
+			<hr class="smSolid" />
 			<p class="text-justify">As a Software tester it is expected to have some prerequisite skills before performing testing process and for having a proper test cases such as bellows:</p>
 
 			<ol class="text-justify">
@@ -1541,24 +1564,24 @@ It is not seldom to find software developing companies considering process measu
 				<li>The testing should be started by small parts then extend to large parts <a href="#ref-seven">[7]</a>.</li>
 			</ol>
 			
-			<hr class="smSolid" ></hr>
+			<hr class="smSolid" />
 		</div>
 
 
 		<div class="sm" id="areas_st">
 			<h3  class="sm"> Related Software Engineering Areas </h3>
-			<hr style="solid 5px #bbb"></hr>
+			<hr class="smSolid" />
 			<p class="text-justify">According to chapter four in SWEBOK, there some relevant areas to the software testing as below <a href="#SWEBOK">[3]</a>:</p>
 			Software Maintenance</br>
 			Software Quality</br>
 			Software Construction</br>
-			<hr class="smSolid" ></hr>
+			<hr class="smSolid" />
 		</div>
 
 
 		<div class="sm" id="rat_st">
 			<h3  class="sm"> Rationale for Skill </h3>
-			<hr style="solid 5px #bbb"></hr>
+			<hr class="smSolid" />
 			<p class="text-justify">
 			There are number of reasons for performing unit testing as well as its advantages in Software Development Life Cycle (SDLC) as follows <a href="#ref-six">[6]</a>:</p>
 
@@ -1569,14 +1592,14 @@ It is not seldom to find software developing companies considering process measu
 				<li>It helps to save costs by finding and fixing the bugs in the early stage of development cycle.</li>
 				<li>It helps to the developers for making changes easily and quickly by providing deep understanding the code for them.</li>
 				<li>It helps to reuse the code and save costs.</li>
-			<hr class="smSolid" ></hr>
+			<hr class="smSolid" />
 		</div>
 
 
 		<div class="sm" id="roles_st">
 		<h3  class="sm"> Roles for Skill </h3>
-		<hr style="solid 5px #bbb"></hr>
-		<img class="responsive" src="images/st/roles.jpg" id="imgRoles" alt="Roles of Unit Testing">
+		<hr class="smSolid" />
+		<img class="img-fluid" src="images/st/roles.jpg" id="imgRoles" alt="Roles of Unit Testing">
 		<p class="text-justify">In general, the procedure of unit testing is divided into four main roles as below <a href="#ref-six">[6]</a>:</p>
 		<ol class="text-justify">
 			<li>Creating and writing the test cases.</li>
@@ -1585,47 +1608,47 @@ It is not seldom to find software developing companies considering process measu
 			<li>Executing the test cases.</li>
 		</ol>
 
-		<hr class="smSolid" ></hr>
+		<hr class="smSolid" />
 		</div>
 
 
 		<div class="sm" id="work_st">
 			<h3  class="sm"> Work Related to Skill </h3>
-			<hr style="solid 5px #bbb"></hr>
+			<hr class="smSolid" />
 			<p class="text-justify">There some primary work related ot unit testing should be perform by developer as below <a href="#ref-two">[2]</a>:</p>
 			<ol class="text-justify">
 				<li>Writing a part of code just for testing the function.</li>
 				<li>Isolating the function for rigorously testing that function.</li>
 				<li>Using a proper testing tools and frameworks for developing automated test cases.</li>
 			</ol>
-			<hr class="smSolid" ></hr>
+			<hr class="smSolid" />
 		</div>
 
 
 		<div class="sm" id="example_st">
 			<h3  class="sm"> Real-World Example </h3>
-			<hr style="solid 5px #bbb"></hr>
-			<img class="responsive" src="images/st/calculator.png" id="imgCal" alt="Claculator">
+			<hr class="smSolid" />
+			<img class="img-fluid" src="images/st/calculator.png" id="imgCal" alt="Claculator">
 			<p class="text-justify">There various example of the role of uniting testing in the world such as banking industries, healthcare systems, air plan industries, etc.</p>
 			<p class="text-justify">In a banking application which is offered by RBC bank in Canada, the simple calculator is needed to perform simple and basic calculating functions such as addition, subtraction, multiplication, division. The developers of this application create four units for checking the functionality of the calculator. The units are addition method, subtraction method, multiplication method and division method. Each unit should work individually and after that testing all unit, they are integrated together for checking the functionality of the whole calculator.</p>
 
-			<hr class="smSolid" ></hr>
+			<hr class="smSolid" />
 		</div>
 
 
 		<div class="sm" id="cult_st">
 			<h3  class="sm"> Role of Academia or Industry in Cultivating the Skill </h3>
-			<hr style="solid 5px #bbb"></hr>
+			<hr class="smSolid" />
 			<p class="text-justify">Universities and academic institutions play a vital role for proving a good knowledge and highlighting the importance of testing in software development for new generation of software developers and testers by offering various courses such as Software Maintenance, Advance Programming Practice, Software Refactoring as well as focusing on outstanding scholars and papers in this area.</p>
 			<p class="text-justify">In parallel, the industries focus on practical aspects in software testing by offering and performing proper projects in this area that helpful for software testing developers to acquire proficiency and experience.</p>
 
-			<hr class="smSolid" ></hr>
+			<hr class="smSolid" />
 		</div>
 
 
 		<div class="sm" id="tools_st">
 				<h3  class="sm" > Tools Supporting the Skill </h3>
-				<hr style="solid 5px #bbb"></hr>
+				<hr class="smSolid" />
 				<p class="text-justify" style="font-size: 18px">There are many tools and frameworks for unit testing in different programming languages. Some of common tools are listed as follows <a href="#ref-two">[2]</a>:</p>
 
 			<div class="row" style="padding-top:70px">
@@ -1634,7 +1657,7 @@ It is not seldom to find software developing companies considering process measu
 					<div class="card" style="min-height: 440px">
 						<h4><center><a href="https://junit.org/junit5/"  target="_blank" style = "width:30%;  display:flex;"><u>JUnit</u></a></center></h4>
 						<br>
-						<center><img src="images/st/junit.png" style="height:30%; width:60%" class="responsive" alt="JUnit icon"></center>
+						<center><img src="images/st/junit.png" style="height:30%; width:60%" class="img-fluid" alt="JUnit icon"></center>
 						<br><br>
 						<p class="text-justify"><strong>JUnit</strong> is one of the most common testing frameworks for unit testing in Java programming language.</p>
 					</div>
@@ -1644,7 +1667,7 @@ It is not seldom to find software developing companies considering process measu
 					<div class="card" style="min-height: 440px">
 						<h4><center><a href="https://nunit.org"  target="_blank" style = "width:27%;  display:flex;"><u>NUnit</u></a></center></h4>
 						<br>
-						<center><img src="images/st/nunit.png" style="height:30%; width:60%" class="responsive" alt="NUnit icon"></center>
+						<center><img src="images/st/nunit.png" style="height:30%; width:60%" class="img-fluid" alt="NUnit icon"></center>
 						<br><br>
 						<p class="text-justify"><strong>NUnit</strong> is a most common unit testing framework for any .NET programming language.</p>
 					</div>
@@ -1654,7 +1677,7 @@ It is not seldom to find software developing companies considering process measu
 					<div class="card" style="min-height: 440px">
 						<h4><center><a href="https://phpunit.de"  target="_blank" style = "width:35%;  display:flex;"><u>PHPUnit</u></a></center></h4>
 						<br><br><br>
-						<center><img src="images/st/phpunit.png" style="height:30%; width:60%" class="responsive" alt="PHP Unit icone"></center>
+						<center><img src="images/st/phpunit.png" style="height:30%; width:60%" class="img-fluid" alt="PHP Unit icone"></center>
 						<br><br><br>
 						<p class="text-justify"><strong>PHPUnit</strong> which is a common testing framework for performing unit testing in PHP programming language.</p>
 					</div>
@@ -1665,7 +1688,7 @@ It is not seldom to find software developing companies considering process measu
 					<div class="card" style="min-height: 440px">
 						<h4><center><a href="https://jestjs.io"  target="_blank" style = "width:25%;  display:flex;"><u>Jest</u></a></center></h4>
 						<br><br>
-						<center><img src="images/st/jest.png" style="height:30%; width:60%" class="responsive" alt="Jest icon"></center>
+						<center><img src="images/st/jest.png" style="height:30%; width:60%" class="img-fluid" alt="Jest icon"></center>
 						<br>
 						<p class="text-justify"><strong>Jest</strong> is one of the most popular testing frameworks for unit testing and other kind of testing in JavaScript programming language <a href="#ref-five">[5]</a>.</p>
 					</div>
@@ -1673,34 +1696,34 @@ It is not seldom to find software developing companies considering process measu
 
 			</div>
 
-			<hr class="smSolid" ></hr>
+			<hr class="smSolid" />
 		</div>
 
 
 		<div class="sm" id="assess_st">
-			<h3  class="sm"> Skill Self-Assessment </h3>
-			<hr style="solid 5px #bbb"></hr>
-			<span class="fa fa-star checked"></span>
-			<span class="fa fa-star checked"></span>
-			<span class="fa fa-star checked"></span>
-			<span class="fa fa-star checked"></span>
-			<span class="fa fa-star checked"></span>
-			<span class="fa fa-star checked"></span>
-			<span class="fa fa-star-o"></span>
-			<span class="fa fa-star-o"></span>
-			<span class="fa fa-star-o"></span>
-			<span class="fa fa-star-o"></span>
+			<h3 class="sm"> Skill Self-Assessment </h3>
+			<hr class="smSolid" />
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="fas fa-star"></i>
+			<i class="far fa-star"></i>
+			<i class="far fa-star"></i>
+			<i class="far fa-star"></i>
+			<i class="far fa-star"></i>
 			(6/10)
-			<p class="text-justify">
+			<p class="mt-3">
 				As my work experience as a developer which is around 2 years, I still need to gain more practical experience because testing is a critical phase of Software Development Life Cycle (SDLC).
-				</br>Also for creating proper test cases and units, having a good knowledge in various programming is needed.
+				<br>Also for creating proper test cases and units, having a good knowledge in various programming is needed.
 			</p>
 		</div>
 
 
 		<div class="sm" id="ref_st">
 			<h3  class="sm"> References </h3>
-			<hr style="solid 5px #bbb"></hr>
+			<hr class="smSolid" />
 				<a href="https://www.h2kinfosys.com/blog/software-testing-classification/" id="ref-one">[1] <u>https://www.h2kinfosys.com/blog/software-testing-classification/</u></a></br>
 				<a href="https://www.guru99.com/unit-testing-guide.html" id="ref-two">[2] <u>https://www.guru99.com/unit-testing-guide.html</u></a></br>
 				<a id="SWEBOK">[3] Bourque, Pierre, and Richard E. Fairley. Guide to the software engineering body of knowledge (SWEBOK (R)): Version 3.0. IEEE Computer Society Press, 2014.</br>
@@ -1712,7 +1735,7 @@ It is not seldom to find software developing companies considering process measu
 				<a href="http://softwaretestingfundamentals.com/unit-testing/" id="ref-nine">[9] <u>http://softwaretestingfundamentals.com/unit-testing/</u></a></br>
 				<a href="https://www.getzephyr.com/insights/role-unit-tests-test-automation" id="ref-ten">[10] <u>https://www.getzephyr.com/insights/role-unit-tests-test-automation</u></a></br>
 				<a href="https://commons.wikimedia.org/wiki/File:SDLC_-_Software_Development_Life_Cycle.jpg" id="SDLC-img">[11] <u>https://commons.wikimedia.org/wiki/File:SDLC_-_Software_Development_Life_Cycle.jpg</u></a>
-			<hr class="smSolid" ></hr>
+			<hr class="smSolid" />
 		</div>
 
 
@@ -1751,7 +1774,7 @@ It is not seldom to find software developing companies considering process measu
   	<a href="index.html">Home</a>
   	<a href="#table_pa_container">Table Of Contents</a>
 	</div>
-	<hr style="solid 5px #bbb"></hr>
+	<hr class="smSolid" />
 
           <div class="sm" id="nos">
             <h2 class="sm"><a href="#index">Name of Skill</a></h2>
@@ -1846,7 +1869,7 @@ It is not seldom to find software developing companies considering process measu
           </div>
 
           <div class="sm" id="rofs">
-            <h2 class="sm"><a href="#index">Roles for Skill </a></h2>
+            <h2 class="sm"><a href="#index">Roles for Skill</a></h2>
             <p>
               Business analyst and requirement engineer can do the requirement
               elicitation. Business analysis is broader than requirements
@@ -1879,7 +1902,7 @@ It is not seldom to find software developing companies considering process measu
           </div>
 
           <div class="sm" id="wrts">
-            <h2 class="sm"><a href="#index">Work Related to Skill </a></h2>
+            <h2 class="sm"><a href="#index">Work Related to Skill</a></h2>
             <p>
               Some major techniques for requirements elicitation are as follows:
             </p>
@@ -1962,7 +1985,28 @@ It is not seldom to find software developing companies considering process measu
                 >Role of Academia or Industry in Cultivating the Skill</a
               >
             </h2>
-            <p>TODO</p>
+            <p>
+              Many methods exist for performing the requirement elicitation
+              process. But requirement engineers still face problems in
+              gathering the requirements due to the lack of knowledge about the
+              results of those methods and also selection of the appropriate
+              method for each type of project. A multitude of researches have
+              been conducted by the academia and industry to analyze and compare
+              different requirement elicitation processes to know the
+              characteristics and effectiveness of each method which also helps
+              the development of future methods for requirement elicitation.
+            </p>
+            <p>
+              There is a separate course in most universities in software
+              engineering for system requirement specification which helps
+              students to become familiar with how to elicit requirements and
+              practice this skill by expanding their knowledge theoretically and
+              doing practical projects. Students also learn how to prepare for
+              industry considering various factors including requirements
+              traceability. They also find the difference between academia and
+              industry in theory including changing requirements in real word
+              and prepare for that in advance.
+            </p>
             <hr class="smSolid" />
           </div>
 
@@ -2049,18 +2093,18 @@ It is not seldom to find software developing companies considering process measu
             <hr class="smSolid" />
           </div>
 
-          <div class="sm" id="ssa">
+                    <div class="sm" id="ssa">
             <h2 class="sm"><a href="#index">Skill Self-Assessment</a></h2>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
             (5/10)
             <p class="mt-3">
               Even though I have passed a course in requirement engineering at
@@ -2162,7 +2206,7 @@ It is not seldom to find software developing companies considering process measu
 		text: `
 		
 		<p class="text-muted pb-5">Author: Rafael Bis Ferreira</p>
-		<hr style="solid 5px #bbb"></hr>
+		<hr class="smSolid" />
 	<div id="table_pa_container">
 	<p class="table_pa_title" style="color: #005a9c;">On this Page:</p>
 		<ul>
@@ -2187,10 +2231,10 @@ It is not seldom to find software developing companies considering process measu
   	<a href="index.html">Home</a>
   	<a href="#table_pa_container">Table Of Contents</a>
 	</div>
-	<hr style="solid 5px #bbb"></hr>
+	<hr class="smSolid" />
 
 		<div class="sm" id="name_sch">
-			<h2  class="sm"> Scheduling </h2>
+			<h2 class="sm"> Scheduling </h2>
 			<p>Very close to project planning, scheduling is fundamental to any project, certainly no different for software projects, many see scheduling solely as a matter of estimation, where lies the first mistake for beginners.</p>
 			<p>Making a schedule is not difference than giving times, time to begin and a time to end, making good or even great schedule though involve mastering skills to deal with things under and with things beyond one’s control.</p>
 			<p>One of the definitions of Scheduling quoted by the website Cleverism is:</p>
@@ -2198,18 +2242,18 @@ It is not seldom to find software developing companies considering process measu
 			<p>Greatness lives in simplicity, so let’s call scheduling as the ability to get things done in time, in budget and in specifications…. easy? Not at all!</p>
 
 			
-			<hr class="smSolid" ></hr>
+			<hr class="smSolid" />
 		</div>
 		<div class="sm" id="class_sch">
-			<h2  class="sm"> Classification of Skill </h2>
+			<h2 class="sm"> Classification of Skill </h2>
 			<p>How to classify a skill that is so simple to execute but so hard to master, in fact its easy to the point where anyone can do it while hard enough to be impossible to reach perfection, the reason for that is quite simple, scheduling requires to deal with time, people, resources and with the future which is unpredictable at least at its entirety.</p>
 			<p>Though dealing with the unknown is not new for human beings at this point and being prepared and experienced in dealing with it can prevent those busy days at work where we have been frequently disturbed by calls for urgent meetings, or been assigned with last-minute tasks where yet we return home without accomplishing anything significant.</p>
 			<p>With it we can certainly conclude that scheduling is very hard to distinguish among soft and hard skill while it certainly demands a lot from interpersonal and technical capacity.</p>
 
-			<hr class="smSolid" ></hr>
+			<hr class="smSolid" />
 		</div>
 		<div class="sm" id="pre_sch">
-			<h2  class="sm"> Prerequisites for Skill </h2>
+			<h2 class="sm"> Prerequisites for Skill </h2>
 			<p>What is needed to play soccer? A field and a ball, but what is needed to be a great player?</p>
 			<p>In summary all that is required to scheduling is a project, from that so dreamed vacation project up to the construction of a nuclear powerplant both require the same skill but the difficulty and expectation “may” differ.</p>
 			<p>Now what differs a professional in scheduling who deals with the construction of a huge nuclear powerplant from normal people making their next vacation schedule?</p>
@@ -2224,28 +2268,28 @@ It is not seldom to find software developing companies considering process measu
 			<h4>Measurement</h4>
 			<p>If you go for vacations its better to know for how long you will stay at places, after all several decisions depends on it, how many days at the hotel, date of air tickets, etc... the whole logistic of the schedule depends heavily on starting and end date of the activities.</p>
 			<div class="box">“Measurement is the first step that leads to control and eventually to improvement. If you can’t measure something, you can’t understand it. If you can’t understand it, you can’t control it. If you can’t control it, you can’t improve it.” — H. James Harrington</div>
-			<hr class="smSolid" ></hr>
+			<hr class="smSolid" />
 		</div>
 		<div class="sm" id="areas_sch">
-			<h2  class="sm"> Related Software Engineering Area(s)  </h2>
+			<h2 class="sm"> Related Software Engineering Area(s)  </h2>
 			<p>Software Project Management</p>
 			<p>Risk management.</p>
-			<hr class="smSolid" ></hr>
+			<hr class="smSolid" />
 		</div>
 		<div class="sm" id="rat_sch">
-			<h2  class="sm"> Rationale for Skill </h2>
+			<h2 class="sm"> Rationale for Skill </h2>
 			Time is a major concern in projects and in software projects its no different, being able to manage it through precise schedule can play an important role in project management giving the information needed to  provide solutions from risk management to providing all needs of the project across its life span.
-			<hr class="smSolid" ></hr>
+			<hr class="smSolid" />
 		</div>
 		<div class="sm" id="roles_sch">
-			<h2  class="sm"> Roles for Skill </h2>
+			<h2 class="sm"> Roles for Skill </h2>
 			<p>Project Manager</p>
 			<p>Risk Manager</p>
 			<p>Scrum Master/Member</p>
-			<hr class="smSolid" ></hr>
+			<hr class="smSolid" />
 		</div>
 		<div class="sm" id="work_sch">
-			<h2  class="sm"> Work Related to Skill </h2>
+			<h2 class="sm"> Work Related to Skill </h2>
 			<h4>Work Breakdown Structure(WBS)</h4>
 			<p>This is the concept of breaking activities into sub activities in order to allow control in a project management, its hard to keep control of an activity that takes months, easier though to have follow up and consequently taking the according measure for tasks that have the length of days or hours.</p>
 			<p>According to PMI WBS is a “deliverable oriented hierarchical decomposition of the work to be executed by the project team.”</p>
@@ -2261,7 +2305,7 @@ It is not seldom to find software developing companies considering process measu
 			<img class="real" src="images/CriticalPath.png">
 		</div>
 		<div class="sm" id="example_sch">
-			<h2  class="sm"> Real-World Example </h2>
+			<h2 class="sm"> Real-World Example </h2>
 			<div class="row" style="padding-top:70px">
 				
 				<div class="column">
@@ -2285,10 +2329,10 @@ It is not seldom to find software developing companies considering process measu
 			</div>
 		</div>
 		<div class="sm" id="cult_sch">
-			<h2  class="sm"> Role of Academia or Industry in Cultivating the Skill </h2>
+			<h2 class="sm"> Role of Academia or Industry in Cultivating the Skill </h2>
 			<p>Hard to find an explicit approach, what drives the development of the skill is that this is the very essence of a project, three of the most fundamental pilar are time, budget and quality which is exactly what schedulling is about, how to make the budget and the quality into the time available or any similar fiting among these 3.</p>
 			<p>Many ways of cultivating it have been raised, but I bring the attention to the agile methodology, which is a new way of scheduling which gives more freedom to handle the unknown which is very unstable.</p>
-			<hr class="smSolid" ></hr>
+			<hr class="smSolid" />
 		</div>
 		<div class="sm" id="tools_sch">
 			<h2  class="sm" > Tools Supporting the Skill </h2>
@@ -2307,12 +2351,23 @@ It is not seldom to find software developing companies considering process measu
 					</div>
 				</div>
 			</div>
-			<hr class="smSolid" ></hr>
+			<hr class="smSolid" />
 		</div>
 		<div class="sm" id="assess_sch">
-			<h2  class="sm"> Skill Self-Assessment </h2>
-			4
-			<hr class="smSolid" ></hr>
+			<h2 class="sm"> Skill Self-Assessment </h2>
+			<i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            (4/10)
+            <p class="mt-3">
+			<hr class="smSolid" />
 		</div>
 		<div class="sm">
 			<h2  class="sm" id="ref_sch"> References </h2>
@@ -2320,7 +2375,7 @@ It is not seldom to find software developing companies considering process measu
 			<p><a href="https://www.pmi.org/learning/library/scheduling-professional-career-option-certified-6600">[2] Project Management Institute</a></p>
 			<p><a href="https://www.cleverism.com/skills-and-tools/scheduling/">[3] Cleverism</a></p>
 			<p><a href="https://www.mindtools.com/pages/article/newHTE_07.htm">[4] MindTools</a></p>
-			<hr class="smSolid" ></hr>
+			<hr class="smSolid" />
 		</div>		
 		`,
     },
@@ -2331,7 +2386,7 @@ It is not seldom to find software developing companies considering process measu
 					creating multiple cause-effect path to get the actual cause for the problem.`,
         text: `
 	<p class="text-muted pb-5">Author: Yash Chandreshkumar Golwala</p>
-	<hr style="solid 5px #bbb"></hr>
+	<hr class="smSolid" />
 	<div id="table_pa_container">
 	<p class="table_pa_title" style="color: #005a9c;">On this Page:</p>
 		<ul>
@@ -2358,7 +2413,7 @@ It is not seldom to find software developing companies considering process measu
   	<a href="index.html">Home</a>
   	<a href="#table_pa_container">Table Of Contents</a>
 	</div>
-	<hr style="solid 5px #bbb"></hr>
+	<hr class="smSolid" />
 	
 	<div class="sm" id="name_pa">
 		
@@ -2373,7 +2428,7 @@ It is not seldom to find software developing companies considering process measu
 		<p id="pa"> It is often termed as <b>Root Cause Analysis</b> and is a method of Problem-Solving. It is used for identifying the root causes of
 		faults or problems [1].</p>
 		
-		<hr class="smSolid" ></hr>
+		<hr class="smSolid" />
 	</div>
 	
 
@@ -2383,12 +2438,12 @@ It is not seldom to find software developing companies considering process measu
 		It can be classified as <b>Hard Technical Skill</b>.<br>
 		<p id="pa"> Hard skills are technical knowledge or training that you have gained through any life experience, 
 		including in your career or education [2]. </p>
-		<hr class="smSolid" ></hr>
+		<hr class="smSolid" />
 	</div>
 
 
 	<div class="sm" id="pre_pa">
-		<h2  class="sm"> Prerequisites for Skill </h2>
+		<h2 class="sm"> Prerequisites for Skill </h2>
 		<ul style="list-style-type:square;">
 		<li>Identified problem Statement</li>
 		<li>Problem Domain Knowledge</li>
@@ -2399,36 +2454,36 @@ It is not seldom to find software developing companies considering process measu
 		<li>Data-Structures</li>
 		<li>Knowledge of the Problem Domain</li>
 		</ul>
-		<hr class="smSolid" ></hr>
+		<hr class="smSolid" />
 	</div>
 
 
 	<div class="sm" id="areas_pa">
-		<h2  class="sm"> Related Software Engineering Area(s)  </h2>
+		<h2 class="sm"> Related Software Engineering Area(s)  </h2>
 		<ul style="list-style-type:square;">
 		<li>Software Design</li>
 		<li>Software Construction</li>
 		<li>Software Maintenance</li>
 		<li>Software Requirements</li>
 		</ul>
-		<hr class="smSolid" ></hr>
+		<hr class="smSolid" />
 	</div>
 
 
 	<div class="sm" id="rationale_pa">
-		<h2  class="sm"> Rationale for Skill </h2>
+		<h2 class="sm"> Rationale for Skill </h2>
 		<p id="pa">The rationale for choosing Problem Analysis skill is to be develop the ability to generate more than one possible solution
 		for an identified problem. Being the combination of Hard-skill and Cognitive skill, it is quite
 		difficult to generate multiple cause paths. Software Engineers tend to make decision based on their past experience
 		for most of the time and it might be possible to use or define a cause-effect new path for that problem. This might be considered as a must have skill
 		for any software engineer/ Business Analyst in near future and it is very important to develop the problem-solving skill and exploring the problem space.
 		This skill helps in taking more informed decisions for solving a problem.</p>
-		<hr class="smSolid" ></hr>
+		<hr class="smSolid" />
 	</div>
 
 
 	<div class="sm" id="roles_pa">
-	<h2  class="sm"> Roles for Skill </h2>
+	<h2 class="sm"> Roles for Skill </h2>
 	<ul style="list-style-type:square;">
 	<li>Software Developer</li>
 	<li>Software Designer</li>
@@ -2437,12 +2492,12 @@ It is not seldom to find software developing companies considering process measu
 	<li>Algorithm Developer</li>
 	<li>Business Analyst</li>
 	</ul>
-		<hr class="smSolid" ></hr>
+		<hr class="smSolid" />
 	</div>
 
 
 	<div class="sm" id="work_pa">
-		<h2  class="sm"> Work Related to Skill </h2>
+		<h2 class="sm"> Work Related to Skill </h2>
 		<ul style="list-style-type:square;">
 		<li>Critical Thinking and breaking down a problem into more smaller sub-problems</li>
 		<li>Requirement for having involvement of other group members</li>
@@ -2451,12 +2506,12 @@ It is not seldom to find software developing companies considering process measu
 		<li>Changes in the system</li>
 		<li>Collecting information for the similar kind problem that might have occured in the past</li>
 		</ul>
-		<hr class="smSolid" ></hr>
+		<hr class="smSolid" />
 	</div>
 
 
 	<div class="sm" id="example_pa">
-		<h2  class="sm"> Real-World Example/ Scenario of Skill</h2>
+		<h2 class="sm"> Real-World Example/ Scenario of Skill</h2>
 		<strong><a href="https://global-sei.com/technology/tr/bn73/pdf/73-13.pdf"><u>Process Improvement Activities for Automotive Software[4]</a></u></strong><br>
 		<br><p id="pa"> It is an example of automotive company where they tried to improve the process of manufacturing using software system
 		after finding out the problem finding activity using 5 whys (problem analysis). They succeeded in getting the exact bug location in V-shaped software system.
@@ -2492,7 +2547,7 @@ It is not seldom to find software developing companies considering process measu
 
 
 	<div class="sm" id="academia_pa">
-		<h2  class="sm"> Role of Academia or Industry in Cultivating the Skill </h2>
+		<h2 class="sm"> Role of Academia or Industry in Cultivating the Skill </h2>
 		<p id="pa">Academia is working rigorously to incorporate subjects/ assignments to make students understand the importance
 		of probelm analysis in order to solve any given problem. This even helps in reducing the cognitive baises between stakeholders
 		while iterating over the problem space. </p>
@@ -2501,7 +2556,7 @@ It is not seldom to find software developing companies considering process measu
 		peer reviewing is allowed, students might get to learn new possible cause-effect paths one could have. 
 		This might help them in developing problem analysis skill to think more creatively over a given problem 
 		and might be able to create multiple solution path for any identified problem.</p>
-		<hr class="smSolid" ></hr>
+		<hr class="smSolid" />
 	</div>
 
 
@@ -2559,32 +2614,44 @@ It is not seldom to find software developing companies considering process measu
 			</div>
 
 
-		<hr class="smSolid" ></hr>
+		<hr class="smSolid" />
 	</div>
 
 
 	<div class="sm" id="assessment_pa">
-		<h2  class="sm"> Skill Self-Assessment </h2>
-		<p id="pa"> <b> 4 </b>, I have a good knowledge and experience about the pre-requisites and the tools mentioned above. But, in order to 
+		<h2 class="sm"> Skill Self-Assessment </h2>
+		<i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            <i class="far fa-star"></i>
+            (4/10)
+            <p class="mt-3" id="pa">
+			I have a good knowledge and experience about the pre-requisites and the tools mentioned above. But, in order to 
 		gain expertise in this skill, it does require you to have an experiential knowledge of doing this analysis for over a year and
 		as it's a process by which you would be able to find the actual root cause which is affecting the system. 
 		It requires you to reiterate over the problem space and forces you to cover as many branches as possible to get to the root cause of the solution. </p>
 
-		<p id="pa"> Team collaboration is a necessity in order to get more insights after brainstorming and being in a distributed environment 
+		<p> Team collaboration is a necessity in order to get more insights after brainstorming and being in a distributed environment 
 		it was not possible to try changing Hats trick (To think from all different perspectives).</p>
-		<hr class="smSolid" ></hr>
+		<hr class="smSolid" />
 	</div>
 
 
 	<div class="sm" id="ref_pa">
-		<h2  class="sm"> References </h2>
+		<h2 class="sm"> References </h2>
 		<ul>
 		<li><u><a id="pa" href="https://www.elo.iastate.edu/engl-309/problem-analysis/">[1] Elo.iastate.edu, 2020.</u></a></li>
 		<li><u><a href="https://www.indeed.com/career-advice/resumes-cover-letters/hard-skills-vs-soft-skills#:~:text=Hard%20skills%20are%20technical%20knowledge,in%20your%20career%20or%20education">[2] Indeed.com, 2020. </u></a></li>
 		<li><u><a href="//commons.wikimedia.org/w/index.php?title=User:KellyLawless&amp;action=edit&amp;redlink=1" class="new" title="User:KellyLawless (page does not exist)">[3] By KellyLawless</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=30417444">Open Link</u><a/></li>
 		<li><u><a href="https://global-sei.com/technology/tr/bn73/pdf/73-13.pdf">[4] Global-sei.com, 2020.</u></a></li>
 		</ul>
-		<hr class="smSolid" ></hr>
+		<hr class="smSolid" />
 	</div>	
 `
     },

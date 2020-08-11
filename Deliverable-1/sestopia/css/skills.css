@@ -125,6 +125,7 @@ a:hover {
     position: fixed; /* Make it stick/fixed */
     top: -50px; /* Hide the navbar 50 px outside of the top view */
     width: 80%; /* 80% width */
+    margin-top: 30px;
     transition: top 0.3s; /* Transition effect when sliding down (and up) */
   }
   

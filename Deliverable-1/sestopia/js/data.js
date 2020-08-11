@@ -1473,7 +1473,7 @@ It is not seldom to find software developing companies considering process measu
         <a href="#table_pa_container">Table Of Contents</a>
       </div>
       <hr class="smSolid" />
-          <div class="sm" >
+          <div class="sm text-center" >
               <figure id="imgSDLC">
                   <img class="img-fluid" src="images/st/SDLC.jpg" alt="Software Development Life Cycle" style="max-width: 500px">
                   <figcaption id="caption-SDLC">Software Development Life Cycle <a href="#SDLC-img">[11]</a></figcaption>
@@ -1496,12 +1496,26 @@ It is not seldom to find software developing companies considering process measu
               <h3  class="sm"> Name of Skill </h3>
               <hr class="smSolid" />
               <p><strong>Automated Unit Testing</strong></p>
-			  <div class="text-center">
-                  <figure id="imgSWtestingClass">
-                      <img class="img-fluid" src="images/st/classification_of_sw_testing.png" alt="Classification of Software Testing">
-                      <figcaption id="caption-SWtestingClass">Software Testing Classification <a href="#ref-one">[1]</a></figcaption>
-                  </figure>
-			  </div>
+
+             <br>
+			 <div class="row">
+             	<div class="col-lg-6">
+			  		<div class="embed-responsive embed-responsive-16by9">
+						<iframe class="embed-responsive-item" src="https://www.youtube.com/embed/2LiePQ9cXLE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			  		</div>
+			  	</div>
+			 
+			 	<div class="col-lg-6">
+			  		<div class="text-center">
+                  		<figure id="imgSWtestingClass">
+                      		<img class="img-fluid" src="images/st/classification_of_sw_testing.png" alt="Classification of Software Testing">
+                      		<figcaption id="caption-SWtestingClass">Software Testing Classification <a href="#ref-one">[1]</a></figcaption>
+                  		</figure>
+			  		</div>
+			 	</div>
+			 </div>
+			 <br>
+
               <p>Unit testing is one of testing approach for software testing phase in Software Development Life Cycle (SDLC) where individual units of a software are tested <a href="#ref-nine">[9]</a>, <a href="#ref-ten">[10]</a>. In other words, units or components are a smallest testable part of a software which are tested independently and individually with aim of validating functionality of each unit <a href="#ref-nine">[9]</a>, <a href="#ref-ten">[10]</a>.</p>
               <p>Unit testing can be done both <strong>manually</strong> and <strong>automated</strong> while automated is more common <a href="#ref-ten">[10]</a>. They usually have one or more inputs with a single output. In Object-Oriented Programming (OOP) the unit is a method <a href="#ref-nine">[9]</a>.</p>
               <p>It is also one part in Test Driven Development (TDD) methodology <a href="#ref-ten">[10]</a>.

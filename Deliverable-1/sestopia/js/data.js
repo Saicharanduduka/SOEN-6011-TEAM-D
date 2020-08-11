@@ -117,11 +117,11 @@ const content = [{
 
 	<div class="sm" id="cos">
 	<h2 class="sm"> <a href="#index"> Classification of Skill</a> </h2>
-		User research can be classified into two categories:<br><br>
+		<p>User research can be classified into two categories:<br><br>
 	<b>A) Quantitative research</b><br>
 	In quantitative techniques, for example, surveys, investigation, and formal trials, the researcher tries to quantify parts of users and user behavior in a manner that can be measured and used for factual examination. Best practice for quantitative strategies is to gather target estimations that are unbiased by the researcher’s theories, presence, and personality. Getting an example of users who can represent the entire user population in a factually important manner regularly requires many research participants. Quantitative Research utilizes quantifiable information to detail realities and reveals designs in research. Quantitative data collection techniques are considerably more organized than Qualitative data collection methods.<br><br>
 	<b>B) Qualitative research</b><br>
-	Qualitative techniques, for example, interviews, case studies, observation, group discussion, open-ended questionnaires, and (somewhat) ease of use tests are frequently more exploratory and look to get a more inside and out comprehension of the individual users’ or user group’s experiences, motivations, and regular daily existences. In qualitative methods, the researcher acknowledges that he/she is somewhat a co-maker of research results, so the outcomes are not totally objective and reproducible. The results of qualitative research are normally not communicated numerically, yet rather as topics or classifications that have happened during the research. It is used to increase an understanding of fundamental reasons, opinions, and motivations. It gives bits of knowledge into the issue or assists with creating thoughts or theories for potential quantitative research. Qualitative Research is additionally used to reveal patterns in thought and opinions, and dive deeper into the issue. It gives detailed information including knowledge about behavior, attitude, and aptitude of the user.<br>
+	Qualitative techniques, for example, interviews, case studies, observation, group discussion, open-ended questionnaires, and (somewhat) ease of use tests are frequently more exploratory and look to get a more inside and out comprehension of the individual users’ or user group’s experiences, motivations, and regular daily existences. In qualitative methods, the researcher acknowledges that he/she is somewhat a co-maker of research results, so the outcomes are not totally objective and reproducible. The results of qualitative research are normally not communicated numerically, yet rather as topics or classifications that have happened during the research. It is used to increase an understanding of fundamental reasons, opinions, and motivations. It gives bits of knowledge into the issue or assists with creating thoughts or theories for potential quantitative research. Qualitative Research is additionally used to reveal patterns in thought and opinions, and dive deeper into the issue. It gives detailed information including knowledge about behavior, attitude, and aptitude of the user.</p>
 
 		<hr class="smSolid" />
 	</div>
@@ -154,17 +154,17 @@ const content = [{
 
 	<div class="sm" id="rafs">
 		<h2 class="sm"> <a href="#index">Rationale for Skill</a> </h2>
-		<div class="box">"Empathy is at the heart of design. Without the understanding of what others see, feel, and experience, design is a pointless task."<br>
+		<div class="box ml-5">"Empathy is at the heart of design. Without the understanding of what others see, feel, and experience, design is a pointless task."<br>
 		<i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Tim Brown, CEO of the innovation and design firm IDEO</i></div>
 		<b>1. To Create Designs That are Truly Relevant</b><br><br>
-User research is the best way to accomplish an understanding of the individuals who are going to utilize your design. If you get what user wants, you can make design that are relevant to them. But in case you don't have an clear idea of your users understanding, you have no way of knowing whether your design will be relevant. A design that isn't applicable to its target users will never be a success.<br><br>
+<p>User research is the best way to accomplish an understanding of the individuals who are going to utilize your design. If you get what user wants, you can make design that are relevant to them. But in case you don't have an clear idea of your users understanding, you have no way of knowing whether your design will be relevant. A design that isn't applicable to its target users will never be a success.<br></p>
 
 <b>2. To Create Designs That are Easy and Pleasurable to Use</b><br>
-<div class="box">"If the user is having a problem, it’s our problem.”<br>
+<div class="box ml-5">"If the user is having a problem, it’s our problem.”<br>
 <i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-Steve Jobs, co-founder of Apple Computers</i></div><br>
-Products should have a significant level of usability and user tests can be a major assistance in accomplishing that. People expect that products should be easy to learn and easy to use. They hope to get them and get things done with them while just considering what they would like to accomplish, not having to think about the products themselves. If your user experience is not good, than there is a possibility that people will move on with another product. Except the fact that you are working in a field with no competitors, a significant level of usability is essential in making any product a commercial success. Also, people will cherish you for making an extraordinary user experience. Regardless of whether you are designing products for a highly specialized work environment where the users have no other options, products with a significant level of usability will make work forms quicker, more secure and more efficient.<br><br>
-<b>3. To Understand the Return on Investment of Your UX Design</b></br><br>
-In spite of the fact that the significance of good design has widely recognized, UX designers and researchers still fight for resources to enable them to accomplish their work. Executives and stakeholder fails sometime to see the value in putting resources in user research and UX design. If resources become scant, UX is likewise regularly one of the first areas to experience cuts; the explanation is that results are not as promptly felt as when you save on development or similar areas. In software development we can see the bugs immediately but in UX we don't experience the consequences until the product reaches the users. In spite of the fact that we can argue for the value of great UX, it is substantially more viable if we can show it. This is the place studies to show the return on investment (ROI) on UX efforts are extremely valuable. If you can show that the progressions you made in the design created more sales, brought about a bigger number of customers, or made work forms progressively effective, you have a lot more stronger case for putting resources in UX. User studies to quantify the impact of your design are mostly quantitative and can take various forms. <br>
+<p>Products should have a significant level of usability and user tests can be a major assistance in accomplishing that. People expect that products should be easy to learn and easy to use. They hope to get them and get things done with them while just considering what they would like to accomplish, not having to think about the products themselves. If your user experience is not good, than there is a possibility that people will move on with another product. Except the fact that you are working in a field with no competitors, a significant level of usability is essential in making any product a commercial success. Also, people will cherish you for making an extraordinary user experience. Regardless of whether you are designing products for a highly specialized work environment where the users have no other options, products with a significant level of usability will make work forms quicker, more secure and more efficient.<br></p>
+<b>3. To Understand the Return on Investment of Your UX Design</b><br><br>
+<p>In spite of the fact that the significance of good design has widely recognized, UX designers and researchers still fight for resources to enable them to accomplish their work. Executives and stakeholder fails sometime to see the value in putting resources in user research and UX design. If resources become scant, UX is likewise regularly one of the first areas to experience cuts; the explanation is that results are not as promptly felt as when you save on development or similar areas. In software development we can see the bugs immediately but in UX we don't experience the consequences until the product reaches the users. In spite of the fact that we can argue for the value of great UX, it is substantially more viable if we can show it. This is the place studies to show the return on investment (ROI) on UX efforts are extremely valuable. If you can show that the progressions you made in the design created more sales, brought about a bigger number of customers, or made work forms progressively effective, you have a lot more stronger case for putting resources in UX. User studies to quantify the impact of your design are mostly quantitative and can take various forms. <br></p>
 
 
 
@@ -203,18 +203,18 @@ In spite of the fact that the significance of good design has widely recognized,
 		<h2 class="sm"><a href="#index"> Real-World Example</a> </h2>
 
 		<center><img class="real" src="images/sd/UserResearchExample.png" style="height:30%; width:60%" class="img-fluid">
-		<figcaption>Usability Lab</figcaption></center>
-		This is the real world scenario where the user is being monitored. It involves recording the performance of the user doing typical tasks. This research is in a controlled environment setting. The person sitting inside with the user is evaluating user satisfaction using questionnaires and interviews. Goals and questions focus on how well she understands the product and perform a task. This testing is done with the goal that we can comprehend what changes are expected to cause things to go in the correct way.
+		<figcaption>Usability Lab</figcaption></center><p>
+		This is the real world scenario where the user is being monitored. It involves recording the performance of the user doing typical tasks. This research is in a controlled environment setting. The person sitting inside with the user is evaluating user satisfaction using questionnaires and interviews. Goals and questions focus on how well she understands the product and perform a task. This testing is done with the goal that we can comprehend what changes are expected to cause things to go in the correct way.</p>
 		<hr class="smSolid" />
 	</div>
 
 
 	<div class="sm" id="roai">
 		<h2 class="sm"> <a href="#index">Role of Academia or Industry in Cultivating the Skill</a> </h2>
-		<b>Academia </b><br>
-What we understand in Academic courses is that user research is all about recording videos, audios, gathering information from users about their needs. Most popular surveys, interviews, questionnaires, observation, studying documentation, etc are enough to be a UX Researcher. But in the real-world it is more than that. One should know the Design Principles, Usability principles, Mental Model, Personas, etc which includes the requirement and how to make a good design.<br>
+		<p><b>Academia </b><br>
+What we understand in Academic courses is that user research is all about recording videos, audios, gathering information from users about their needs. Most popular surveys, interviews, questionnaires, observation, studying documentation, etc are enough to be a UX Researcher. But in the real-world it is more than that. One should know the Design Principles, Usability principles, Mental Model, Personas, etc which includes the requirement and how to make a good design.<br></p><p>
 <b>Industry</b><br>
-While in industry researcher builds information about their users to serve the user network they work, but their approach is heavily influenced by the company’s business plan. The business benefit is determined by conveying value to the user, for instance, research to design a better customer experience will contribute to uplift in usage, patronage, and profit. Benefit, competition, and innovation shape the approach of the Industry UX Researcher.<br>
+While in industry researcher builds information about their users to serve the user network they work, but their approach is heavily influenced by the company’s business plan. The business benefit is determined by conveying value to the user, for instance, research to design a better customer experience will contribute to uplift in usage, patronage, and profit. Benefit, competition, and innovation shape the approach of the Industry UX Researcher.<br></p>
 
 		<hr class="smSolid" />
 	</div>
@@ -222,7 +222,7 @@ While in industry researcher builds information about their users to serve the u
 
 	<div class="sm" id="tsts">
 		<h2  class="sm" ><a href="#index"> Tools Supporting the Skill</a> </h2>
-		There are many tools which support the skill. But here are some best tools which help to make UX researchers jobs easy. <br>
+		<p>There are many tools which support the skill. But here are some best tools which help to make UX researchers jobs easy.</p>
 
 				<div class="row" style="padding-top:70px">
 			
@@ -286,7 +286,7 @@ While in industry researcher builds information about their users to serve the u
             <i class="far fa-star"></i>
             (6/10)
             <p class="mt-3">
-User research and persona is one of the important skill to start any project. If you don’t know what your user wants you to end with making an unsuccessful product. I have taken the subject “Human-Computer Interface Design” where I discovered how good design plays a role in successful products. Therefore, this subject has given me the opportunity to learn in-depth and enhance my knowledge in this area. But, this skill is a part of UI development. In order to self assess my score to 10 I would want to gain proficiency with all skills that come in UI development, which will give a kick start to my career.</p>
+User research and persona is one of the important skill to start any project. If you don’t know what your user wants you to end with making an unsuccessful product. I have taken the subject “Human-Computer Interface Design” where I discovered how good design plays a role in successful products. Therefore, this subject has given me the opportunity to learn in-depth and enhance my knowledge in this area. But, this skill is a part of UI development. In order to self assess my score to 10, I would want to gain proficiency with all skills that come in UI development, which will give a kick start to my career.</p>
 
 		<hr class="smSolid" />
 	</div>
@@ -296,17 +296,17 @@ User research and persona is one of the important skill to start any project. If
 		<h2 class="sm"> <a href="#index">References</a> </h2>
 
 		<ul>
-		<li><a href="https://www.interaction-design.org/literature/topics/personas" target="_blank" style="color:blue">https://www.interaction-design.org/literature/topics/personas</a></li>
+		<li><a href="https://www.interaction-design.org/literature/topics/personas" target="_blank" class="text-primary">https://www.interaction-design.org/literature/topics/personas</a></li>
 
-		<li><a href="https://www.interaction-design.org/literature/article/best-practices-for-qualitative-user-research" target="_blank" style="color:blue">https://www.interaction-design.org/literature/article/best-practices-for-qualitative-user-research</a></li>
+		<li><a href="https://www.interaction-design.org/literature/article/best-practices-for-qualitative-user-research" target="_blank" class="text-primary">https://www.interaction-design.org/literature/article/best-practices-for-qualitative-user-research</a></li>
 
-		<li><a href="https://www.springboard.com/blog/becoming-a-ux-researcher/#:~:text=Experience%20conducting%20user%20research,thinking%20and%20problem%2Dsolving%20skills" target="_blank" style="color:blue">https://www.springboard.com/blog/becoming-a-ux-researcher/#:~:text=Experience%20conducting%20user%20research,thinking%20and%20problem%2Dsolving%20skills</a></li>
+		<li><a href="https://www.springboard.com/blog/becoming-a-ux-researcher/#:~:text=Experience%20conducting%20user%20research,thinking%20and%20problem%2Dsolving%20skills" target="_blank" class="text-primary">https://www.springboard.com/blog/becoming-a-ux-researcher/#:~:text=Experience%20conducting%20user%20research,thinking%20and%20problem%2Dsolving%20skills</a></li>
 
-		<li><a href="https://www.invisionapp.com/inside-design/5-ux-specialties/" target="_blank" style="color:blue">https://www.invisionapp.com/inside-design/5-ux-specialties/</a></li>
+		<li><a href="https://www.invisionapp.com/inside-design/5-ux-specialties/" target="_blank" class="text-primary">https://www.invisionapp.com/inside-design/5-ux-specialties/</a></li>
 
-		<li><a href="https://usabilitygeek.com/best-ux-tools-user-research-user-testing-2018/" target="_blank" style="color:blue">https://usabilitygeek.com/best-ux-tools-user-research-user-testing-2018/</a></li>
+		<li><a href="https://usabilitygeek.com/best-ux-tools-user-research-user-testing-2018/" target="_blank" class="text-primary">https://usabilitygeek.com/best-ux-tools-user-research-user-testing-2018/</a></li>
 
-		<li><a href="https://medium.com/@kate.r.storey/industry-ux-researcher-vs-academic-hci-researcher-d13a7283fbf0" target="_blank" style="color:blue">https://medium.com/@kate.r.storey/industry-ux-researcher-vs-academic-hci-researcher-d13a7283fbf0</a></li>
+		<li><a href="https://medium.com/@kate.r.storey/industry-ux-researcher-vs-academic-hci-researcher-d13a7283fbf0" target="_blank" class="text-primary">https://medium.com/@kate.r.storey/industry-ux-researcher-vs-academic-hci-researcher-d13a7283fbf0</a></li>
 
 		<hr class="smSolid" />
 	</div>	`,
@@ -316,7 +316,7 @@ User research and persona is one of the important skill to start any project. If
     {
         title: `Software Quality`,
 
-        description: `<hr border-top: 3px solid #bbb;>Conducting reviews and audits is skill in the knowledge area software quality</hr><br> `,
+        description: `Conducting reviews and audits is skill in the knowledge area software quality`,
 		text: `
 		<p class="text-muted pb-5">Author: Neha Sarang Dighe</p>
 <hr class="smSolid" />
@@ -345,8 +345,6 @@ User research and persona is one of the important skill to start any project. If
   	<a href="#table_pa_container">Table Of Contents</a>
 	</div>
 	<hr class="smSolid" />
-
-
 
 
 <div class="sm" id="nos">
@@ -388,10 +386,10 @@ organizational or project management.<a href="https://www2.deloitte.com/za/en/pa
 <div class="row">
 <div class="col">
 <ul >
-<li><b>Management Reviews:</b></br>  Management reviews compare actual project results against plans to determine the status of projects or maintenance efforts. The main parameters of management reviews are project cost, schedule, scope, and quality.</li>
-<li><b>Technical Reviews:</b></br> The purpose of a technical review is to evaluate a software product by a team of qualified personnel to determine its suitability for its intended use and identify discrepancies from specifications and standards. It provides management with evidence to confirm the technical status of the project.</li>
-<li><b>Inspections:</b></br> The purpose of an inspection is to detect and identify software product anomalies. Software inspections always involve the author of an intermediate or final product; other reviews might not. Inspections also include an inspection leader, a recorder, a reader, and a few (two to five) checkers (inspectors). The members of an inspection team may possess different expertise, such as domain expertise, software design method expertise, or programming language expertise.</li>
-<li><b>Walkthroughs:</b></br> The purpose of a systematic walk-through is to evaluate a software product. A walkthrough may be conducted for the purpose of educating an audience regarding a software product.</li>
+<li><b>Management Reviews:</b><br>  Management reviews compare actual project results against plans to determine the status of projects or maintenance efforts. The main parameters of management reviews are project cost, schedule, scope, and quality.</li>
+<li><b>Technical Reviews:</b><br> The purpose of a technical review is to evaluate a software product by a team of qualified personnel to determine its suitability for its intended use and identify discrepancies from specifications and standards. It provides management with evidence to confirm the technical status of the project.</li>
+<li><b>Inspections:</b><br> The purpose of an inspection is to detect and identify software product anomalies. Software inspections always involve the author of an intermediate or final product; other reviews might not. Inspections also include an inspection leader, a recorder, a reader, and a few (two to five) checkers (inspectors). The members of an inspection team may possess different expertise, such as domain expertise, software design method expertise, or programming language expertise.</li>
+<li><b>Walkthroughs:</b><br> The purpose of a systematic walk-through is to evaluate a software product. A walkthrough may be conducted for the purpose of educating an audience regarding a software product.</li>
 </ul>
 </div>
 <div class="col">
@@ -505,10 +503,6 @@ On a most basic level, auditing and review involves one person checking another 
 </div>
 
 
-
-
-
-
 <hr class="smSolid" />
 </div>
 
@@ -517,22 +511,20 @@ On a most basic level, auditing and review involves one person checking another 
 <h2 class="sm"> <a href="#index">Role of Academia or Industry in Cultivating the Skill</a> </h2>
 <hr class="smSolid" />
 
-<div class="row" style="width:70% ">
+<p>
 <b>Academia </b><br>
-In terms of academic purposes, the knowldege base consists of tools which can be used for conducting audits and reviews in quality domain. But in real world, the focus is primarily on setting the right standards in terms of meeting the requirements.<br>
+In terms of academic purposes, the knowldege base consists of tools which can be used for conducting audits and reviews in quality domain. But in real world, the focus is primarily on setting the right standards in terms of meeting the requirements.</p>
+<p>
 <b>Industry</b><br>
-Where as in industry, the set of standards is maintained by the business, hence after gaining experience in reviews and audits, we can have expertise in management reviews and technical reviews<br>
+Where as in industry, the set of standards is maintained by the business, hence after gaining experience in reviews and audits, we can have expertise in management reviews and technical reviews.</p>
 
-
-
-</div>
 
 <hr class="smSolid" />
 </div>
 
 
 <div class="sm" id="tsts">
-<h2  class="sm" > <a href="#index">Tools Supporting the Skill </a></h2>
+<h2  class="sm" > <a href="#index">Tools Supporting the Skill</a></h2>
 <hr class="smSolid" />
 <div class="row" style="padding-top:70px">
 
@@ -611,7 +603,7 @@ Review Board supports pre-commit reviews and post-commit reviews.</p>
 Technical reviews (including inspections, walkthrough, and desk checking) examine engineering work-products.
 After working with technical reviews for 3 years, I got involved in management reviews as well, to evaluate actual project results with respect to plans. 
 Design track and collect metrics to monitor project quality. Achieves the expected results, meets the organisation’s requirements functions in accordance with the established operating procedures and processes
-Capable of identifying non-conformities and monitoring subsequent corrective and preventive actions. A management Review also ensures that all levels of management are made aware of any changes, updates, revisions. to the day-to-day workings of the Management System itself.
+Capable of identifying non-conformities and monitoring subsequent corrective and preventive actions. A management Review also ensures that all levels of management are made aware of any changes, updates, revisions. to the day-to-day workings of the Management System itself.</p>
 <hr class="smSolid" />
 </div>
 
@@ -624,25 +616,25 @@ Capable of identifying non-conformities and monitoring subsequent corrective and
 
 
 <li>
-<a href="https://www.softwaretestinghelp.com/code-review-tools/" target="_blank" style="color:blue">
+<a href="https://www.softwaretestinghelp.com/code-review-tools/" target="_blank" class="text-primary">
 https://www.softwaretestinghelp.com/code-review-tools/
 </a>
 </li>
 
 <li>
-<a href="https://www.guru99.com/software-quality-assurance-test-audit-review-makes-your-life-easy.html" target="_blank" style="color:blue">
+<a href="https://www.guru99.com/software-quality-assurance-test-audit-review-makes-your-life-easy.html" target="_blank" class="text-primary">
 https://www.guru99.com/software-quality-assurance-test-audit-review-makes-your-life-easy.html
 </a>
 </li>
 
 <li>
-<a href="http://www.qasigma.com/2008/12/sqa-audit.html" target="_blank" style="color:blue">
+<a href="http://www.qasigma.com/2008/12/sqa-audit.html" target="_blank" class="text-primary">
 http://www.qasigma.com/2008/12/sqa-audit.html
 </a>
 </li>
 
 <li>
-<a href="https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx" target="_blank" style="color:blue">
+<a href="https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx" target="_blank" class="text-primary">
 https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
 </a>
 </li>
@@ -657,9 +649,8 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
     },
     {
         title: `Software Maintenance`,
-        description: `<hr class="smSolid" /><br>Software Maintenance is the process of modifying a software product after it has been 
-        			delivered to the customer. The main purpose of software maintenance is to modify and update software application after delivery 
-        			to correct faults and to improve performance.`,
+        description: `Software Maintenance is the process of modifying a software product after it has been 
+        			delivered to the customer. The main purpose of software maintenance is to modify and update software application after delivery to correct faults and to improve performance.`,
         text: `
 
 		<p class="text-muted pb-5">Author: Harsh Divecha</p>
@@ -724,15 +715,15 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
 		<div class="row">
 			<div class="col">
 			<ul>
-				<li><b>Corrective:</b></br> Maintenance performed to correct faults in hardware or software, maintenance involves testing to detect a problem and injecting a fix without disturbing the rest of the system.</li>
-				<li><b>Adaptive:</b></br> Software maintenance performed to make a computer program usable in a changed environment (business rules, government policy, software platforms, hardware upgrades, etc.)</li>
-				<li><b>Perfective:</b></br> Software maintenance performed to improve the performance, maintainability, or other attributes of a computer program.</li>
-				<li><b>Preventive:</b></br> Maintenance performed for the purpose of preventing problems before they occur.</li>
+				<li><b>Corrective:</b><br> Maintenance performed to correct faults in hardware or software, maintenance involves testing to detect a problem and injecting a fix without disturbing the rest of the system.</li>
+				<li><b>Adaptive:</b><br> Software maintenance performed to make a computer program usable in a changed environment (business rules, government policy, software platforms, hardware upgrades, etc.)</li>
+				<li><b>Perfective:</b><br> Software maintenance performed to improve the performance, maintainability, or other attributes of a computer program.</li>
+				<li><b>Preventive:</b><br> Maintenance performed for the purpose of preventing problems before they occur.</li>
 			</ul>
 			</div>
 			<div class="col">
 			<img alt="maintenance types" src="images/sm/mainttypes.png" class="img-fluid">
-			<p style="margin-top:60px"> Preventative maintenance is also called software reengineering (Data restructuring, Code restructuring).</p>
+			<p style="margin-top:60px" class="text-center"> Preventative maintenance is also called software reengineering (Data restructuring, Code restructuring).</p>
 			</div>
 
 		</div>
@@ -789,7 +780,7 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
 		</p>
 
 		<h5 style="margin-top:60px; margin-bottom:30px">When you may need it ?</h5>
-		<ul style="width:70%">
+		<ul>
 			<li>To identify if further changes are feasible or if the system has to be substituted.</li>
 			<li>To allow for smoother and faster substitution of the original system with a new one, in case the revival of a legacy application turns out to be too complicated or even impossible.</li>
 			<li>To help to predict the effect of future enhancements and changes in software.</li>
@@ -839,33 +830,33 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
 
 		<h5>1. Enterprise Knowledge Management System </h5>
 		<div class="row" style="margin-top:30px">
-			<div class="col" >
+			<div class="col" ><p>
 			The Enterprise Knowledge Management System was not considered for reengineering, however, when starting work on this project, the INSART team analyzed the code 
 			and system architecture and discovered that it would require reengineering. This idea was then suggested to the customer who understood the importance of this 
-			process after thorough justification of the necessary changes and the advent of opening new prospects.
+			process after thorough justification of the necessary changes and the advent of opening new prospects.</p>
 			</div>
 			<div class="col">
 				<img alt="Enterprise Knowledge Management System" src="images/sm/ekms.png" class="img-fluid">
 			</div>
 		</div>
 
-		<div class="row" style="margin-top:10px; margin-left:10px ">
+		<div class="row" style="margin-top:10px; margin-left:10px "><p>
 		The reengineering of this system included two stages: upgrading the programming language version (from Java 5 to Java 7) and gradually updating each component. 
 		This approach allowed us to save the operability of the system, improving its performance on the first stage and making more profound changes later on. 
 		The following technologies were used: Spring Framework, Ehcache, DHTMLX, JQuery, Maven, etc.
-		</div>
-		<div class="row" style="margin-top:10px ; margin-left:10px" >
+		</p></div>
+		<div class="row" style="margin-top:10px ; margin-left:10px" ><p>
 		The Enterprise Knowledge Management System is still under development, however even now its performance and scalability have been improved greatly and its support 
 		and ability for further updates became much easier. Apart from that, the system is on production, therefore its architecture cannot be changed significantly, since 
 		such changes can influence business rules.
-		</div>
+		</p></div>
 
 		<h5 style="margin-top:60px">2. Online Marketing Platform</h5>
-		<div class="row" style="margin-top:30px">
+		<div class="row" style="margin-top:30px"><p>
 			The Online Marketing Platform has a 10+ year history. Bad scalability and an overly complicated updating process for new requirements caused the need for full 
 			engineering. INSART took charge by implementing modern technologies like Java 8, PostgreSQL 9, Spring Framework, AngularJS, etc., and created a new system architecture. 
 			This allowed us to improve system performance, avoid multiple software faults found in the legacy system and add new functionality. As a result, the system became 
-			scalable and easy to update.
+			scalable and easy to update.</p>
 		</div>
 
 		<div class="row" style="margin-top:30px">
@@ -877,10 +868,9 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
 				<h5>New architecture</h5>
 				<img alt="New architecture" src="images/sm/new.jpg" style="max-width:500px;" class="img-fluid">
 			</div>
-			<div class="row" style="margin-top:30px">
-	
+			<div class="row" style="margin-top:30px"><p>
 				Reengineering has been ongoing for two years and the revamped Online Marketing Platform is still being developed and improved. 
-				Nevertheless, it has already met almost all requirements for functionality, performance, scalability and reliability.
+				Nevertheless, it has already met almost all requirements for functionality, performance, scalability and reliability.</p>
 			</div>
 		</div>
 
@@ -908,17 +898,18 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
 		<h2 class="sm"> <a href="#index">Role of Academia or Industry in Cultivating the Skill</a> </h2>
 		<hr class="smSolid" />
 		
-		<div class="row" style="width:70%	">
+		<div class="row"><p>
 			Software engineering curricula emphasize developing new software systems. Little attention is given to how to change and modernize existing systems, i.e., 
 			the theory and practice of software maintenance and reengineering. The paper presents the author’s experience in teaching software reengineering, 
-			findings/conclusions are as follows:<a href="#r4" style="color:blue">[4]</a>
+			findings/conclusions are as follows:<a href="#r4" class="text-primary">[4]</a>
+			</p>
 			<ol style="margin-top:30px; margin-bottom:30px;">
 				<li>  There is a big shortage of educational materials for teaching software reengineering.</li>
 				<li>  Selecting the suitable materials (that balance theory and practice) and the right tool(s) for the level of students and depth of coverage required is a difficult task</li>
 				<li>  Teaching reengineering using toy exercises and assignments does not convey the practical aspects of the subject</li>
 			</ol> 
 			
-			<p> While, teaching with real, even small size, exercises and assignments, is almost infeasible. Getting the balance right requires careful consideration and 
+			<p>While teaching with real, even small size, exercises and assignments, is almost infeasible. Getting the balance right requires careful consideration and 
 			experimentation. Students understand and appreciate this topic much more if they have previous industrial experience and when they are presented with 
 			real industrial case studies.
 			</p> 
@@ -929,11 +920,11 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
 
 
 	<div class="sm" id="tsts">
-		<h2  class="sm" > <a href="#index">Tools Supporting the Skill </a></h2>
+		<h2  class="sm" > <a href="#index">Tools Supporting the Skill</a></h2>
 		<hr class="smSolid" />
 		<h4  style="margin-top:30px">DMS® Software Reengineering Toolkit™</h4>	
 		<div class="row" style="margin-top:50px">
-			<p style="width:30%;"">
+			<p style="width:30%;" class="pr-5">
 				It is a sophisticated set of infrastructure and highly customizable tools for automating:<br> 
 					<br>1. Source program analysis 
 					<br>2. Modification of source code 
@@ -963,12 +954,12 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
 				The most popular debuggers are 
 				</p>
 
-				<div class="row" style="align-content: center; display:flex"; margin-top:30px;>
+				<div class="row" style="align-content: center; display:flex; margin-top:30px;">
 					
 
 					<div class="column" style="width:33%">
 						<a href="http://www.ollydbg.de/" target="_blank">
-							<img alt="ollydbg" src="images/sm/ollydbg.gif" class="img-fluid" style="height:55px; width:55px" class="img-fluid">
+							<img alt="ollydbg" src="images/sm/ollydbg.gif" class="img-fluid" style="height:55px; width:55px">
 							<p>OllyDbg</p>
 						</a>
 					</div>
@@ -981,7 +972,7 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
 						</a>
 					</div>					
 					
-					<div class="column" style;"width:33%">
+					<div class="column" style:"width:33%">
 						<a href="https://www.microsoft.com/uk-ua/p/windbg-preview/9pgjgd53tn86?activetab=pivot:overviewtab" target="_blank">
 							<img alt="windbg_prv" src="images/sm/windbgp.png" style="height:55px; width:55px" class="img-fluid">
 							<p>Windbg Preview.</p>	
@@ -1026,49 +1017,48 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
 
 
 	<div class="sm" id="r">
-				<h2 class="sm"> <a href="#index">References </a></h2>
-				<hr class="smSolid" />
+				<h2 class="sm"> <a href="#index">References</a></h2>
 				<hr class="smSolid" />
 		<ol>
 
 			<li>
-				<a href="http://www.sdibo.com/maintenance" target="_blank" style="color:blue">
+				<a href="http://www.sdibo.com/maintenance" target="_blank" class="text-primary">
 				 http://www.sdibo.com/maintenance
 				</a>
 			</li>
 
 			<li>
-				<a href="https://www.scnsoft.com/blog/legacy-software-reengineering-guide" target="_blank" style="color:blue"> 
+				<a href="https://www.scnsoft.com/blog/legacy-software-reengineering-guide" target="_blank" class="text-primary"> 
 				 https://www.scnsoft.com/blog/legacy-software-reengineering-guide
 				</a>
 			</li>
 			
 			<li>
-				<a href="https://www.linkedin.com/pulse/software-reengineering-successful-implementation-vasiliy-soloshchuk-1/" target="_blank" style="color:blue">
+				<a href="https://www.linkedin.com/pulse/software-reengineering-successful-implementation-vasiliy-soloshchuk-1/" target="_blank" class="text-primary">
 				 https://www.linkedin.com/pulse/software-reengineering-successful-implementation-vasiliy-soloshchuk-1/
 				</a>
 			</li>
 			
 			<li>
-				<a href="https://sci-hub.tw/10.1145/1134285.1134395" target="_blank" style="color:blue" id="r4">
+				<a href="https://sci-hub.tw/10.1145/1134285.1134395" target="_blank" class="text-primary" id="r4">
 				 https://sci-hub.tw/10.1145/1134285.1134395
 				</a>
 			</li>
 
 			<li>
-				<a href="http://www.semdesigns.com/Products/DMS/DMSToolkit.html" target="_blank" style="color:blue">
+				<a href="http://www.semdesigns.com/Products/DMS/DMSToolkit.html" target="_blank" class="text-primary">
 				 http://www.semdesigns.com/Products/DMS/DMSToolkit.html 
 				</a>
 			</li>
 			
 			<li>	
-				<a href="https://www.indeed.com/q-Software-Reengineering-jobs.html?vjk=eb6e6645a6c23836" target="_blank" style="color:blue">
+				<a href="https://www.indeed.com/q-Software-Reengineering-jobs.html?vjk=eb6e6645a6c23836" target="_blank" class="text-primary">
 				 https://www.indeed.com/q-Software-Reengineering-jobs.html?vjk=eb6e6645a6c23836" 
 				</a>
 			</li>
 
 			<li>
-				<a href=https://hiring.monster.com/employer-resources/job-description-templates/software-engineer-job-description-sample/" target="_blank" style="color:blue">
+				<a href=https://hiring.monster.com/employer-resources/job-description-templates/software-engineer-job-description-sample/" target="_blank" class="text-primary">
 				 https://hiring.monster.com/employer-resources/job-description-templates/software-engineer-job-description-sample/
 				</a>
 			</li>
@@ -1079,12 +1069,7 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
     },
     {
         title: `Software Measurement`,
-        description: `<hr class="smSolid" />
-		<br>The evaluation of software processes is nowadays a
-		very important issue due to the growing 
-		interest of software companies in the improvement of the productivity and quality of delivered products. 
-		Software measurement plays a fundamental role here. Given the great diversity of entities which are candidates 
-		for measurement in the software process improvement context`,
+        description: `The evaluation of software processes is nowadays a very important issue due to the growing interest of software companies in the improvement of the productivity and quality of delivered products. Software measurement plays a fundamental role here. Given the great diversity of entities which are candidates for measurement in the software process improvement context.`,
 		text: `
 		<p class="text-muted pb-5">Author: Sai Charan Duduka</p>
 	<hr class="smSolid" />
@@ -1131,10 +1116,10 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
 		</p>
 		
 		<div class="sm" id="cos">
-		<h2 class="sm"> <a href="#index">Classification of Skill </a></h2>
+		<h2 class="sm"> <a href="#index">Classification of Skill</a></h2>
 		<hr class="smSolid" />
 		
-		<div class="row" style="margin-bottom:40px">
+		<div class="row" style="margin-bottom:40px"><p>
 		Software Process Measurement considered as technical skill used to measure many characteristics 
 		of software and software projects such as size, complexity, reliability, quality, adherence to process, and profitability.<br>
 		The Goal Question Metric (GQM) approach is a valuable, structured, and widely accepted method for answering the question of 
@@ -1143,7 +1128,7 @@ A software metric is a measure of software characteristics which are measurable 
  and many other uses and used to measure the efficiency and effectiveness of various processes<br>
 Within the software development process, many metrics are that are all connected.
  Software metrics are like the four functions of management: Planning, Organization, Control, or Improvement.<br>
-Software metrics can be classified into two types as follows:<br>
+Software metrics can be classified into two types as follows:</p>
 <h4>1. Product Metrics:</h4> <br>
 <p>These are the measures of various characteristics of the software product. The two important software characteristics are:<br>
   1.	Size and complexity of software.<br>
@@ -1153,7 +1138,9 @@ These metrics can be computed for different stages of SDLC.</p><br>
   <p>These are the measures of various characteristics of the software development process.
   For example, the efficiency of fault detection. They are used to measure the characteristics of methods
   , techniques, and tools that are used for developing software.</p>
-<img src="images/measure/classificationofmetrics.png" alt = "Classification of metrics" >
+  <p class="text-center">
+<img src="images/measure/classificationofmetrics.png" alt="Classification of metrics" >
+</p>
 		</div>
 
 		
@@ -1170,9 +1157,9 @@ These metrics can be computed for different stages of SDLC.</p><br>
 		<h2 class="sm"> <a href="#index">Prerequisites for Skill</a> </h2>
 		<hr class="smSolid"/>
 
-			To measure a software process, one should know about effort and cost required for the project and in terms of product lines of code produced, execution speed, and other defects should be known.
+			<p>To measure a software process, one should know about effort and cost required for the project and in terms of product lines of code produced, execution speed, and other defects should be known.
 software engineers need to be skilled in estimation and measurement,
-which means:
+which means:</p>
 <ul class="sm" style="width:70%">
 <li>Understanding the activities and risks involved in software development</li>
 <li>Predicting and controlling the activities</li>
@@ -1269,7 +1256,7 @@ below).
 			well-defined measurement goal. In turn, the measurement goal should be clearly connected with an industrial goal, 
 			so the measurement program responds to a software organization's needs.<br>
 			The Goal/Question/Metric (GQM) provides a framework for deriving measures from measurement goals.<br>
-			<ol class="sm" style="width:70%">
+			<ol class="sm">
 <li>Identify the Goal for the product/process/resource. This is the goal that your
 metrics “customer” is trying to achieve.</li>
 <li>Determine the Question(s) that will characterize the way achievement of the
@@ -1440,31 +1427,31 @@ It is not seldom to find software developing companies considering process measu
 		<ul>
 
 			<li>
-				<a href="https://www.scielo.br/scielo.php?script=sci_arttext&pid=S1807-17752013000200357" target="_blank" style="color:blue">
+				<a href="https://www.scielo.br/scielo.php?script=sci_arttext&pid=S1807-17752013000200357" target="_blank" class="text-primary">
 				 https://www.scielo.br/scielo.php?script=sci_arttext&pid=S1807-17752013000200357
 				</a>
 			</li>
 
 			<li>
-				<a href="https://www.javatpoint.com/software-engineering-software-metrics" target="_blank" style="color:blue"> 
+				<a href="https://www.javatpoint.com/software-engineering-software-metrics" target="_blank" class="text-primary"> 
 				 https://www.javatpoint.com/software-engineering-software-metrics
 				</a>
 			</li>
 			
 			<li>
-				<a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.97.9040&rep=rep1&type=pdf" target="_blank" style="color:blue">
+				<a href="http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.97.9040&rep=rep1&type=pdf" target="_blank" class="text-primary">
 				 http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.97.9040&rep=rep1&type=pdf
 				</a>
 			</li>
 			
 			<li>
-				<a href="https://www.tutorialspoint.com/software_quality_management/software_quality_management_basics_of_measurement.htm" target="_blank" style="color:blue" id="r4">
+				<a href="https://www.tutorialspoint.com/software_quality_management/software_quality_management_basics_of_measurement.htm" target="_blank" class="text-primary" id="r4">
 				 https://www.tutorialspoint.com/software_quality_management/software_quality_management_basics_of_measurement.htm
 				</a>
 			</li>
 
 			<li>
-				<a href="https://ecomputernotes.com/software-engineering/software-measurement" target="_blank" style="color:blue">
+				<a href="https://ecomputernotes.com/software-engineering/software-measurement" target="_blank" class="text-primary">
 				 https://ecomputernotes.com/software-engineering/software-measurement
 				</a>
 			</li>
@@ -1509,7 +1496,7 @@ It is not seldom to find software developing companies considering process measu
 	<hr class="smSolid" />
 		<div class="sm" >
 			<figure id="imgSDLC">
-				<img class="img-fluid" src="images/st/SDLC.jpg" alt="Software Development Life Cycle">
+				<img class="img-fluid" src="images/st/SDLC.jpg" alt="Software Development Life Cycle" style="max-width: 500px">
 				<figcaption id="caption-SDLC">Software Development Life Cycle <a href="#SDLC-img">[11]</a></figcaption>
 			</figure>
         	<p class="text-justify" id="first-title"><strong>Software Testing-</strong> is one of the main the phase in Software Development Life Cycle (SDLC) and it is about testing code with having a purpose of finding errors in code by executing a program.
@@ -1526,7 +1513,7 @@ It is not seldom to find software developing companies considering process measu
 			<hr class="smSolid" />
 			<p><strong>Automated Unit Testing</strong></p>
 				<figure id="imgSWtestingClass">
-					<img class="img-fluid" src="images/st/classification_of_sw_testing.png" alt="Classification of Software Testing">
+					<img class="img-fluid" src="images/st/classification_of_sw_testing.png" alt="Classification of Software Testing" style="max-width: 500px">
 					<figcaption id="caption-SWtestingClass">Software Testing Classification <a href="#ref-one">[1]</a></figcaption>
 				</figure>
 			<p class="text-justify">Unit testing is one of testing approach for software testing phase in Software Development Life Cycle (SDLC) where individual units of a software are tested <a href="#ref-nine">[9]</a>, <a href="#ref-ten">[10]</a>. In other words, units or components are a smallest testable part of a software which are tested independently and individually with aim of validating functionality of each unit <a href="#ref-nine">[9]</a>, <a href="#ref-ten">[10]</a>.</p>
@@ -1572,9 +1559,9 @@ It is not seldom to find software developing companies considering process measu
 			<h3  class="sm"> Related Software Engineering Areas </h3>
 			<hr class="smSolid" />
 			<p class="text-justify">According to chapter four in SWEBOK, there some relevant areas to the software testing as below <a href="#SWEBOK">[3]</a>:</p>
-			Software Maintenance</br>
-			Software Quality</br>
-			Software Construction</br>
+			Software Maintenance<br>
+			Software Quality<br>
+			Software Construction<br>
 			<hr class="smSolid" />
 		</div>
 
@@ -1724,17 +1711,17 @@ It is not seldom to find software developing companies considering process measu
 		<div class="sm" id="ref_st">
 			<h3  class="sm"> References </h3>
 			<hr class="smSolid" />
-				<a href="https://www.h2kinfosys.com/blog/software-testing-classification/" id="ref-one">[1] <u>https://www.h2kinfosys.com/blog/software-testing-classification/</u></a></br>
-				<a href="https://www.guru99.com/unit-testing-guide.html" id="ref-two">[2] <u>https://www.guru99.com/unit-testing-guide.html</u></a></br>
-				<a id="SWEBOK">[3] Bourque, Pierre, and Richard E. Fairley. Guide to the software engineering body of knowledge (SWEBOK (R)): Version 3.0. IEEE Computer Society Press, 2014.</br>
-				<a href="https://www.indeed.com/career-advice/resumes-cover-letters/hard-skills-vs-soft-skills" id="ref-four">[4] <u>https://www.indeed.com/career-advice/resumes-cover-letters/hard-skills-vs-soft-skills</u></a></br>
-				<a href="https://geekflare.com/javascript-unit-testing/" id="ref-five">[5] <u>https://geekflare.com/javascript-unit-testing/</u></a></br>
-				<a href="https://www.geeksforgeeks.org/unit-testing-software-testing/" id="ref-six">[6] <u>https://www.geeksforgeeks.org/unit-testing-software-testing/</u></a></br>
-				<a href="https://www.geeksforgeeks.org/types-software-testing/" id="ref-seven">[7] <u>https://www.geeksforgeeks.org/types-software-testing/</u></a></br>
-				<a href="https://en.wikipedia.org/wiki/Pareto_principle" id="ref-eight">[8] <u>https://en.wikipedia.org/wiki/Pareto_principle</u></a></br>
-				<a href="http://softwaretestingfundamentals.com/unit-testing/" id="ref-nine">[9] <u>http://softwaretestingfundamentals.com/unit-testing/</u></a></br>
-				<a href="https://www.getzephyr.com/insights/role-unit-tests-test-automation" id="ref-ten">[10] <u>https://www.getzephyr.com/insights/role-unit-tests-test-automation</u></a></br>
-				<a href="https://commons.wikimedia.org/wiki/File:SDLC_-_Software_Development_Life_Cycle.jpg" id="SDLC-img">[11] <u>https://commons.wikimedia.org/wiki/File:SDLC_-_Software_Development_Life_Cycle.jpg</u></a>
+				<a href="https://www.h2kinfosys.com/blog/software-testing-classification/" id="ref-one" class="text-primary">[1] https://www.h2kinfosys.com/blog/software-testing-classification/</a><br>
+				<a href="https://www.guru99.com/unit-testing-guide.html" id="ref-two" class="text-primary">[2] https://www.guru99.com/unit-testing-guide.html</a><br>
+				<a id="SWEBOK" class="text-primary">[3] Bourque, Pierre, and Richard E. Fairley. Guide to the software engineering body of knowledge (SWEBOK (R)): Version 3.0. IEEE Computer Society Press, 2014.<br>
+				<a href="https://www.indeed.com/career-advice/resumes-cover-letters/hard-skills-vs-soft-skills" id="ref-four" class="text-primary">[4] https://www.indeed.com/career-advice/resumes-cover-letters/hard-skills-vs-soft-skills</a><br>
+				<a href="https://geekflare.com/javascript-unit-testing/" id="ref-five" class="text-primary">[5] ttps://geekflare.com/javascript-unit-testing/</a><br>
+				<a href="https://www.geeksforgeeks.org/unit-testing-software-testing/" id="ref-six" class="text-primary">[6] https://www.geeksforgeeks.org/unit-testing-software-testing/</a><br>
+				<a href="https://www.geeksforgeeks.org/types-software-testing/" id="ref-seven" class="text-primary">[7] https://www.geeksforgeeks.org/types-software-testing/</a><br>
+				<a href="https://en.wikipedia.org/wiki/Pareto_principle" id="ref-eight" class="text-primary">[8] https://en.wikipedia.org/wiki/Pareto_principle</a><br>
+				<a href="http://softwaretestingfundamentals.com/unit-testing/" id="ref-nine" class="text-primary">[9] http://softwaretestingfundamentals.com/unit-testing/</a><br>
+				<a href="https://www.getzephyr.com/insights/role-unit-tests-test-automation" id="ref-ten" class="text-primary">[10] https://www.getzephyr.com/insights/role-unit-tests-test-automation</a><br>
+				<a href="https://commons.wikimedia.org/wiki/File:SDLC_-_Software_Development_Life_Cycle.jpg" id="SDLC-img" class="text-primary">[11] https://commons.wikimedia.org/wiki/File:SDLC_-_Software_Development_Life_Cycle.jpg</a>
 			<hr class="smSolid" />
 		</div>
 
@@ -2271,14 +2258,15 @@ It is not seldom to find software developing companies considering process measu
 			<hr class="smSolid" />
 		</div>
 		<div class="sm" id="areas_sch">
-			<h2 class="sm"> Related Software Engineering Area(s)  </h2>
+			<h2 class="sm"> Related Software Engineering Area(s)</h2>
 			<p>Software Project Management</p>
 			<p>Risk management.</p>
 			<hr class="smSolid" />
 		</div>
 		<div class="sm" id="rat_sch">
 			<h2 class="sm"> Rationale for Skill </h2>
-			Time is a major concern in projects and in software projects its no different, being able to manage it through precise schedule can play an important role in project management giving the information needed to  provide solutions from risk management to providing all needs of the project across its life span.
+			<p>
+			Time is a major concern in projects and in software projects its no different, being able to manage it through precise schedule can play an important role in project management giving the information needed to  provide solutions from risk management to providing all needs of the project across its life span.</p>
 			<hr class="smSolid" />
 		</div>
 		<div class="sm" id="roles_sch">
@@ -2296,13 +2284,13 @@ It is not seldom to find software developing companies considering process measu
 			<p>There are two types of WBS approaches as follows bellow:</p>
 			<h5>Deliverable-Based</h5>
 			<p>As the name suggests, the focus here is on the deliverables, so each deliverable will be the root of the decomposition structure, its very close to what we know as a top-down approach in software engineering, and the most common approach.</p>
-			<img class="real" src="images/DeliverableBased.jpg" >
+			<img class="img-fluid pt-3 pb-3" src="images/DeliverableBased.jpg" >
 			<h5>Phase-Based</h5>
 			<p>This approach sees things based on project phases, from conception into implementation until the ending activities of the project, this approach usually encapsulated more than just technical activities and involves control activities such as closing.</p>
-			<img class="real" src="images/PhaseBased.jpg">
-			<h4>Critical Path Method</h4>
+			<img class="img-fluid pt-3 pb-3" src="images/PhaseBased.jpg">
+			<h4 class="mt-3">Critical Path Method</h4>
 			<p>Critical path method, is about to distinguish the path of higher length on your schedule, after defining dependencies and building an activities schedule, you sum the estimation of each activity in the existing paths and highlight the one that would take longer, this will determine the minimum amount of time necessary to conclude the project, once parallelisation wont matter due to the dependencies. This method is very important to understand which is the most critical activities in a project once they are the ones that will be leading the project downstream.</p>
-			<img class="real" src="images/CriticalPath.png">
+			<img class="img-fluid" src="images/CriticalPath.png">
 		</div>
 		<div class="sm" id="example_sch">
 			<h2 class="sm"> Real-World Example </h2>
@@ -2367,23 +2355,24 @@ It is not seldom to find software developing companies considering process measu
             <i class="far fa-star"></i>
             (4/10)
             <p class="mt-3">
+			 TODO
+			</p>
 			<hr class="smSolid" />
 		</div>
 		<div class="sm">
-			<h2  class="sm" id="ref_sch"> References </h2>
-			<p><a href="https://ca.indeed.com/?r=us">[1] Indeed</a></p>
-			<p><a href="https://www.pmi.org/learning/library/scheduling-professional-career-option-certified-6600">[2] Project Management Institute</a></p>
-			<p><a href="https://www.cleverism.com/skills-and-tools/scheduling/">[3] Cleverism</a></p>
-			<p><a href="https://www.mindtools.com/pages/article/newHTE_07.htm">[4] MindTools</a></p>
+			<h2 class="sm" id="ref_sch"> References </h2>
+			<p><a href="https://ca.indeed.com/?r=us" class="text-primary">[1] Indeed</a></p>
+			<p><a href="https://www.pmi.org/learning/library/scheduling-professional-career-option-certified-6600" class="text-primary">[2] Project Management Institute</a></p>
+			<p><a href="https://www.cleverism.com/skills-and-tools/scheduling/" class="text-primary">[3] Cleverism</a></p>
+			<p><a href="https://www.mindtools.com/pages/article/newHTE_07.htm" class="text-primary">[4] MindTools</a></p>
 			<hr class="smSolid" />
-		</div>		
+		</div>	
 		`,
     },
 
     {
         title: `Computing Foundations`,
-        description: `Problem Analysis: This skill is useful for breaking-down a given identified problem into sub-problem and 
-					creating multiple cause-effect path to get the actual cause for the problem.`,
+        description: `Problem Analysis: This skill is useful for breaking-down a given identified problem into sub-problem and creating multiple cause-effect path to get the actual cause for the problem.`,
         text: `
 	<p class="text-muted pb-5">Author: Yash Chandreshkumar Golwala</p>
 	<hr class="smSolid" />
@@ -2420,7 +2409,7 @@ It is not seldom to find software developing companies considering process measu
 		<h2  class="ps" > Name of Skill </h2><br>
 		<strong>Problem Analysis</strong><br>
 		<figure>
-		<img class="img-fluid" src="images/pa/root.jpg" style="float:right; width:400px; height:auto;" alt="Root Cause Analysis diagram for searching one root cause"></img>
+		<img class="img-fluid pl-5" src="images/pa/root.jpg" style="float:right; max-width:400px; height:auto;" alt="Root Cause Analysis diagram for searching one root cause">
 		</figure>
 		
 		
@@ -2646,13 +2635,13 @@ It is not seldom to find software developing companies considering process measu
 	<div class="sm" id="ref_pa">
 		<h2 class="sm"> References </h2>
 		<ul>
-		<li><u><a id="pa" href="https://www.elo.iastate.edu/engl-309/problem-analysis/">[1] Elo.iastate.edu, 2020.</u></a></li>
-		<li><u><a href="https://www.indeed.com/career-advice/resumes-cover-letters/hard-skills-vs-soft-skills#:~:text=Hard%20skills%20are%20technical%20knowledge,in%20your%20career%20or%20education">[2] Indeed.com, 2020. </u></a></li>
-		<li><u><a href="//commons.wikimedia.org/w/index.php?title=User:KellyLawless&amp;action=edit&amp;redlink=1" class="new" title="User:KellyLawless (page does not exist)">[3] By KellyLawless</a> - <span class="int-own-work" lang="en">Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=30417444">Open Link</u><a/></li>
-		<li><u><a href="https://global-sei.com/technology/tr/bn73/pdf/73-13.pdf">[4] Global-sei.com, 2020.</u></a></li>
+		<li><a id="pa" href="https://www.elo.iastate.edu/engl-309/problem-analysis/" class="text-primary">[1] Elo.iastate.edu, 2020.</a></li>
+		<li><a href="https://www.indeed.com/career-advice/resumes-cover-letters/hard-skills-vs-soft-skills#:~:text=Hard%20skills%20are%20technical%20knowledge,in%20your%20career%20or%20education"  class="text-primary">[2] Indeed.com, 2020. </a></li>
+		<li><a href="//commons.wikimedia.org/w/index.php?title=User:KellyLawless&amp;action=edit&amp;redlink=1" title="User:KellyLawless (page does not exist)" class="text-primary">[3] By KellyLawless</a> - <span class="int-own-work" lang="en" class="text-primary">Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0" class="text-primary">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=30417444" class="text-primary">Open Link<a/></li>
+		<li><a href="https://global-sei.com/technology/tr/bn73/pdf/73-13.pdf" class="text-primary">[4] Global-sei.com, 2020.</a></li>
 		</ul>
 		<hr class="smSolid" />
-	</div>	
+	</div>
 `
     },
 ];

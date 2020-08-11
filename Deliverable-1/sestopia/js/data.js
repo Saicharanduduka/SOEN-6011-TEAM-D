@@ -1476,9 +1476,7 @@ It is not seldom to find software developing companies considering process measu
 			<li><a id="table_pa_container" href="#ref_st">References</a></li>
 		</ul>	
 	</div>
-	<a href="#" class="to-top">
-		<i class="fas fa-chevron-up" aria-hidden="false"><label class="visuallyhidden">Go to Top</label></i>
-	</a>
+
 	<div id="navbar_pa">
   	<a href="index.html">Home</a>
   	<a href="#table_pa_container">Table Of Contents</a>
@@ -1486,7 +1484,7 @@ It is not seldom to find software developing companies considering process measu
 	<hr style="solid 5px #bbb"></hr>
 		<div class="sm" >
 			<figure id="imgSDLC">
-				<img class="responsive" src="images/st/SDLC.jpg" >
+				<img class="responsive" src="images/st/SDLC.jpg" alt="Software Development Life Cycle">
 				<figcaption id="caption-SDLC">Software Development Life Cycle <a href="#SDLC-img">[11]</a></figcaption>
 			</figure>
         	<p class="text-justify" id="first-title"><strong>Software Testing-</strong> is one of the main the phase in Software Development Life Cycle (SDLC) and it is about testing code with having a purpose of finding errors in code by executing a program.
@@ -1503,7 +1501,7 @@ It is not seldom to find software developing companies considering process measu
 			<hr style="solid 5px #bbb"></hr>
 			<p><strong>Automated Unit Testing</strong></p>
 				<figure id="imgSWtestingClass">
-					<img class="responsive" src="images/st/classification_of_sw_testing.png" >
+					<img class="responsive" src="images/st/classification_of_sw_testing.png" alt="Classification of Software Testing">
 					<figcaption id="caption-SWtestingClass">Software Testing Classification <a href="#ref-one">[1]</a></figcaption>
 				</figure>
 			<p class="text-justify">Unit testing is one of testing approach for software testing phase in Software Development Life Cycle (SDLC) where individual units of a software are tested <a href="#ref-nine">[9]</a>, <a href="#ref-ten">[10]</a>. In other words, units or components are a smallest testable part of a software which are tested independently and individually with aim of validating functionality of each unit <a href="#ref-nine">[9]</a>, <a href="#ref-ten">[10]</a>.</p>
@@ -1518,7 +1516,7 @@ It is not seldom to find software developing companies considering process measu
 		<div class="sm" id="class_st">
 			<h3  class="sm"> Classification of Skill </h3>
 			<hr style="solid 5px #bbb"></hr>
-			<img class="responsive" src="images/st/UnitTestingTypes.png" id="imgUnitTesting">
+			<img class="responsive" src="images/st/UnitTestingTypes.png" id="imgUnitTesting" alt="Unit Testing Types">
 			<p class="text-justify">In general, Automated Unit Testing can be classified as a Hard Skills. Hard Skills which are the skills are acquired by practical experiences, technical knowledge and training <a href="#ref-four">[4]</a>.</p>
 			<p class="text-justify">Unit Testing also can be classified into two sub categories including <strong>Manual</strong> and <strong>Automated</strong> testing <a href="#ref-two">[2]</a>.</p>  
 
@@ -1576,7 +1574,7 @@ It is not seldom to find software developing companies considering process measu
 		<div class="sm" id="roles_st">
 		<h3  class="sm"> Roles for Skill </h3>
 		<hr style="solid 5px #bbb"></hr>
-		<img class="responsive" src="images/st/roles.jpg" id="imgRoles">
+		<img class="responsive" src="images/st/roles.jpg" id="imgRoles" alt="Roles of Unit Testing">
 		<p class="text-justify">In general, the procedure of unit testing is divided into four main roles as below <a href="#ref-six">[6]</a>:</p>
 		<ol class="text-justify">
 			<li>Creating and writing the test cases.</li>
@@ -1605,7 +1603,7 @@ It is not seldom to find software developing companies considering process measu
 		<div class="sm" id="example_st">
 			<h3  class="sm"> Real-World Example </h3>
 			<hr style="solid 5px #bbb"></hr>
-			<img class="responsive" src="images/st/calculator.png" id="imgCal">
+			<img class="responsive" src="images/st/calculator.png" id="imgCal" alt="Claculator">
 			<p class="text-justify">There various example of the role of uniting testing in the world such as banking industries, healthcare systems, air plan industries, etc.</p>
 			<p class="text-justify">In a banking application which is offered by RBC bank in Canada, the simple calculator is needed to perform simple and basic calculating functions such as addition, subtraction, multiplication, division. The developers of this application create four units for checking the functionality of the calculator. The units are addition method, subtraction method, multiplication method and division method. Each unit should work individually and after that testing all unit, they are integrated together for checking the functionality of the whole calculator.</p>
 
@@ -1632,9 +1630,9 @@ It is not seldom to find software developing companies considering process measu
 			
 				<div class="column">
 					<div class="card" style="min-height: 440px">
-						<h4><center><a href="https://junit.org/junit5/"  target="_blank" style = "width:30%;  display:flex;">JUnit</a></center></h4>
+						<h4><center><a href="https://junit.org/junit5/"  target="_blank" style = "width:30%;  display:flex;"><u>JUnit</u></a></center></h4>
 						<br>
-						<center><a href="https://junit.org/junit5/"  target="_blank" ><img src="images/st/junit.png" style="height:30%; width:60%" class="responsive"></a></center>
+						<center><img src="images/st/junit.png" style="height:30%; width:60%" class="responsive" alt="JUnit icon"></center>
 						<br><br>
 						<p class="text-justify"><strong>JUnit</strong> is one of the most common testing frameworks for unit testing in Java programming language.</p>
 					</div>
@@ -1642,9 +1640,9 @@ It is not seldom to find software developing companies considering process measu
 
 				<div class="column">
 					<div class="card" style="min-height: 440px">
-						<h4><center><a href="https://nunit.org"  target="_blank" style = "width:27%;  display:flex;">NUnit</a></center></h4>
+						<h4><center><a href="https://nunit.org"  target="_blank" style = "width:27%;  display:flex;"><u>NUnit</u></a></center></h4>
 						<br>
-						<center><a href="https://nunit.org"  target="_blank" ><img src="images/st/nunit.png" style="height:30%; width:60%" class="responsive"></a></center>
+						<center><img src="images/st/nunit.png" style="height:30%; width:60%" class="responsive" alt="NUnit icon"></center>
 						<br><br>
 						<p class="text-justify"><strong>NUnit</strong> is a most common unit testing framework for any .NET programming language.</p>
 					</div>
@@ -1652,9 +1650,9 @@ It is not seldom to find software developing companies considering process measu
 
 				<div class="column">
 					<div class="card" style="min-height: 440px">
-						<h4><center><a href="https://phpunit.de"  target="_blank" style = "width:35%;  display:flex;">PHPUnit</a></center></h4>
+						<h4><center><a href="https://phpunit.de"  target="_blank" style = "width:35%;  display:flex;"><u>PHPUnit</u></a></center></h4>
 						<br><br><br>
-						<center><a href="https://phpunit.de"  target="_blank" ><img src="images/st/phpunit.png" style="height:30%; width:60%" class="responsive"></a></center>
+						<center><img src="images/st/phpunit.png" style="height:30%; width:60%" class="responsive" alt="PHP Unit icone"></center>
 						<br><br><br>
 						<p class="text-justify"><strong>PHPUnit</strong> which is a common testing framework for performing unit testing in PHP programming language.</p>
 					</div>
@@ -1663,9 +1661,9 @@ It is not seldom to find software developing companies considering process measu
 
 				<div class="column">
 					<div class="card" style="min-height: 440px">
-						<h4><center><a href="https://jestjs.io"  target="_blank" style = "width:25%;  display:flex;">Jest</a></center></h4>
+						<h4><center><a href="https://jestjs.io"  target="_blank" style = "width:25%;  display:flex;"><u>Jest</u></a></center></h4>
 						<br><br>
-						<center><a href="https://jestjs.io"  target="_blank" ><img src="images/st/jest.png" style="height:30%; width:60%" class="responsive"></a></center>
+						<center><img src="images/st/jest.png" style="height:30%; width:60%" class="responsive" alt="Jest icon"></center>
 						<br>
 						<p class="text-justify"><strong>Jest</strong> is one of the most popular testing frameworks for unit testing and other kind of testing in JavaScript programming language <a href="#ref-five">[5]</a>.</p>
 					</div>
@@ -1701,19 +1699,17 @@ It is not seldom to find software developing companies considering process measu
 		<div class="sm" id="ref_st">
 			<h3  class="sm"> References </h3>
 			<hr style="solid 5px #bbb"></hr>
-			<p class="text-justify">
-				<a href="https://www.h2kinfosys.com/blog/software-testing-classification/" id="ref-one">[1] https://www.h2kinfosys.com/blog/software-testing-classification/</a></br>
-				<a href="https://www.guru99.com/unit-testing-guide.html" id="ref-two">[2] https://www.guru99.com/unit-testing-guide.html</a></br>
+				<a href="https://www.h2kinfosys.com/blog/software-testing-classification/" id="ref-one">[1] <u>https://www.h2kinfosys.com/blog/software-testing-classification/</u></a></br>
+				<a href="https://www.guru99.com/unit-testing-guide.html" id="ref-two">[2] <u>https://www.guru99.com/unit-testing-guide.html</u></a></br>
 				<a id="SWEBOK">[3] Bourque, Pierre, and Richard E. Fairley. Guide to the software engineering body of knowledge (SWEBOK (R)): Version 3.0. IEEE Computer Society Press, 2014.</br>
-				<a href="https://www.indeed.com/career-advice/resumes-cover-letters/hard-skills-vs-soft-skills" id="ref-four">[4] https://www.indeed.com/career-advice/resumes-cover-letters/hard-skills-vs-soft-skills</a></br>
-				<a href="https://geekflare.com/javascript-unit-testing/" id="ref-five">[5] https://geekflare.com/javascript-unit-testing/</a></br>
-				<a href="https://www.geeksforgeeks.org/unit-testing-software-testing/" id="ref-six">[6] https://www.geeksforgeeks.org/unit-testing-software-testing/</a></br>
-				<a href="https://www.geeksforgeeks.org/types-software-testing/" id="ref-seven">[7] https://www.geeksforgeeks.org/types-software-testing/</a></br>
-				<a href="https://en.wikipedia.org/wiki/Pareto_principle" id="ref-eight">[8] https://en.wikipedia.org/wiki/Pareto_principle</a></br>
-				<a href="http://softwaretestingfundamentals.com/unit-testing/" id="ref-nine">[9] http://softwaretestingfundamentals.com/unit-testing/</a></br>
-				<a href="https://www.getzephyr.com/insights/role-unit-tests-test-automation" id="ref-ten">[10] https://www.getzephyr.com/insights/role-unit-tests-test-automation</a></br>
-				<a href="https://commons.wikimedia.org/wiki/File:SDLC_-_Software_Development_Life_Cycle.jpg" id="SDLC-img">[11] https://commons.wikimedia.org/wiki/File:SDLC_-_Software_Development_Life_Cycle.jpg</a>
-			</p>
+				<a href="https://www.indeed.com/career-advice/resumes-cover-letters/hard-skills-vs-soft-skills" id="ref-four">[4] <u>https://www.indeed.com/career-advice/resumes-cover-letters/hard-skills-vs-soft-skills</u></a></br>
+				<a href="https://geekflare.com/javascript-unit-testing/" id="ref-five">[5] <u>https://geekflare.com/javascript-unit-testing/</u></a></br>
+				<a href="https://www.geeksforgeeks.org/unit-testing-software-testing/" id="ref-six">[6] <u>https://www.geeksforgeeks.org/unit-testing-software-testing/</u></a></br>
+				<a href="https://www.geeksforgeeks.org/types-software-testing/" id="ref-seven">[7] <u>https://www.geeksforgeeks.org/types-software-testing/</u></a></br>
+				<a href="https://en.wikipedia.org/wiki/Pareto_principle" id="ref-eight">[8] <u>https://en.wikipedia.org/wiki/Pareto_principle</u></a></br>
+				<a href="http://softwaretestingfundamentals.com/unit-testing/" id="ref-nine">[9] <u>http://softwaretestingfundamentals.com/unit-testing/</u></a></br>
+				<a href="https://www.getzephyr.com/insights/role-unit-tests-test-automation" id="ref-ten">[10] <u>https://www.getzephyr.com/insights/role-unit-tests-test-automation</u></a></br>
+				<a href="https://commons.wikimedia.org/wiki/File:SDLC_-_Software_Development_Life_Cycle.jpg" id="SDLC-img">[11] <u>https://commons.wikimedia.org/wiki/File:SDLC_-_Software_Development_Life_Cycle.jpg</u></a>
 			<hr class="smSolid" ></hr>
 		</div>
 

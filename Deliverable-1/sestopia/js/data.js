@@ -2175,7 +2175,7 @@ It is not seldom to find software developing companies considering process measu
     },
     {
         title: `Software Engineering Management`,
-        description: `Lorem5 ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum dictum condimentum. Donec aliquam libero eu malesuada aliquam. Aliquam erat volutpat. Proin eu velit ut augue rutrum vestibulum. `,
+        description: `In Project Management the schedule is the dorsal spine which will define succes or failure of a project`,
 		text: `
 		
 		<p class="text-muted pb-5">Author: Rafael Bis Ferreira</p>

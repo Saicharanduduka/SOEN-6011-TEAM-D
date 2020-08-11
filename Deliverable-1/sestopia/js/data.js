@@ -314,7 +314,7 @@ User research and persona is one of the important skill to start any project. If
     {
         title: `Software Quality`,
 
-        description: `Conducting reviews and audits is skill in the knowledge area software quality`,
+        description: `Conducting reviews and audits is skill in the knowledge area software quality.`,
 		text: `
 		<p class="text-muted pb-5">Author: Neha Sarang Dighe</p>
 <hr class="smSolid" />
@@ -635,8 +635,6 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
 </a>
 </li>
 
-
-
 </ol>
 
 </div>
@@ -670,13 +668,10 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
 	</div>
 
 	<div id="navbar_pa">
-  	<a href="index.html">Home</a>
+  	<a href="index.php">Home</a>
   	<a href="#table_pa_container">Table Of Contents</a>
 	</div>
 	<hr class="smSolid" />
-
-
-
 
 	<div class="sm" id="nos">
 		
@@ -1705,7 +1700,7 @@ It is not seldom to find software developing companies considering process measu
               <hr class="smSolid" />
                   <a href="https://www.h2kinfosys.com/blog/software-testing-classification/" id="ref-one" class="text-primary">[1] https://www.h2kinfosys.com/blog/software-testing-classification/</a><br>
                   <a href="https://www.guru99.com/unit-testing-guide.html" id="ref-two" class="text-primary">[2] https://www.guru99.com/unit-testing-guide.html</a><br>
-                  <a id="SWEBOK" class="text-primary">[3] Bourque, Pierre, and Richard E. Fairley. Guide to the software engineering body of knowledge (SWEBOK (R)): Version 3.0. IEEE Computer Society Press, 2014.</a><br>
+                  <a id="SWEBOK" class="nonlink">[3] Bourque, Pierre, and Richard E. Fairley. Guide to the software engineering body of knowledge (SWEBOK (R)): Version 3.0. IEEE Computer Society Press, 2014.</a><br>
                   <a href="https://www.indeed.com/career-advice/resumes-cover-letters/hard-skills-vs-soft-skills" id="ref-four" class="text-primary">[4] https://www.indeed.com/career-advice/resumes-cover-letters/hard-skills-vs-soft-skills</a><br>
                   <a href="https://geekflare.com/javascript-unit-testing/" id="ref-five" class="text-primary">[5] ttps://geekflare.com/javascript-unit-testing/</a><br>
                   <a href="https://www.geeksforgeeks.org/unit-testing-software-testing/" id="ref-six" class="text-primary">[6] https://www.geeksforgeeks.org/unit-testing-software-testing/</a><br>
@@ -2175,7 +2170,7 @@ It is not seldom to find software developing companies considering process measu
     },
     {
         title: `Software Engineering Management`,
-        description: `In Project Management the schedule is the dorsal spine which will define succes or failure of a project`,
+        description: `In Project Management the schedule is the dorsal spine which will define success or failure of a project`,
 		text: `
 		
 		<p class="text-muted pb-5">Author: Rafael Bis Ferreira</p>

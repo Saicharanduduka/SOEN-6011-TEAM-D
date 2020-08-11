@@ -642,7 +642,9 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
     },
     {
         title: `Software Maintenance`,
-        description: `<hr border-top: 3px solid #bbb;></hr><br>Lorem4 ipsum dolor sit amet, consectetur adipiscing elit. Sed dictum dictum condimentum. Donec aliquam libero eu malesuada aliquam. Aliquam erat volutpat. Proin eu velit ut augue rutrum vestibulum. `,
+        description: `<hr border-top: 3px solid #bbb;></hr><br>Software Maintenance is the process of modifying a software product after it has been 
+        			delivered to the customer. The main purpose of software maintenance is to modify and update software application after delivery 
+        			to correct faults and to improve performance. `,
         text: `
 
 		<p class="text-muted pb-5">Author: Harsh Divecha</p>

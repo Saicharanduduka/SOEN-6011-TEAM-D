@@ -95,7 +95,7 @@ const content = [{
 	
 	
 	<div id="navbar_pa">
-  	<a href="index.html">Home</a>
+  	<a href="index.php">Home</a>
   	<a href="#table_pa_container">Table Of Contents</a>
 	</div>
 	<hr class="smSolid" />
@@ -337,7 +337,7 @@ User research and persona is one of the important skill to start any project. If
 </div>
 
 <div id="navbar_pa">
-  	<a href="index.html">Home</a>
+  	<a href="index.php">Home</a>
   	<a href="#table_pa_container">Table Of Contents</a>
 	</div>
 	<hr class="smSolid" />
@@ -670,7 +670,7 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
 	</div>
 
 	<div id="navbar_pa">
-  	<a href="index.html">Home</a>
+  	<a href="index.php">Home</a>
   	<a href="#table_pa_container">Table Of Contents</a>
 	</div>
 	<hr class="smSolid" />
@@ -1087,7 +1087,7 @@ https://na.theiia.org/services/quality/Pages/Quality-Assurance.aspx
 
 
 	<div id="navbar_pa">
-  	<a href="index.html">Home</a>
+  	<a href="index.php">Home</a>
   	<a href="#table_pa_container">Table Of Contents</a>
 	</div>
 	<hr class="smSolid" />
@@ -1474,7 +1474,7 @@ It is not seldom to find software developing companies considering process measu
       </div>
   
       <div id="navbar_pa">
-        <a href="index.html">Home</a>
+        <a href="index.php">Home</a>
         <a href="#table_pa_container">Table Of Contents</a>
       </div>
       <hr class="smSolid" />
@@ -1743,8 +1743,8 @@ It is not seldom to find software developing companies considering process measu
 		  </div>
 	
 
-		  <div id="navbar_pa">
-  	<a href="index.html">Home</a>
+	<div id="navbar_pa">
+  	<a href="index.php">Home</a>
   	<a href="#table_pa_container">Table Of Contents</a>
 	</div>
 	<hr class="smSolid" />
@@ -2199,7 +2199,7 @@ It is not seldom to find software developing companies considering process measu
 	</div>
 
 	<div id="navbar_pa">
-  	<a href="index.html">Home</a>
+  	<a href="index.php">Home</a>
   	<a href="#table_pa_container">Table Of Contents</a>
 	</div>
 	<hr class="smSolid" />
@@ -2380,7 +2380,7 @@ It is not seldom to find software developing companies considering process measu
 	
 	
 	<div id="navbar_pa">
-  	<a href="index.html">Home</a>
+  	<a href="index.php">Home</a>
   	<a href="#table_pa_container">Table Of Contents</a>
 	</div>
 	<hr class="smSolid" />

@@ -2791,7 +2791,7 @@ It is not seldom to find software developing companies considering process measu
 		<ul>
 		<li><a href="https://www.elo.iastate.edu/engl-309/problem-analysis/" class="text-primary">[1] Elo.iastate.edu, 2020.</a></li>
 		<li><a href="https://www.indeed.com/career-advice/resumes-cover-letters/hard-skills-vs-soft-skills#:~:text=Hard%20skills%20are%20technical%20knowledge,in%20your%20career%20or%20education"  class="text-primary">[2] Indeed.com, 2020. </a></li>
-		<li><a href="//commons.wikimedia.org/w/index.php?title=User:KellyLawless&amp;action=edit&amp;redlink=1" title="User:KellyLawless (page does not exist)" class="text-primary">[3] By KellyLawless</a> - <span class="int-own-work text-primary" lang="en">Own work</span>, <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0" class="text-primary">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=30417444" class="text-primary">Open Link</a></li>
+		<li><a href="//commons.wikimedia.org/w/index.php?title=User:KellyLawless&amp;action=edit&amp;redlink=1" title="User:KellyLawless (page does not exist)" class="text-primary">[3] By KellyLawless</a> <a href="https://creativecommons.org/licenses/by-sa/3.0" title="Creative Commons Attribution-Share Alike 3.0" class="text-primary">CC BY-SA 3.0</a>, <a href="https://commons.wikimedia.org/w/index.php?curid=30417444" class="text-primary"> Open Link</a></li>
 		<li><a href="https://global-sei.com/technology/tr/bn73/pdf/73-13.pdf" class="text-primary">[4] Global-sei.com, 2020.</a></li>
 		</ul>
 		<hr class="smSolid" />

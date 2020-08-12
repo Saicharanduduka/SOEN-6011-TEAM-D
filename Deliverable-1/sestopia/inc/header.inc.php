@@ -10,6 +10,8 @@ $pageDescription = isset($pageContent) ? $pageContent['description'] : "";
 <head>
     <title><?= ($pageSubTitle === "") ? "" : "$pageSubTitle - "; ?>Sestopia</title>
     <meta charset="utf-8">
+    <!-- <base href="http://localhost/MyCode/sestopia/"> -->
+    <base href="http://sestopia-d.epizy.com/">
     <meta name="description" content="<?= $pageDescription ?>"/>
     <meta name="keywords"
           content="Software, Quality, Maintenance, Design, Process Measurement, System Requirements, Testing, Engineering, Computing Foundations"/>
@@ -46,9 +48,9 @@ $pageDescription = isset($pageContent) ? $pageContent['description'] : "";
 
 <header class="jumbotron text-center">
     <h1 class="text-capitalize pb-5">A Repository Of Skills</h1>
-    <form class="search-form" action="search.php" method="post">
+    <form class="search-form" action="index.php" method="POST">
         <label for="search-query" class="visuallyhidden">Search:</label>
-        <input type="text" placeholder="Search about a skill..." name="search" id="search-query">
+        <input type="text" placeholder="Search about a skill..." name="search-input" id="search-query">
         <button type="submit" id="search-button"><i title="search" class="fa fa-search">
                 <strong> Search</strong></i>
         </button>

@@ -3,6 +3,6 @@ Options -Indexes
 RewriteEngine On
 RewriteRule ^index.html$ "http\:\/\/sestopia-d\.epizy\.com\/index\.php" [R=301,QSA,L]
 
-ErrorDocument 403 /access-denied.php
-ErrorDocument 404 /page-not-found.php
-ErrorDocument 500 /server-error.php
+ErrorDocument 403 /index.php?page=403
+ErrorDocument 404 /index.php?page=404
+ErrorDocument 500 /index.php?page=500

@@ -1,49 +1,19 @@
 <?php
-// Including our class
-require "sestopia.php";
+require "business_layer/Controller.php";
 
-// Creating the instance
-$sestopia = new sestopia();
+$controller = new Controller();
+$pageContent = $controller->manageRequest();
 
-// Find the Requested Page Title From URL
-$requestedTitle = $sestopia->readRequest();
-
-// Fetch and Prepare the Page Content
-$pageContent = $sestopia->getPageContent($requestedTitle);
-
-// Check for PageNotFound
-if (!$pageContent){
-    header("Location: page-not-found.php");
-    die();
-}
 
 ////////////////////////////
-// Start of Page Content ///
+//  Start of HTML Page   ///
 ////////////////////////////
 
 // Header
 include "inc/header.inc.php";
 
 // Main Content
-
-if ($pageContent['isHomePage']){ ?>
-
-    <div class="col-10">
-        <?= $pageContent['text'] ?>
-    </div>
-
-<?php
-} else { ?>
-
-    <div class="col-10">
-        <h2 class="pb-3">
-            <?= $pageContent['title'] ?>
-        </h2>
-        <?= $pageContent['text'] ?>
-    </div>
-
-<?php
-}
+echo $pageContent['html'];
 
 // Footer
 include "inc/footer.inc.php";

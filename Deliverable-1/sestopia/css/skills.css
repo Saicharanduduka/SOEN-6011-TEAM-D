@@ -260,3 +260,14 @@ Software Testing Style Sheet
 	font-size: 17px;
 	padding-left: 60px;
 }
+
+/* References */
+a.text-primary {
+	text-decoration: underline!important;
+	color: black!important;
+}
+
+a.nolink {
+	color: black!important;
+	text-decoration: none!important;
+}

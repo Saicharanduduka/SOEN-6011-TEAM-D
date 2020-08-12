@@ -50,7 +50,7 @@ $pageDescription = isset($pageContent) ? $pageContent['description'] : "";
     <h1 class="text-capitalize pb-5">A Repository Of Skills</h1>
     <form class="search-form" action="index.php" method="POST">
         <label for="search-query" class="visuallyhidden">Search:</label>
-        <input type="text" placeholder="Search about a skill..." name="search-input" id="search-query">
+        <input type="text" placeholder="Search about a skill..." name="search-input" id="search-query" required>
         <button type="submit" id="search-button"><i title="search" class="fa fa-search">
                 <strong> Search</strong></i>
         </button>

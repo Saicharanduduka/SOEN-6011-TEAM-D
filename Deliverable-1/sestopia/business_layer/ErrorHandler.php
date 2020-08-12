@@ -12,7 +12,7 @@ class ErrorHandler
                 You are not authorized to view this content.
             </p>
             <p>
-                <a href='./' title='Home Page' class='text-primary'>Return To The Main Page</a>
+                <a href='http://sestopia-d.epizy.com/' title='Home Page' class='text-primary'>Return To The Main Page</a>
             </p>
         </div>
     ";
@@ -26,7 +26,7 @@ class ErrorHandler
                 The page you requested cannot be found.
             </p>
             <p>
-                <a href='./' title='Home Page' class='text-primary'>Return To The Main Page</a>
+                <a href='http://sestopia-d.epizy.com/' title='Home Page' class='text-primary'>Return To The Main Page</a>
             </p>
         </div>
     ";
@@ -40,7 +40,7 @@ class ErrorHandler
                 The server has encountered a problem, please try again later.
             </p>
             <p>
-                <a href='./' title='Home Page' class='text-primary'>Return To The Main Page</a>
+                <a href='http://sestopia-d.epizy.com/' title='Home Page' class='text-primary'>Return To The Main Page</a>
             </p>
         </div>    
     ";

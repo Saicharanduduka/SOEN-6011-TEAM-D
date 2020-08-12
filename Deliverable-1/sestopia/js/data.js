@@ -1735,9 +1735,9 @@ It is not seldom to find software developing companies considering process measu
         description: `In requirements engineering, requirements elicitation is the practice of researching and discovering the requirements of a system from users, customers, and other stakeholders.`,
 		text: `
 
-		<p class="text-muted pb-5">Author: Sareh Farid</p>
-		<div id="table_pa_container">
-		<p class="table_pa_title" style="color: #005a9c;">On this Page:</p>
+		 <p class="text-muted pb-5">Author: Sareh Farid</p>
+          <div id="table_pa_container">
+            <p class="table_pa_title" style="color: #005a9c;">On this Page:</p>
             <ul>
               <li><a href="#nos">Name of Skill</a></li>
               <li><a href="#cos">Classification of Skill</a></li>
@@ -1747,28 +1747,50 @@ It is not seldom to find software developing companies considering process measu
               <li><a href="#rofs">Roles for Skill</a></li>
               <li><a href="#wrts">Work Related to Skill</a></li>
               <li><a href="#rwe">Real-World Example/Scenario of Skill</a></li>
-              <li><a href="#roai">Role of Academia or Industry in Cultivating the Skill</a></li>
+              <li>
+                <a href="#roai"
+                  >Role of Academia or Industry in Cultivating the Skill</a
+                >
+              </li>
               <li><a href="#tsts">Tools Supporting the Skill</a></li>
               <li><a href="#ssa">Skill Self-Assessment</a></li>
               <li><a href="#r">References</a></li>
-			</ul>
-			
-		  </div>
-	
+            </ul>
+          </div>
 
-	<div id="navbar_pa">
-  	<a href="index.php">Home</a>
-  	<a href="#table_pa_container">Table Of Contents</a>
-	</div>
-	<hr class="smSolid" />
+          <div id="navbar_pa">
+            <a href="index.php">Home</a>
+            <a href="#table_pa_container">Table Of Contents</a>
+          </div>
+          <hr class="smSolid" />
 
-          <div class="sm" id="nos">
-            <h2 class="sm"><a href="#index">Name of Skill</a></h2>
-            <p>
-              Software Requirements Elicitation
-            </p>
+          <div class="row">
+            <div class="col-8">
+              <div class="sm" id="nos">
+                <h2 class="sm">
+                  <a href="#index">Software Requirements Elicitation</a>
+                </h2>
+                <p>
+                  Requirements elicitation is a part of requirements engineering
+                  process and is about how software engineers can collect
+                  software requirements. It is the first phase of understanding
+                  the software problem in order to solve it. It is a kind of
+                  human activity and concerns with the relationship between
+                  stakeholders, software team and users. It is the foundation of
+                  application development and usually followed by analysis and
+                  specification of the requirements.
+                </p>
 
-            <hr class="smSolid" />
+                <hr class="smSolid" />
+              </div>
+            </div>
+            <div class="col-4 mt-5 pt-4">
+              <img
+                src="images/re/requirements-elicitation.png"
+                alt="requirements-elicitation"
+                class="img-fluid"
+              />
+            </div>
           </div>
 
           <div class="sm" id="cos">
@@ -1888,37 +1910,50 @@ It is not seldom to find software developing companies considering process measu
           </div>
 
           <div class="sm" id="wrts">
-            <h2 class="sm"><a href="#index">Work Related to Skill</a></h2>
-            <p>
-              Some major techniques for requirements elicitation are as follows:
-            </p>
-            <ul>
-              <li>
-                Interviews: Interviewing stakeholders is a traditional way for
-                eliciting requirements.
-              </li>
-              <li>
-                Scenarios: Scenarios, such as use case description, provide a
-                framework for questions about user tasks.
-              </li>
-              <li>
-                Prototypes: Prototypes provide users with a context and
-                clarifies the required information.
-              </li>
-              <li>
-                Facilitated meetings: During facilitated meetings people can
-                brainstorm which results in more consistent and more refined
-                requirements.
-              </li>
-              <li>
-                Observation: Observational techniques allows engineers to learn
-                about user tasks by observing how they perform their tasks.
-              </li>
-              <li>
-                User stories: User stories are high level description of
-                requirements from the viewpoint of the customer.
-              </li>
-            </ul>
+            <h2 class="sm"><a href="#index">Work Related to Skill </a></h2>
+            <div class="row">
+              <div class="col-8">
+                <p>
+                  Some major techniques for requirements elicitation are as
+                  follows:
+                </p>
+                <ul>
+                  <li>
+                    Interviews: Interviewing stakeholders is a traditional way
+                    for eliciting requirements.
+                  </li>
+                  <li>
+                    Scenarios: Scenarios, such as use case description, provide
+                    a framework for questions about user tasks.
+                  </li>
+                  <li>
+                    Prototypes: Prototypes provide users with a context and
+                    clarifies the required information.
+                  </li>
+                  <li>
+                    Facilitated meetings: During facilitated meetings people can
+                    brainstorm which results in more consistent and more refined
+                    requirements.
+                  </li>
+                  <li>
+                    Observation: Observational techniques allows engineers to
+                    learn about user tasks by observing how they perform their
+                    tasks.
+                  </li>
+                  <li>
+                    User stories: User stories are high level description of
+                    requirements from the viewpoint of the customer.
+                  </li>
+                </ul>
+              </div>
+              <div class="col-4">
+                <img
+                  src="images/re/requirement-elicitation-techniques.png"
+                  alt="requirement-elicitation-techniques"
+                  class="img-fluid"
+                />
+              </div>
+            </div>
             <hr class="smSolid" />
           </div>
 
@@ -1961,7 +1996,14 @@ It is not seldom to find software developing companies considering process measu
                 application like Facenama?
               </li>
             </ol>
-
+            <p class="text-center">
+              <img
+                src="images/re/survey-questionnaire.jpg"
+                alt="survey-questionnaire"
+                class="img-fluid mt-3"
+                style="border: solid 1px black;"
+              />
+            </p>
             <hr class="smSolid" />
           </div>
 
@@ -1997,89 +2039,168 @@ It is not seldom to find software developing companies considering process measu
           </div>
 
           <div class="sm" id="tsts">
-            <h2 class="sm"><a href="#index">Tools Supporting the Skill</a></h2>
+            <h2 class="sm">Tools Supporting the Skill</h2>
 
             <p>
               Some of the best tools for requirements elicitation are as
               follows:
             </p>
-            <h4>Context diagram</h4>
-            <p>
-              Defines the system’s boundaries, environment, and interacting
-              entities.
-            </p>
-            <p class="text-center">
-              <img
-                src="images/re/context-diagram.png"
-                alt="context-diagram"
-                class="img-fluid pb-5"
-              />
-            </p>
 
-            <h4>Functional decomposition</h4>
-            <p>Provides a top-down view of the system’s major functions.</p>
-            <p class="text-center">
-              <img
-                src="images/re/Functional-decomposition.png"
-                alt="Functional-decomposition"
-                class="img-fluid pb-5"
-              />
-            </p>
+            <div class="row" style="width: 100%;">
+              <div
+                class="column"
+                style="width: 50%; display: flex; align-content: center;"
+              >
+                <div
+                  class="card"
+                  style="width: 100%; display: flex; align-content: center;"
+                >
+                  <h3><u>Context diagram</u></h3>
+                  <p>
+                    Defines the system’s boundaries, environment, and
+                    interacting entities.
+                  </p>
+                  <p class="text-center">
+                    <img
+                      src="images/re/context-diagram.png"
+                      alt="context-diagram"
+                      class="img-fluid pb-5"
+                    />
+                  </p>
+                </div>
+              </div>
 
-            <h4>Use case diagram</h4>
-            <p>
-              Helps visualizing the interaction between the system and its
-              users.
-            </p>
-            <p class="text-center">
-              <img
-                src="images/re/Use-case-diagram.png"
-                alt="Use-case-diagram"
-                class="img-fluid pb-5"
-              />
-            </p>
+              <div
+                class="column"
+                style="width: 50%; display: flex; align-content: center;"
+              >
+                <div
+                  class="card"
+                  style="width: 100%; display: flex; align-content: center;"
+                >
+                  <h3><u>Functional decomposition</u></h3>
+                  <p>
+                    Provides a top-down view of the system’s major functions.
+                  </p>
+                  <p class="text-center">
+                    <img
+                      src="images/re/Functional-decomposition.png"
+                      alt="Functional-decomposition"
+                      class="img-fluid pb-5"
+                    />
+                  </p>
+                </div>
+              </div>
+            </div>
 
-            <h4>Sequence diagram</h4>
-            <p>
-              Provides a top-to-bottom view to show the interactions between
-              objects over time.
-            </p>
-            <p class="text-center">
-              <img
-                src="images/re/Sequence-diagram.png"
-                alt="context-diagram"
-                class="img-fluid pb-5"
-              />
-            </p>
+            <div class="row" style="width: 100%;">
+              <div
+                class="column"
+                style="width: 50%; display: flex; align-content: center;"
+              >
+                <div
+                  class="card"
+                  style="width: 100%; display: flex; align-content: center;"
+                >
+                  <h3><u>Use case diagram</u></h3>
+                  <p>
+                    Helps visualizing the interaction between the system and its
+                    users. It is the set of all actors and use cases and
+                    relationship between them. It emphasizes the behavior of
+                    external users.
+                  </p>
+                  <p class="text-center">
+                    <img
+                      src="images/re/Use-case-diagram.png"
+                      alt="Use-case-diagram"
+                      class="img-fluid pb-5"
+                    />
+                  </p>
+                </div>
+              </div>
 
-            <h4>User stories</h4>
-            <p>
-              Helpful tools for identifying the major functions of a system.
-            </p>
-            <p class="text-center">
-              <img
-                src="images/re/User-stories.png"
-                alt="User-stories"
-                class="img-fluid pb-5"
-              />
-            </p>
+              <div
+                class="column"
+                style="width: 50%; display: flex; align-content: center;"
+              >
+                <div
+                  class="card"
+                  style="width: 100%; display: flex; align-content: center;"
+                >
+                  <h3><u>Sequence diagram</u></h3>
+                  <p>
+                    Like Mind Mapping, Fishbone Analysis is a visual technique
+                    for exploring a central problem or concept. This tool is
+                    also called the Ishikawa Diagram as it was first used by Dr.
+                    Kaoru Ishikawa of the University of Tokyo in 1943.
+                  </p>
+                  <p>
+                    Provides a top-to-bottom view to show the interactions
+                    between objects over time.
+                  </p>
+                  <p class="text-center">
+                    <img
+                      src="images/re/Sequence-diagram.png"
+                      alt="context-diagram"
+                      class="img-fluid pb-5"
+                    />
+                  </p>
+                </div>
+              </div>
+            </div>
 
-            <h4>Mind maps</h4>
-            <p>
-              Captures ideas, requirements and helps organize a conversations.
-            </p>
-            <p class="text-center">
-              <img
-                src="images/re/Mind-maps.png"
-                alt="Mind-maps"
-                class="img-fluid pb-5"
-              />
-            </p>
+            <div class="row" style="width: 100%;">
+              <div
+                class="column"
+                style="width: 50%; display: flex; align-content: center;"
+              >
+                <div
+                  class="card"
+                  style="width: 100%; display: flex; align-content: center;"
+                >
+                  <h3><u>User stories</u></h3>
+                  <p>
+                    Helpful tools for identifying the major functions of a
+                    system.
+                  </p>
+                  <p class="text-center">
+                    <img
+                      src="images/re/User-stories.png"
+                      alt="User-stories"
+                      class="img-fluid pb-5"
+                    />
+                  </p>
+                </div>
+              </div>
+
+              <div
+                class="column"
+                style="width: 50%; display: flex; align-content: center;"
+              >
+                <div
+                  class="card"
+                  style="width: 100%; display: flex; align-content: center;"
+                >
+                  <h3><u>Mind maps</u></h3>
+                  <p>
+                    Captures ideas, requirements and helps organize a
+                    conversations.
+                  </p>
+                  <p class="text-center">
+                    <img
+                      src="images/re/Mind-maps.jpg"
+                      alt="Mind-maps"
+                      class="img-fluid pb-5"
+                    />
+                  </p>
+                </div>
+              </div>
+            </div>
 
             <hr class="smSolid" />
           </div>
 
-                    <div class="sm" id="ssa">
+          <div class="sm" id="ssa">
             <h2 class="sm"><a href="#index">Skill Self-Assessment</a></h2>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
@@ -2108,7 +2229,7 @@ It is not seldom to find software developing companies considering process measu
             <hr class="smSolid" />
             <ol>
               <li>
-                <span class="text-primary">
+                <span class="nolink">
                   Requirements Engineering A good practice guide, Ramos Rowel
                   and Kurts Alfeche, John Wiley and Sons, 1997
                 </span>
@@ -2181,6 +2302,46 @@ It is not seldom to find software developing companies considering process measu
                   class="text-primary"
                 >
                   Requirements Elicitation and Validation with Real World Scenes
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="https://venngage.com/features/mind-map-maker"
+                  target="_blank"
+                  class="text-primary"
+                >
+                  Venngage: Mind Map Maker
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="https://medium.com/@dltlabs/requirement-elicitation-techniques-for-business-analysis-ed0a3d405910"
+                  target="_blank"
+                  class="text-primary"
+                >
+                  Requirements Elicitation Techniques For Business Analysis
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="http://www.anarsolutions.com/top-5-requirements-elicitation-techniques/"
+                  target="_blank"
+                  class="text-primary"
+                >
+                  Top 5 Requirements Elicitation Techniques
+                </a>
+              </li>
+
+              <li>
+                <a
+                  href="https://www.slideshare.net/Shwetha-BA/requirement-elicitation-techniques-110015205"
+                  target="_blank"
+                  class="text-primary"
+                >
+                  Requirements Elicitation Techniques
                 </a>
               </li>
             </ol>

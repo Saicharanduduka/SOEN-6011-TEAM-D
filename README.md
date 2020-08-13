@@ -8,11 +8,11 @@ SWEBOK and/or SWECOM.
 
 # TEAM-D 
 
-* Pooja	Dhir	   -              poojadhir1996@gmail.com - 40104545
-* Neha Sarang	Dighe	   -       neha.dighe18@gmail.com - 40105168
-* Harsh	Divecha	       -       harshdivecha@outlook.com - 40084737
-* Sai Charan	Duduka	   -       charan140494@gmail.com - 40103928
-* Mahmoudreza	Entezami	  -     mahmoudreza.entezami@gmail.com - 40058782
-* Sareh	Farid	          -      sarehfarid@gmail.com - 27845782
-* Rafael	Ferreira	     -       rafaelbisferreira@gmail.com - 40042321
-* Yash Chandreshkumar	Golwala -	golwalayash@gmail.com - 40085663
+* Pooja	Dhir	   -              poojadhir1996@gmail.com 
+* Neha Sarang	Dighe	   -       neha.dighe18@gmail.com 
+* Harsh	Divecha	       -       harshdivecha@outlook.com 
+* Sai Charan	Duduka	   -       charan140494@gmail.com 
+* Mahmoudreza	Entezami	  -     mahmoudreza.entezami@gmail.com 
+* Sareh	Farid	          -      sarehfarid@gmail.com 
+* Rafael	Ferreira	     -       rafaelbisferreira@gmail.com 
+* Yash Chandreshkumar	Golwala -	golwalayash@gmail.com 

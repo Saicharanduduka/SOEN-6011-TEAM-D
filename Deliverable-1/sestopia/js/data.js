@@ -2487,13 +2487,13 @@ It is not seldom to find software developing companies considering process measu
 				<div class="column">
 					<div class="card">
 						<h4>Microsoft Project</h4>
-						<p>Description</p>
+						<p>One of the most known software for making cronograms it has been on the market for a while and had been an useful aid to arrange and rearrange schedules.</p>
 					</div>
 				</div>
 				<div class="column">
 					<div class="card">
 						<h4>Monday.com</h4>
-						<p>Description</p>
+						<p>A new framework that has promising to help on management tasks from building schedules to give tools for precise control under a project network.</p>
 					</div>
 				</div>
 			</div>
@@ -2505,15 +2505,15 @@ It is not seldom to find software developing companies considering process measu
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
             <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
             <i class="far fa-star"></i>
             <i class="far fa-star"></i>
             <i class="far fa-star"></i>
             <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-            <i class="far fa-star"></i>
-            (4/10)
+            (6/10)
             <p class="mt-3">
-			 TODO
+			 For 6 months I had experienced the responsability of building cronograms and dealing with mitigating risks and unexpected occurences, despite the positive outcome there is a lot to learn and evolve not only technically but mainly in experience.
 			</p>
 			<hr class="smSolid" />
 		</div>

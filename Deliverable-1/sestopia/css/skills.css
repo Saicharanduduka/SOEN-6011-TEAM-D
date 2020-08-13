@@ -270,3 +270,8 @@ a.nolink {
 	color: black!important;
 	text-decoration: none!important;
 }
+
+/* Youtube Video Iframes */
+iframe {
+	border: 0px;
+}

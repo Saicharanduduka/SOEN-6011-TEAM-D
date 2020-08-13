@@ -13,7 +13,7 @@
 
 <?php if (isset($pageContent) && !$pageContent['isHomePage']){ ?>
     <!-- Back to the Top Button -->
-    <a href="#" id="toTop" title="Back to Top"><i class="fa fa-angle-up"><label for="toTop" class="visuallyhidden">Go to Top</label></i></a>
+    <a href="#" id="toTop" title="Back to Top"><i class="fa fa-angle-up"><span class="visuallyhidden">Go to Top</span></i></a>
 <?php } ?>
 
 <!-- JavaScript -->

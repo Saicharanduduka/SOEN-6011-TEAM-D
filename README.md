@@ -1,5 +1,6 @@
 # SOEN-6011-TEAM-D
  'SESTOPIA' (a Neo-logistic portmanteau of software engineer skills utopia)
+* Project can be visited at: http://sestopia-d.epizy.com/index.php
  
 # Objective
 This project is about skills desirable of a software engineer to develop proficiency and
